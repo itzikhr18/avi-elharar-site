@@ -6,7 +6,7 @@
     --dark-secondary: #0a0a0a;
     --card-bg: #111111;
     --text-light: #ffffff;
-    --text-gray: #b0b0b0;
+--text-gray: #cccccc;
     --border-color: #2a2a2a;
     --success-color: #4caf50;
     --whatsapp-color: #25d366;
@@ -945,7 +945,29 @@ section {
     transform: scale(1.1);
 }
 
-/* Responsive Design */
+
+/* Call to Action Section */
+.cta-section {
+    padding: 80px 0;
+    background: var(--dark-secondary);
+    text-align: center;
+}
+.cta-section .section-title {
+    margin-bottom: 10px;
+}
+.cta-section .section-subtitle {
+    color: var(--text-gray);
+    margin-bottom: 30px;
+    font-size: 1.2rem;
+}
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+}
+.cta-buttons .btn {
+    margin: 0 10px;
+}
+* Responsive Design */
 @media (max-width: 768px) {
     .hero-content {
         grid-template-columns: 1fr;
