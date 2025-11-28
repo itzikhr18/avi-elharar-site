@@ -401,6 +401,14 @@
     </section>
   </main>
 
+  <!-- Ensure the page always loads at the top -->
+  <script>
+    // Scroll to the top of the page when it loads. This prevents the browser from restoring a previous scroll position (for example when navigating back or when opening a link that appends an anchor) and ensures visitors see the hero section first.
+    window.addEventListener('load', function() {
+      window.scrollTo({ top: 0, behavior: 'instant' });
+    });
+  </script>
+
   <!-- Footer -->
   <footer class="bg-slate-950 text-slate-500 py-10 text-center border-t border-slate-900">
     <p class="font-medium">© 2025 אבי אלחרר - מורה נהיגה ובוחן לשעבר.</p>
