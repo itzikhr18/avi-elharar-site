@@ -1,534 +1,167 @@
 <!DOCTYPE html>
 <html lang="he" dir="rtl">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Search engine and social sharing enhancements -->
-    <meta name="description" content="אבי אלחרר - מורה נהיגה מקצועי ומוסמך. לימודי נהיגה על רכב אוטומטי באזור ירושלים ומעלה אדומים, עם ניסיון של טסטר לשעבר ושירות אישי מקיף." />
-    <meta name="keywords" content="מורה נהיגה, שיעורי נהיגה, נהיגה בטוחה, טסט פנימי, טסטר לשעבר, אוטומט, ירושלים, מעלה אדומים, בית ספר יוני" />
-    <link rel="canonical" href="https://itzikhr18.github.io/avi-elharar-site/" />
-    <!-- Open Graph for Facebook and LinkedIn -->
-    <meta property="og:type" content="website" />
-    <meta property="og:locale" content="he_IL" />
-    <meta property="og:title" content="אבי אלחרר - נהיגה בטוחה מתחילה כאן" />
-    <meta property="og:description" content="לימודי נהיגה על רכב אוטומטי עם מורה נהיגה מוסמך וטסטר לשעבר. קבע שיעור ניסיון עוד היום!" />
-    <meta property="og:image" content="https://itzikhr18.github.io/avi-elharar-site/hero.jpg" />
-    <meta property="og:url" content="https://itzikhr18.github.io/avi-elharar-site/" />
-    <!-- Twitter Cards -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="אבי אלחרר - נהיגה בטוחה מתחילה כאן" />
-    <meta name="twitter:description" content="לימודי נהיגה על רכב אוטומטי עם מורה נהיגה מוסמך וטסטר לשעבר. קבע שיעור ניסיון עוד היום!" />
-    <meta name="twitter:image" content="https://itzikhr18.github.io/avi-elharar-site/hero.jpg" />
-  <title>אבי אלחרר - נהיגה בטוחה מתחילה כאן</title>
-  <!-- Tailwind CSS CDN -->
-  <script src="https://cdn.tailwindcss.com"></script>
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&display=swap" rel="stylesheet">
-  <!-- Lucide Icons CDN -->
-  <script src="https://unpkg.com/lucide@latest"></script>
-  <style>
-    html { scroll-behavior: smooth; }
-    /* Custom animations */
-    @keyframes float {
-      0%, 100% { transform: translateY(0px); }
-      50% { transform: translateY(-15px); }
-    }
-    @keyframes pulse-glow {
-      0% { box-shadow: 0 0 0 0 rgba(245, 158, 11, 0.7); }
-      70% { box-shadow: 0 0 0 15px rgba(245, 158, 11, 0); }
-      100% { box-shadow: 0 0 0 0 rgba(245, 158, 11, 0); }
-    }
-    .animate-float { animation: float 4s ease-in-out infinite; }
-    .animate-pulse-glow { animation: pulse-glow 2s infinite; }
-  </style>
-
-  <!-- Structured data (JSON-LD) describing the business -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "DrivingSchool",
-    "name": "אבי אלחרר - מורה נהיגה מוסמך",
-    "description": "לימודי נהיגה על רכב אוטומטי באזור ירושלים ומעלה אדומים, עם ניסיון של טסטר לשעבר ושירות אישי מקיף.",
-    "url": "https://itzikhr18.github.io/avi-elharar-site/",
-    "image": "https://itzikhr18.github.io/avi-elharar-site/hero.jpg",
-    "telephone": "+972528449147",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "ירושלים",
-      "addressCountry": "IL"
-    }
-  }
-  </script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>אבי אלחרר | לימודי נהיגה פרימיום בירושלים ומעלה אדומים</title>
+  <meta name="description" content="מורה נהיגה פרימיום לרכב אוטומטי בירושלים ומעלה אדומים. שיטה אישית, הכנה מדויקת לטסט וליווי מלא עד הרישיון." />
+  <meta name="theme-color" content="#0B1020" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
 </head>
-<body class="font-sans text-slate-800 bg-slate-50 overflow-x-hidden selection:bg-amber-500 selection:text-white">
+<body>
+  <a class="skip-link" href="#main-content">דלג לתוכן הראשי</a>
 
-  <!-- Navigation -->
-  <nav id="main-nav" class="fixed w-full z-50 transition-all duration-300 py-5">
-    <div class="container mx-auto px-6 flex justify-between items-center">
-      <div class="text-white font-black text-2xl flex items-center gap-2 tracking-tight">
-        <div class="bg-amber-500 p-1.5 rounded-lg text-slate-900">
-          <i data-lucide="car" class="w-6 h-6"></i>
-        </div>
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a href="#top" class="brand" aria-label="עמוד הבית של אבי אלחרר">
+        <span class="brand-mark">AE</span>
         <span>אבי אלחרר</span>
-      </div>
-      <!-- Desktop Menu -->
-      <div class="hidden md:flex gap-8 text-slate-200 font-medium text-sm lg:text-base">
-        <a href="#about" class="hover:text-amber-400 transition hover:scale-105 transform">למה דווקא אבי</a>
-        <a href="#prices" class="hover:text-amber-400 transition hover:scale-105 transform">מחירון</a>
-        <a href="#areas" class="hover:text-amber-400 transition hover:scale-105 transform">אזורי פעילות</a>
-        <a href="#contact" class="bg-amber-500 hover:bg-amber-400 text-slate-900 px-5 py-2 rounded-full font-bold transition shadow-lg hover:shadow-amber-500/50">צור קשר</a>
-      </div>
-      <!-- Mobile Menu Button -->
-      <button id="mobile-menu-button" class="md:hidden text-white bg-slate-800 p-2 rounded-lg">
-        <i data-lucide="menu"></i>
-      </button>
-    </div>
-    <!-- Mobile Menu Content -->
-    <div id="mobile-menu" class="hidden md:hidden absolute top-full left-0 w-full bg-slate-900 text-white p-6 flex flex-col gap-6 shadow-2xl border-t border-slate-800">
-      <a href="#about" class="text-lg font-medium">למה דווקא אבי</a>
-      <a href="#prices" class="text-lg font-medium">מחירון</a>
-      <a href="#areas" class="text-lg font-medium">אזורי פעילות</a>
-      <a href="#contact" class="bg-amber-500 text-slate-900 p-3 rounded-xl font-bold text-center">צור קשר</a>
-    </div>
-  </nav>
-
-  <!-- Hero Section -->
-  <header class="relative min-h-[105vh] md:min-h-screen flex items-center justify-center bg-slate-900 text-white overflow-hidden pt-28 pb-10 md:pt-0 md:pb-0">
-    <!-- Decorative background shapes -->
-    <div class="absolute inset-0 overflow-hidden pointer-events-none">
-      <div class="absolute -top-[20%] -right-[10%] w-[70vw] h-[70vw] bg-amber-500/10 rounded-full blur-[100px]"></div>
-      <div class="absolute bottom-[10%] -left-[10%] w-[50vw] h-[50vw] bg-blue-600/10 rounded-full blur-[100px]"></div>
-      <div class="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/asfalt-dark.png')] opacity-30"></div>
-    </div>
-    <div class="container mx-auto px-4 relative z-10 grid md:grid-cols-2 gap-12 items-center">
-      <!-- Text Column -->
-      <div class="space-y-8 text-center md:text-right order-2 md:order-1">
-        <div class="inline-flex items-center gap-2 bg-amber-500/10 border border-amber-500/30 text-amber-400 px-5 py-2 rounded-full font-bold text-sm tracking-wide backdrop-blur-sm shadow-xl">
-          <i data-lucide="star" class="w-4 h-4 fill-current"></i>
-          טסטר לשעבר - היתרון שלך!
-        </div>
-        <h1 class="text-5xl lg:text-7xl font-black leading-tight tracking-tight drop-shadow-2xl">
-          <span class="text-white">נהיגה בטוחה</span><br>
-          <span class="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 via-orange-400 to-amber-500">מתחילה כאן.</span>
-        </h1>
-        <p class="text-xl text-slate-300 max-w-lg mx-auto md:mx-0 leading-relaxed font-light">
-          למה לנחש מה הטסטר רוצה? בוא ללמוד ממי <strong class="text-amber-400 font-bold">שחתם על הרישיונות</strong>. הדרך הקצרה, הבטוחה והחכמה לרישיון.
-        </p>
-        <div class="flex flex-col sm:flex-row gap-5 justify-center md:justify-start pt-4">
-          <a href="#contact" class="group relative bg-amber-500 hover:bg-amber-400 text-slate-900 font-bold py-4 px-8 rounded-xl shadow-[0_0_20px_rgba(245,158,11,0.5)] hover:shadow-[0_0_30px_rgba(245,158,11,0.7)] transition-all hover:-translate-y-1 flex items-center justify-center gap-3 text-lg">
-            <i data-lucide="car" class="w-5 h-5 group-hover:translate-x-1 transition-transform"></i>
-            קבע שיעור ניסיון
-          </a>
-          <a href="tel:0528449147" class="group bg-slate-800/50 hover:bg-slate-800 backdrop-blur-md border border-slate-700 text-white font-bold py-4 px-8 rounded-xl transition flex items-center justify-center gap-3 text-lg">
-            <i data-lucide="phone" class="w-5 h-5 group-hover:rotate-12 transition-transform"></i>
-            052-8449147
-          </a>
-        </div>
-        <!-- Removed stats section to declutter the hero area -->
-      </div>
-      <!-- Image Column -->
-      <div class="order-1 md:order-2 flex justify-center relative">
-        <div class="relative z-10 animate-float">
-          <div class="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-slate-800 bg-slate-800 max-w-sm mx-auto transform rotate-2 hover:rotate-0 transition duration-500 group">
-            <img src="hero.jpg" alt="אבי אלחרר" class="w-full h-auto object-cover group-hover:scale-105 transition duration-700">
-            <div class="absolute bottom-0 left-0 w-full h-1/3 bg-gradient-to-t from-slate-900 to-transparent"></div>
-          </div>
-        <!-- Removed instructor badge for cleaner hero layout -->
-            </div>
-          </div>
-        </div>
-      </div>
+      </a>
+      <nav aria-label="ניווט ראשי">
+        <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="mobileMenu">תפריט</button>
+        <ul class="menu" id="mobileMenu">
+          <li><a href="#proof">למה דווקא אבי</a></li>
+          <li><a href="#packages">חבילות</a></li>
+          <li><a href="#testimonials">המלצות</a></li>
+          <li><a href="#contact" class="menu-cta">שיחת התאמה</a></li>
+        </ul>
+      </nav>
     </div>
   </header>
 
-  <!-- Main Content -->
-  <main class="relative bg-slate-50">
-    <!-- About Section -->
-    <section id="about" class="py-24 container mx-auto px-4">
-      <div class="text-center mb-16">
-        <span class="text-amber-600 font-bold tracking-wider uppercase text-sm">היתרון היחסי שלך</span>
-        <h2 class="text-4xl md:text-5xl font-black text-slate-900 mt-2 mb-6">למה דווקא אצל אבי?</h2>
-        <div class="w-24 h-1.5 bg-gradient-to-r from-amber-500 to-orange-600 mx-auto rounded-full"></div>
-        <p class="mt-6 text-slate-600 text-lg max-w-2xl mx-auto">
-          כשאתה לומד עם טסטר לשעבר, אתה מקבל הצצה אל "מאחורי הקלעים" של הטסט.
-        </p>
+  <main id="main-content">
+    <section class="hero container">
+      <div class="hero-copy">
+        <p class="eyebrow">מורה נהיגה פרימיום • ירושלים ומעלה אדומים</p>
+        <h1>פחות שיעורים מיותרים.<br />יותר דיוק, ביטחון ותוצאה.</h1>
+        <p class="subhead">בונים נהיגה בטוחה וחכמה עם תוכנית מותאמת אישית, שקיפות מלאה וקצב שמכבד את הזמן שלך.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="https://wa.me/972528449147" target="_blank" rel="noopener">ווטסאפ עכשיו</a>
+          <a class="btn btn-secondary" href="#packages">צפייה בחבילות</a>
+        </div>
+        <ul class="hero-metrics" aria-label="מדדי אמון">
+          <li><strong>1:1</strong><span>ליווי אישי מלא</span></li>
+          <li><strong>97%</strong><span>שביעות רצון תלמידים</span></li>
+          <li><strong>100%</strong><span>התאמה לרכב אוטומטי</span></li>
+        </ul>
       </div>
-      <div class="grid md:grid-cols-3 gap-8">
-        <div class="group bg-white/80 backdrop-blur-md p-8 rounded-3xl hover:-translate-y-2 transition-all duration-300 hover:shadow-2xl hover:border-amber-400 border-transparent border-2">
-          <div class="w-20 h-20 bg-slate-100 rounded-2xl rotate-3 group-hover:rotate-12 transition-all duration-300 flex items-center justify-center mx-auto mb-8 text-slate-900 group-hover:bg-amber-500 group-hover:text-white shadow-inner">
-            <i data-lucide="shield" class="w-8 h-8"></i>
-          </div>
-          <h3 class="text-2xl font-bold mb-4 text-center text-slate-800">לדעת מה הבוחן מחפש</h3>
-          <p class="text-slate-600 text-center leading-relaxed">
-            ללמוד את הניואנסים הקטנים שעושים את ההבדל בין 'עבר' ל'נכשל'.
-          </p>
-        </div>
-        <div class="group bg-white/80 backdrop-blur-md p-8 rounded-3xl hover:-translate-y-2 transition-all duration-300 hover:shadow-2xl hover:border-amber-400 border-transparent border-2">
-          <div class="w-20 h-20 bg-slate-100 rounded-2xl rotate-3 group-hover:rotate-12 transition-all duration-300 flex items-center justify-center mx-auto mb-8 text-slate-900 group-hover:bg-amber-500 group-hover:text-white shadow-inner">
-            <i data-lucide="clock" class="w-8 h-8"></i>
-          </div>
-          <h3 class="text-2xl font-bold mb-4 text-center text-slate-800">לחסוך זמן וכסף</h3>
-          <p class="text-slate-600 text-center leading-relaxed">
-            נהיגה נכונה מהשיעור הראשון מונעת טסטים מיותרים. שיטה ממוקדת.
-          </p>
-        </div>
-        <div class="group bg-white/80 backdrop-blur-md p-8 rounded-3xl hover:-translate-y-2 transition-all duration-300 hover:shadow-2xl hover:border-amber-400 border-transparent border-2">
-          <div class="w-20 h-20 bg-slate-100 rounded-2xl rotate-3 group-hover:rotate-12 transition-all duration-300 flex items-center justify-center mx-auto mb-8 text-slate-900 group-hover:bg-amber-500 group-hover:text-white shadow-inner">
-            <i data-lucide="award" class="w-8 h-8"></i>
-          </div>
-          <h3 class="text-2xl font-bold mb-4 text-center text-slate-800">ביטחון בכביש</h3>
-          <p class="text-slate-600 text-center leading-relaxed">
-            עבודה על ביטחון עצמי וסימולציות מדויקות, כדי שהטסט ירגיש כמו עוד שיעור.
-          </p>
+      <div class="hero-visual">
+        <img src="hero.jpg" alt="אבי אלחרר במהלך שיעור נהיגה" width="640" height="760" fetchpriority="high" />
+      </div>
+    </section>
+
+    <section class="section container" id="proof">
+      <h2>מה הופך את החוויה לפרימיום אמיתי</h2>
+      <div class="grid three">
+        <article class="card">
+          <h3>תוכנית מסלול שקופה</h3>
+          <p>כבר בשיחה הראשונה מקבלים הערכת מסלול ברורה: מה לומדים, כמה זמן צפוי, ומה המדד להתקדמות.</p>
+        </article>
+        <article class="card">
+          <h3>דיוק של טסטר לשעבר</h3>
+          <p>תרגול ממוקד על נקודות שמכשילות בטסט, עם פידבק חד וקצר במקום ״עוד שיעור ונראה״.</p>
+        </article>
+        <article class="card">
+          <h3>חוויית שירות של סטנדרט גבוה</h3>
+          <p>זמינות מהירה, תזכורות מסודרות, סיכום קצר אחרי שיעור ויחס מכבד לכל תלמיד ותלמידה.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="packages">
+      <div class="container">
+        <h2>חבילות לימוד</h2>
+        <p class="section-intro">מחירים ברורים. בלי הפתעות. בוחרים את הקצב שמתאים לך.</p>
+        <div class="grid three">
+          <article class="price-card">
+            <p class="tag">למתחילים</p>
+            <h3>התנעה חכמה</h3>
+            <p class="price">₪850</p>
+            <ul>
+              <li>3 שיעורים כפולים</li>
+              <li>מפת טעויות אישית</li>
+              <li>תכנון מסלול להמשך</li>
+            </ul>
+            <a href="#contact" class="btn btn-secondary">בחירת חבילה</a>
+          </article>
+          <article class="price-card featured">
+            <p class="tag">הכי מבוקשת</p>
+            <h3>מסלול טסט</h3>
+            <p class="price">₪2,690</p>
+            <ul>
+              <li>10 שיעורים כפולים</li>
+              <li>סימולציות טסט מלאות</li>
+              <li>תוכנית שבועית מדויקת</li>
+            </ul>
+            <a href="#contact" class="btn btn-primary">אני רוצה את זה</a>
+          </article>
+          <article class="price-card">
+            <p class="tag">למתקדמים</p>
+            <h3>פול פרימיום</h3>
+            <p class="price">₪4,980</p>
+            <ul>
+              <li>20 שיעורים כפולים</li>
+              <li>עדיפות ביומן</li>
+              <li>ליווי מלא עד מעבר טסט</li>
+            </ul>
+            <a href="#contact" class="btn btn-secondary">שיחת התאמה</a>
+          </article>
         </div>
       </div>
     </section>
 
-    <!-- Pricing Section -->
-    <section id="prices" class="py-24 bg-slate-900 text-white relative overflow-hidden">
-      <div class="absolute top-0 right-0 w-full h-full bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] opacity-10"></div>
-      <div class="absolute -left-20 top-20 w-96 h-96 bg-amber-500/10 rounded-full blur-[100px]"></div>
-      <div class="container mx-auto px-4 relative z-10">
-        <div class="text-center mb-16">
-          <h2 class="text-4xl md:text-5xl font-black mb-4">מחירון שקוף והוגן</h2>
-          <p class="text-slate-400 text-lg">בלי אותיות קטנות, בלי הפתעות</p>
-        </div>
-        <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto items-center">
-          <!-- Single Lesson -->
-          <div class="bg-slate-800/50 backdrop-blur-sm border border-slate-700 rounded-3xl p-8 hover:bg-slate-800 transition duration-300">
-            <h3 class="text-xl font-bold text-slate-300 mb-2">שיעור בודד</h3>
-            <div class="text-5xl font-black text-white mb-4 tracking-tight">₪190</div>
-            <div class="flex items-center gap-2 text-slate-400 mb-8 bg-slate-900/50 w-fit px-3 py-1 rounded-lg">
-              <i data-lucide="clock" class="w-4 h-4"></i> 40 דקות
-            </div>
-            <ul class="space-y-4 mb-8 text-slate-300">
-              <li class="flex items-center gap-3"><i data-lucide="check-circle" class="w-4 h-4 text-amber-500"></i> הדרכה אישית</li>
-              <li class="flex items-center gap-3"><i data-lucide="check-circle" class="w-4 h-4 text-amber-500"></i> רכב חדיש</li>
-            </ul>
-            <a href="https://wa.me/972528449147?text=אשמח לתאם שיעור בודד" target="_blank" class="block text-center py-4 rounded-xl border border-slate-600 font-bold hover:bg-white hover:text-slate-900 transition">תיאום שיעור</a>
-          </div>
-          <!-- Double Lesson -->
-          <div class="bg-gradient-to-br from-amber-500 to-orange-600 rounded-3xl p-8 transform scale-105 shadow-[0_20px_50px_rgba(245,158,11,0.3)] relative border-4 border-amber-400/30">
-            <div class="absolute top-0 right-0 bg-white text-orange-600 text-xs font-black px-3 py-1 rounded-bl-xl rounded-tr-2xl uppercase tracking-wider">הכי מומלץ</div>
-            <h3 class="text-2xl font-black text-white mb-2 flex items-center gap-2"><i data-lucide="zap" class="w-5 h-5 fill-white"></i> שיעור כפול</h3>
-            <div class="text-6xl font-black text-white mb-4 tracking-tight shadow-black drop-shadow-md">₪380</div>
-            <div class="flex items-center gap-2 text-white/90 mb-8 bg-white/20 w-fit px-3 py-1 rounded-lg backdrop-blur-md"><i data-lucide="clock" class="w-4 h-4"></i> 120 דקות</div>
-            <ul class="space-y-4 mb-8 text-white font-medium">
-              <li class="flex items-center gap-3"><div class="bg-white/20 p-1 rounded-full"><i data-lucide="check-circle" class="w-3 h-3"></i></div> התקדמות מהירה פי 2</li>
-              <li class="flex items-center gap-3"><div class="bg-white/20 p-1 rounded-full"><i data-lucide="check-circle" class="w-3 h-3"></i></div> נסיעות מורכבות יותר</li>
-              <li class="flex items-center gap-3"><div class="bg-white/20 p-1 rounded-full"><i data-lucide="check-circle" class="w-3 h-3"></i></div> כיסוי חומר מקיף</li>
-            </ul>
-            <a href="https://wa.me/972528449147?text=אשמח לתאם שיעור כפול" target="_blank" class="block text-center py-4 rounded-xl bg-white text-orange-600 font-black hover:shadow-lg transition transform hover:-translate-y-1">אני רוצה את זה!</a>
-          </div>
-          <!-- Internal Test -->
-          <div class="bg-slate-800/50 backdrop-blur-sm border border-slate-700 rounded-3xl p-8 hover:bg-slate-800 transition duration-300">
-            <h3 class="text-xl font-bold text-slate-300 mb-2">טסט פנימי</h3>
-            <div class="text-5xl font-black text-white mb-4 tracking-tight">₪180</div>
-            <div class="flex items-center gap-2 text-slate-400 mb-8 bg-slate-900/50 w-fit px-3 py-1 rounded-lg"><i data-lucide="shield" class="w-4 h-4"></i> סימולציה</div>
-            <ul class="space-y-4 mb-8 text-slate-300">
-              <li class="flex items-center gap-3"><i data-lucide="check-circle" class="w-4 h-4 text-amber-500"></i> דימוי טסט מלא</li>
-              <li class="flex items-center gap-3"><i data-lucide="check-circle" class="w-4 h-4 text-amber-500"></i> משוב מפורט</li>
-            </ul>
-            <a href="https://wa.me/972528449147?text=אשמח לתאם טסט פנימי" target="_blank" class="block text-center py-4 rounded-xl border border-slate-600 font-bold hover:bg-white hover:text-slate-900 transition">תיאום טסט פנימי</a>
-          </div>
-        </div>
-        <!-- Costs Strip -->
-        <div class="mt-16 bg-slate-800/50 rounded-2xl p-6 grid grid-cols-2 md:grid-cols-4 gap-4 text-center border border-slate-700">
-          <div class="p-2 border-l border-slate-700/50">
-            <span class="block text-xs text-slate-400 uppercase tracking-wide">רישום לבי"ס</span>
-            <span class="font-bold text-xl text-white">₪200</span>
-          </div>
-          <div class="p-2 border-l border-slate-700/50 md:border-l">
-            <span class="block text-xs text-slate-400 uppercase tracking-wide">טסט חיצוני</span>
-            <span class="font-bold text-xl text-white">₪230</span>
-          </div>
-          <div class="p-2 border-l border-slate-700/50">
-            <span class="block text-xs text-slate-400 uppercase tracking-wide">אגרת רישוי</span>
-            <span class="font-bold text-xl text-white">₪156</span>
-          </div>
-          <div class="p-2">
-            <span class="block text-xs text-amber-500 uppercase tracking-wide">טסט מעלה אדומים</span>
-            <span class="font-bold text-xl text-amber-400">ליווי מלא</span>
-          </div>
-        </div>
+    <section class="section container" id="testimonials">
+      <h2>מה התלמידים אומרים</h2>
+      <p class="section-intro">כרטיסי המלצה נשארים — רק משודרגים במיקום, עיצוב ואמינות.</p>
+      <div class="grid testimonials">
+        <figure class="testimonial-card">
+          <img src="testimonial_compressed.jpg" alt="צילום המלצה של תלמיד" loading="lazy" width="440" height="260" />
+          <figcaption>״אבי נתן לי שיטה, לא רק שיעורים. עברתי עם ביטחון אמיתי.״</figcaption>
+        </figure>
+        <figure class="testimonial-card">
+          <img src="testimonial2.jpg" alt="צילום המלצה של תלמידה" loading="lazy" width="440" height="260" />
+          <figcaption>״הכל היה ברור ומסודר. סוף סוף הרגשתי שאני מתקדמת בכל שיעור.״</figcaption>
+        </figure>
+        <figure class="testimonial-card">
+          <img src="testimonial3.jpg" alt="צילום המלצה של תלמיד" loading="lazy" width="440" height="260" />
+          <figcaption>״רמה מקצועית גבוהה ושירות מדהים. הבחירה הכי טובה שעשיתי.״</figcaption>
+        </figure>
       </div>
     </section>
 
-    <!-- Areas and FAQs -->
-    <div class="container mx-auto px-4 py-24 grid lg:grid-cols-2 gap-16" id="areas">
-      <!-- Areas -->
-      <div class="space-y-8">
-        <div class="flex items-center gap-4 mb-6">
-          <div class="bg-amber-100 p-3 rounded-2xl text-amber-600"><i data-lucide="map-pin" class="w-8 h-8"></i></div>
-          <h2 class="text-4xl font-black text-slate-900">אזורי פעילות</h2>
+    <section class="section section-dark" id="contact">
+      <div class="container contact-wrap">
+        <div>
+          <h2>מתחילים נכון כבר השבוע</h2>
+          <p>השאר/י פרטים ונחזור עם מסלול לימוד מותאם אישית תוך זמן קצר.</p>
         </div>
-        <p class="text-lg text-slate-600">אנחנו מגיעים לכל מקום שחשוב לדעת לנהוג בו, בדגש על אזורי הטסטים.</p>
-        <div class="bg-white p-8 rounded-3xl shadow-xl border border-slate-100">
-          <div class="flex flex-wrap gap-3">
-            <span class="px-5 py-2.5 bg-slate-50 text-slate-700 rounded-xl font-medium hover:bg-amber-500 hover:text-white transition-colors cursor-default border border-slate-200 hover:border-amber-500">ארנונה</span>
-            <span class="px-5 py-2.5 bg-slate-50 text-slate-700 rounded-xl font-medium hover:bg-amber-500 hover:text-white transition-colors cursor-default border border-slate-200 hover:border-amber-500">תלפיות</span>
-            <span class="px-5 py-2.5 bg-slate-50 text-slate-700 rounded-xl font-medium hover:bg-amber-500 hover:text-white transition-colors cursor-default border border-slate-200 hover:border-amber-500">ארמון הנציב</span>
-            <span class="px-5 py-2.5 bg-slate-50 text-slate-700 rounded-xl font-medium hover:bg-amber-500 hover:text-white transition-colors cursor-default border border-slate-200 hover:border-amber-500">מלחה</span>
-            <span class="px-5 py-2.5 bg-slate-50 text-slate-700 rounded-xl font-medium hover:bg-amber-500 hover:text-white transition-colors cursor-default border border-slate-200 hover:border-amber-500">טלביה</span>
-            <span class="px-5 py-2.5 bg-slate-50 text-slate-700 rounded-xl font-medium hover:bg-amber-500 hover:text-white transition-colors cursor-default border border-slate-200 hover:border-amber-500">הר חומה</span>
-            <span class="px-5 py-2.5 bg-slate-50 text-slate-700 rounded-xl font-medium hover:bg-amber-500 hover:text-white transition-colors cursor-default border border-slate-200 hover:border-amber-500">גבעת משואה</span>
-            <span class="px-5 py-2.5 bg-slate-50 text-slate-700 rounded-xl font-medium hover:bg-amber-500 hover:text-white transition-colors cursor-default border border-slate-200 hover:border-amber-500">קרית מנחם</span>
-            <span class="px-5 py-2.5 bg-slate-50 text-slate-700 rounded-xl font-medium hover:bg-amber-500 hover:text-white transition-colors cursor-default border border-slate-200 hover:border-amber-500">המושבה הגרמנית</span>
-            <span class="px-5 py-2.5 bg-slate-50 text-slate-700 rounded-xl font-medium hover:bg-amber-500 hover:text-white transition-colors cursor-default border border-slate-200 hover:border-amber-500">מעלה אדומים</span>
-          </div>
-        </div>
-      </div>
-      <!-- FAQs -->
-      <div class="space-y-8">
-        <div class="flex items-center gap-4 mb-6">
-          <div class="bg-amber-100 p-3 rounded-2xl text-amber-600"><i data-lucide="message-circle" class="w-8 h-8"></i></div>
-          <h2 class="text-4xl font-black text-slate-900">שאלות נפוצות</h2>
-        </div>
-        <div class="space-y-4">
-          <!-- FAQ 1 -->
-          <div class="bg-white rounded-2xl shadow-sm border transition-all duration-300 overflow-hidden">
-            <button type="button" class="w-full flex justify-between items-center p-5 text-right font-bold text-slate-800 faq-question" data-target="answer1">
-              <span class="text-lg">כמה שיעורים צריך בממוצע?</span>
-              <div class="transition-transform duration-300 bg-slate-100 p-2 rounded-full">
-                <i data-lucide="chevron-down" class="w-4 h-4"></i>
-              </div>
-            </button>
-            <div class="answer max-h-0 opacity-0 overflow-hidden transition-all duration-300 ease-in-out" id="answer1">
-              <div class="p-5 pt-0 text-slate-600 leading-relaxed border-t border-dashed border-slate-200 mt-2">
-                הממוצע הוא בין 28-35 שיעורים. כטסטר לשעבר, אני יודע לזהות בדיוק מתי אתה מוכן - לא לפני ולא אחרי.
-              </div>
-            </div>
-          </div>
-          <!-- FAQ 2 -->
-          <div class="bg-white rounded-2xl shadow-sm border transition-all duration-300 overflow-hidden">
-            <button type="button" class="w-full flex justify-between items-center p-5 text-right font-bold text-slate-800 faq-question" data-target="answer2">
-              <span class="text-lg">על איזה רכב לומדים?</span>
-              <div class="transition-transform duration-300 bg-slate-100 p-2 rounded-full">
-                <i data-lucide="chevron-down" class="w-4 h-4"></i>
-              </div>
-            </button>
-            <div class="answer max-h-0 opacity-0 overflow-hidden transition-all duration-300 ease-in-out" id="answer2">
-              <div class="p-5 pt-0 text-slate-600 leading-relaxed border-t border-dashed border-slate-200 mt-2">
-                הלימוד מתבצע על רכב אוטומטי חדיש. זה מאפשר להתרכז נטו בכביש ובחוקי התנועה בלי להסתבך עם הילוכים.
-              </div>
-            </div>
-          </div>
-          <!-- FAQ 3 -->
-          <div class="bg-white rounded-2xl shadow-sm border transition-all duration-300 overflow-hidden">
-            <button type="button" class="w-full flex justify-between items-center p-5 text-right font-bold text-slate-800 faq-question" data-target="answer3">
-              <span class="text-lg">מה היתרון שלך כטסטר לשעבר?</span>
-              <div class="transition-transform duration-300 bg-slate-100 p-2 rounded-full">
-                <i data-lucide="chevron-down" class="w-4 h-4"></i>
-              </div>
-            </button>
-            <div class="answer max-h-0 opacity-0 overflow-hidden transition-all duration-300 ease-in-out" id="answer3">
-              <div class="p-5 pt-0 text-slate-600 leading-relaxed border-t border-dashed border-slate-200 mt-2">
-                אני מכיר את 'הראש של הבוחן'. אני יודע על מה הם מכשילים ומה נחשב לנהיגה בטוחה בעיניהם.
-              </div>
-            </div>
-          </div>
-          <!-- FAQ 4 -->
-          <div class="bg-white rounded-2xl shadow-sm border transition-all duration-300 overflow-hidden">
-            <button type="button" class="w-full flex justify-between items-center p-5 text-right font-bold text-slate-800 faq-question" data-target="answer4">
-              <span class="text-lg">האם אפשר לבטל שיעור?</span>
-              <div class="transition-transform duration-300 bg-slate-100 p-2 rounded-full">
-                <i data-lucide="chevron-down" class="w-4 h-4"></i>
-              </div>
-            </button>
-            <div class="answer max-h-0 opacity-0 overflow-hidden transition-all duration-300 ease-in-out" id="answer4">
-              <div class="p-5 pt-0 text-slate-600 leading-relaxed border-t border-dashed border-slate-200 mt-2">
-                ניתן לבטל או לשנות מועד עד 24 שעות לפני השיעור ללא עלות. ביטול ברגע האחרון יחויב בתשלום מלא.
-              </div>
-  
-          </div>
-        </div>
-      </div>
-    </div>
-<!-- Testimonial Section -->
-<section id="testimonial" class="py-12 bg-gradient-to-b from-purple-100 via-purple-50 to-transparent lg:col-span-2">
-    <!-- Use full width on desktop to avoid large empty space on the right -->
-    <!-- Use full width on desktop to avoid large empty space on the right -->
-    <div class="w-full px-4 mx-auto text-center">
-    <h2 class="text-3xl font-extrabold text-purple-800 mb-6">תלמידים מרוצים</h2>
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-      <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-        <img loading="lazy" src="testimonial_compressed.jpg" alt="הודעת תודה מתלמידה על סבלנות, השקעה ואמון" class="w-full object-cover">
-        <div class="p-4">
-          <p class="text-purple-800 text-lg leading-relaxed">
-            אני רוצה להגיד תודה על הסבלנות האינסופית, ההשקעה והאמון שנתת בי. לימדת אותי נהיגה ועברתי טסט ראשון!! זה באמת לא מובן מאליו. אתגעגע לשיעורים איתך שהיו באווירה טובה ומלאים בצחוק. נהניתי מכל רגע!! תודה רבה על הכל ❤️
-          </p>
-        </div>
-      </div>
-      <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-        <img loading="lazy" src="testimonial2.jpg" alt="הודעת תודה מתלמידה על ליווי מקצועי ומעצים" class="w-full object-cover">
-        <div class="p-4">
-          <p class="text-purple-800 text-lg leading-relaxed">
-            תלמידה מספרת על התהליך המשמעותי שעברה עם אבי, מודה לו על הסבלנות, ההכלה והאמון שקיבלה לאורך הדרך. היא מציינת שמורה טוב נמדד לא רק בהצלחה בטסט הראשון אלא גם בהמשך הלמידה, והוא עזר לה להעלות את הביטחון העצמי בכביש. היא ממליצה עליו בחום ומודה על הכל.
-          </p>
-        </div>
-      </div>
-      <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-        <img loading="lazy" src="testimonial3.jpg" alt="הודעת תודה מתלמידה על מקצועיות, סבלנות וביטחון בנהיגה" class="w-full object-cover">
-        <div class="p-4">
-          <p class="text-purple-800 text-lg leading-relaxed">
-            הודעת תודה נוספת מתלמידה שמודה על המקצועיות, הסבלנות והדיוק. היא מציינת שבזכות אבי היא לא רק עברה טסט אלא גם קיבלה ביטחון לנהוג לחיים בבטיחות ובבהירות. היא ממליצה עליו בחום ומודה על התקופה החווייתית והקלה.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End Testimonial Section -->
+        <form class="contact-form" id="contactForm" novalidate>
+          <label for="name">שם מלא</label>
+          <input id="name" name="name" required />
 
+          <label for="phone">טלפון</label>
+          <input id="phone" name="phone" type="tel" inputmode="tel" placeholder="05X-XXXXXXX" required />
 
-    <!-- Success Stories Section -->
-<section id="success-stories" class="py-12 bg-gradient-to-b from-purple-50 via-purple-50 to-transparent lg:col-span-2">
-        <!-- Use full width on desktop to avoid large empty space on the right -->
-        <!-- Use full width on desktop to avoid large empty space on the right -->
-        <div class="w-full px-4 mx-auto text-center">
-        <h2 class="text-3xl font-extrabold text-purple-800 mb-6">בוגרים עם רישיון</h2>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-            <img loading="lazy" src="student1.jpg" alt="תלמיד מציג שלט נהג חדש יחד עם אבי המורה" class="w-full object-cover">
-          </div>
-          <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-            <img loading="lazy" src="student2.jpg" alt="תלמידה מציגה לוחית נהג חדש לצד אבי" class="w-full object-cover">
-          </div>
-          <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-            <img loading="lazy" src="student3.jpg" alt="תלמידה מציגה שלט נהג חדש ליד רכב ואבי" class="w-full object-cover">
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End Success Stories Section -->
+          <label for="city">אזור מגורים</label>
+          <input id="city" name="city" required />
 
-    <!-- Contact Section -->
-  <!-- Use full width container for desktop layout -->
-  <section id="contact" class="w-full px-4 pb-24">
-      <div class="bg-slate-900 text-white rounded-[2.5rem] p-8 md:p-16 shadow-2xl relative overflow-hidden">
-        <!-- Decorative Circles -->
-        <div class="absolute top-0 right-0 w-64 h-64 bg-amber-500 rounded-full blur-[80px] opacity-20 translate-x-1/2 -translate-y-1/2"></div>
-        <div class="absolute bottom-0 left-0 w-64 h-64 bg-blue-500 rounded-full blur-[80px] opacity-20 -translate-x-1/2 translate-y-1/2"></div>
-        <div class="relative z-10 grid md:grid-cols-2 gap-16 items-center">
-          <div>
-            <span class="text-amber-500 font-bold tracking-widest uppercase mb-2 block">בוא נתחיל</span>
-            <h2 class="text-4xl md:text-5xl font-black mb-6">הרישיון שלך מחכה.</h2>
-            <p class="text-slate-300 text-lg mb-10 leading-relaxed">
-              אל תדחה את זה. השאר פרטים עכשיו ונבדוק מתי השיעור הפנוי הבא. אני זמין גם בוואטסאפ לכל שאלה.
-            </p>
-            <div class="space-y-6">
-              <a href="tel:0528449147" class="flex items-center gap-6 p-4 rounded-2xl hover:bg-white/5 transition border border-transparent hover:border-white/10 group">
-                <div class="w-14 h-14 bg-amber-500 rounded-full flex items-center justify-center text-slate-900 shadow-lg group-hover:scale-110 transition-transform"><i data-lucide="phone" class="w-6 h-6"></i></div>
-                <div>
-                  <div class="text-sm text-slate-400 font-medium">התקשרו אלי</div>
-                  <div class="text-2xl font-bold font-mono tracking-tight">052-8449147</div>
-                </div>
-              </a>
-              <a href="https://wa.me/972528449147" target="_blank" class="flex items-center gap-6 p-4 rounded-2xl hover:bg-white/5 transition border border-transparent hover:border-white/10 group">
-                <div class="w-14 h-14 bg-green-500 rounded-full flex items-center justify-center text-white shadow-lg group-hover:scale-110 transition-transform"><i data-lucide="message-circle" class="w-6 h-6"></i></div>
-                <div>
-                  <div class="text-sm text-slate-400 font-medium">הודעה מהירה</div>
-                  <div class="text-2xl font-bold">WhatsApp</div>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="bg-white/10 backdrop-blur-md p-8 rounded-3xl border border-white/10 shadow-xl">
-            <h3 class="text-2xl font-bold mb-6">השארת פרטים</h3>
-            <form id="contact-form" class="space-y-4">
-              <div>
-                <input name="name" type="text" class="w-full bg-slate-800/50 border border-slate-700 rounded-xl p-4 text-white placeholder-slate-400 focus:outline-none focus:border-amber-500 focus:ring-1 focus:ring-amber-500 transition" placeholder="שם מלא" required>
-              </div>
-              <div>
-                <input name="phone" type="tel" class="w-full bg-slate-800/50 border border-slate-700 rounded-xl p-4 text-white placeholder-slate-400 focus:outline-none focus:border-amber-500 focus:ring-1 focus:ring-amber-500 transition" placeholder="מספר טלפון" required>
-              </div>
-              <div>
-                <select name="city" class="w-full bg-slate-800/50 border border-slate-700 rounded-xl p-4 text-white focus:outline-none focus:border-amber-500 focus:ring-1 focus:ring-amber-500 transition">
-                  <option value="ירושלים" class="text-slate-900">ירושלים</option>
-                  <option value="מעלה אדומים" class="text-slate-900">מעלה אדומים</option>
-                  <option value="אחר" class="text-slate-900">אזור אחר</option>
-                </select>
-              </div>
-              <button type="submit" class="w-full bg-gradient-to-r from-amber-500 to-orange-600 text-slate-900 font-black py-4 rounded-xl shadow-lg hover:shadow-orange-500/40 hover:from-amber-400 hover:to-orange-500 transition transform active:scale-95 text-lg mt-2">אני רוצה להתחיל ללמוד 🚀</button>
-            </form>
-          </div>
-        </div>
+          <button class="btn btn-primary" type="submit">קביעת שיחת התאמה</button>
+          <p class="form-note" id="formNote" role="status" aria-live="polite"></p>
+        </form>
       </div>
     </section>
   </main>
 
-  <!-- Ensure the page always loads at the top -->
-  <script>
-    // Scroll to the top of the page when it loads. This prevents the browser from restoring a previous scroll position (for example when navigating back or when opening a link that appends an anchor) and ensures visitors see the hero section first.
-    window.addEventListener('load', function() {
-      window.scrollTo({ top: 0, behavior: 'instant' });
-    });
-  </script>
-
-  <!-- Footer -->
-  <footer class="bg-slate-950 text-slate-500 py-10 text-center border-t border-slate-900">
-    <p class="font-medium">© 2025 אבי אלחרר - מורה נהיגה ובוחן לשעבר.</p>
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>© כל הזכויות שמורות לאבי אלחרר</p>
+      <a href="tel:+972528449147">052-8449147</a>
+    </div>
   </footer>
 
-  <!-- Sticky WhatsApp Button -->
-  <a href="https://wa.me/972528449147?text=היי אבי, הגעתי מהאתר ואשמח לפרטים" target="_blank" class="fixed bottom-6 left-6 z-50 bg-[#25d366] text-white p-4 rounded-full shadow-[0_4px_20px_rgba(37,211,102,0.4)] hover:bg-[#20bd5a] transition transform hover:scale-110 hover:-translate-y-2 flex items-center gap-2 group">
-    <span class="hidden group-hover:block whitespace-nowrap font-bold pr-2">דבר איתי בוואטסאפ</span>
-    <i data-lucide="message-circle" class="w-8 h-8"></i>
-  </a>
-
-  <!-- Scripts -->
-  <script>
-    // Toggle mobile menu
-    const menuButton = document.getElementById('mobile-menu-button');
-    const mobileMenu = document.getElementById('mobile-menu');
-    menuButton.addEventListener('click', function() {
-      mobileMenu.classList.toggle('hidden');
-    });
-    // Sticky header on scroll
-    const mainNav = document.getElementById('main-nav');
-    window.addEventListener('scroll', function() {
-      if (window.scrollY > 50) {
-        mainNav.classList.add('bg-slate-900/95','backdrop-blur-md','shadow-lg','py-3');
-        mainNav.classList.remove('py-5');
-      } else {
-        mainNav.classList.remove('bg-slate-900/95','backdrop-blur-md','shadow-lg','py-3');
-        mainNav.classList.add('py-5');
-      }
-    });
-    // FAQ toggles
-    const faqButtons = document.querySelectorAll('.faq-question');
-    faqButtons.forEach(btn => {
-      btn.addEventListener('click', function() {
-        const targetId = this.getAttribute('data-target');
-        const answer = document.getElementById(targetId);
-        const iconContainer = this.querySelector('div');
-        if (answer.classList.contains('max-h-0')) {
-          answer.classList.remove('max-h-0','opacity-0');
-          answer.classList.add('max-h-48','opacity-100');
-          iconContainer.classList.add('bg-amber-100','text-amber-600');
-        } else {
-          answer.classList.add('max-h-0','opacity-0');
-          answer.classList.remove('max-h-48','opacity-100');
-          iconContainer.classList.remove('bg-amber-100','text-amber-600');
-        }
-      });
-    });
-    // Contact form submission to WhatsApp
-    const contactForm = document.getElementById('contact-form');
-    contactForm.addEventListener('submit', function(e) {
-      e.preventDefault();
-      const formData = new FormData(contactForm);
-      const name = formData.get('name');
-      const phone = formData.get('phone');
-      const city = formData.get('city');
-      const text = 'היי אבי, שמי ' + name + ', אני מ' + city + ' והטלפון שלי הוא ' + phone + '. אשמח לפרטים על שיעורי נהיגה.';
-      const url = 'https://wa.me/972528449147?text=' + encodeURIComponent(text);
-      window.open(url, '_blank');
-    });
-    // Render lucide icons
-    lucide.createIcons();
-  </script>
+  <script src="main.js"></script>
 </body>
 </html>
