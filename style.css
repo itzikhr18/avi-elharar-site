@@ -173,6 +173,25 @@ html[dir="rtl"] .price-row:hover{transform:translateX(4px)}
 .area-chip:hover{border-color:var(--border-hover);box-shadow:0 0 30px rgba(110,231,255,.1);transform:translateY(-3px);background:rgba(110,231,255,.05)}
 .area-chip:hover::before{opacity:1}
 
+/* --- Route Map Animation ----------------------------------------- */
+.route-map{margin:2.5rem auto 2rem;max-width:700px;overflow:hidden;border:1px solid var(--border);border-radius:var(--radius-lg);background:rgba(255,255,255,.02);padding:1.5rem 1rem}
+.route-map__svg{width:100%;height:auto}
+.route-map__label{fill:var(--muted);font-family:"Heebo",sans-serif;font-size:11px;font-weight:600}
+
+/* Path draw animation */
+.route-map__path{stroke-dasharray:1200;stroke-dashoffset:1200;transition:stroke-dashoffset 3s var(--ease-out)}
+.route-map__dash{stroke-dasharray:8 12;stroke-dashoffset:1200;transition:stroke-dashoffset 3s var(--ease-out) .2s}
+.route-map.visible .route-map__path,.route-map.visible .route-map__dash{stroke-dashoffset:0}
+
+/* Stop dots appear with delay */
+.route-map__stop{opacity:0;transform:scale(0);transform-origin:center;transform-box:fill-box;transition:opacity .4s var(--ease-out),transform .4s var(--ease-bounce)}
+.route-map.visible .route-map__stop{opacity:1;transform:scale(1);transition-delay:calc(.3s + var(--stop-delay) * .25s)}
+
+/* Car animation along path */
+.route-map__car{opacity:0;transition:opacity .3s}
+.route-map.visible .route-map__car{opacity:1;offset-path:path("M80 260 C100 220, 130 180, 170 170 S240 190, 270 150 S320 80, 370 90 S420 130, 440 100 S480 50, 530 70 S580 120, 610 100 S650 60, 660 80");animation:drive-route 4s var(--ease-smooth) .5s forwards}
+@keyframes drive-route{0%{offset-distance:0%}100%{offset-distance:100%}}
+
 .areas-note{display:flex;align-items:flex-start;gap:.6rem;padding:1rem 1.2rem;border-radius:var(--radius);background:rgba(110,231,255,.04);border:1px solid rgba(110,231,255,.1);max-width:600px;margin:0 auto}
 .areas-note__icon{color:var(--primary);flex-shrink:0;margin-top:2px}
 .areas-note p{margin:0;color:var(--muted);font-size:.9rem;line-height:1.6}
@@ -329,6 +348,8 @@ html[dir="rtl"] .hero-visual{transform:translateX(40px) scale(.95)}
   .subhead{font-size:.98rem}
   .areas-grid{gap:.5rem}
   .area-chip{padding:.55rem 1rem;font-size:.88rem}
+  .route-map{padding:1rem .5rem;margin:1.5rem auto 1.5rem}
+  .route-map__label{font-size:9px}
   .testimonials,.graduates-grid{grid-template-columns:1fr}
   .testimonial-card img,.graduate-card img{width:100%;height:auto}
   .contact-wrap{gap:2rem}
