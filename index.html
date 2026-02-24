@@ -336,6 +336,63 @@
           מושבה גרמנית
         </div>
       </div>
+
+      <div class="route-map reveal" aria-label="מפת מסלול נהיגה בין אזורי הפעילות">
+        <svg class="route-map__svg" viewBox="0 0 700 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <!-- Route path -->
+          <path class="route-map__path" d="M80 260 C100 220, 130 180, 170 170 S240 190, 270 150 S320 80, 370 90 S420 130, 440 100 S480 50, 530 70 S580 120, 610 100 S650 60, 660 80" stroke="url(#routeGrad)" stroke-width="3" stroke-linecap="round" fill="none"/>
+          <!-- Dashed road markings -->
+          <path class="route-map__dash" d="M80 260 C100 220, 130 180, 170 170 S240 190, 270 150 S320 80, 370 90 S420 130, 440 100 S480 50, 530 70 S580 120, 610 100 S650 60, 660 80" stroke="rgba(255,255,255,.25)" stroke-width="1.5" stroke-dasharray="8 12" stroke-linecap="round" fill="none"/>
+
+          <!-- Location dots + labels -->
+          <g class="route-map__stop" style="--stop-delay:0">
+            <circle cx="80" cy="260" r="6" fill="var(--primary)"/><circle cx="80" cy="260" r="10" stroke="var(--primary)" stroke-width="1.5" opacity=".4"/>
+            <text x="80" y="285" text-anchor="middle" class="route-map__label">ארנונה</text>
+          </g>
+          <g class="route-map__stop" style="--stop-delay:1">
+            <circle cx="170" cy="170" r="6" fill="var(--primary)"/><circle cx="170" cy="170" r="10" stroke="var(--primary)" stroke-width="1.5" opacity=".4"/>
+            <text x="170" y="195" text-anchor="middle" class="route-map__label">תלפיות</text>
+          </g>
+          <g class="route-map__stop" style="--stop-delay:2">
+            <circle cx="270" cy="150" r="6" fill="var(--accent)"/><circle cx="270" cy="150" r="10" stroke="var(--accent)" stroke-width="1.5" opacity=".4"/>
+            <text x="270" y="175" text-anchor="middle" class="route-map__label">ארמון הנציב</text>
+          </g>
+          <g class="route-map__stop" style="--stop-delay:3">
+            <circle cx="370" cy="90" r="6" fill="var(--primary)"/><circle cx="370" cy="90" r="10" stroke="var(--primary)" stroke-width="1.5" opacity=".4"/>
+            <text x="370" y="115" text-anchor="middle" class="route-map__label">מלחה</text>
+          </g>
+          <g class="route-map__stop" style="--stop-delay:4">
+            <circle cx="440" cy="100" r="6" fill="var(--accent)"/><circle cx="440" cy="100" r="10" stroke="var(--accent)" stroke-width="1.5" opacity=".4"/>
+            <text x="440" y="125" text-anchor="middle" class="route-map__label">טלביה</text>
+          </g>
+          <g class="route-map__stop" style="--stop-delay:5">
+            <circle cx="530" cy="70" r="6" fill="var(--primary)"/><circle cx="530" cy="70" r="10" stroke="var(--primary)" stroke-width="1.5" opacity=".4"/>
+            <text x="530" y="55" text-anchor="middle" class="route-map__label">הר חומה</text>
+          </g>
+          <g class="route-map__stop" style="--stop-delay:6">
+            <circle cx="610" cy="100" r="6" fill="var(--accent)"/><circle cx="610" cy="100" r="10" stroke="var(--accent)" stroke-width="1.5" opacity=".4"/>
+            <text x="610" y="125" text-anchor="middle" class="route-map__label">גבעת משואה</text>
+          </g>
+          <g class="route-map__stop" style="--stop-delay:7">
+            <circle cx="660" cy="80" r="6" fill="var(--primary)"/><circle cx="660" cy="80" r="10" stroke="var(--primary)" stroke-width="1.5" opacity=".4"/>
+            <text x="660" y="65" text-anchor="middle" class="route-map__label">קרית מנחם</text>
+          </g>
+
+          <!-- Car icon travelling the route -->
+          <g class="route-map__car">
+            <circle cx="0" cy="0" r="12" fill="var(--primary)" opacity=".2"/>
+            <text x="0" y="5" text-anchor="middle" font-size="14">🚗</text>
+          </g>
+
+          <defs>
+            <linearGradient id="routeGrad" x1="80" y1="260" x2="660" y2="80" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#6ee7ff"/>
+              <stop offset="1" stop-color="#a78bfa"/>
+            </linearGradient>
+          </defs>
+        </svg>
+      </div>
+
       <div class="areas-note">
         <svg class="areas-note__icon" width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="8" stroke="currentColor" stroke-width="1.5"/><path d="M10 9v4M10 7h.01" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
         <p>התרגול מתבצע באזורי הטסט עצמם — כך שביום המבחן, המסלול כבר מוכר.</p>
