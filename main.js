@@ -42,6 +42,17 @@ if(spBar){var spTick=false;window.addEventListener('scroll',function(){if(!spTic
 var procSteps=document.getElementById('processSteps');
 if(procSteps){var pFill=procSteps.querySelector('.process-line__fill');var pItems=procSteps.querySelectorAll('.process-step');if(pFill&&pItems.length){var poTick=false;function updateTimeline(){var rect=procSteps.getBoundingClientRect();var wh=window.innerHeight;var triggerY=wh*.65;var totalH=rect.height;var progress=Math.min(Math.max((triggerY-rect.top)/totalH,0),1);pFill.style.height=(progress*100)+'%';pItems.forEach(function(s){var sr=s.getBoundingClientRect();if(sr.top<triggerY)s.classList.add('reached');else s.classList.remove('reached')})}window.addEventListener('scroll',function(){if(!poTick){requestAnimationFrame(function(){updateTimeline();poTick=false});poTick=true}},{passive:true});updateTimeline()}}
 
+/* Back to Top Button */
+var btt=document.getElementById('backToTop');
+if(btt){var bttTick=false;window.addEventListener('scroll',function(){if(!bttTick){requestAnimationFrame(function(){btt.classList.toggle('visible',window.scrollY>500);bttTick=false});bttTick=true}},{passive:true});btt.addEventListener('click',function(){window.scrollTo({top:0,behavior:'smooth'})})}
+
+/* Typewriter Effect */
+var twEl=document.getElementById('heroHeading');
+if(twEl){var twHTML=twEl.innerHTML;var twPlain=twHTML.replace(/<br\s*\/?>/gi,'\n');var twChars=twPlain.split('');twEl.innerHTML='';var twCursor=document.createElement('span');twCursor.className='typewriter-cursor';twEl.appendChild(twCursor);var twIdx=0;function twType(){if(twIdx<twChars.length){if(twChars[twIdx]==='\n'){twEl.insertBefore(document.createElement('br'),twCursor)}else{twEl.insertBefore(document.createTextNode(twChars[twIdx]),twCursor)}twIdx++;setTimeout(twType,40+Math.random()*30)}else{setTimeout(function(){twCursor.remove()},1500)}}setTimeout(twType,600)}
+
+/* Image Blur Reveal */
+document.querySelectorAll('img[loading="lazy"]').forEach(function(img){img.classList.add('blur-load');if(img.complete){img.classList.add('loaded')}else{img.addEventListener('load',function(){img.classList.add('loaded')});img.addEventListener('error',function(){img.classList.add('loaded')})}});
+
 /* Card Spotlight */
 document.querySelectorAll('.card').forEach(function(c){c.addEventListener('mousemove',function(e){var r=c.getBoundingClientRect();c.style.setProperty('--mouse-x',((e.clientX-r.left)/r.width*100)+'%');c.style.setProperty('--mouse-y',((e.clientY-r.top)/r.height*100)+'%')})});
 
