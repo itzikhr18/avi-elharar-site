@@ -99,6 +99,35 @@
       </div>
     </section>
 
+    <div class="scroll-progress" aria-hidden="true"><div class="scroll-progress__bar"></div></div>
+
+    <section class="stats-bar reveal" aria-label="מספרים שמדברים">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-item">
+            <span class="stat-item__number" data-target="500">0</span>
+            <span class="stat-item__plus">+</span>
+            <span class="stat-item__label">תלמידים שעברו טסט</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-item__number" data-target="15">0</span>
+            <span class="stat-item__plus">+</span>
+            <span class="stat-item__label">שנות ניסיון</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-item__number" data-target="95">0</span>
+            <span class="stat-item__plus">%</span>
+            <span class="stat-item__label">אחוז הצלחה בטסט</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-item__number" data-target="4.9">0</span>
+            <span class="stat-item__plus">⭐</span>
+            <span class="stat-item__label">דירוג ממוצע</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section class="section container reveal" id="proof">
       <h2>מה הופך את החוויה לפרימיום אמיתי</h2>
       <div class="grid three reveal-stagger">
@@ -194,35 +223,38 @@
     <section class="section container reveal" id="process">
       <h2>הדרך לרישיון — 4 שלבים פשוטים</h2>
       <p class="section-intro">תהליך ברור ושקוף מהרגע הראשון ועד הרישיון ביד.</p>
-      <div class="process-steps reveal-stagger">
-        <div class="process-step">
+      <div class="process-steps reveal-stagger" id="processSteps">
+        <div class="process-step" data-step="1">
           <div class="process-step__num">1</div>
           <div class="process-step__content">
             <h3>שיחת התאמה</h3>
             <p>שיחה קצרה להכיר, להבין את הרקע שלך ולבנות תוכנית לימוד מותאמת אישית.</p>
           </div>
         </div>
-        <div class="process-step">
+        <div class="process-step" data-step="2">
           <div class="process-step__num">2</div>
           <div class="process-step__content">
             <h3>שיעורים מעשיים</h3>
             <p>לימוד נהיגה מעשי על רכב אוטומטי, עם תרגול ממוקד באזורי הטסט עצמם. כל שיעור בנוי על הקודם.</p>
           </div>
         </div>
-        <div class="process-step">
+        <div class="process-step" data-step="3">
           <div class="process-step__num">3</div>
           <div class="process-step__content">
             <h3>טסט פנימי + הכנה לטסט</h3>
             <p>סימולציה מלאה של טסט חיצוני כדי לוודא שאתם מוכנים. תיקון נקודות חלשות לפני היום הגדול.</p>
           </div>
         </div>
-        <div class="process-step">
-          <div class="process-step__num">4</div>
+        <div class="process-step" data-step="4">
+          <div class="process-step__num">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M8 12l3 3 5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
           <div class="process-step__content">
             <h3>טסט ורישיון!</h3>
             <p>ליווי מלא ביום הטסט, עם ביטחון וידע מוכח. יוצאים לדרך עם רישיון ונהיגה בטוחה.</p>
           </div>
         </div>
+        <div class="process-line" aria-hidden="true"><div class="process-line__fill"></div></div>
       </div>
     </section>
 
