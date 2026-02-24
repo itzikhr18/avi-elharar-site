@@ -353,6 +353,45 @@ html[dir="rtl"] .hero-visual{transform:translateX(40px) scale(.95)}
 .graduate-card:hover img{transform:scale(1.03)}
 .graduate-card figcaption{margin-top:.85rem;color:var(--muted);font-size:.92rem;line-height:1.6;text-align:center;font-weight:500}
 
+/* --- Floating WhatsApp Button ------------------------------------- */
+.wa-float{position:fixed;bottom:2rem;inset-inline-start:2rem;z-index:56;display:flex;align-items:center;gap:.6rem;background:#25D366;color:#fff;border-radius:999px;padding:.85rem 1.2rem;box-shadow:0 6px 24px rgba(37,211,102,.35),0 2px 8px rgba(0,0,0,.15);cursor:pointer;text-decoration:none;font-weight:700;font-size:.9rem;opacity:0;transform:translateY(60px) scale(.5);pointer-events:none;transition:opacity .5s var(--ease-out),transform .5s var(--ease-bounce),box-shadow .3s var(--ease-smooth),background .3s var(--ease-smooth)}
+.wa-float.visible{opacity:1;transform:translateY(0) scale(1);pointer-events:auto;animation:wa-bounce 2s var(--ease-bounce) 1}
+@keyframes wa-bounce{0%{transform:translateY(0) scale(1)}15%{transform:translateY(-12px) scale(1.05)}30%{transform:translateY(0) scale(1)}45%{transform:translateY(-6px) scale(1.02)}60%{transform:translateY(0) scale(1)}}
+.wa-float::before{content:'';position:absolute;inset:0;border-radius:inherit;box-shadow:0 0 0 0 rgba(37,211,102,.5);animation:wa-pulse 3s ease-in-out infinite}
+@keyframes wa-pulse{0%{box-shadow:0 0 0 0 rgba(37,211,102,.5)}70%{box-shadow:0 0 0 14px rgba(37,211,102,0)}100%{box-shadow:0 0 0 0 rgba(37,211,102,0)}}
+.wa-float:hover{background:#1ebe5d;box-shadow:0 8px 32px rgba(37,211,102,.45),0 4px 12px rgba(0,0,0,.2);transform:translateY(-3px) scale(1.05)}
+.wa-float:active{transform:scale(.95)}
+.wa-float__label{white-space:nowrap}
+
+/* --- Sticky CTA Bar ----------------------------------------------- */
+.sticky-cta{position:fixed;top:0;inset-inline:0;z-index:49;background:linear-gradient(135deg,rgba(5,10,20,.95),rgba(12,22,40,.95));backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-bottom:1px solid var(--border);padding:.6rem 0;opacity:0;transform:translateY(-100%);pointer-events:none;transition:opacity .4s var(--ease-smooth),transform .4s var(--ease-out)}
+.sticky-cta.visible{opacity:1;transform:translateY(0);pointer-events:auto}
+.sticky-cta__inner{display:flex;align-items:center;justify-content:center;gap:1rem;flex-wrap:wrap}
+.sticky-cta__text{color:var(--muted);font-weight:600;font-size:.88rem}
+.btn--sm{padding:.45rem 1rem;font-size:.82rem}
+
+/* --- Animated Gradient Borders ------------------------------------ */
+@property --grad-angle{syntax:'<angle>';initial-value:0deg;inherits:false}
+@keyframes grad-spin{to{--grad-angle:360deg}}
+
+.card{background:var(--bg);isolation:isolate}
+.card::before{content:'';position:absolute;inset:-2px;border-radius:inherit;background:conic-gradient(from var(--grad-angle),var(--primary),var(--accent),var(--primary));z-index:-2;opacity:0;animation:grad-spin 3s linear infinite;transition:opacity .5s var(--ease-smooth)}
+.card::after{content:'';position:absolute;inset:0;border-radius:inherit;background:var(--bg);z-index:-1;transition:background var(--dur-m) var(--ease-smooth)}
+.card:hover::before{opacity:1}
+.card:hover{border-color:transparent}
+
+.testimonial-card{isolation:isolate;position:relative}
+.testimonial-card::before{content:'';position:absolute;inset:-2px;border-radius:inherit;background:conic-gradient(from var(--grad-angle),var(--primary),var(--accent),var(--primary));z-index:-2;opacity:0;animation:grad-spin 3s linear infinite;transition:opacity .5s var(--ease-smooth)}
+.testimonial-card::after{content:'';position:absolute;inset:0;border-radius:inherit;background:var(--bg);z-index:-1}
+.testimonial-card:hover::before{opacity:1}
+.testimonial-card:hover{border-color:transparent}
+
+.graduate-card{isolation:isolate;position:relative}
+.graduate-card::before{content:'';position:absolute;inset:-2px;border-radius:inherit;background:conic-gradient(from var(--grad-angle),var(--primary),var(--accent),var(--primary));z-index:-2;opacity:0;animation:grad-spin 3s linear infinite;transition:opacity .5s var(--ease-smooth)}
+.graduate-card::after{content:'';position:absolute;inset:0;border-radius:inherit;background:var(--bg);z-index:-1}
+.graduate-card:hover::before{opacity:1}
+.graduate-card:hover{border-color:transparent}
+
 /* --- FAQ Section -------------------------------------------------- */
 .faq-list{max-width:720px;margin:0 auto;display:grid;gap:.6rem}
 .faq-item{border:1px solid #e2e8f5;border-radius:var(--radius);background:#fff;overflow:hidden;transition:border-color var(--dur-m) var(--ease-smooth),box-shadow var(--dur-m) var(--ease-smooth)}
@@ -362,7 +401,9 @@ html[dir="rtl"] .hero-visual{transform:translateX(40px) scale(.95)}
 .faq-item summary::after{content:'+';font-size:1.3rem;font-weight:300;color:var(--primary-strong);transition:transform var(--dur-m) var(--ease-bounce)}
 .faq-item[open] summary::after{transform:rotate(45deg)}
 .faq-item summary:hover{color:var(--primary-strong)}
-.faq-item p{margin:0;padding:0 1.4rem 1.2rem;color:#5b6c8f;font-size:.93rem;line-height:1.75}
+.faq-item__body{display:grid;grid-template-rows:0fr;transition:grid-template-rows .4s var(--ease-out),opacity .4s var(--ease-smooth);opacity:0}
+.faq-item[open] .faq-item__body{grid-template-rows:1fr;opacity:1}
+.faq-item__body>p{overflow:hidden;margin:0;padding:0 1.4rem 1.2rem;color:#5b6c8f;font-size:.93rem;line-height:1.75}
 
 /* --- Responsive --------------------------------------------------- */
 @media(max-width:920px){
@@ -449,6 +490,11 @@ html[dir="rtl"] .hero-visual{transform:translateX(40px) scale(.95)}
   .faq-item p{padding:0 1rem 1rem;font-size:.88rem}
   .footer-wrap{flex-direction:column;text-align:center;gap:.5rem}
   .back-to-top{bottom:1.2rem;inset-inline-end:1.2rem;width:46px;height:46px}
+  .wa-float{bottom:1.2rem;inset-inline-start:1.2rem;padding:.7rem}
+  .wa-float__label{display:none}
+  .sticky-cta__text{display:none}
+  .sticky-cta__inner{gap:.5rem}
+  .btn--sm{padding:.4rem .8rem;font-size:.78rem}
 }
 
 @media(prefers-reduced-motion:reduce){
@@ -462,4 +508,7 @@ html[dir="rtl"] .hero-visual{transform:translateX(40px) scale(.95)}
   .typewriter-cursor{display:none!important}
   .chip-cascade{animation:none!important}
   .blur-load{filter:none!important;opacity:1!important}
+  .wa-float::before{animation:none!important}
+  .card::before,.testimonial-card::before,.graduate-card::before{animation:none!important}
+  .faq-item__body{transition:none!important}
 }
