@@ -70,7 +70,7 @@ body::before{content:'';position:fixed;inset:0;z-index:1;pointer-events:none;opa
 
 .nav-wrap{display:flex;align-items:center;justify-content:space-between;padding:.9rem 0}
 .brand{display:flex;align-items:center;gap:.7rem;font-weight:800;font-size:1.05rem}
-.brand-mark{background:linear-gradient(145deg,var(--primary),var(--accent));color:#061124;padding:.45rem .65rem;border-radius:.65rem;font-size:.95rem;letter-spacing:.04em;box-shadow:0 4px 20px var(--primary-glow);transition:transform var(--dur-f) var(--ease-bounce),box-shadow var(--dur-m) var(--ease-smooth)}
+.brand-mark{display:flex;align-items:center;justify-content:center;background:linear-gradient(145deg,var(--primary),var(--accent));padding:.4rem;border-radius:.65rem;box-shadow:0 4px 20px var(--primary-glow);transition:transform var(--dur-f) var(--ease-bounce),box-shadow var(--dur-m) var(--ease-smooth)}
 .brand:hover .brand-mark{transform:scale(1.08) rotate(-2deg);box-shadow:0 6px 30px var(--primary-glow)}
 
 .menu{display:flex;gap:1.2rem;list-style:none;margin:0;padding:0;align-items:center}
@@ -321,8 +321,8 @@ html[dir="rtl"] .hero-visual{transform:translateX(40px) scale(.95)}
   .hero-metrics strong{font-size:1.2rem}
   .hero-metrics span{font-size:.75rem}
   .cursor-dot,.cursor-ring{display:none!important}
-  .hero-visual{order:-1}
-  .hero-visual img{max-height:400px;object-fit:cover;width:100%}
+  .hero-visual{order:-1;display:flex;justify-content:center}
+  .hero-visual img{max-height:340px;width:260px;object-fit:cover;border-radius:var(--radius-lg);margin:0 auto}
   h1{font-size:clamp(1.8rem,6vw,2.4rem)}
   h2{font-size:clamp(1.4rem,4.5vw,2rem)}
   .subhead{font-size:.98rem}
@@ -360,7 +360,7 @@ html[dir="rtl"] .hero-visual{transform:translateX(40px) scale(.95)}
   .subhead{font-size:.9rem}
   .eyebrow{font-size:.82rem}
   .hero{padding:2rem 0 1.5rem;gap:1.5rem}
-  .hero-visual img{max-height:320px}
+  .hero-visual img{max-height:300px;width:220px}
   .hero-metrics{grid-template-columns:repeat(3,1fr);gap:.4rem}
   .hero-metrics li{padding:.6rem .3rem}
   .hero-metrics strong{font-size:1rem}
