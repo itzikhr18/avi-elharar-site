@@ -250,26 +250,137 @@ html[dir="rtl"] .hero-visual{transform:translateX(40px) scale(.95)}
 
 .particles-canvas{position:fixed;inset:0;z-index:1;pointer-events:none;opacity:.4}
 
+/* --- School Badge ------------------------------------------------- */
+.school-badge{display:inline-flex;align-items:center;gap:.8rem;padding:.6rem 1rem .6rem .6rem;border-radius:var(--radius);border:1px solid var(--border);background:rgba(255,255,255,.03);margin-bottom:1rem;transition:border-color var(--dur-m) var(--ease-smooth),box-shadow var(--dur-m) var(--ease-smooth)}
+.school-badge:hover{border-color:var(--border-hover);box-shadow:0 0 20px var(--primary-glow)}
+.school-badge__logo{flex-shrink:0}
+.school-badge__text{display:flex;flex-direction:column;gap:.1rem}
+.school-badge__label{font-size:.75rem;color:var(--muted);font-weight:500}
+.school-badge__name{font-size:.95rem;font-weight:700;color:var(--primary)}
+.school-badge__since{font-size:.72rem;color:var(--muted);opacity:.7}
+
+/* --- About Section ------------------------------------------------ */
+.about-grid{display:grid;grid-template-columns:1.3fr .7fr;gap:3rem;align-items:start}
+.about-lead{font-size:1.1rem;color:#5b6c8f;line-height:1.75;margin:0 0 2rem}
+.about-details{display:grid;gap:1.2rem}
+.about-item{display:flex;gap:1rem;align-items:flex-start}
+.about-item__icon{width:40px;height:40px;display:flex;align-items:center;justify-content:center;border-radius:10px;color:var(--primary-strong);background:#e8effc;flex-shrink:0}
+.about-item strong{display:block;font-size:1rem;color:#2d3a5c;margin-bottom:.2rem}
+.about-item p{margin:0;color:#5b6c8f;font-size:.92rem;line-height:1.65}
+
+.about-badge-wrap{display:flex;justify-content:center;align-items:flex-start;padding-top:1rem}
+.about-school-card{background:#fff;border:1px solid #e2e8f5;border-radius:var(--radius-lg);padding:2rem;text-align:center;box-shadow:var(--shadow-sm);max-width:320px;transition:transform var(--dur-m) var(--ease-out),box-shadow var(--dur-m) var(--ease-smooth)}
+.about-school-card:hover{transform:translateY(-4px);box-shadow:var(--shadow-md)}
+.about-school-card__logo{margin:0 auto 1rem}
+.about-school-card h3{margin:0 0 .5rem;font-size:1.15rem;color:#2d3a5c}
+.about-school-card p{margin:0 0 .8rem;color:#5b6c8f;font-size:.88rem;line-height:1.6}
+.about-school-card__location{font-size:.82rem;color:var(--primary-strong);font-weight:600}
+
+/* --- Process Steps ------------------------------------------------ */
+.process-steps{display:grid;gap:1.5rem;max-width:700px;margin:0 auto;position:relative}
+.process-steps::before{content:'';position:absolute;inset-inline-start:27px;top:0;bottom:0;width:2px;background:linear-gradient(180deg,var(--primary),var(--accent));opacity:.2;border-radius:2px}
+.process-step{display:flex;gap:1.2rem;align-items:flex-start;position:relative}
+.process-step__num{width:56px;height:56px;display:flex;align-items:center;justify-content:center;border-radius:50%;background:linear-gradient(135deg,rgba(110,231,255,.1),rgba(167,139,250,.08));border:1.5px solid var(--border);color:var(--primary);font-size:1.3rem;font-weight:800;flex-shrink:0;position:relative;z-index:1;transition:border-color var(--dur-m) var(--ease-smooth),box-shadow var(--dur-m) var(--ease-smooth),transform var(--dur-m) var(--ease-bounce)}
+.process-step:hover .process-step__num{border-color:var(--primary);box-shadow:0 0 20px var(--primary-glow);transform:scale(1.08)}
+.process-step__content{padding-top:.5rem}
+.process-step__content h3{margin:0 0 .4rem;font-size:1.1rem}
+.process-step__content p{margin:0;color:var(--muted);font-size:.93rem;line-height:1.7}
+
+/* --- Graduates Section -------------------------------------------- */
+.graduates-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+.graduate-card{border-radius:var(--radius-lg);border:1px solid var(--border);padding:1rem;background:rgba(255,255,255,.025);overflow:hidden;transition:transform var(--dur-m) var(--ease-out),border-color var(--dur-m) var(--ease-smooth),box-shadow var(--dur-m) var(--ease-smooth)}
+.graduate-card:hover{transform:translateY(-6px);border-color:var(--border-hover);box-shadow:var(--shadow-glow)}
+.graduate-card img{border-radius:calc(var(--radius) - 2px);width:100%;height:auto;object-fit:cover;transition:transform var(--dur-s) var(--ease-out)}
+.graduate-card:hover img{transform:scale(1.03)}
+.graduate-card figcaption{margin-top:.85rem;color:var(--muted);font-size:.92rem;line-height:1.6;text-align:center;font-weight:500}
+
+/* --- FAQ Section -------------------------------------------------- */
+.faq-list{max-width:720px;margin:0 auto;display:grid;gap:.6rem}
+.faq-item{border:1px solid #e2e8f5;border-radius:var(--radius);background:#fff;overflow:hidden;transition:border-color var(--dur-m) var(--ease-smooth),box-shadow var(--dur-m) var(--ease-smooth)}
+.faq-item[open]{border-color:var(--primary-strong);box-shadow:0 4px 20px rgba(56,201,234,.1)}
+.faq-item summary{padding:1.1rem 1.4rem;font-weight:700;font-size:1rem;color:#2d3a5c;cursor:pointer;list-style:none;display:flex;align-items:center;justify-content:space-between;gap:1rem;transition:color var(--dur-f) var(--ease-smooth)}
+.faq-item summary::-webkit-details-marker{display:none}
+.faq-item summary::after{content:'+';font-size:1.3rem;font-weight:300;color:var(--primary-strong);transition:transform var(--dur-m) var(--ease-bounce)}
+.faq-item[open] summary::after{transform:rotate(45deg)}
+.faq-item summary:hover{color:var(--primary-strong)}
+.faq-item p{margin:0;padding:0 1.4rem 1.2rem;color:#5b6c8f;font-size:.93rem;line-height:1.75}
+
 /* --- Responsive --------------------------------------------------- */
 @media(max-width:920px){
-  .hero,.contact-wrap,.grid.three,.testimonials{grid-template-columns:1fr}
+  .hero,.contact-wrap,.grid.three,.testimonials,.about-grid{grid-template-columns:1fr}
   .hero{padding:3rem 0 2rem;gap:2rem}
-  .menu-btn{display:inline-flex;border:1px solid var(--border);border-radius:.65rem;padding:.45rem .75rem;background:transparent;color:var(--text);font-weight:600;cursor:pointer;transition:border-color var(--dur-f) var(--ease-smooth)}
+  .menu-btn{display:inline-flex;align-items:center;gap:.4rem;border:1px solid var(--border);border-radius:.65rem;padding:.45rem .75rem;background:transparent;color:var(--text);font-weight:600;cursor:pointer;transition:border-color var(--dur-f) var(--ease-smooth);font-size:.9rem}
+  .menu-btn svg{flex-shrink:0}
   .menu-btn:hover{border-color:var(--primary)}
   .menu{position:absolute;inset-inline:1rem;top:68px;background:rgba(11,20,41,.95);backdrop-filter:blur(16px);border:1px solid var(--border);border-radius:var(--radius);padding:1rem;flex-direction:column;display:none;box-shadow:var(--shadow-lg)}
   .menu.open{display:flex}
+  .menu a{padding:.6rem .8rem;font-size:1rem}
   .menu a::after{display:none}
-  .hero-metrics{grid-template-columns:1fr}
+  .hero-metrics{grid-template-columns:repeat(3,1fr);gap:.6rem}
+  .hero-metrics li{padding:.7rem .5rem}
+  .hero-metrics strong{font-size:1.2rem}
+  .hero-metrics span{font-size:.75rem}
   .cursor-dot,.cursor-ring{display:none!important}
   .hero-visual{order:-1}
+  .hero-visual img{max-height:400px;object-fit:cover;width:100%}
   h1{font-size:clamp(1.8rem,6vw,2.4rem)}
+  h2{font-size:clamp(1.4rem,4.5vw,2rem)}
+  .subhead{font-size:.98rem}
   .areas-grid{gap:.5rem}
   .area-chip{padding:.55rem 1rem;font-size:.88rem}
+  .testimonials,.graduates-grid{grid-template-columns:1fr}
+  .testimonial-card img,.graduate-card img{width:100%;height:auto}
+  .contact-wrap{gap:2rem}
+  .about-badge-wrap{justify-content:center}
+  .about-school-card{max-width:100%}
+  .school-badge{margin-bottom:.8rem}
+  .process-steps::before{inset-inline-start:23px}
+  .process-step__num{width:48px;height:48px;font-size:1.1rem}
+  .price-table{max-width:100%}
+  .price-row{padding:1rem}
+}
+
+@media(max-width:640px){
+  .testimonials,.graduates-grid{grid-template-columns:1fr}
+  .hero-actions{flex-direction:column;gap:.75rem}
+  .hero-actions .btn{width:100%;text-align:center}
+  .price-cta{flex-direction:column;align-items:stretch}
+  .price-cta .btn{text-align:center}
+  .contact-form{padding:1.2rem}
+  .school-badge{flex-direction:column;text-align:center;align-items:center}
 }
 
 @media(max-width:480px){
-  .section{padding:3.5rem 0}
-  .container{width:calc(100% - 1.5rem)}
+  .section{padding:3rem 0}
+  .container{width:calc(100% - 1.25rem)}
+  .nav-wrap{padding:.7rem 0}
+  .brand{font-size:.95rem;gap:.5rem}
+  .brand-mark{padding:.35rem .55rem;font-size:.85rem}
+  h1{font-size:clamp(1.6rem,5.5vw,2rem)}
+  .subhead{font-size:.9rem}
+  .eyebrow{font-size:.82rem}
+  .hero{padding:2rem 0 1.5rem;gap:1.5rem}
+  .hero-visual img{max-height:320px}
+  .hero-metrics{grid-template-columns:repeat(3,1fr);gap:.4rem}
+  .hero-metrics li{padding:.6rem .3rem}
+  .hero-metrics strong{font-size:1rem}
+  .hero-metrics span{font-size:.68rem}
+  .card{padding:1.4rem 1.1rem}
+  .card h3{font-size:1.05rem}
+  .card p{font-size:.88rem}
+  .area-chip{padding:.45rem .8rem;font-size:.82rem}
+  .testimonial-card figcaption,.graduate-card figcaption{font-size:.88rem}
+  .btn{padding:.65rem 1.1rem;font-size:.88rem}
+  .about-item{gap:.75rem}
+  .about-item__icon{width:36px;height:36px}
+  .about-lead{font-size:1rem}
+  .process-step{gap:.8rem}
+  .process-step__num{width:42px;height:42px;font-size:1rem}
+  .process-step__content h3{font-size:1rem}
+  .process-steps::before{inset-inline-start:20px}
+  .faq-item summary{padding:.9rem 1rem;font-size:.93rem}
+  .faq-item p{padding:0 1rem 1rem;font-size:.88rem}
+  .footer-wrap{flex-direction:column;text-align:center;gap:.5rem}
 }
 
 @media(prefers-reduced-motion:reduce){
