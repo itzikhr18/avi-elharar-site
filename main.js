@@ -29,6 +29,19 @@ function ac(el){var txt=el.textContent.trim(),m=txt.match(/^([\d,]+)/);if(!m)ret
 var ms=document.querySelectorAll('.hero-metrics strong');
 if(ms.length&&'IntersectionObserver'in window){var co=new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting){ac(e.target);co.unobserve(e.target)}})},{threshold:.5});ms.forEach(function(el){co.observe(el)})}
 
+/* Stats Counter Animation */
+function animateStatNum(el){var tgt=parseFloat(el.dataset.target);if(isNaN(tgt)||tgt===0)return;var isFloat=String(tgt).indexOf('.')!==-1;var dur=2000,st=performance.now();function ease(t){return t===1?1:1-Math.pow(2,-10*t)}function up(now){var p=Math.min((now-st)/dur,1);var v=ease(p)*tgt;el.textContent=isFloat?v.toFixed(1):Math.round(v).toLocaleString();if(p<1)requestAnimationFrame(up)}el.textContent=isFloat?'0.0':'0';requestAnimationFrame(up)}
+var statNums=document.querySelectorAll('.stat-item__number[data-target]');
+if(statNums.length&&'IntersectionObserver'in window){var so=new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting){animateStatNum(e.target);so.unobserve(e.target)}})},{threshold:.5});statNums.forEach(function(el){so.observe(el)})}
+
+/* Scroll Progress Bar */
+var spBar=document.querySelector('.scroll-progress__bar');
+if(spBar){var spTick=false;window.addEventListener('scroll',function(){if(!spTick){requestAnimationFrame(function(){var scrollTop=window.scrollY;var docH=document.documentElement.scrollHeight-window.innerHeight;spBar.style.width=(docH>0?(scrollTop/docH)*100:0)+'%';spTick=false});spTick=true}},{passive:true})}
+
+/* Animated Process Timeline */
+var procSteps=document.getElementById('processSteps');
+if(procSteps){var pFill=procSteps.querySelector('.process-line__fill');var pItems=procSteps.querySelectorAll('.process-step');if(pFill&&pItems.length){var poTick=false;function updateTimeline(){var rect=procSteps.getBoundingClientRect();var wh=window.innerHeight;var triggerY=wh*.65;var totalH=rect.height;var progress=Math.min(Math.max((triggerY-rect.top)/totalH,0),1);pFill.style.height=(progress*100)+'%';pItems.forEach(function(s){var sr=s.getBoundingClientRect();if(sr.top<triggerY)s.classList.add('reached');else s.classList.remove('reached')})}window.addEventListener('scroll',function(){if(!poTick){requestAnimationFrame(function(){updateTimeline();poTick=false});poTick=true}},{passive:true});updateTimeline()}}
+
 /* Card Spotlight */
 document.querySelectorAll('.card').forEach(function(c){c.addEventListener('mousemove',function(e){var r=c.getBoundingClientRect();c.style.setProperty('--mouse-x',((e.clientX-r.left)/r.width*100)+'%');c.style.setProperty('--mouse-y',((e.clientY-r.top)/r.height*100)+'%')})});
 
