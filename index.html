@@ -5,13 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>אבי אלחרר | לימודי נהיגה פרימיום בירושלים ומעלה אדומים</title>
   <meta name="description" content="מורה נהיגה פרימיום לרכב אוטומטי בירושלים ומעלה אדומים. שיטה אישית, הכנה מדויקת לטסט וליווי מלא עד הרישיון." />
-  <meta name="theme-color" content="#0B1020" />
+  <meta name="theme-color" content="#050a14" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <!-- Animated Background -->
+  <div class="bg-orbs" aria-hidden="true">
+    <div class="bg-orb bg-orb--1"></div>
+    <div class="bg-orb bg-orb--2"></div>
+    <div class="bg-orb bg-orb--3"></div>
+  </div>
+
   <a class="skip-link" href="#main-content">דלג לתוכן הראשי</a>
 
   <header class="site-header" id="top">
@@ -53,9 +60,9 @@
       </div>
     </section>
 
-    <section class="section container" id="proof">
+    <section class="section container reveal" id="proof">
       <h2>מה הופך את החוויה לפרימיום אמיתי</h2>
-      <div class="grid three">
+      <div class="grid three reveal-stagger">
         <article class="card">
           <h3>תוכנית מסלול שקופה</h3>
           <p>כבר בשיחה הראשונה מקבלים הערכת מסלול ברורה: מה לומדים, כמה זמן צפוי, ומה המדד להתקדמות.</p>
@@ -72,10 +79,10 @@
     </section>
 
     <section class="section section-soft" id="packages">
-      <div class="container">
+      <div class="container reveal">
         <h2>חבילות לימוד</h2>
         <p class="section-intro">מחירים ברורים. בלי הפתעות. בוחרים את הקצב שמתאים לך.</p>
-        <div class="grid three">
+        <div class="grid three reveal-stagger">
           <article class="price-card">
             <p class="tag">למתחילים</p>
             <h3>התנעה חכמה</h3>
@@ -113,10 +120,10 @@
       </div>
     </section>
 
-    <section class="section container" id="testimonials">
+    <section class="section container reveal" id="testimonials">
       <h2>מה התלמידים אומרים</h2>
       <p class="section-intro">כרטיסי המלצה נשארים — רק משודרגים במיקום, עיצוב ואמינות.</p>
-      <div class="grid testimonials">
+      <div class="grid testimonials reveal-stagger">
         <figure class="testimonial-card">
           <img src="testimonial_compressed.jpg" alt="צילום המלצה של תלמיד" loading="lazy" width="440" height="260" />
           <figcaption>״אבי נתן לי שיטה, לא רק שיעורים. עברתי עם ביטחון אמיתי.״</figcaption>
@@ -132,7 +139,7 @@
       </div>
     </section>
 
-    <section class="section section-dark" id="contact">
+    <section class="section section-dark reveal" id="contact">
       <div class="container contact-wrap">
         <div>
           <h2>מתחילים נכון כבר השבוע</h2>
