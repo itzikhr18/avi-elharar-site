@@ -1,345 +1,52 @@
-/* ===================================================================
-   AVI ELHARAR – Animation & Interaction Engine
-   =================================================================== */
+(function(){
+'use strict';
+var R=window.matchMedia('(prefers-reduced-motion:reduce)').matches;
 
-(function () {
-  'use strict';
+/* Mobile Menu */
+var mb=document.getElementById('menuBtn'),mm=document.getElementById('mobileMenu');
+if(mb&&mm){mb.addEventListener('click',function(){var o=mm.classList.toggle('open');mb.setAttribute('aria-expanded',String(o))});mm.querySelectorAll('a').forEach(function(l){l.addEventListener('click',function(){mm.classList.remove('open');mb.setAttribute('aria-expanded','false')})})}
 
-  const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+/* Contact Form */
+var f=document.getElementById('contactForm'),n=document.getElementById('formNote');
+if(f&&n){f.addEventListener('submit',function(e){e.preventDefault();var p=document.getElementById('phone'),v=p?p.value.trim():'';if(!/^0(?:5\d|[2-4]|8|9)-?\d{7}$/.test(v)){n.textContent='אנא הזינו מספר טלפון ישראלי תקין.';return}n.textContent='מעולה, הפרטים נקלטו בהצלחה. נעשה איתך קשר בקרוב.';f.reset()})}
 
-  /* --- Mobile Menu ------------------------------------------------ */
-  const menuBtn = document.getElementById('menuBtn');
-  const mobileMenu = document.getElementById('mobileMenu');
+if(R)return;
 
-  if (menuBtn && mobileMenu) {
-    menuBtn.addEventListener('click', () => {
-      const isOpen = mobileMenu.classList.toggle('open');
-      menuBtn.setAttribute('aria-expanded', String(isOpen));
-    });
+/* Header Scroll */
+var h=document.querySelector('.site-header');
+if(h){var t=false;window.addEventListener('scroll',function(){if(!t){requestAnimationFrame(function(){h.classList.toggle('scrolled',window.scrollY>60);t=false});t=true}},{passive:true})}
 
-    mobileMenu.querySelectorAll('a').forEach((link) => {
-      link.addEventListener('click', () => {
-        mobileMenu.classList.remove('open');
-        menuBtn.setAttribute('aria-expanded', 'false');
-      });
-    });
-  }
+/* Hero Entrance */
+var hc=document.querySelector('.hero-copy'),hv=document.querySelector('.hero-visual');
+requestAnimationFrame(function(){setTimeout(function(){if(hc)hc.classList.add('animated');if(hv)hv.classList.add('animated')},100)});
 
-  /* --- Contact Form ----------------------------------------------- */
-  const form = document.getElementById('contactForm');
-  const note = document.getElementById('formNote');
+/* Scroll Reveal */
+var re=document.querySelectorAll('.reveal,.reveal-stagger');
+if(re.length&&'IntersectionObserver'in window){var ro=new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('visible');ro.unobserve(e.target)}})},{threshold:.15,rootMargin:'0px 0px -40px 0px'});re.forEach(function(el){ro.observe(el)})}
 
-  if (form && note) {
-    form.addEventListener('submit', (event) => {
-      event.preventDefault();
+/* Counter Animation */
+function ac(el){var txt=el.textContent.trim(),m=txt.match(/^([\d,]+)/);if(!m)return;var tgt=parseInt(m[1].replace(/,/g,''),10);if(isNaN(tgt)||tgt===0)return;var sfx=txt.replace(m[1],''),dur=1800,st=performance.now();function ease(t){return t===1?1:1-Math.pow(2,-10*t)}function up(now){var p=Math.min((now-st)/dur,1);el.textContent=Math.round(ease(p)*tgt).toLocaleString()+sfx;if(p<1)requestAnimationFrame(up);else el.textContent=txt}el.textContent='0'+sfx;requestAnimationFrame(up)}
+var ms=document.querySelectorAll('.hero-metrics strong');
+if(ms.length&&'IntersectionObserver'in window){var co=new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting){ac(e.target);co.unobserve(e.target)}})},{threshold:.5});ms.forEach(function(el){co.observe(el)})}
 
-      const phoneInput = document.getElementById('phone');
-      const phone = phoneInput?.value.trim() || '';
-      const israeliPhonePattern = /^0(?:5\d|[2-4]|8|9)-?\d{7}$/;
+/* Card Spotlight */
+document.querySelectorAll('.card').forEach(function(c){c.addEventListener('mousemove',function(e){var r=c.getBoundingClientRect();c.style.setProperty('--mouse-x',((e.clientX-r.left)/r.width*100)+'%');c.style.setProperty('--mouse-y',((e.clientY-r.top)/r.height*100)+'%')})});
 
-      if (!israeliPhonePattern.test(phone)) {
-        note.textContent = 'אנא הזינו מספר טלפון ישראלי תקין.';
-        return;
-      }
+/* 3D Tilt */
+var T='ontouchstart'in window;
+if(!T){document.querySelectorAll('.card,.testimonial-card').forEach(function(c){c.addEventListener('mousemove',function(e){var r=c.getBoundingClientRect(),x=e.clientX-r.left,y=e.clientY-r.top,cx=r.width/2,cy=r.height/2;c.style.transform='perspective(800px) rotateX('+((y-cy)/cy*-5)+'deg) rotateY('+((x-cx)/cx*5)+'deg) translateY(-6px)'});c.addEventListener('mouseleave',function(){c.style.transform=''})})}
 
-      note.textContent = 'מעולה, הפרטים נקלטו בהצלחה. נעשה איתך קשר בקרוב.';
-      form.reset();
-    });
-  }
+/* Magnetic Buttons */
+if(!T){document.querySelectorAll('.btn-primary').forEach(function(b){b.addEventListener('mousemove',function(e){var r=b.getBoundingClientRect();b.style.transform='translate('+(e.clientX-r.left-r.width/2)*.15+'px,'+(e.clientY-r.top-r.height/2)*.15+'px)'});b.addEventListener('mouseleave',function(){b.style.transform=''})})}
 
-  /* --- Exit early if reduced motion ------------------------------- */
-  if (prefersReducedMotion) return;
+/* Custom Cursor */
+if(!T&&window.innerWidth>920){var d=document.createElement('div'),rng=document.createElement('div');d.className='cursor-dot';rng.className='cursor-ring';document.body.appendChild(d);document.body.appendChild(rng);var mx=0,my=0,rx=0,ry=0;document.addEventListener('mousemove',function(e){mx=e.clientX;my=e.clientY;d.style.left=mx+'px';d.style.top=my+'px'},{passive:true});function ar(){rx+=(mx-rx)*.12;ry+=(my-ry)*.12;rng.style.left=rx+'px';rng.style.top=ry+'px';requestAnimationFrame(ar)}requestAnimationFrame(ar);document.querySelectorAll('a,button,.card,.testimonial-card,.area-chip,.price-row').forEach(function(el){el.addEventListener('mouseenter',function(){document.body.classList.add('cursor-hover')});el.addEventListener('mouseleave',function(){document.body.classList.remove('cursor-hover')})})}
 
-  /* --- Header Scroll State ---------------------------------------- */
-  const header = document.querySelector('.site-header');
-  if (header) {
-    let ticking = false;
-    window.addEventListener('scroll', () => {
-      if (!ticking) {
-        requestAnimationFrame(() => {
-          header.classList.toggle('scrolled', window.scrollY > 60);
-          ticking = false;
-        });
-        ticking = true;
-      }
-    }, { passive: true });
-  }
+/* Parallax */
+var hi=document.querySelector('.hero-visual img');
+if(hi){var st2=false;window.addEventListener('scroll',function(){if(!st2){requestAnimationFrame(function(){if(window.scrollY<window.innerHeight)hi.style.transform='translateY('+window.scrollY*.08+'px)';st2=false});st2=true}},{passive:true})}
 
-  /* --- Hero Entrance Animation ------------------------------------ */
-  const heroCopy = document.querySelector('.hero-copy');
-  const heroVisual = document.querySelector('.hero-visual');
-
-  requestAnimationFrame(() => {
-    setTimeout(() => {
-      if (heroCopy) heroCopy.classList.add('animated');
-      if (heroVisual) heroVisual.classList.add('animated');
-    }, 100);
-  });
-
-  /* --- Scroll Reveal ---------------------------------------------- */
-  const revealElements = document.querySelectorAll('.reveal, .reveal-stagger');
-
-  if (revealElements.length > 0 && 'IntersectionObserver' in window) {
-    const revealObserver = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('visible');
-          revealObserver.unobserve(entry.target);
-        }
-      });
-    }, {
-      threshold: 0.15,
-      rootMargin: '0px 0px -40px 0px'
-    });
-
-    revealElements.forEach((el) => revealObserver.observe(el));
-  }
-
-  /* --- Animated Counter ------------------------------------------- */
-  function animateCounter(el) {
-    const text = el.textContent.trim();
-    const match = text.match(/^([\d,]+)/);
-    if (!match) return;
-
-    const target = parseInt(match[1].replace(/,/g, ''), 10);
-    if (isNaN(target) || target === 0) return;
-
-    const suffix = text.replace(match[1], '');
-    const duration = 1800;
-    const startTime = performance.now();
-
-    function easeOutExpo(t) {
-      return t === 1 ? 1 : 1 - Math.pow(2, -10 * t);
-    }
-
-    function update(now) {
-      const elapsed = now - startTime;
-      const progress = Math.min(elapsed / duration, 1);
-      const current = Math.round(easeOutExpo(progress) * target);
-
-      el.textContent = current.toLocaleString() + suffix;
-
-      if (progress < 1) {
-        requestAnimationFrame(update);
-      } else {
-        el.textContent = text;
-      }
-    }
-
-    el.textContent = '0' + suffix;
-    requestAnimationFrame(update);
-  }
-
-  const metricStrongs = document.querySelectorAll('.hero-metrics strong');
-  if (metricStrongs.length > 0 && 'IntersectionObserver' in window) {
-    const counterObserver = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          animateCounter(entry.target);
-          counterObserver.unobserve(entry.target);
-        }
-      });
-    }, { threshold: 0.5 });
-
-    metricStrongs.forEach((el) => counterObserver.observe(el));
-  }
-
-  /* --- Card Spotlight Effect (mouse glow) ------------------------- */
-  document.querySelectorAll('.card').forEach((card) => {
-    card.addEventListener('mousemove', (e) => {
-      const rect = card.getBoundingClientRect();
-      const x = ((e.clientX - rect.left) / rect.width) * 100;
-      const y = ((e.clientY - rect.top) / rect.height) * 100;
-      card.style.setProperty('--mouse-x', x + '%');
-      card.style.setProperty('--mouse-y', y + '%');
-    });
-  });
-
-  /* --- 3D Tilt Effect --------------------------------------------- */
-  const tiltCards = document.querySelectorAll('.card, .price-card');
-  const isTouchDevice = 'ontouchstart' in window;
-
-  if (!isTouchDevice) {
-    tiltCards.forEach((card) => {
-      card.addEventListener('mousemove', (e) => {
-        const rect = card.getBoundingClientRect();
-        const x = e.clientX - rect.left;
-        const y = e.clientY - rect.top;
-        const centerX = rect.width / 2;
-        const centerY = rect.height / 2;
-
-        const rotateX = ((y - centerY) / centerY) * -6;
-        const rotateY = ((x - centerX) / centerX) * 6;
-
-        card.style.transform = `perspective(800px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateY(-6px)`;
-      });
-
-      card.addEventListener('mouseleave', () => {
-        card.style.transform = '';
-      });
-    });
-  }
-
-  /* --- Magnetic Button Effect ------------------------------------- */
-  const magneticBtns = document.querySelectorAll('.btn-primary');
-
-  if (!isTouchDevice) {
-    magneticBtns.forEach((btn) => {
-      btn.addEventListener('mousemove', (e) => {
-        const rect = btn.getBoundingClientRect();
-        const x = e.clientX - rect.left - rect.width / 2;
-        const y = e.clientY - rect.top - rect.height / 2;
-
-        btn.style.transform = `translate(${x * 0.15}px, ${y * 0.15}px)`;
-      });
-
-      btn.addEventListener('mouseleave', () => {
-        btn.style.transform = '';
-      });
-    });
-  }
-
-  /* --- Custom Cursor ---------------------------------------------- */
-  if (!isTouchDevice && window.innerWidth > 920) {
-    const dot = document.createElement('div');
-    const ring = document.createElement('div');
-    dot.className = 'cursor-dot';
-    ring.className = 'cursor-ring';
-    document.body.appendChild(dot);
-    document.body.appendChild(ring);
-
-    let mouseX = 0, mouseY = 0;
-    let ringX = 0, ringY = 0;
-
-    document.addEventListener('mousemove', (e) => {
-      mouseX = e.clientX;
-      mouseY = e.clientY;
-      dot.style.left = mouseX + 'px';
-      dot.style.top = mouseY + 'px';
-    }, { passive: true });
-
-    function animateRing() {
-      ringX += (mouseX - ringX) * 0.12;
-      ringY += (mouseY - ringY) * 0.12;
-      ring.style.left = ringX + 'px';
-      ring.style.top = ringY + 'px';
-      requestAnimationFrame(animateRing);
-    }
-    requestAnimationFrame(animateRing);
-
-    const hoverTargets = document.querySelectorAll('a, button, .card, .price-card, .testimonial-card');
-    hoverTargets.forEach((el) => {
-      el.addEventListener('mouseenter', () => document.body.classList.add('cursor-hover'));
-      el.addEventListener('mouseleave', () => document.body.classList.remove('cursor-hover'));
-    });
-  }
-
-  /* --- Subtle Parallax on Scroll ---------------------------------- */
-  const heroSection = document.querySelector('.hero');
-  const heroImg = document.querySelector('.hero-visual img');
-  const bgOrbs = document.querySelectorAll('.bg-orb');
-
-  if (heroImg || bgOrbs.length > 0) {
-    let scrollTicking = false;
-
-    window.addEventListener('scroll', () => {
-      if (!scrollTicking) {
-        requestAnimationFrame(() => {
-          const scrollY = window.scrollY;
-
-          if (heroImg && scrollY < window.innerHeight) {
-            const parallaxOffset = scrollY * 0.08;
-            heroImg.style.transform = `translateY(${parallaxOffset}px)`;
-          }
-
-          bgOrbs.forEach((orb, i) => {
-            const speed = 0.02 + (i * 0.01);
-            orb.style.transform += ` translateY(${scrollY * speed}px)`;
-          });
-
-          scrollTicking = false;
-        });
-        scrollTicking = true;
-      }
-    }, { passive: true });
-  }
-
-  /* --- Particle Field --------------------------------------------- */
-  function initParticles() {
-    const canvas = document.createElement('canvas');
-    canvas.className = 'particles-canvas';
-    canvas.setAttribute('aria-hidden', 'true');
-    document.body.appendChild(canvas);
-
-    const ctx = canvas.getContext('2d');
-    let particles = [];
-    let width, height;
-
-    function resize() {
-      width = canvas.width = window.innerWidth;
-      height = canvas.height = window.innerHeight;
-    }
-
-    resize();
-    window.addEventListener('resize', resize, { passive: true });
-
-    const PARTICLE_COUNT = Math.min(40, Math.floor(window.innerWidth / 30));
-
-    for (let i = 0; i < PARTICLE_COUNT; i++) {
-      particles.push({
-        x: Math.random() * width,
-        y: Math.random() * height,
-        vx: (Math.random() - 0.5) * 0.3,
-        vy: (Math.random() - 0.5) * 0.3,
-        size: Math.random() * 1.5 + 0.5,
-        opacity: Math.random() * 0.4 + 0.1
-      });
-    }
-
-    function draw() {
-      ctx.clearRect(0, 0, width, height);
-
-      particles.forEach((p) => {
-        p.x += p.vx;
-        p.y += p.vy;
-
-        if (p.x < 0) p.x = width;
-        if (p.x > width) p.x = 0;
-        if (p.y < 0) p.y = height;
-        if (p.y > height) p.y = 0;
-
-        ctx.beginPath();
-        ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
-        ctx.fillStyle = `rgba(110, 231, 255, ${p.opacity})`;
-        ctx.fill();
-      });
-
-      // Draw connections
-      for (let i = 0; i < particles.length; i++) {
-        for (let j = i + 1; j < particles.length; j++) {
-          const dx = particles[i].x - particles[j].x;
-          const dy = particles[i].y - particles[j].y;
-          const dist = Math.sqrt(dx * dx + dy * dy);
-
-          if (dist < 150) {
-            ctx.beginPath();
-            ctx.moveTo(particles[i].x, particles[i].y);
-            ctx.lineTo(particles[j].x, particles[j].y);
-            ctx.strokeStyle = `rgba(110, 231, 255, ${0.06 * (1 - dist / 150)})`;
-            ctx.lineWidth = 0.5;
-            ctx.stroke();
-          }
-        }
-      }
-
-      requestAnimationFrame(draw);
-    }
-
-    draw();
-  }
-
-  if (window.innerWidth > 768) {
-    initParticles();
-  }
+/* Particles */
+if(window.innerWidth>768){var cv=document.createElement('canvas');cv.className='particles-canvas';cv.setAttribute('aria-hidden','true');document.body.appendChild(cv);var ctx=cv.getContext('2d'),ps=[],w,ht;function rs(){w=cv.width=window.innerWidth;ht=cv.height=window.innerHeight}rs();window.addEventListener('resize',rs,{passive:true});var PC=Math.min(35,Math.floor(w/35));for(var i=0;i<PC;i++)ps.push({x:Math.random()*w,y:Math.random()*ht,vx:(Math.random()-.5)*.3,vy:(Math.random()-.5)*.3,s:Math.random()*1.5+.5,o:Math.random()*.4+.1});function dr(){ctx.clearRect(0,0,w,ht);ps.forEach(function(p){p.x+=p.vx;p.y+=p.vy;if(p.x<0)p.x=w;if(p.x>w)p.x=0;if(p.y<0)p.y=ht;if(p.y>ht)p.y=0;ctx.beginPath();ctx.arc(p.x,p.y,p.s,0,Math.PI*2);ctx.fillStyle='rgba(110,231,255,'+p.o+')';ctx.fill()});for(var i=0;i<ps.length;i++)for(var j=i+1;j<ps.length;j++){var dx=ps[i].x-ps[j].x,dy=ps[i].y-ps[j].y,dt=Math.sqrt(dx*dx+dy*dy);if(dt<150){ctx.beginPath();ctx.moveTo(ps[i].x,ps[i].y);ctx.lineTo(ps[j].x,ps[j].y);ctx.strokeStyle='rgba(110,231,255,'+(0.06*(1-dt/150))+')';ctx.lineWidth=.5;ctx.stroke()}}requestAnimationFrame(dr)}dr()}
 
 })();
