@@ -587,10 +587,36 @@
     </section>
   </main>
 
+  <section class="section section-soft" id="accessibility-statement" style="display:none">
+    <div class="container">
+      <h2>הצהרת נגישות</h2>
+      <div class="a11y-statement-content">
+        <p>אבי אלחרר מחויב להנגשת האתר לאנשים עם מוגבלויות, בהתאם ל<strong>חוק שוויון זכויות לאנשים עם מוגבלות, תשנ״ח-1998</strong> ולתקנות שהותקנו מכוחו, לרבות <strong>תקנות נגישות השירות (התאמות נגישות לשירות)</strong> ול<strong>תקן הישראלי ת״י 5568</strong> ברמת AA של WCAG 2.0.</p>
+        <p><strong>פעולות שבוצעו להנגשת האתר:</strong></p>
+        <ul>
+          <li>התאמת האתר לקוראי מסך ולטכנולוגיות מסייעות</li>
+          <li>ניווט באמצעות מקלדת</li>
+          <li>תגיות ARIA לשיפור הנגישות</li>
+          <li>טקסט חלופי לתמונות</li>
+          <li>ניגודיות צבעים תקנית</li>
+          <li>אפשרות להגדלת טקסט</li>
+          <li>תפריט נגישות ייעודי</li>
+        </ul>
+        <p><strong>פרטי קשר לנושא נגישות:</strong></p>
+        <p>לבירורים בנושא נגישות האתר ניתן לפנות לאבי אלחרר בטלפון <a href="tel:+972528449147">052-8449147</a> או בווטסאפ.</p>
+        <p><strong>תאריך עדכון הצהרת הנגישות:</strong> מרץ 2026</p>
+      </div>
+    </div>
+  </section>
+
   <footer class="site-footer">
     <div class="container footer-wrap">
       <p>© כל הזכויות שמורות לאבי אלחרר | מורה נהיגה מטעם בית הספר לנהיגה יוני, ירושלים</p>
-      <a href="tel:+972528449147">052-8449147</a>
+      <div class="footer-links">
+        <a href="tel:+972528449147">052-8449147</a>
+        <span class="footer-sep">|</span>
+        <a href="#accessibility-statement" id="footerA11yLink">הצהרת נגישות</a>
+      </div>
     </div>
   </footer>
 
@@ -606,6 +632,59 @@
       <span class="sticky-cta__text">רוצים להתחיל? קבעו שיחת התאמה חינם</span>
       <a class="btn btn-primary btn--sm" href="https://wa.me/972528449147?text=%D7%94%D7%99%D7%99%20%D7%90%D7%91%D7%99%2C%20%D7%90%D7%A9%D7%9E%D7%97%20%D7%9C%D7%A9%D7%9E%D7%95%D7%A2%20%D7%A2%D7%9C%20%D7%9C%D7%99%D7%9E%D7%95%D7%93%D7%99%20%D7%A0%D7%94%D7%99%D7%92%D7%94" target="_blank" rel="noopener">ווטסאפ עכשיו</a>
       <a class="btn btn-secondary btn--sm" href="#contact">השאירו פרטים</a>
+    </div>
+  </div>
+
+  <!-- Accessibility Widget (תקן ישראלי 5568 / WCAG 2.0 AA) -->
+  <div class="a11y-widget" id="a11yWidget">
+    <button class="a11y-toggle" id="a11yToggle" aria-label="תפריט נגישות" aria-expanded="false" aria-controls="a11yPanel">
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="4.5" r="2.5"/><path d="M12 7v5"/><path d="M8 10l4 2 4-2"/><path d="M9 21l3-6 3 6"/></svg>
+    </button>
+    <div class="a11y-panel" id="a11yPanel" role="dialog" aria-label="הגדרות נגישות" aria-hidden="true">
+      <div class="a11y-panel__header">
+        <h3>הגדרות נגישות</h3>
+        <button class="a11y-panel__close" id="a11yClose" aria-label="סגור תפריט נגישות">&times;</button>
+      </div>
+      <div class="a11y-panel__body">
+        <div class="a11y-option">
+          <span>הגדלת טקסט</span>
+          <div class="a11y-option__btns">
+            <button data-a11y="font-decrease" aria-label="הקטנת גופן">א-</button>
+            <button data-a11y="font-reset" aria-label="איפוס גופן">א</button>
+            <button data-a11y="font-increase" aria-label="הגדלת גופן">א+</button>
+          </div>
+        </div>
+        <button class="a11y-option__toggle" data-a11y="high-contrast">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 2a10 10 0 010 20V2z" fill="currentColor"/></svg>
+          ניגודיות גבוהה
+        </button>
+        <button class="a11y-option__toggle" data-a11y="grayscale">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="3"/><line x1="3" y1="3" x2="21" y2="21"/></svg>
+          גווני אפור
+        </button>
+        <button class="a11y-option__toggle" data-a11y="highlight-links">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71"/></svg>
+          הדגשת קישורים
+        </button>
+        <button class="a11y-option__toggle" data-a11y="readable-font">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7V4h16v3"/><path d="M9 20h6"/><path d="M12 4v16"/></svg>
+          גופן קריא
+        </button>
+        <button class="a11y-option__toggle" data-a11y="big-cursor">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4l7.07 17 2.51-7.39L21 11.07z"/></svg>
+          סמן גדול
+        </button>
+        <button class="a11y-option__toggle" data-a11y="stop-animations">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>
+          עצירת אנימציות
+        </button>
+        <hr class="a11y-divider" />
+        <button class="a11y-option__toggle a11y-reset" data-a11y="reset">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 4v6h6"/><path d="M3.51 15a9 9 0 105.64-9.36L3 10"/></svg>
+          איפוס הגדרות
+        </button>
+        <a href="#accessibility-statement" class="a11y-statement-link" id="a11yStatementLink">הצהרת נגישות</a>
+      </div>
     </div>
   </div>
 
