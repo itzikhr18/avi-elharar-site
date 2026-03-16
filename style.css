@@ -33,7 +33,7 @@
 }
 
 *,*::before,*::after{box-sizing:border-box}
-html{scroll-behavior:smooth;-webkit-font-smoothing:antialiased}
+html{scroll-behavior:smooth;-webkit-font-smoothing:antialiased;scroll-padding-top:5rem}
 
 body{margin:0;font-family:"Heebo",system-ui,sans-serif;background:var(--bg);color:var(--text);line-height:1.65;overflow-x:hidden;position:relative}
 img{max-width:100%;display:block;border-radius:var(--radius)}
@@ -423,7 +423,7 @@ html[dir="rtl"] .hero-visual{transform:translateX(40px) scale(.95)}
   .cursor-dot,.cursor-ring{display:none!important}
   .hero-visual{order:-1;display:flex;justify-content:center;perspective:none}
   .hero-visual::before{display:none}
-  .hero-visual img{max-height:280px;width:200px;object-fit:cover;border-radius:var(--radius-lg);margin:0 auto}
+  .hero-visual img{max-height:320px;width:240px;object-fit:cover;border-radius:var(--radius-lg);margin:0 auto;aspect-ratio:3/4}
   h1{font-size:clamp(1.8rem,6vw,2.4rem)}
   h2{font-size:clamp(1.4rem,4.5vw,2rem)}
   .subhead{font-size:.98rem}
@@ -465,7 +465,7 @@ html[dir="rtl"] .hero-visual{transform:translateX(40px) scale(.95)}
   .subhead{font-size:.9rem}
   .eyebrow{font-size:.82rem}
   .hero{padding:2rem 0 1.5rem;gap:1.5rem}
-  .hero-visual img{max-height:240px;width:170px}
+  .hero-visual img{max-height:280px;width:200px}
   .hero-metrics{grid-template-columns:repeat(3,1fr);gap:.4rem}
   .hero-metrics li{padding:.6rem .3rem}
   .hero-metrics strong{font-size:1rem}
