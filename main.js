@@ -1,9 +1,5 @@
 (function(){
 'use strict';
-/* Force scroll to top on page load (prevents mobile showing bottom of page) */
-if('scrollRestoration' in history)history.scrollRestoration='manual';
-window.scrollTo(0,0);
-
 var R=window.matchMedia('(prefers-reduced-motion:reduce)').matches;
 
 /* Mobile Menu */
