@@ -8,7 +8,7 @@ if(mb&&mm){mb.addEventListener('click',function(){var o=mm.classList.toggle('ope
 
 /* Contact Form */
 var f=document.getElementById('contactForm'),n=document.getElementById('formNote');
-if(f&&n){f.addEventListener('submit',function(e){e.preventDefault();var p=document.getElementById('phone'),v=p?p.value.trim():'';if(!/^0(?:5\d|[2-4]|8|9)-?\d{7}$/.test(v)){n.textContent='אנא הזינו מספר טלפון ישראלי תקין.';return}n.textContent='מעולה, הפרטים נקלטו בהצלחה. נעשה איתך קשר בקרוב.';f.reset()})}
+if(f&&n){f.addEventListener('submit',function(e){e.preventDefault();var nameEl=document.getElementById('name'),phoneEl=document.getElementById('phone'),cityEl=document.getElementById('city');var nameVal=nameEl?nameEl.value.trim():'',phoneVal=phoneEl?phoneEl.value.trim():'',cityVal=cityEl?cityEl.value.trim():'';if(!nameVal){n.textContent='אנא הזינו שם מלא.';return}if(!/^0(?:5\d|[2-4]|8|9)-?\d{7}$/.test(phoneVal)){n.textContent='אנא הזינו מספר טלפון ישראלי תקין.';return}if(!cityVal){n.textContent='אנא הזינו אזור מגורים.';return}var msg='היי אבי, אשמח לקבוע שיחת התאמה.\nשם: '+nameVal+'\nטלפון: '+phoneVal+'\nאזור: '+cityVal;window.open('https://wa.me/972528449147?text='+encodeURIComponent(msg),'_blank');n.textContent='מעולה! מועבר לווטסאפ...';f.reset()})}
 
 if(R)return;
 
