@@ -87,7 +87,7 @@ html[dir="rtl"] .menu a:hover::after{transform-origin:right}
 .menu-btn{display:none}
 
 /* --- Hero --------------------------------------------------------- */
-.hero{display:grid;gap:3rem;grid-template-columns:1.15fr .85fr;align-items:center;padding:5rem 0 4rem;position:relative;z-index:2}
+.hero{display:grid;gap:3rem;grid-template-columns:1.15fr .85fr;align-items:center;padding:5rem 0 4rem;position:relative;z-index:2;min-height:80vh}
 .hero-copy{position:relative}
 
 .eyebrow{color:var(--primary);font-weight:700;letter-spacing:.03em;font-size:.95rem;display:inline-flex;align-items:center;gap:.5rem}

@@ -1,5 +1,9 @@
 (function(){
 'use strict';
+/* Force scroll to top on page load (prevents mobile showing bottom of page) */
+if('scrollRestoration' in history)history.scrollRestoration='manual';
+window.scrollTo(0,0);
+
 var R=window.matchMedia('(prefers-reduced-motion:reduce)').matches;
 
 /* Mobile Menu */
@@ -54,7 +58,7 @@ if(btt)btt.addEventListener('click',function(){window.scrollTo({top:0,behavior:'
 
 /* Typewriter Effect */
 var twEl=document.getElementById('heroHeading');
-if(twEl){var twHTML=twEl.innerHTML;var twPlain=twHTML.replace(/<br\s*\/?>/gi,'\n');var twChars=twPlain.split('');twEl.innerHTML='';var twCursor=document.createElement('span');twCursor.className='typewriter-cursor';twEl.appendChild(twCursor);var twIdx=0;function twType(){if(twIdx<twChars.length){if(twChars[twIdx]==='\n'){twEl.insertBefore(document.createElement('br'),twCursor);twIdx++;setTimeout(twType,300)}else{twEl.insertBefore(document.createTextNode(twChars[twIdx]),twCursor);twIdx++;var d=twChars[twIdx-1]==='.'?400:65+Math.random()*45;setTimeout(twType,d)}}else{setTimeout(function(){twCursor.style.transition='opacity 1s';twCursor.style.opacity='0';setTimeout(function(){twCursor.remove()},1000)},2000)}}setTimeout(twType,800)}
+if(twEl){var twHTML=twEl.innerHTML;var twPlain=twHTML.replace(/<br\s*\/?>/gi,'\n');var twChars=twPlain.split('');var twH=twEl.offsetHeight;twEl.style.minHeight=twH+'px';twEl.innerHTML='';var twCursor=document.createElement('span');twCursor.className='typewriter-cursor';twEl.appendChild(twCursor);var twIdx=0;function twType(){if(twIdx<twChars.length){if(twChars[twIdx]==='\n'){twEl.insertBefore(document.createElement('br'),twCursor);twIdx++;setTimeout(twType,300)}else{twEl.insertBefore(document.createTextNode(twChars[twIdx]),twCursor);twIdx++;var d=twChars[twIdx-1]==='.'?400:65+Math.random()*45;setTimeout(twType,d)}}else{twEl.style.minHeight='';setTimeout(function(){twCursor.style.transition='opacity 1s';twCursor.style.opacity='0';setTimeout(function(){twCursor.remove()},1000)},2000)}}setTimeout(twType,800)}
 
 /* Image Blur Reveal */
 document.querySelectorAll('img[loading="lazy"]').forEach(function(img){img.classList.add('blur-load');if(img.complete){img.classList.add('loaded')}else{img.addEventListener('load',function(){img.classList.add('loaded')});img.addEventListener('error',function(){img.classList.add('loaded')})}});
