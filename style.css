@@ -500,12 +500,12 @@ html[dir="rtl"] .hero-visual{transform:translateX(40px) scale(.95)}
 }
 
 /* --- Accessibility Widget ----------------------------------------- */
-.a11y-widget{position:fixed;inset-inline-start:2rem;bottom:6rem;z-index:57}
+.a11y-widget{position:fixed;inset-inline-end:2rem;bottom:6rem;z-index:57}
 .a11y-toggle{width:52px;height:52px;border-radius:50%;border:2px solid #4a90d9;background:rgba(5,10,20,.9);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);color:#4a90d9;display:flex;align-items:center;justify-content:center;cursor:pointer;box-shadow:0 4px 20px rgba(74,144,217,.3);transition:transform var(--dur-f) var(--ease-bounce),box-shadow var(--dur-m) var(--ease-smooth),background var(--dur-m) var(--ease-smooth)}
 .a11y-toggle:hover{transform:scale(1.1);box-shadow:0 6px 28px rgba(74,144,217,.45);background:rgba(74,144,217,.15)}
 .a11y-toggle:active{transform:scale(.95)}
 
-.a11y-panel{position:absolute;bottom:calc(100% + .75rem);inset-inline-start:0;width:300px;background:rgba(10,18,36,.97);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border:1px solid rgba(74,144,217,.3);border-radius:var(--radius-lg);box-shadow:0 16px 50px rgba(0,0,0,.5);opacity:0;transform:translateY(20px) scale(.95);pointer-events:none;transition:opacity .3s var(--ease-out),transform .3s var(--ease-bounce);overflow:hidden}
+.a11y-panel{position:absolute;bottom:calc(100% + .75rem);inset-inline-end:0;width:300px;background:rgba(10,18,36,.97);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border:1px solid rgba(74,144,217,.3);border-radius:var(--radius-lg);box-shadow:0 16px 50px rgba(0,0,0,.5);opacity:0;transform:translateY(20px) scale(.95);pointer-events:none;transition:opacity .3s var(--ease-out),transform .3s var(--ease-bounce);overflow:hidden}
 .a11y-panel.open{opacity:1;transform:translateY(0) scale(1);pointer-events:auto}
 
 .a11y-panel__header{display:flex;align-items:center;justify-content:space-between;padding:1rem 1.2rem;border-bottom:1px solid rgba(255,255,255,.08)}
@@ -553,14 +553,14 @@ body.a11y-big-cursor,body.a11y-big-cursor *{cursor:url("data:image/svg+xml,%3Csv
 body.a11y-stop-animations *,body.a11y-stop-animations *::before,body.a11y-stop-animations *::after{animation:none!important;transition:none!important}
 
 @media(max-width:920px){
-  .a11y-widget{inset-inline-start:1.2rem;bottom:5rem}
+  .a11y-widget{inset-inline-end:1.2rem;bottom:5rem}
   .a11y-toggle{width:46px;height:46px}
   .a11y-panel{width:280px}
 }
 @media(max-width:480px){
-  .a11y-widget{inset-inline-start:1rem;bottom:4.5rem}
+  .a11y-widget{inset-inline-end:1rem;bottom:4.5rem}
   .a11y-toggle{width:42px;height:42px}
-  .a11y-panel{width:260px;inset-inline-start:-0.5rem}
+  .a11y-panel{width:260px;inset-inline-end:-0.5rem}
 }
 
 @media(prefers-reduced-motion:reduce){
