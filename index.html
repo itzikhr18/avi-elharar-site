@@ -43,6 +43,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
+  <link rel="preload" as="image" href="hero.jpg" />
   <!-- Structured Data -->
   <script type="application/ld+json">
   {
@@ -216,7 +217,7 @@
         </ul>
       </div>
       <div class="hero-visual">
-        <img src="hero.jpg" alt="אבי אלחרר — מורה נהיגה מקצועי בירושלים ומעלה אדומים, במהלך שיעור נהיגה" width="640" height="760" fetchpriority="high" />
+        <img src="hero.jpg" alt="אבי אלחרר — מורה נהיגה מקצועי בירושלים ומעלה אדומים, במהלך שיעור נהיגה" width="640" height="760" fetchpriority="high" decoding="async" />
       </div>
     </section>
 
@@ -639,13 +640,13 @@
         </div>
         <form class="contact-form" id="contactForm" novalidate>
           <label for="name">שם מלא</label>
-          <input id="name" name="name" required />
+          <input id="name" name="name" autocomplete="name" required />
 
           <label for="phone">טלפון</label>
-          <input id="phone" name="phone" type="tel" inputmode="tel" placeholder="05X-XXXXXXX" required />
+          <input id="phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="05X-XXXXXXX" required />
 
           <label for="city">אזור מגורים</label>
-          <input id="city" name="city" required />
+          <input id="city" name="city" autocomplete="address-level2" required />
 
           <button class="btn btn-primary" type="submit">קביעת שיחת התאמה</button>
           <p class="form-note" id="formNote" role="status" aria-live="polite"></p>
@@ -759,6 +760,6 @@
     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 15l-6-6-6 6"/></svg>
   </button>
 
-  <script src="main.js"></script>
+  <script src="main.js" defer></script>
 </body>
 </html>
