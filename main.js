@@ -225,13 +225,33 @@ if(stmtLink&&stmtSection){
   });
 }
 
-/* Footer accessibility link */
+/* Footer legal page links */
 var footerA11yLink=document.getElementById('footerA11yLink');
 if(footerA11yLink&&stmtSection){
   footerA11yLink.addEventListener('click',function(e){
     e.preventDefault();
     stmtSection.style.display='';
     stmtSection.scrollIntoView({behavior:'smooth'});
+  });
+}
+
+var footerPrivacyLink=document.getElementById('footerPrivacyLink');
+var privacySection=document.getElementById('privacy-policy');
+if(footerPrivacyLink&&privacySection){
+  footerPrivacyLink.addEventListener('click',function(e){
+    e.preventDefault();
+    privacySection.style.display='';
+    privacySection.scrollIntoView({behavior:'smooth'});
+  });
+}
+
+var footerTermsLink=document.getElementById('footerTermsLink');
+var termsSection=document.getElementById('terms-of-use');
+if(footerTermsLink&&termsSection){
+  footerTermsLink.addEventListener('click',function(e){
+    e.preventDefault();
+    termsSection.style.display='';
+    termsSection.scrollIntoView({behavior:'smooth'});
   });
 }
 
