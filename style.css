@@ -184,7 +184,7 @@ html[dir="rtl"] .price-row:hover{transform:translateX(8px) scale(1.02)}
 .price-row--highlight .price-row__icon{color:var(--primary-strong);background:#d4f3fa}
 .price-row--highlight .price-row__amount{color:#1a6b80;font-size:1.3rem}
 
-.price-row--recommended{border:2px solid var(--primary-strong);background:rgba(56,201,234,.08);position:relative;margin-top:1.2rem;padding-top:1.4rem}
+.price-row--recommended{border:2px solid var(--primary-strong);background:rgba(56,201,234,.08);position:relative;margin-top:1.2rem;padding-top:1.4rem;overflow:visible}
 .price-badge{position:absolute;top:-12px;inset-inline-end:16px;background:linear-gradient(135deg,var(--primary-strong),var(--accent));color:#fff;font-size:.75rem;font-weight:700;padding:.3rem .85rem;border-radius:999px;letter-spacing:.03em;box-shadow:0 4px 12px rgba(56,201,234,.3);z-index:1}
 
 .price-row__info{flex:1;min-width:0}
