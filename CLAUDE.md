@@ -44,12 +44,12 @@
 
 ## SEO - מצב נוכחי
 ### מה בוצע:
-- [x] Schema: DrivingSchool + FAQPage (16 שאלות) + Review (4 ביקורות + aggregateRating)
+- [x] Schema: DrivingSchool + LocalBusiness + FAQPage (16 שאלות) + OfferCatalog (3 שירותים)
+- [!] Review Schema + aggregateRating: הוסרו בקומיט 8b44184 בעקבות שגיאות Rich Results ב-GSC. יוחזרו רק כשיצטברו 5+ ביקורות אמיתיות בגוגל
 - [x] Meta tags: robots, geo (IL-JM), author, format-detection
 - [x] OG tags: title, description, image, site_name, locale
 - [x] Twitter Cards: summary_large_image
 - [x] Canonical URL: https://avielharar.co.il/
-- [x] מילות מפתח מורחבות (14 keywords)
 - [x] Alt text ממוקד SEO בכל התמונות
 - [x] Sitemap עם image sitemap
 - [x] Google Search Console מחובר + sitemap נשלח
@@ -107,12 +107,19 @@
 - [ ] עדכון Schema אם יש שינויים בשירותים
 
 ## היסטוריית שינויים
+### 10/04/2026
+- הפקת דוח מצב SEO מקיף (seo-status-report.md)
+- תיקון באג JS ב-index.html (תו 'h' עודף בשורה 12 שזרק ReferenceError)
+- עדכון lastmod ב-sitemap ל-2026-04-10
+- הסרת meta keywords (מיותר — גוגל מתעלמת מ-2009)
+- עדכון CLAUDE.md כך שישקף את המצב האמיתי של Review Schema
+
 ### 01/04/2026
 - הוספת מדיניות פרטיות ותנאי שימוש
 - שיפורי SEO מקיפים (Schema, meta tags, geo, keywords)
 - הוספת מדריך למתחילים, אזורי טסט מפורטים, ביקורות טקסטואליות
 - הרחבת FAQ ל-16 שאלות
-- תיקון Review Schema (aggregateRating + datePublished)
+- תיקון Review Schema (aggregateRating + datePublished) — הוסר לאחר מכן בעקבות שגיאות Rich Results
 - קנייה וחיבור דומיין avielharar.co.il
 - הגדרת DNS + HTTPS
 - חיבור Google Search Console + שליחת sitemap
