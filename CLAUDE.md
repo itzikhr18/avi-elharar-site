@@ -44,14 +44,17 @@
 
 ## SEO - מצב נוכחי
 ### מה בוצע:
-- [x] Schema: DrivingSchool + LocalBusiness + FAQPage (16 שאלות) + OfferCatalog (3 שירותים)
+- [x] Schema: DrivingSchool + LocalBusiness + FAQPage (16 שאלות) + OfferCatalog (3 שירותים) + WebSite
 - [!] Review Schema + aggregateRating: הוסרו בקומיט 8b44184 בעקבות שגיאות Rich Results ב-GSC. יוחזרו רק כשיצטברו 5+ ביקורות אמיתיות בגוגל
 - [x] Meta tags: robots, geo (IL-JM), author, format-detection
 - [x] OG tags: title, description, image, site_name, locale
 - [x] Twitter Cards: summary_large_image
-- [x] Canonical URL: https://avielharar.co.il/
+- [x] Canonical URL: `<link rel="canonical">` מפורש ב-`<head>`
+- [x] Hreflang: `he` + `x-default`
+- [x] Favicon: SVG inline (הגה מעוצב)
 - [x] Alt text ממוקד SEO בכל התמונות
 - [x] Sitemap עם image sitemap
+- [x] CSS + JS minified (style.min.css, main.min.js)
 - [x] Google Search Console מחובר + sitemap נשלח
 - [x] Google Business Profile נוצר
 
@@ -107,6 +110,17 @@
 - [ ] עדכון Schema אם יש שינויים בשירותים
 
 ## היסטוריית שינויים
+### 12/04/2026
+- הפקת דוח ביקורת SEO מקיף ותוכנית פעולה
+- הוספת `<link rel="canonical">` מפורש ל-`<head>`
+- הוספת `hreflang` (he + x-default) לזיהוי שפה
+- הוספת favicon (SVG inline — הגה מעוצב)
+- הוספת WebSite Schema (שם אתר לגוגל)
+- תיקון מחיר חסר בהכנה לטסט ב-OfferCatalog Schema (₪180)
+- Minification של CSS (style.min.css — חיסכון 8%) ו-JS (main.min.js — חיסכון 24%)
+- עדכון lastmod ב-sitemap ל-2026-04-12
+- עדכון CLAUDE.md
+
 ### 10/04/2026
 - הפקת דוח מצב SEO מקיף (seo-status-report.md)
 - תיקון באג JS ב-index.html (תו 'h' עודף בשורה 12 שזרק ReferenceError)
