@@ -45,7 +45,7 @@
 ## SEO - מצב נוכחי
 ### מה בוצע:
 - [x] Schema: DrivingSchool + LocalBusiness + FAQPage (16 שאלות) + OfferCatalog (3 שירותים)
-- [!] Review Schema + aggregateRating: הוסרו בקומיט 8b44184 בעקבות שגיאות Rich Results ב-GSC. יוחזרו רק כשיצטברו 5+ ביקורות אמיתיות בגוגל
+- [x] Review Schema + aggregateRating: הוחזרו ב-13/04/2026 עם 4 ביקורות אמיתיות מגוגל (5.0 כוכבים)
 - [x] Meta tags: robots, geo (IL-JM), author, format-detection
 - [x] OG tags: title, description, image, site_name, locale
 - [x] Twitter Cards: summary_large_image
@@ -53,12 +53,12 @@
 - [x] Alt text ממוקד SEO בכל התמונות
 - [x] Sitemap עם image sitemap
 - [x] Google Search Console מחובר + sitemap נשלח
-- [x] Google Business Profile נוצר
+- [x] Google Business Profile — מאומת ופעיל (13/04/2026), 4 ביקורות, 5.0 כוכבים
 
 ### מה עדיין צריך:
-- [ ] אימות Google Business Profile (ממתין לגלויה/SMS)
-- [ ] ביקורות בגוגל מתלמידים (יעד: 15-20 ביקורות)
-- [ ] רישום באתרי מדריכים (דפי זהב, B144, Bizportal)
+- [ ] ביקורות נוספות בגוגל (יעד: 15-20, כרגע 4)
+- [x] רישום בדפי זהב (Zap) — בוצע 13/04/2026
+- [ ] רישום ב-B144, Drively, Easy ושאר הספריות
 - [ ] Backlinks מאתרים רלוונטיים
 - [ ] דף פייסבוק/אינסטגרם עסקי
 - [ ] מעקב אחרי דירוג מילות מפתח
@@ -107,6 +107,12 @@
 - [ ] עדכון Schema אם יש שינויים בשירותים
 
 ## היסטוריית שינויים
+### 13/04/2026
+- Google Business Profile מאומת ופעיל! 4 ביקורות, 5.0 כוכבים
+- החזרת Review Schema + aggregateRating עם 2 ביקורות אמיתיות מגוגל (יצחק הרוש, מורן אלחרר)
+- רישום בדפי זהב (Zap) בוצע
+- עדכון CLAUDE.md ו-directory-submissions.md בהתאם
+
 ### 10/04/2026
 - הפקת דוח מצב SEO מקיף (seo-status-report.md)
 - תיקון באג JS ב-index.html (תו 'h' עודף בשורה 12 שזרק ReferenceError)
