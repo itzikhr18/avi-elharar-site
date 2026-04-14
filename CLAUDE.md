@@ -115,6 +115,8 @@
 - הסרת `ratingCount` כפול מ-`aggregateRating` — נשאר רק `reviewCount: 4` התואם בדיוק ל-4 אובייקטי `Review` (פתרון "clean" שמונע דו-משמעות לגוגל)
 - עדכון lastmod ב-sitemap ל-2026-04-14 לצורך trigger לסריקה מחודשת של גוגל
 - הערה: הדומיין העיקרי הוא `avielharar.co.il` — ה-URL של github.io עושה 301 redirect אוטומטי דרך CNAME, וצריך להסיר את הנכס הישן מ-GSC
+- **פוליש שני** (אחרי אימות ב-Rich Results Test): פישוט `@type` מ-`["DrivingSchool", "LocalBusiness"]` ל-`"DrivingSchool"` בלבד — מנטרל אזהרת "שדה כפול url" של גוגל. `DrivingSchool` כבר subClassOf `LocalBusiness` דרך `AutomotiveBusiness`, אז לא מאבדים כלום
+- הערה: `postalCode` ו-`streetAddress` נשארים חסרים במכוון — מורה נהיגה הוא עסק נייד ללא חנות פיזית. `areaServed` (ירושלים + מעלה אדומים) הוא המודל הנכון לפי המלצות גוגל
 
 ### 13/04/2026
 - Google Business Profile מאומת ופעיל! 4 ביקורות, 5.0 כוכבים
