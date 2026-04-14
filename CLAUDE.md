@@ -110,6 +110,12 @@
 - [ ] עדכון Schema אם יש שינויים בשירותים
 
 ## היסטוריית שינויים
+### 14/04/2026
+- תיקון שגיאת GSC "aggregateRating מספר ביקורות ללא אובייקט" שהתקבלה עבור ה-URL הישן `itzikhr18.github.io/avi-elharar-site/` (מלפני חיבור הדומיין)
+- הסרת `ratingCount` כפול מ-`aggregateRating` — נשאר רק `reviewCount: 4` התואם בדיוק ל-4 אובייקטי `Review` (פתרון "clean" שמונע דו-משמעות לגוגל)
+- עדכון lastmod ב-sitemap ל-2026-04-14 לצורך trigger לסריקה מחודשת של גוגל
+- הערה: הדומיין העיקרי הוא `avielharar.co.il` — ה-URL של github.io עושה 301 redirect אוטומטי דרך CNAME, וצריך להסיר את הנכס הישן מ-GSC
+
 ### 13/04/2026
 - Google Business Profile מאומת ופעיל! 4 ביקורות, 5.0 כוכבים
 - החזרת Review Schema + aggregateRating עם 2 ביקורות אמיתיות מגוגל (יצחק הרוש, מורן אלחרר)
