@@ -22,5 +22,17 @@
       <image:loc>https://avielharar.co.il/student3.jpg</image:loc>
       <image:title>בוגרת לימודי נהיגה אוטומטי עם אבי אלחרר</image:title>
     </image:image>
+    <image:image>
+      <image:loc>https://avielharar.co.il/testimonial_compressed.jpg</image:loc>
+      <image:title>המלצה על אבי אלחרר מורה נהיגה בירושלים</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://avielharar.co.il/testimonial2.jpg</image:loc>
+      <image:title>המלצה על מורה נהיגה אבי אלחרר ממעלה אדומים</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://avielharar.co.il/testimonial3.jpg</image:loc>
+      <image:title>המלצת תלמידה על אבי אלחרר מורה נהיגה</image:title>
+    </image:image>
   </url>
 </urlset>

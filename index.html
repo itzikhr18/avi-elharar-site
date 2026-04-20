@@ -56,7 +56,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700;800&display=swap" rel="stylesheet" />
-  <link rel="preload" href="hero.jpg" as="image" fetchpriority="high" />
+  <link rel="preload" href="hero.jpg" as="image" type="image/jpeg" fetchpriority="high" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self' https://www.google-analytics.com https://analytics.google.com; frame-src 'none'; object-src 'none'; base-uri 'self'" />
   <link rel="stylesheet" href="style.min.css" />
   
   <!-- Structured Data -->
@@ -149,7 +150,7 @@
     "openingHours": ["Su-Th 08:00-20:00", "Fr 08:00-13:00"],
     "aggregateRating": {
       "@type": "AggregateRating",
-      "ratingValue": "5.0",
+      "ratingValue": "4.9",
       "bestRating": "5",
       "worstRating": "1",
       "reviewCount": "4"
@@ -338,28 +339,28 @@
     "step": [
       {
         "@type": "HowToStep",
-        "position": "1",
+        "position": 1,
         "name": "שיחת התאמה",
         "text": "שיחה קצרה להכיר, להבין את הרקע שלך ולבנות תוכנית לימוד מותאמת אישית.",
         "url": "https://avielharar.co.il/#process"
       },
       {
         "@type": "HowToStep",
-        "position": "2",
+        "position": 2,
         "name": "שיעורים מעשיים על רכב אוטומטי",
         "text": "לימוד נהיגה מעשי עם תרגול ממוקד באזורי הטסט עצמם — ארנונה, תלפיות, מלחה, מעלה אדומים ועוד. כל שיעור בנוי על הקודם.",
         "url": "https://avielharar.co.il/#process"
       },
       {
         "@type": "HowToStep",
-        "position": "3",
+        "position": 3,
         "name": "טסט פנימי והכנה לטסט",
         "text": "סימולציה מלאה של טסט חיצוני על מסלולי הטסט האמיתיים בירושלים ומעלה אדומים. תיקון נקודות חולשה לפני היום הגדול.",
         "url": "https://avielharar.co.il/#process"
       },
       {
         "@type": "HowToStep",
-        "position": "4",
+        "position": 4,
         "name": "טסט ורישיון",
         "text": "ליווי מלא ביום הטסט עם ביטחון מוכח. יוצאים לדרך עם רישיון ונהיגה בטוחה.",
         "url": "https://avielharar.co.il/#process"
@@ -390,6 +391,8 @@
     <div class="bg-orb bg-orb--3"></div>
   </div>
 
+  <noscript><div style="background:#1a1a2e;color:#fff;text-align:center;padding:1rem;font-family:Rubik,sans-serif">לחוויה מלאה באתר, יש להפעיל JavaScript בדפדפן.</div></noscript>
+
   <a class="skip-link" href="#main-content">דלג לתוכן הראשי</a>
 
   <header class="site-header" id="top">
@@ -416,10 +419,10 @@
       </a>
       <nav aria-label="ניווט ראשי">
         <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="mobileMenu">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
           <span>תפריט</span>
         </button>
-        <ul class="menu" id="mobileMenu">
+        <ul class="menu" id="mobileMenu" role="list">
           <li><a href="#proof">למה דווקא אבי</a></li>
           <li><a href="#about">על אבי</a></li>
           <li><a href="#process">איך זה עובד</a></li>
@@ -458,7 +461,7 @@
         <h1 id="heroHeading" class="typewriter-target">מורה נהיגה בירושלים ומעלה אדומים<br />פחות שיעורים, יותר תוצאה.</h1>
         <p class="subhead">בונים נהיגה בטוחה וחכמה עם תוכנית מותאמת אישית, שקיפות מלאה וקצב שמכבד את הזמן שלך.</p>
         <div class="hero-actions">
-          <a class="btn btn-primary" href="https://wa.me/972528449147?text=%D7%94%D7%99%D7%99%20%D7%90%D7%91%D7%99%2C%20%D7%90%D7%A9%D7%9E%D7%97%20%D7%9C%D7%A9%D7%9E%D7%95%D7%A2%20%D7%A2%D7%9C%20%D7%9C%D7%99%D7%9E%D7%95%D7%93%D7%99%20%D7%A0%D7%94%D7%99%D7%92%D7%94" target="_blank" rel="noopener">ווטסאפ עכשיו</a>
+          <a class="btn btn-primary" href="https://wa.me/972528449147?text=%D7%94%D7%99%D7%99%20%D7%90%D7%91%D7%99%2C%20%D7%90%D7%A9%D7%9E%D7%97%20%D7%9C%D7%A9%D7%9E%D7%95%D7%A2%20%D7%A2%D7%9C%20%D7%9C%D7%99%D7%9E%D7%95%D7%93%D7%99%20%D7%A0%D7%94%D7%99%D7%92%D7%94" target="_blank" rel="noopener noreferrer">ווטסאפ עכשיו</a>
           <a class="btn btn-secondary" href="#pricing">צפייה במחירון</a>
         </div>
         <ul class="hero-metrics" aria-label="מדדי אמון">
@@ -468,7 +471,7 @@
         </ul>
       </div>
       <div class="hero-visual">
-        <img src="hero.jpg" alt="אבי אלחרר — מורה נהיגה מקצועי בירושלים ומעלה אדומים, במהלך שיעור נהיגה" width="640" height="760" fetchpriority="high" decoding="async" />
+        <img src="hero.jpg" alt="אבי אלחרר — מורה נהיגה מקצועי בירושלים ומעלה אדומים, במהלך שיעור נהיגה" width="640" height="760" fetchpriority="high" />
       </div>
     </section>
 
@@ -541,7 +544,7 @@
                 </div>
                 <div>
                   <strong>ניסיון מוכח</strong>
-                  <p>שנים של ניסיון בהוראת נהיגה, מאות תלמידים שעברו טסט בהצלחה ויצאו לדרך עם ביטחון מלא.</p>
+                  <p>שנים של ניסיון בהוראת נהיגה, עשרות תלמידים שעברו טסט בהצלחה ויצאו לדרך עם ביטחון מלא.</p>
                 </div>
               </div>
               <div class="about-item">
@@ -550,7 +553,7 @@
                 </div>
                 <div>
                   <strong>התמחות ברכב אוטומטי</strong>
-                  <p>לימוד נהיגה על רכב אוטומטי מודרני ומטופל, שמאפשר להתרכז בנהיגה עצמה ולא בגיר.</p>
+                  <p>לימוד נהיגה על רכב אוטומטי מודרני ומטופח, שמאפשר להתרכז בנהיגה עצמה ולא בגיר.</p>
                 </div>
               </div>
               <div class="about-item">
@@ -694,7 +697,7 @@
         </div>
         <div class="price-cta">
           <a href="#contact" class="btn btn-primary">קביעת שיעור ראשון</a>
-          <a href="https://wa.me/972528449147?text=%D7%94%D7%99%D7%99%20%D7%90%D7%91%D7%99%2C%20%D7%99%D7%A9%20%D7%9C%D7%99%20%D7%A9%D7%90%D7%9C%D7%94%20%D7%9C%D7%92%D7%91%D7%99%20%D7%9C%D7%99%D7%9E%D7%95%D7%93%D7%99%20%D7%A0%D7%94%D7%99%D7%92%D7%94" target="_blank" rel="noopener" class="btn btn-secondary">שאלות? דברו איתי</a>
+          <a href="https://wa.me/972528449147?text=%D7%94%D7%99%D7%99%20%D7%90%D7%91%D7%99%2C%20%D7%99%D7%A9%20%D7%9C%D7%99%20%D7%A9%D7%90%D7%9C%D7%94%20%D7%9C%D7%92%D7%91%D7%99%20%D7%9C%D7%99%D7%9E%D7%95%D7%93%D7%99%20%D7%A0%D7%94%D7%99%D7%92%D7%94" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">שאלות? דברו איתי</a>
         </div>
       </div>
     </section>
@@ -856,7 +859,7 @@
           <cite>— משפחת כהן, ירושלים</cite>
         </blockquote>
         <blockquote class="text-review">
-          <p>״למדתי נהיגה על אוטומטי עם אבי. הייתרון הגדול הוא שהוא מלמד על מסלולי הטסט האמיתיים בתלפיות וארנונה. ביום הטסט ידעתי בדיוק מה לצפות בכל פנייה. 95% הצלחה זה לא סתם — אבי באמת מכין אותך ברמה הכי גבוהה.״</p>
+          <p>״למדתי נהיגה על אוטומטי עם אבי. היתרון הגדול הוא שהוא מלמד על מסלולי הטסט האמיתיים בתלפיות וארנונה. ביום הטסט ידעתי בדיוק מה לצפות בכל פנייה. 95% הצלחה זה לא סתם — אבי באמת מכין אותך ברמה הכי גבוהה.״</p>
           <cite>— דניאל ר., ארנונה, ירושלים</cite>
         </blockquote>
       </div>
@@ -980,31 +983,30 @@
     <section class="section section-dark reveal" id="contact">
       <div class="container contact-wrap">
         <div>
-          <h2>מתחילים נכון כבר השבוע</h2>
+          <h2 id="contactHeading">מתחילים נכון כבר השבוע</h2>
           <p>השאר/י פרטים ונחזור עם מסלול לימוד מותאם אישית תוך זמן קצר.</p>
         </div>
-        <form class="contact-form" id="contactForm" novalidate>
+        <form class="contact-form" id="contactForm" aria-labelledby="contactHeading" novalidate>
           <label for="name">שם מלא</label>
-          <input id="name" name="name" autocomplete="name" required />
+          <input id="name" name="name" type="text" autocomplete="name" maxlength="80" required />
 
           <label for="phone">טלפון</label>
-          <input id="phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="05X-XXXXXXX" required />
+          <input id="phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="05X-XXXXXXX" maxlength="15" required />
 
           <label for="city">אזור מגורים</label>
-          <input id="city" name="city" autocomplete="address-level2" required />
+          <input id="city" name="city" type="text" autocomplete="address-level2" maxlength="50" required />
 
           <button class="btn btn-primary" type="submit">קביעת שיחת התאמה</button>
           <p class="form-note" id="formNote" role="status" aria-live="polite"></p>
         </form>
       </div>
     </section>
-  </main>
 
-  <section class="section section-soft" id="accessibility-statement" style="display:none">
+    <section class="section section-soft" id="accessibility-statement" style="display:none">
     <div class="container">
       <h2>הצהרת נגישות</h2>
       <div class="a11y-statement-content">
-        <p>אבי אלחרר מחויב להנגשת האתר לאנשים עם מוגבלויות, בהתאם ל<strong>חוק שוויון זכויות לאנשים עם מוגבלות, תשנ״ח-1998</strong> ולתקנות שהותקנו מכוחו, לרבות <strong>תקנות נגישות השירות (התאמות נגישות לשירות)</strong> ול<strong>תקן הישראלי ת״י 5568</strong> ברמת AA של WCAG 2.0.</p>
+        <p>אבי אלחרר מחויב להנגשת האתר לאנשים עם מוגבלויות, בהתאם ל<strong>חוק שוויון זכויות לאנשים עם מוגבלות, תשנ״ח-1998</strong> ולתקנות שהותקנו מכוחו, לרבות <strong>תקנות נגישות השירות (התאמות נגישות לשירות)</strong> ול<strong>תקן הישראלי ת״י 5568</strong> ברמת AA של WCAG 2.1.</p>
         <p><strong>פעולות שבוצעו להנגשת האתר:</strong></p>
         <ul>
           <li>התאמת האתר לקוראי מסך ולטכנולוגיות מסייעות</li>
@@ -1020,9 +1022,9 @@
         <p><strong>תאריך עדכון הצהרת הנגישות:</strong> מרץ 2026</p>
       </div>
     </div>
-  </section>
+    </section>
 
-  <section class="section section-soft" id="privacy-policy" style="display:none">
+    <section class="section section-soft" id="privacy-policy" style="display:none">
     <div class="container">
       <h2>מדיניות פרטיות</h2>
       <div class="a11y-statement-content">
@@ -1120,11 +1122,12 @@
         <p>לכל שאלה בנוגע לתנאי השימוש ניתן לפנות לאבי אלחרר בטלפון <a href="tel:+972528449147">052-8449147</a> או בווטסאפ.</p>
       </div>
     </div>
-  </section>
+    </section>
+  </main>
 
   <footer class="site-footer">
     <div class="container footer-wrap">
-      <p>© כל הזכויות שמורות לאבי אלחרר | מורה נהיגה מטעם בית הספר לנהיגה יוני, ירושלים</p>
+      <p>© <span id="copyrightYear">2026</span> כל הזכויות שמורות לאבי אלחרר | מורה נהיגה מטעם בית הספר לנהיגה יוני, ירושלים</p>
       <div class="footer-links">
         <a href="tel:+972528449147">052-8449147</a>
         <span class="footer-sep">|</span>
@@ -1138,8 +1141,8 @@
   </footer>
 
   <!-- Floating WhatsApp Button -->
-  <a class="wa-float" id="waFloat" href="https://wa.me/972528449147?text=%D7%94%D7%99%D7%99%20%D7%90%D7%91%D7%99%2C%20%D7%90%D7%A9%D7%9E%D7%97%20%D7%9C%D7%A9%D7%9E%D7%95%D7%A2%20%D7%A2%D7%9C%20%D7%9C%D7%99%D7%9E%D7%95%D7%93%D7%99%20%D7%A0%D7%94%D7%99%D7%92%D7%94" target="_blank" rel="noopener" aria-label="שלח הודעת ווטסאפ">
-    <svg width="28" height="28" viewBox="0 0 24 24" fill="#fff"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  <a class="wa-float" id="waFloat" href="https://wa.me/972528449147?text=%D7%94%D7%99%D7%99%20%D7%90%D7%91%D7%99%2C%20%D7%90%D7%A9%D7%9E%D7%97%20%D7%9C%D7%A9%D7%9E%D7%95%D7%A2%20%D7%A2%D7%9C%20%D7%9C%D7%99%D7%9E%D7%95%D7%93%D7%99%20%D7%A0%D7%94%D7%99%D7%92%D7%94" target="_blank" rel="noopener noreferrer" aria-label="שלח הודעת ווטסאפ">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="#fff" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
     <span class="wa-float__label">דברו איתי</span>
   </a>
 
@@ -1147,7 +1150,7 @@
   <div class="sticky-cta" id="stickyCta" aria-hidden="true">
     <div class="container sticky-cta__inner">
       <span class="sticky-cta__text">רוצים להתחיל? קבעו שיחת התאמה חינם</span>
-      <a class="btn btn-primary btn--sm" href="https://wa.me/972528449147?text=%D7%94%D7%99%D7%99%20%D7%90%D7%91%D7%99%2C%20%D7%90%D7%A9%D7%9E%D7%97%20%D7%9C%D7%A9%D7%9E%D7%95%D7%A2%20%D7%A2%D7%9C%20%D7%9C%D7%99%D7%9E%D7%95%D7%93%D7%99%20%D7%A0%D7%94%D7%99%D7%92%D7%94" target="_blank" rel="noopener">ווטסאפ עכשיו</a>
+      <a class="btn btn-primary btn--sm" href="https://wa.me/972528449147?text=%D7%94%D7%99%D7%99%20%D7%90%D7%91%D7%99%2C%20%D7%90%D7%A9%D7%9E%D7%97%20%D7%9C%D7%A9%D7%9E%D7%95%D7%A2%20%D7%A2%D7%9C%20%D7%9C%D7%99%D7%9E%D7%95%D7%93%D7%99%20%D7%A0%D7%94%D7%99%D7%92%D7%94" target="_blank" rel="noopener noreferrer">ווטסאפ עכשיו</a>
       <a class="btn btn-secondary btn--sm" href="#contact">השאירו פרטים</a>
     </div>
   </div>
@@ -1206,7 +1209,7 @@
   </div>
 
   <button class="back-to-top" id="backToTop" aria-label="חזרה למעלה">
-    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 15l-6-6-6 6"/></svg>
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 15l-6-6-6 6"/></svg>
   </button>
 
   <script src="main.min.js" defer></script>
