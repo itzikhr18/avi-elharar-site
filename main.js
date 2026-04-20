@@ -4,11 +4,27 @@ var R=window.matchMedia('(prefers-reduced-motion:reduce)').matches;
 
 /* Mobile Menu */
 var mb=document.getElementById('menuBtn'),mm=document.getElementById('mobileMenu');
-if(mb&&mm){mb.addEventListener('click',function(){var o=mm.classList.toggle('open');mb.setAttribute('aria-expanded',String(o))});mm.querySelectorAll('a').forEach(function(l){l.addEventListener('click',function(){mm.classList.remove('open');mb.setAttribute('aria-expanded','false')})})}
+if(mb&&mm){
+  function closeMenu(){mm.classList.remove('open');mb.setAttribute('aria-expanded','false');mb.focus()}
+  function openMenu(){mm.classList.add('open');mb.setAttribute('aria-expanded','true');var firstLink=mm.querySelector('a');if(firstLink)firstLink.focus()}
+  mb.addEventListener('click',function(){if(mm.classList.contains('open'))closeMenu();else openMenu()});
+  mm.querySelectorAll('a').forEach(function(l){l.addEventListener('click',closeMenu)});
+  document.addEventListener('keydown',function(e){
+    if(e.key==='Escape'&&mm.classList.contains('open')){e.preventDefault();closeMenu();return}
+    if(!mm.classList.contains('open'))return;
+    if(e.key==='Tab'){
+      var focusable=mm.querySelectorAll('a[href],button');
+      if(!focusable.length)return;
+      var first=focusable[0],last=focusable[focusable.length-1];
+      if(e.shiftKey){if(document.activeElement===first){e.preventDefault();last.focus()}}
+      else{if(document.activeElement===last){e.preventDefault();first.focus()}}
+    }
+  });
+}
 
 /* Contact Form */
 var f=document.getElementById('contactForm'),n=document.getElementById('formNote');
-if(f&&n){f.addEventListener('submit',function(e){e.preventDefault();var nameEl=document.getElementById('name'),phoneEl=document.getElementById('phone'),cityEl=document.getElementById('city');var nameVal=nameEl?nameEl.value.trim():'',phoneVal=phoneEl?phoneEl.value.trim():'',cityVal=cityEl?cityEl.value.trim():'';if(!nameVal){n.textContent='אנא הזינו שם מלא.';return}if(!/^0(?:5\d|[2-4]|8|9)-?\d{7}$/.test(phoneVal)){n.textContent='אנא הזינו מספר טלפון ישראלי תקין.';return}if(!cityVal){n.textContent='אנא הזינו אזור מגורים.';return}var msg='היי אבי, אשמח לקבוע שיחת התאמה.\nשם: '+nameVal+'\nטלפון: '+phoneVal+'\nאזור: '+cityVal;window.open('https://wa.me/972528449147?text='+encodeURIComponent(msg),'_blank');n.textContent='מעולה! מועבר לווטסאפ...';f.reset()})}
+if(f&&n){f.addEventListener('submit',function(e){e.preventDefault();var nameEl=document.getElementById('name'),phoneEl=document.getElementById('phone'),cityEl=document.getElementById('city');var nameVal=nameEl?nameEl.value.trim():'',phoneVal=phoneEl?phoneEl.value.trim():'',cityVal=cityEl?cityEl.value.trim():'';if(!nameVal){n.textContent='אנא הזינו שם מלא.';return}if(!/^0(?:5\d|[2-4]|8|9)[\s-]?\d{3}[\s-]?\d{4}$/.test(phoneVal.replace(/\s+/g,' ').trim())){n.textContent='אנא הזינו מספר טלפון ישראלי תקין.';return}if(!cityVal){n.textContent='אנא הזינו אזור מגורים.';return}var msg='היי אבי, אשמח לקבוע שיחת התאמה.\nשם: '+nameVal+'\nטלפון: '+phoneVal+'\nאזור: '+cityVal;window.open('https://wa.me/972528449147?text='+encodeURIComponent(msg),'_blank');n.textContent='מעולה! מועבר לווטסאפ...';f.reset()})}
 
 if(R)return;
 
@@ -258,5 +274,9 @@ if(footerTermsLink&&termsSection){
 /* Apply saved settings on load */
 applyAll();
 })();
+
+/* Dynamic copyright year */
+var cyEl=document.getElementById('copyrightYear');
+if(cyEl)cyEl.textContent=new Date().getFullYear();
 
 })();
