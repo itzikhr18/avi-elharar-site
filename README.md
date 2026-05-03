@@ -2,8 +2,8 @@
 
 > Landing page for Avi Elharar — certified driving instructor in Jerusalem & Ma'ale Adumim, Israel.
 
-[![Live Site](https://img.shields.io/badge/live-avielharar.co.il-0ea5e9?style=flat-square)](https://avielharar.co.il)
-[![GitHub Pages](https://img.shields.io/badge/hosting-GitHub%20Pages-222?style=flat-square&logo=github)](https://pages.github.com)
+[![Live Site](https://img.shields.io/badge/live-avielharar.co.il-d4af37?style=flat-square)](https://avielharar.co.il)
+[![GitHub Pages](https://img.shields.io/badge/hosting-GitHub%20Pages-0a0a0a?style=flat-square&logo=github)](https://pages.github.com)
 [![License](https://img.shields.io/badge/license-proprietary-red?style=flat-square)]()
 
 ## Overview
@@ -27,7 +27,8 @@ A high-performance, single-page marketing site built for conversion. Fully stati
 ├── sitemap.xml             # XML sitemap with image extensions
 ├── robots.txt              # Crawler directives
 ├── CNAME                   # Custom domain binding
-├── hero.jpg                # Hero image (above-the-fold)
+├── hero.{jpg,webp}         # Hero portrait + responsive variants (400/640/960/1240w)
+├── proof-[1-3]-*.{jpg,webp} # Proof-section editorial photos (320/500/800w × 2 formats)
 ├── student[1-3].jpg        # Graduate photos
 ├── testimonial*.jpg        # Testimonial images
 ├── CLAUDE.md               # AI assistant project context
@@ -43,7 +44,7 @@ A high-performance, single-page marketing site built for conversion. Fully stati
 | Markup | Semantic HTML5, RTL, ARIA landmarks |
 | Styling | Custom CSS (no preprocessor), CSS custom properties, `@property` animated gradients |
 | Scripting | Vanilla JS (IIFE, no dependencies) |
-| Hosting | GitHub Pages + Cloudflare DNS |
+| Hosting | GitHub Pages (custom domain via CNAME) |
 | Analytics | Google Analytics 4 (G-Q3V66EP3E5) |
 | Domain | `avielharar.co.il` (expires 2028) |
 
@@ -115,7 +116,8 @@ python3 -m http.server 8000
 - **No build system** — intentionally simple. Source files and minified files coexist.
 - **Single HTML file** — all sections live in `index.html`. Hidden sections (privacy, terms, a11y statement) are toggled via JS.
 - **RTL-first** — all layout is `dir="rtl"`. CSS uses logical properties where applicable.
-- **Dark theme only** — designed as a single dark UI. No light-mode toggle.
+- **Dark + gold palette** — black (`#0a0a0a`) base, classic gold (`#d4af37`) accent, warm cream (`#faf7f0`) on light sections. No light-mode toggle.
+- **Cache-busting via query string** — minified assets are referenced as `style.min.css?v=YYYYMMDD<letter>`. Bump the suffix when you change the file so returning visitors fetch fresh CSS.
 - **Hebrew content** — all user-facing text is in Hebrew. Schema/meta includes English alternates for search engines.
 
 ## Structured Data

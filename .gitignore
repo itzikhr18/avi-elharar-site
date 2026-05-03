@@ -1,0 +1,26 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.vscode/
+.idea/
+
+# Local-only environment & notes
+.env
+.env.local
+*.local
+notes/
+TODO.local.md
+
+# Node tooling (if you install minifiers locally)
+node_modules/
+package-lock.json
+yarn.lock
+.npm/
+
+# Build / cache / logs
+*.log
+.cache/
+dist/
+build/
