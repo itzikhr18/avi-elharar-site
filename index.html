@@ -39,8 +39,8 @@
   <meta property="og:description" content="מורה נהיגה בירושלים ומעלה אדומים — טסטר לשעבר, בית הספר לנהיגה יוני. לימוד על רכב אוטומטי, הכנה מדויקת לטסט וליווי מלא עד הרישיון. 95% הצלחה!" />
   <meta property="og:url" content="https://avielharar.co.il/" />
   <meta property="og:image" content="https://avielharar.co.il/hero.jpg" />
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="630" />
+  <meta property="og:image:width" content="1240" />
+  <meta property="og:image:height" content="1240" />
   <meta property="og:image:alt" content="אבי אלחרר - מורה נהיגה מוסמך וטסטר לשעבר בירושלים ומעלה אדומים" />
   <meta property="og:locale" content="he_IL" />
   <!-- Twitter Card -->
@@ -56,7 +56,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700;800&display=swap" rel="stylesheet" />
-  <link rel="preload" href="hero.jpg" as="image" type="image/jpeg" fetchpriority="high" />
+  <link rel="preload" href="hero-640.webp" as="image" type="image/webp" fetchpriority="high" media="(max-width: 720px)" />
+  <link rel="preload" href="hero.webp" as="image" type="image/webp" fetchpriority="high" media="(min-width: 721px)" />
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self' https://www.google-analytics.com https://analytics.google.com; frame-src 'none'; object-src 'none'; base-uri 'self'" />
   <link rel="stylesheet" href="style.min.css" />
   
@@ -471,7 +472,11 @@
         </ul>
       </div>
       <div class="hero-visual">
-        <img src="hero.jpg" alt="אבי אלחרר — מורה נהיגה מקצועי בירושלים ומעלה אדומים, במהלך שיעור נהיגה" width="640" height="760" fetchpriority="high" />
+        <picture>
+          <source type="image/webp" srcset="hero-400.webp 400w, hero-640.webp 640w, hero-960.webp 960w, hero.webp 1240w" sizes="(max-width: 540px) 240px, (max-width: 920px) 320px, 480px" />
+          <source type="image/jpeg" srcset="hero-400.jpg 400w, hero-640.jpg 640w, hero-960.jpg 960w, hero.jpg 1240w" sizes="(max-width: 540px) 240px, (max-width: 920px) 320px, 480px" />
+          <img src="hero-640.jpg" alt="אבי אלחרר — מורה נהיגה וטסטר לשעבר בירושלים ומעלה אדומים, פחות שיעורים יותר תוצאה" width="720" height="720" fetchpriority="high" decoding="async" />
+        </picture>
       </div>
     </section>
 
