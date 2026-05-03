@@ -3,12 +3,12 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://avielharar.co.il/</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
       <image:loc>https://avielharar.co.il/hero.jpg</image:loc>
-      <image:title>אבי אלחרר מורה נהיגה מקצועי בירושלים ומעלה אדומים</image:title>
+      <image:title>אבי אלחרר מורה נהיגה וטסטר לשעבר בירושלים ומעלה אדומים</image:title>
     </image:image>
     <image:image>
       <image:loc>https://avielharar.co.il/student1.jpg</image:loc>
