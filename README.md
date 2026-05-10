@@ -148,7 +148,7 @@ Deployed automatically via GitHub Pages on push to `main`.
 | **Areas** | Jerusalem, Ma'ale Adumim |
 | **Vehicle** | Automatic |
 | **Phone** | 052-8449147 |
-| **Pricing** | ₪190 (single) / ₪380 (double) |
+| **Pricing** | ₪200 (single, 40 min) / ₪400 (double, 80 min) |
 
 ## License
 
