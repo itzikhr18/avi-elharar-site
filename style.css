@@ -98,7 +98,8 @@ h1{font-size:clamp(2.1rem,5.2vw,3.8rem);line-height:1.08;margin:.8rem 0 1.2rem;f
 .hero-actions{display:flex;gap:1rem;flex-wrap:wrap;margin:2rem 0 1.5rem}
 
 .hero-visual{position:relative;perspective:1200px}
-.hero-visual img{box-shadow:var(--shadow-lg);border:1px solid var(--border);transition:transform var(--dur-s) var(--ease-out),box-shadow var(--dur-s) var(--ease-out)}
+.hero-visual picture{display:block;width:100%}
+.hero-visual img{width:100%;height:auto;max-width:520px;aspect-ratio:1/1;object-fit:cover;border-radius:var(--radius-lg);box-shadow:var(--shadow-lg);border:1px solid var(--border);transition:transform var(--dur-s) var(--ease-out),box-shadow var(--dur-s) var(--ease-out)}
 .hero-visual::before{content:'';position:absolute;inset:-20px;border-radius:var(--radius-lg);background:linear-gradient(135deg,var(--primary-glow),var(--accent-glow));filter:blur(50px);z-index:-1;opacity:.5;animation:hg 6s ease-in-out infinite alternate}
 @keyframes hg{0%{opacity:.3;transform:scale(.95)}100%{opacity:.55;transform:scale(1.05)}}
 

@@ -111,6 +111,14 @@
 - [ ] עדכון Schema אם יש שינויים בשירותים
 
 ## היסטוריית שינויים
+### 11/05/2026 — תיקון מתיחה אנכית של תמונת ה-hero בדסקטופ
+- **באג שתוקן**: אחרי המעבר ל-`<picture>` ב-Option A, התמונה בדסקטופ נראתה מתוחה אנכית. הסיבה: ב-`style.css`/`style.min.css` לא היה כלל CSS ל-`.hero-visual img` בדסקטופ (היה רק למובייל ב-`@media (max-width:920px)`). הדפדפן נשען על `width="1240" height="1240"` שב-HTML attrs בלבד, ובהקשר הזה (תוך `<picture>` בעמודת grid עם `align-items:center` ו-`min-height:80vh`) ה-`aspect-ratio` המשתמע לא תמיד נכנס לתוקף — מה שגרם למתיחה.
+- **פתרון**: הוספת כללי CSS מפורשים ל-`.hero-visual img` ו-`.hero-visual picture` בדסקטופ:
+  - `.hero-visual picture{display:block;width:100%}` — picture הוא inline by default, צריך לעטוף לבלוק
+  - `.hero-visual img{width:100%;height:auto;max-width:520px;aspect-ratio:1/1;object-fit:cover;border-radius:var(--radius-lg);...}` — מימדים מפורשים + יחס 1:1 + שמירה על proportions
+- cache-busting (`?v=20260511b`) על style.min.css כדי לאלץ הורדה רעננה
+- עדכון sitemap lastmod ל-2026-05-11T18:00:00+03:00
+
 ### 11/05/2026 — דוח ביקורת SEO ו-Quick Wins בקוד
 - הופק `docs/seo-audit-2026-05-11.md` — דוח ביקורת SEO מקיף עם ציון לכל קטגוריה, חוזקות, Quick Wins, שיפורים בינוניים, אסטרטגיה ארוכת טווח וטבלת מטלות
 - **תיקוני באגים בקוד (Option A):**
