@@ -24,7 +24,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>אבי אלחרר | לימודי נהיגה פרימיום בירושלים ומעלה אדומים</title>
   <meta name="description" content="אבי אלחרר — מורה נהיגה מטעם בית הספר לנהיגה יוני. לימודי נהיגה על רכב אוטומטי בירושלים ומעלה אדומים. שיטה אישית, הכנה מדויקת לטסט וליווי מלא עד הרישיון." />
-  <meta name="keywords" content="מורה נהיגה ירושלים, מורה נהיגה מעלה אדומים, לימוד נהיגה אוטומטי, אבי אלחרר, בית ספר נהיגה יוני, טסט נהיגה ירושלים, שיעורי נהיגה ירושלים, הכנה לטסט נהיגה, מורה נהיגה מומלץ ירושלים, לימוד נהיגה ירושלים מחיר, נהיגה אוטומטית ירושלים, טסט נהיגה מעלה אדומים, מורה נהיגה ארנונה תלפיות, שיעור נהיגה ראשון ירושלים" />
   <meta name="theme-color" content="#050a14" />
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
   <meta name="author" content="אבי אלחרר" />
@@ -40,8 +39,8 @@
   <meta property="og:description" content="מורה נהיגה מוסמך וטסטר לשעבר מטעם בית הספר לנהיגה יוני. לימוד נהיגה על רכב אוטומטי, הכנה מדויקת לטסט וליווי מלא עד הרישיון. 95% הצלחה בטסט!" />
   <meta property="og:url" content="https://avielharar.co.il/" />
   <meta property="og:image" content="https://avielharar.co.il/hero.jpg" />
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="630" />
+  <meta property="og:image:width" content="1240" />
+  <meta property="og:image:height" content="1240" />
   <meta property="og:image:alt" content="אבי אלחרר - מורה נהיגה מוסמך וטסטר לשעבר בירושלים ומעלה אדומים" />
   <meta property="og:locale" content="he_IL" />
   <!-- Twitter Card -->
@@ -53,8 +52,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
-  <link rel="preload" as="image" href="hero.jpg" />
+  <link rel="stylesheet" href="style.min.css?v=20260511" />
+  <link rel="preload" as="image" href="hero-640.webp" type="image/webp" media="(max-width: 640px)" imagesrcset="hero-400.webp 400w, hero-640.webp 640w" imagesizes="300px" fetchpriority="high" />
+  <link rel="preload" as="image" href="hero.webp" type="image/webp" media="(min-width: 641px)" imagesrcset="hero-960.webp 960w, hero.webp 1240w" imagesizes="640px" fetchpriority="high" />
   <!-- Structured Data -->
   <script type="application/ld+json">
   {
@@ -92,7 +92,7 @@
     },
     "aggregateRating": {
       "@type": "AggregateRating",
-      "ratingValue": "4.9",
+      "ratingValue": "5.0",
       "bestRating": "5",
       "worstRating": "1",
       "ratingCount": "7",
@@ -375,7 +375,18 @@
         </ul>
       </div>
       <div class="hero-visual">
-        <img src="hero.jpg" alt="אבי אלחרר — מורה נהיגה מקצועי בירושלים ומעלה אדומים, במהלך שיעור נהיגה" width="640" height="760" fetchpriority="high" decoding="async" />
+        <picture>
+          <source type="image/webp"
+                  srcset="hero-400.webp 400w, hero-640.webp 640w, hero-960.webp 960w, hero.webp 1240w"
+                  sizes="(max-width: 640px) 300px, (max-width: 960px) 500px, 640px" />
+          <source type="image/jpeg"
+                  srcset="hero-400.jpg 400w, hero-640.jpg 640w, hero-960.jpg 960w, hero.jpg 1240w"
+                  sizes="(max-width: 640px) 300px, (max-width: 960px) 500px, 640px" />
+          <img src="hero-640.jpg"
+               alt="אבי אלחרר — מורה נהיגה מקצועי בירושלים ומעלה אדומים, במהלך שיעור נהיגה"
+               width="1240" height="1240"
+               fetchpriority="high" decoding="async" />
+        </picture>
       </div>
     </section>
 
@@ -1115,6 +1126,6 @@
     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 15l-6-6-6 6"/></svg>
   </button>
 
-  <script src="main.js" defer></script>
+  <script src="main.min.js?v=20260511" defer></script>
 </body>
 </html>
