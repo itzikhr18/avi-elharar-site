@@ -60,6 +60,7 @@
   {
     "@context": "https://schema.org",
     "@type": "DrivingSchool",
+    "@id": "https://avielharar.co.il/#driving-school",
     "name": "אבי אלחרר - מורה נהיגה בירושלים ומעלה אדומים",
     "alternateName": "Avi Elharar Driving Instructor",
     "description": "מורה נהיגה מוסמך מטעם בית הספר לנהיגה יוני. לימודי נהיגה על רכב אוטומטי בירושלים ומעלה אדומים. שיטה אישית, הכנה מדויקת לטסט וליווי מלא עד הרישיון.",
@@ -68,7 +69,27 @@
     "image": "https://avielharar.co.il/hero.jpg",
     "priceRange": "₪200-₪400",
     "currenciesAccepted": "ILS",
-    "paymentAccepted": "Cash, Credit Card, Bank Transfer",
+    "paymentAccepted": "Cash, Bank Transfer, Bit, PayBox",
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Sunday", "Tuesday", "Thursday"],
+        "opens": "07:00",
+        "closes": "17:30"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Wednesday"],
+        "opens": "07:00",
+        "closes": "19:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Friday",
+        "opens": "07:00",
+        "closes": "11:00"
+      }
+    ],
     "areaServed": [
       {"@type": "City", "name": "ירושלים", "sameAs": "https://he.wikipedia.org/wiki/ירושלים"},
       {"@type": "City", "name": "מעלה אדומים", "sameAs": "https://he.wikipedia.org/wiki/מעלה_אדומים"}
