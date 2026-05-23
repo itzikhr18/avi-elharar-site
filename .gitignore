@@ -13,6 +13,18 @@ Thumbs.db
 notes/
 TODO.local.md
 
+# Claude Code local config
+.claude/
+
+# Design exploration & internal docs (not part of the live site)
+design-philosophy.md
+kinetic-trust-design-framework.pdf
+seo-audit-*.md
+
+# Preview / working iteration files
+preview.html
+style-preview.css
+
 # Node tooling (if you install minifiers locally)
 node_modules/
 package-lock.json
