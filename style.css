@@ -309,12 +309,6 @@ input:focus-visible,.btn:focus-visible,a:focus-visible{outline:2px solid var(--p
 html[dir="rtl"] .hero-visual{transform:translateX(40px) scale(.95)}
 .hero-visual.animated{opacity:1;transform:translateX(0) scale(1);transition:opacity 1s var(--ease-out) .3s,transform 1s var(--ease-out) .3s}
 
-/* --- Custom Cursor ------------------------------------------------ */
-.cursor-dot{width:8px;height:8px;background:var(--primary);border-radius:50%;position:fixed;top:0;left:0;z-index:999;pointer-events:none;mix-blend-mode:difference;transition:width .3s var(--ease-out),height .3s var(--ease-out),background .3s var(--ease-smooth);transform:translate(-50%,-50%)}
-.cursor-ring{width:36px;height:36px;border:1.5px solid rgba(212,175,55,.4);border-radius:50%;position:fixed;top:0;left:0;z-index:998;pointer-events:none;transition:width .4s var(--ease-out),height .4s var(--ease-out),border-color .3s var(--ease-smooth);transform:translate(-50%,-50%)}
-.cursor-hover .cursor-dot{width:16px;height:16px;background:var(--accent)}
-.cursor-hover .cursor-ring{width:50px;height:50px;border-color:rgba(244,208,63,.4)}
-
 .particles-canvas{position:fixed;inset:0;z-index:1;pointer-events:none;opacity:.4}
 
 /* --- School Badge ------------------------------------------------- */
@@ -448,7 +442,6 @@ html[dir="rtl"] .hero-visual{transform:translateX(40px) scale(.95)}
   .hero-metrics li{padding:.7rem .5rem}
   .hero-metrics strong{font-size:1.2rem}
   .hero-metrics span{font-size:.75rem}
-  .cursor-dot,.cursor-ring{display:none!important}
   .bg-orb{animation-duration:0s!important;opacity:.2}
   .hero-visual{order:-1;display:flex;justify-content:center;perspective:none}
   .hero-visual::before{display:none}
@@ -600,7 +593,6 @@ body.a11y-stop-animations *,body.a11y-stop-animations *::before,body.a11y-stop-a
   *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}
   .reveal,.reveal-stagger>*,.hero-copy>*,.hero-visual{opacity:1!important;transform:none!important}
   .bg-orb{animation:none!important}
-  .cursor-dot,.cursor-ring{display:none!important}
   .area-chip__pin{animation:none!important}
   .scroll-progress{display:none}
   .process-line__fill{height:100%!important;transition:none!important}

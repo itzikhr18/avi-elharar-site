@@ -96,9 +96,6 @@ if(!T){document.querySelectorAll('.card,.testimonial-card').forEach(function(c){
 /* Magnetic Buttons */
 if(!T){document.querySelectorAll('.btn-primary').forEach(function(b){b.addEventListener('mousemove',function(e){var r=b.getBoundingClientRect();b.style.transform='translate('+(e.clientX-r.left-r.width/2)*.15+'px,'+(e.clientY-r.top-r.height/2)*.15+'px)'});b.addEventListener('mouseleave',function(){b.style.transform=''})})}
 
-/* Custom Cursor */
-if(!T&&window.innerWidth>920){var d=document.createElement('div'),rng=document.createElement('div');d.className='cursor-dot';rng.className='cursor-ring';document.body.appendChild(d);document.body.appendChild(rng);var mx=0,my=0,rx=0,ry=0;document.addEventListener('mousemove',function(e){mx=e.clientX;my=e.clientY;d.style.left=mx+'px';d.style.top=my+'px'},{passive:true});function ar(){rx+=(mx-rx)*.12;ry+=(my-ry)*.12;rng.style.left=rx+'px';rng.style.top=ry+'px';requestAnimationFrame(ar)}requestAnimationFrame(ar);document.querySelectorAll('a,button,.card,.testimonial-card,.area-chip,.price-row').forEach(function(el){el.addEventListener('mouseenter',function(){document.body.classList.add('cursor-hover')});el.addEventListener('mouseleave',function(){document.body.classList.remove('cursor-hover')})})}
-
 /* Parallax */
 var hi=document.querySelector('.hero-visual img');
 if(hi){var st2=false;window.addEventListener('scroll',function(){if(!st2){requestAnimationFrame(function(){if(window.scrollY<window.innerHeight)hi.style.transform='translateY('+window.scrollY*.08+'px)';st2=false});st2=true}},{passive:true})}
