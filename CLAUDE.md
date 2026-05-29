@@ -112,6 +112,16 @@
 - [ ] עדכון Schema אם יש שינויים בשירותים
 
 ## היסטוריית שינויים
+### 29/05/2026 — שחזור רכיבים שאבדו + noscript fallback (ביקורת מצב)
+- **רקע**: ביקורת מצב מקיפה (קוד + SEO + חשיפה) חשפה שני רכיבים שתועדו כ"בוצע" אך **נעלמו מהקוד החי** — ככל הנראה אבדו ב-refresh הפלטה של 03/05 (208 החלפות) או בעריכה אחרת. שוחזרו.
+- **`WebSite` Schema שוחזר** (`index.html`): נוסף בלוק `application/ld+json` שלישי עם `@type: WebSite`, שם, `url`, `inLanguage: he` ו-`publisher` שמפנה ב-`@id` ל-`#driving-school`. לא נוסף `SearchAction` (אין חיפוש פנימי באתר). מספר בלוקי ה-Schema: 2 → 3. כולם אומתו ב-`JSON.parse`.
+- **`sameAs` לפייסבוק שוחזר** (`index.html`): נוסף `"sameAs": ["https://www.facebook.com/share/1FXduxr4NL/"]` ל-`DrivingSchool` — מחזק Entity + backlink/סיגנל חברתי. חיפוש "facebook" בקוד החזיר 0 לפני התיקון.
+- **קישור פייסבוק גלוי בפוטר** (`index.html`): נוסף `<a target="_blank" rel="noopener">פייסבוק</a>` ב-`footer-links` — דף הפייסבוק הפעיל לא היה מקושר משום מקום באתר.
+- **noscript fallback לסקשנים משפטיים** (`style.css` + `style.min.css`): הסקשנים `#privacy-policy`/`#terms-of-use`/`#accessibility-statement` מוסתרים ב-`style="display:none"` inline ונחשפו רק ב-JS. נוסף כלל `:target{display:block!important}` (אחרי `.skip-link:focus`) — חשיפה דרך ניווט hash גם בלי JS. ה-`!important` ב-stylesheet גובר על inline-style רגיל. מתח עם handler ה-JS אין: ה-JS עושה preventDefault ומציג ישירות, וה-fallback פועל רק כשאין JS.
+- **cache-busting**: `style.min.css?v=20260524 → ?v=20260529` (CSS שונה). `main.min.js` לא שונה — נשאר `?v=20260524`.
+- עדכון sitemap lastmod ל-2026-05-29T12:00:00+03:00.
+- **לא בקוד (משימות פתוחות שעלו בביקורת)**: אימות וידאו ל-GBP (קריטי, חוסם Local Pack), ביקורות 7→15+, רישום ב-B144/Easy/Midrag, דפי-נחיתה לאזורים, בלוג.
+
 ### 24/05/2026 — הסרת ה-Custom Cursor לחלוטין
 - **רקע**: לאתר היה Custom Cursor בדסקטופ — נקודה זהובה (8px) שעוקבת בזמן אמת אחרי הסמן + טבעת זהובה (36px) עם עיכוב חלק (easing 0.12). על אלמנטים אינטראקטיביים הם גדלו ל-16px/50px. רץ רק בדסקטופ (>920px) ולא ל-prefers-reduced-motion. בקשת הסרה מהמשתמש — הוסר לחלוטין.
 - **קבצים שעודכנו** (4):
