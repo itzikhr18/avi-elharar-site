@@ -30,12 +30,19 @@
   --dur-f: .2s;
   --dur-m: .45s;
   --dur-s: .7s;
+  --font-display: "Frank Ruhl Libre", Georgia, "Times New Roman", serif;
+  --font-body: "Heebo", system-ui, sans-serif;
 }
 
 *,*::before,*::after{box-sizing:border-box}
 html{scroll-behavior:smooth;-webkit-font-smoothing:antialiased;scroll-padding-top:5rem}
 
-body{margin:0;font-family:"Rubik",system-ui,sans-serif;background:var(--bg);color:var(--text);line-height:1.7;overflow-x:hidden;position:relative;font-optical-sizing:auto}
+body{margin:0;font-family:var(--font-body);background:var(--bg);color:var(--text);line-height:1.7;overflow-x:hidden;position:relative;font-optical-sizing:auto}
+html{scrollbar-color:var(--primary) #0a0a0a;scrollbar-width:thin}
+::-webkit-scrollbar{width:11px;height:11px}
+::-webkit-scrollbar-track{background:#0a0a0a}
+::-webkit-scrollbar-thumb{background:linear-gradient(180deg,var(--primary),var(--primary-strong));border-radius:8px;border:2px solid #0a0a0a}
+::-webkit-scrollbar-thumb:hover{background:linear-gradient(180deg,var(--accent),var(--primary))}
 img{max-width:100%;display:block;border-radius:var(--radius)}
 a{color:inherit;text-decoration:none}
 ::selection{background:var(--primary);color:var(--bg)}
@@ -95,7 +102,7 @@ html[dir="rtl"] .menu a:hover::after{transform-origin:right}
 .eyebrow{color:var(--primary);font-weight:700;letter-spacing:.03em;font-size:.95rem;display:inline-flex;align-items:center;gap:.5rem}
 .eyebrow::before{content:'';width:28px;height:2px;background:linear-gradient(90deg,var(--primary),transparent);border-radius:2px}
 
-h1{font-size:clamp(2.1rem,5.2vw,3.8rem);line-height:1.08;margin:.8rem 0 1.2rem;font-weight:800;letter-spacing:-.01em}
+h1{font-family:var(--font-display);font-size:clamp(2.2rem,5.4vw,4rem);line-height:1.04;margin:.8rem 0 1.2rem;font-weight:900;letter-spacing:-.02em;text-wrap:balance}
 .subhead{font-size:1.1rem;color:#c9c2b0;max-width:54ch;line-height:1.7}
 .hero-actions{display:flex;gap:1rem;flex-wrap:wrap;margin:2rem 0 1.5rem}
 
@@ -110,7 +117,7 @@ h1{font-size:clamp(2.1rem,5.2vw,3.8rem);line-height:1.08;margin:.8rem 0 1.2rem;f
 .hero-metrics li::before{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(212,175,55,.05),transparent 60%);opacity:0;transition:opacity var(--dur-m) var(--ease-smooth)}
 .hero-metrics li:hover{border-color:var(--border-hover);box-shadow:0 0 30px rgba(212,175,55,.08)}
 .hero-metrics li:hover::before{opacity:1}
-.hero-metrics strong{display:block;font-size:1.5rem;font-weight:800;background:linear-gradient(135deg,var(--primary),var(--accent));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.hero-metrics strong{display:block;font-family:var(--font-display);font-size:1.7rem;font-weight:800;background:linear-gradient(135deg,var(--primary),var(--accent));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
 .hero-metrics span{color:var(--muted);font-size:.88rem}
 
 /* --- Scroll Progress Bar ------------------------------------------ */
@@ -123,7 +130,7 @@ h1{font-size:clamp(2.1rem,5.2vw,3.8rem);line-height:1.08;margin:.8rem 0 1.2rem;f
 .stats-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:2rem;text-align:center}
 .stat-item{position:relative;padding:1rem}
 .stat-item:not(:last-child)::after{content:'';position:absolute;inset-inline-end:0;top:15%;height:70%;width:1px;background:linear-gradient(180deg,transparent,var(--border),transparent)}
-.stat-item__number{font-size:clamp(2.2rem,4vw,3.2rem);font-weight:800;background:linear-gradient(135deg,var(--primary),var(--accent));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;display:inline;line-height:1}
+.stat-item__number{font-family:var(--font-display);font-size:clamp(2.3rem,4vw,3.4rem);font-weight:800;background:linear-gradient(135deg,var(--primary),var(--accent));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;display:inline;line-height:1}
 .stat-item__plus{font-size:clamp(1.4rem,2.5vw,2rem);font-weight:800;background:linear-gradient(135deg,var(--primary),var(--accent));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
 .stat-item__label{display:block;color:var(--muted);font-size:.9rem;margin-top:.4rem;font-weight:500}
 
@@ -143,7 +150,10 @@ h1{font-size:clamp(2.1rem,5.2vw,3.8rem);line-height:1.08;margin:.8rem 0 1.2rem;f
 .blur-load.loaded{filter:blur(0) saturate(1);opacity:1;transform:scale(1)}
 
 /* --- Section Headings --------------------------------------------- */
-h2{font-size:clamp(1.7rem,3.2vw,2.6rem);margin:0 0 .8rem;font-weight:800;letter-spacing:-.01em}
+h2{font-family:var(--font-display);font-size:clamp(1.8rem,3.4vw,2.8rem);margin:0 0 .8rem;font-weight:800;letter-spacing:-.015em;text-wrap:balance}
+h3{font-family:var(--font-display);text-wrap:balance}
+.section h2{position:relative}
+.section h2::after{content:"";display:block;width:56px;height:3px;margin-top:1rem;border-radius:3px;background:linear-gradient(90deg,var(--primary),var(--accent));box-shadow:0 0 18px var(--primary-glow)}
 .section-intro{margin:0 0 2.5rem;color:var(--muted);font-size:1.05rem}
 .section-soft .section-intro{color:#7a6f5e}
 
@@ -186,7 +196,7 @@ html[dir="rtl"] .price-row:hover{transform:translateX(8px) scale(1.02)}
 .price-row__icon{width:40px;height:40px;display:flex;align-items:center;justify-content:center;border-radius:10px;color:#8a7a4a;flex-shrink:0;background:#f4ead4;transition:color .3s var(--ease-smooth),background .3s var(--ease-smooth),transform .35s var(--ease-bounce),box-shadow .3s var(--ease-smooth)}
 .price-row:hover .price-row__icon{color:#fff;background:linear-gradient(135deg,var(--primary-strong),var(--accent));transform:scale(1.15) rotate(-5deg);box-shadow:0 6px 20px rgba(184,148,31,.3)}
 
-.price-row__amount{font-weight:800;font-size:1.15rem;color:#1a1410;white-space:nowrap;background:linear-gradient(135deg,#7a5a1e,#a47922);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;transition:transform .3s var(--ease-bounce),letter-spacing .3s var(--ease-smooth)}
+.price-row__amount{font-family:var(--font-display);font-weight:800;font-size:1.25rem;color:#1a1410;white-space:nowrap;background:linear-gradient(135deg,#7a5a1e,#a47922);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;transition:transform .3s var(--ease-bounce),letter-spacing .3s var(--ease-smooth)}
 .price-row:hover .price-row__amount{transform:scale(1.15);letter-spacing:.02em}
 
 .price-row--highlight{background:rgba(184,148,31,.05);border-radius:var(--radius)}
@@ -224,7 +234,7 @@ html[dir="rtl"] .price-row:hover{transform:translateX(8px) scale(1.02)}
 /* --- Route Map Animation ----------------------------------------- */
 .route-map{margin:2.5rem auto 2rem;max-width:700px;overflow:hidden;border:1px solid var(--border);border-radius:var(--radius-lg);background:rgba(255,255,255,.02);padding:1.5rem 1rem}
 .route-map__svg{width:100%;height:auto}
-.route-map__label{fill:var(--muted);font-family:"Rubik",sans-serif;font-size:11px;font-weight:600}
+.route-map__label{fill:var(--muted);font-family:var(--font-body);font-size:11px;font-weight:600}
 
 /* Path draw animation */
 .route-map__path{stroke-dasharray:1200;stroke-dashoffset:1200;transition:stroke-dashoffset 3s var(--ease-out)}
@@ -261,6 +271,8 @@ html[dir="rtl"] .price-row:hover{transform:translateX(8px) scale(1.02)}
 
 .btn-primary{background:var(--primary);color:#1a1410;box-shadow:0 6px 24px rgba(212,175,55,.3);border:1.5px solid rgba(255,255,255,.2)}
 .btn-primary:hover{box-shadow:0 10px 36px rgba(212,175,55,.45);background:#e6c64c}
+.btn-primary::after{content:"";position:absolute;top:0;bottom:0;width:55%;inset-inline-start:-85%;background:linear-gradient(100deg,transparent,rgba(255,255,255,.55),transparent);transform:skewX(-18deg);pointer-events:none;transition:inset-inline-start .7s var(--ease-out)}
+.btn-primary:hover::after{inset-inline-start:145%}
 .btn-secondary{border-color:rgba(165,152,134,.35);color:inherit;backdrop-filter:blur(4px)}
 .btn-secondary:hover{border-color:var(--primary);box-shadow:0 0 20px var(--primary-glow)}
 

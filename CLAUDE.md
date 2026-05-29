@@ -112,6 +112,18 @@
 - [ ] עדכון Schema אם יש שינויים בשירותים
 
 ## היסטוריית שינויים
+### 29/05/2026 — שדרוג עיצובי "Refined Editorial Luxury" (frontend-design skill) + תיקון מערכת פונטים
+- **רקע**: בקשת המשתמש לשדרג את העיצוב רמה/כמה רמות בעזרת ה-skill הרשמי `frontend-design` של Anthropic, **תוך שמירה מלאה על צבעי המותג וקו העיצוב** (שחור + זהב קלאסי + קרם חם, dark theme, RTL). הכיוון שנבחר: *Refined Editorial Luxury* — שדרוג מדוד דרך טיפוגרפיה ופרטים, לא מקסימליזם. אף משתנה צבע (`--primary`/`--accent`/וכו') לא שונה.
+- **🐛 תיקון באג פונטים קריטי**: ה-HTML טען רק `Heebo` אבל ה-CSS השתמש ב-`font-family:"Rubik"` שלא נטען מעולם → כל האתר הוצג ב-system-ui (fallback). תוקן.
+- **מערכת טיפוגרפיה חדשה** (`style.css`): נוספו 2 משתני CSS — `--font-display:"Frank Ruhl Libre",Georgia,serif` (serif עברי קלאסי-יוקרתי, תואם "מאז 1976" + זהב) ו-`--font-body:"Heebo",system-ui,sans-serif`. הכותרות (`h1`/`h2`/`h3`), מספרי הסטטיסטיקה (`.stat-item__number`), מדדי ה-hero (`.hero-metrics strong`) והמחירים (`.price-row__amount`) עברו ל-display serif; הגוף נשאר Heebo מעודן. נוסף `text-wrap:balance` לכותרות. ה-`<link>` לגוגל-פונטס עודכן: `Frank+Ruhl+Libre:wght@500;700;900` + `Heebo:wght@300;400;500;700;800`.
+- **אקסנט זהב editorial** מתחת לכל כותרת סקשן: `.section h2::after` — פס זהב 56×3px עם glow (logical alignment, מיושר לימין ב-RTL).
+- **Sheen זהב על כפתור CTA ראשי**: `.btn-primary::after` — הבזק אור אלכסוני שחולף על הכפתור ב-hover (משתמש ב-`inset-inline-start` ל-RTL-safe).
+- **פס גלילה מותאם** בזהב (`::-webkit-scrollbar*` + `scrollbar-color`).
+- **🐛 בונוס — תיקון `NaNs`**: ה-`style.min.css` שהוגש הכיל `animation-duration:NaNs`/`transition-duration:NaNs` (ערך לא תקין) בבלוק `prefers-reduced-motion`, בעוד המקור (`style.css`) תקין עם `.01ms`. הרגנרציה של ה-min מהמקור תיקנה זאת.
+- **תהליך build בטוח**: `style.min.css` יוצר מחדש מ-`style.css` (מקור האמת) ע"י minifier ייעודי שמגן על strings/data-URIs ומאמת `normalize(out)==normalize(src)` + איזון סוגריים. אומת: 0 newlines, 471 בלוקים, 3 ה-SVG data-URIs שלמים, `calc(100% - 2.5rem)` נשמר.
+- **cache-busting**: `style.min.css?v=20260529 → ?v=20260529b`. `main.min.js` לא שונה.
+- עדכון sitemap lastmod ל-2026-05-29T16:30:00+03:00.
+
 ### 29/05/2026 — שחזור רכיבים שאבדו + noscript fallback (ביקורת מצב)
 - **רקע**: ביקורת מצב מקיפה (קוד + SEO + חשיפה) חשפה שני רכיבים שתועדו כ"בוצע" אך **נעלמו מהקוד החי** — ככל הנראה אבדו ב-refresh הפלטה של 03/05 (208 החלפות) או בעריכה אחרת. שוחזרו.
 - **`WebSite` Schema שוחזר** (`index.html`): נוסף בלוק `application/ld+json` שלישי עם `@type: WebSite`, שם, `url`, `inLanguage: he` ו-`publisher` שמפנה ב-`@id` ל-`#driving-school`. לא נוסף `SearchAction` (אין חיפוש פנימי באתר). מספר בלוקי ה-Schema: 2 → 3. כולם אומתו ב-`JSON.parse`.
