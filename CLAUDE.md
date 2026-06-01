@@ -112,6 +112,15 @@
 - [ ] עדכון Schema אם יש שינויים בשירותים
 
 ## היסטוריית שינויים
+### 01/06/2026 — שחזור תגי hreflang שאבדו (תגובה לדוח GSC Coverage 01/06)
+- **רקע**: דוח GSC Coverage שהמשתמש שלח (01/06/2026) דיווח על "דף חלופי עם תג קנוני תקין" עם 1 דף — זה **לא שגיאה**, אלא סטטוס תקין שגוגל מציג כשהוא מזהה URL כפול (סביר להניח: `itzikhr18.github.io/avi-elharar-site/` הישן) ומכבד את ה-`canonical` שלנו ל-`avielharar.co.il`. הופיע לראשונה ב-26/05.
+- **תיקון בקוד**: בעת אימות שכל החלק שלנו מוצק, התגלה שתגי `hreflang` נעלמו מהקוד החי (`grep -c hreflang index.html` החזיר 0), למרות ש-CLAUDE.md מתעד אותם כ"בוצע" (12/04/2026). אותו דפוס אובדן כמו ה-`WebSite` Schema וה-`sameAs` ששוחזרו ב-29/05.
+- **שוחזרו 2 תגי `<link rel="alternate">`** ב-`<head>` מיד אחרי ה-`canonical`:
+  - `hreflang="he"` → `https://avielharar.co.il/`
+  - `hreflang="x-default"` → `https://avielharar.co.il/`
+- עדכון sitemap lastmod ל-2026-06-01T08:00:00+03:00 (trigger לסריקה).
+- **לא בקוד (פעולה ידנית של המשתמש ב-GSC)**: הסרת הנכס הישן `https://itzikhr18.github.io/avi-elharar-site/` מ-Search Console — Property settings → Remove property. זה ימנע את הדיווחים האלה בעתיד.
+
 ### 29/05/2026 — שדרוג עיצובי "Refined Editorial Luxury" (frontend-design skill) + תיקון מערכת פונטים
 - **רקע**: בקשת המשתמש לשדרג את העיצוב רמה/כמה רמות בעזרת ה-skill הרשמי `frontend-design` של Anthropic, **תוך שמירה מלאה על צבעי המותג וקו העיצוב** (שחור + זהב קלאסי + קרם חם, dark theme, RTL). הכיוון שנבחר: *Refined Editorial Luxury* — שדרוג מדוד דרך טיפוגרפיה ופרטים, לא מקסימליזם. אף משתנה צבע (`--primary`/`--accent`/וכו') לא שונה.
 - **🐛 תיקון באג פונטים קריטי**: ה-HTML טען רק `Heebo` אבל ה-CSS השתמש ב-`font-family:"Rubik"` שלא נטען מעולם → כל האתר הוצג ב-system-ui (fallback). תוקן.
