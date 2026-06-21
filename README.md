@@ -4,37 +4,37 @@
 
 [![Live Site](https://img.shields.io/badge/live-avielharar.co.il-d4af37?style=flat-square)](https://avielharar.co.il)
 [![GitHub Pages](https://img.shields.io/badge/hosting-GitHub%20Pages-0a0a0a?style=flat-square&logo=github)](https://pages.github.com)
+[![Validate site](https://github.com/itzikhr18/avi-elharar-site/actions/workflows/validate-site.yml/badge.svg)](https://github.com/itzikhr18/avi-elharar-site/actions/workflows/validate-site.yml)
 [![License](https://img.shields.io/badge/license-proprietary-red?style=flat-square)]()
 
 ## Overview
 
-A high-performance, single-page marketing site built for conversion. Fully static — no frameworks, no build pipelines, just HTML/CSS/JS served via GitHub Pages with a custom domain.
+A high-performance, multi-page marketing site built for conversion and local search. It is fully static: no framework or runtime build step, just HTML/CSS/JS served through GitHub Pages with a custom domain.
 
-**Key metrics:**
-- Lighthouse Performance: 95+
-- Lighthouse Accessibility: 100
-- First Contentful Paint: <1.5s
-- Total bundle: ~110 KB (minified CSS + JS, no external dependencies beyond Google Fonts)
+**Operational profile:**
+- 3 indexable URLs: homepage, article hub, and the first long-form article
+- ~59 KB combined minified CSS and JS before transfer compression
+- No external JavaScript dependencies beyond Google Analytics
+- Automated checks for local links, canonical URLs, JSON-LD, sitemap coverage, and production assets
 
 ## Architecture
 
 ```
-├── index.html              # Single-page site (all sections)
-├── style.css               # Source CSS (dark theme, RTL, responsive)
-├── style.min.css           # Minified CSS (production)
-├── main.js                 # Source JS (interactions, a11y widget)
-├── main.min.js             # Minified JS (production)
-├── sitemap.xml             # XML sitemap with image extensions
-├── robots.txt              # Crawler directives
-├── CNAME                   # Custom domain binding
-├── hero.{jpg,webp}         # Hero portrait + responsive variants (400/640/960/1240w)
-├── proof-[1-3]-*.{jpg,webp} # Proof-section editorial photos (320/500/800w × 2 formats)
-├── student[1-3].jpg        # Graduate photos
-├── testimonial*.jpg        # Testimonial images
-├── CLAUDE.md               # AI assistant project context
-└── docs/
-    ├── directory-submissions.md   # Business directory tracking
-    └── seo-status-report.md       # SEO audit notes
+|-- index.html                  # Homepage and primary conversion sections
+|-- maamarim/
+|   |-- index.html              # Article hub
+|   `-- 5-tauyot-test-yerushalayim/index.html
+|-- style.css                   # Source CSS (dark theme, RTL, responsive)
+|-- style.min.css               # Production CSS
+|-- main.js                     # Source JS (interactions, a11y widget)
+|-- main.min.js                 # Production JS
+|-- sitemap.xml                 # XML sitemap with image extensions
+|-- robots.txt                  # Crawler directives
+|-- CNAME                       # Custom domain binding
+|-- scripts/validate_site.py    # Dependency-free static-site validator
+|-- .github/workflows/          # Pull request and main-branch validation
+|-- CLAUDE.md                   # AI assistant project context
+`-- docs/                        # SEO and directory tracking notes
 ```
 
 ## Tech Stack
@@ -60,12 +60,12 @@ A high-performance, single-page marketing site built for conversion. Fully stati
 - `prefers-reduced-motion` respected — all animations disabled
 
 ### SEO
-- Structured Data: `DrivingSchool`, `FAQPage` (16 questions), `HowTo` (4 steps), `WebSite`
-- `AggregateRating` + 4 verified Google reviews
+- Homepage structured data: `DrivingSchool`, `FAQPage` (16 questions), and `WebSite`
+- Article structured data: `Article` and `BreadcrumbList`
+- Review and aggregate-rating markup is intentionally omitted while the current Google Business Profile remains unverified
 - Open Graph + Twitter Card meta tags
 - Canonical URL + hreflang (he + x-default)
 - Image sitemap with alt-text optimized titles
-- Content-Security-Policy meta tag
 
 ### Accessibility (Israeli Standard 5568 / WCAG 2.1 AA)
 - Built-in accessibility widget (font size, contrast, grayscale, link highlighting, readable font, large cursor, stop animations)
@@ -112,9 +112,16 @@ npx serve .
 python3 -m http.server 8000
 ```
 
+### Validation
+```bash
+python3 scripts/validate_site.py
+```
+
+The same validator runs automatically for every pull request and every push to `main`.
+
 ### Project Conventions
 - **No build system** — intentionally simple. Source files and minified files coexist.
-- **Single HTML file** — all sections live in `index.html`. Hidden sections (privacy, terms, a11y statement) are toggled via JS.
+- **Static HTML pages** — the homepage owns the main conversion sections; `/maamarim/` contains indexable editorial content.
 - **RTL-first** — all layout is `dir="rtl"`. CSS uses logical properties where applicable.
 - **Dark + gold palette** — black (`#0a0a0a`) base, classic gold (`#d4af37`) accent, warm cream (`#faf7f0`) on light sections. No light-mode toggle.
 - **Cache-busting via query string** — minified assets are referenced as `style.min.css?v=YYYYMMDD<letter>`. Bump the suffix when you change the file so returning visitors fetch fresh CSS.
@@ -122,12 +129,13 @@ python3 -m http.server 8000
 
 ## Structured Data
 
-The site includes 4 JSON-LD blocks:
+The homepage includes 3 JSON-LD blocks:
 
-1. **DrivingSchool** — business info, offers, reviews, aggregate rating
-2. **FAQPage** — 16 questions with accepted answers
-3. **HowTo** — 4-step process to get a license
-4. **WebSite** — site name and publisher
+1. **DrivingSchool** — business info, hours, service area, and offers
+2. **WebSite** — site name and publisher
+3. **FAQPage** — 16 questions with accepted answers
+
+The first article includes **Article** and **BreadcrumbList** blocks. Review and aggregate-rating markup stays out of the site until its source profile is verified and consistent.
 
 Validate at: [Google Rich Results Test](https://search.google.com/test/rich-results?url=https://avielharar.co.il/)
 
@@ -135,6 +143,7 @@ Validate at: [Google Rich Results Test](https://search.google.com/test/rich-resu
 
 Deployed automatically via GitHub Pages on push to `main`.
 
+- **CI**: `Validate site` runs on pull requests and pushes to `main`
 - **DNS**: CNAME record pointing to `itzikhr18.github.io`
 - **HTTPS**: Enforced via GitHub Pages settings
 - **Cache**: GitHub Pages default (10 min browser cache)
