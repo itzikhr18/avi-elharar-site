@@ -33,6 +33,8 @@ yarn.lock
 
 # Build / cache / logs
 *.log
+__pycache__/
+*.pyc
 .cache/
 dist/
 build/
