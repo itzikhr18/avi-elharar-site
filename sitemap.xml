@@ -3,24 +3,12 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://avielharar.co.il/</loc>
-    <lastmod>2026-06-14T18:30:00+03:00</lastmod>
+    <lastmod>2026-06-29T12:00:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
       <image:loc>https://avielharar.co.il/hero.jpg</image:loc>
       <image:title>אבי אלחרר מורה נהיגה וטסטר לשעבר בירושלים ומעלה אדומים</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://avielharar.co.il/proof-1-route.jpg</image:loc>
-      <image:title>תכנון מסלול לימוד נהיגה ברור — תמונת נהיגה בכביש בין-עירוני בירושלים</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://avielharar.co.il/proof-2-precision.jpg</image:loc>
-      <image:title>דיוק של טסטר לשעבר — מחברת תכנית שיעור עם נקודות תרגול ממוקדות לטסט</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://avielharar.co.il/proof-3-service.jpg</image:loc>
-      <image:title>חוויית שירות של סטנדרט גבוה — לוחית רישוי ומפתחות לאחר הצלחה בטסט נהיגה</image:title>
     </image:image>
     <image:image>
       <image:loc>https://avielharar.co.il/student1.jpg</image:loc>
