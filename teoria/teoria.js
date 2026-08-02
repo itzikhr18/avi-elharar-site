@@ -21,6 +21,24 @@
   var nextBtn = document.getElementById('quizNext');
 
   var questions = [];
+
+  /* ---- data hazards, all verified against the published bank ----------
+     1. The licence-grade marker for private car is «В» — CYRILLIC CAPITAL VE
+        (U+0412), NOT Latin B (U+0042). The bank contains zero Latin "B".
+        Filtering with a keyboard-typed "B" returns an empty set, silently.
+        questions-b.json is already filtered, so nothing here depends on it —
+        but anything that ever re-filters the full 1,802-row bank must use
+        '\u0412'.
+     2. Questions are NOT unique by text. 112 of them read "מה פירוש התמרור?"
+        and differ only by image. 22 pairs are identical in BOTH text and
+        image and differ only in their answers. The only unique key is `id`.
+        Never de-duplicate on text.
+     3. 553 of the 1,273 questions (43.4%) carry an image hosted on gov.il,
+        whose terms forbid reproduction without written consent. Until the
+        signs are redrawn as SVG those questions cannot be shown, so the
+        pool is restricted below and the restriction is stated on screen
+        rather than hidden. */
+  var GRADE_B = '\u0412';
   var index = 0;
   var correctCount = 0;
   var answered = false;
@@ -173,8 +191,19 @@
     })
     .then(function (data) {
       var count = parseInt(root.dataset.count, 10) || 30;
-      questions = shuffle(data.questions || []).slice(0, count);
-      if (!questions.length) throw new Error('empty bank');
+      var all = data.questions || [];
+
+      /* Only questions that are answerable without an image we may not serve. */
+      var pool = all.filter(function (q) { return !q.imageRef; });
+      var poolEl = document.getElementById('quizPool');
+      if (poolEl) {
+        poolEl.textContent = 'נשאלות ' + count + ' שאלות מתוך ' + pool.length +
+          ' זמינות כרגע (מתוך ' + all.length + ' במאגר). שאלות שדורשות תמונה ' +
+          'ייכנסו כשספריית התמרורים תהיה מוכנה.';
+      }
+
+      questions = shuffle(pool).slice(0, count);
+      if (!questions.length) throw new Error('empty pool');
       paintTimer();
       startTimer();
       renderQuestion();

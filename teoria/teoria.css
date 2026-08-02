@@ -62,3 +62,7 @@
 @media(prefers-reduced-motion:reduce){
   .quiz__answer{transition:none}
 }
+
+/* Pool notice: says out loud how much of the bank is currently reachable,
+   instead of quietly serving a subset. */
+.quiz__pool{margin:0;color:var(--muted);font-size:var(--fs-xs);line-height:var(--lh-body)}
