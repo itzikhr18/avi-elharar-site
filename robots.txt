@@ -1,4 +1,43 @@
 User-agent: *
 Allow: /
 Disallow: /*.md$
+
+# --- Traditional search ---
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# --- OpenAI: the search-time crawler is separate from the training crawler ---
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+# --- Perplexity ---
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# --- Anthropic ---
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+# --- Common Crawl ---
+User-agent: CCBot
+Allow: /
+
 Sitemap: https://avielharar.co.il/sitemap.xml

@@ -143,10 +143,10 @@ def main() -> int:
                 f"{label}: canonical must be {expected_canonical!r}, got {parser.canonicals!r}"
             )
         canonicals.update(parser.canonicals)
-        expected_alternates = [("he", expected_canonical), ("x-default", expected_canonical)]
+        expected_alternates = [("he-IL", expected_canonical), ("x-default", expected_canonical)]
         if parser.alternates != expected_alternates:
             errors.append(
-                f"{label}: expected he and x-default hreflang links to the canonical URL"
+                f"{label}: expected he-IL and x-default hreflang links to the canonical URL"
             )
 
         duplicates = sorted(item for item, count in Counter(parser.ids).items() if count > 1)
