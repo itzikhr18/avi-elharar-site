@@ -58,15 +58,15 @@ if(spBar){var spTick=false;window.addEventListener('scroll',function(){if(!spTic
 var procSteps=document.getElementById('processSteps');
 if(procSteps){var pFill=procSteps.querySelector('.process-line__fill');var pItems=procSteps.querySelectorAll('.process-step');if(pFill&&pItems.length){var poTick=false;function updateTimeline(){var rect=procSteps.getBoundingClientRect();var wh=window.innerHeight;var triggerY=wh*.65;var totalH=rect.height;var progress=Math.min(Math.max((triggerY-rect.top)/totalH,0),1);pFill.style.height=(progress*100)+'%';pItems.forEach(function(s){var sr=s.getBoundingClientRect();if(sr.top<triggerY)s.classList.add('reached');else s.classList.remove('reached')})}window.addEventListener('scroll',function(){if(!poTick){requestAnimationFrame(function(){updateTimeline();poTick=false});poTick=true}},{passive:true});updateTimeline()}}
 
-/* Back to Top Button + WhatsApp Float + Sticky CTA */
-var btt=document.getElementById('backToTop');
+/* WhatsApp Float + Sticky CTA */
 var waFloat=document.getElementById('waFloat');
 var stickyCta=document.getElementById('stickyCta');
 var heroSection=document.querySelector('.hero');
 var contactSection=document.getElementById('contact');
-function updateScrollUI(){var sy=window.scrollY;if(btt)btt.classList.toggle('visible',sy>500);if(waFloat)waFloat.classList.toggle('visible',sy>300);if(stickyCta){var heroBot=heroSection?heroSection.getBoundingClientRect().bottom:0;var contactTop=contactSection?contactSection.getBoundingClientRect().top:9999;var show=heroBot<-50&&contactTop>window.innerHeight;stickyCta.classList.toggle('visible',show);stickyCta.setAttribute('aria-hidden',String(!show))}}
-var scrollUITick=false;window.addEventListener('scroll',function(){if(!scrollUITick){requestAnimationFrame(function(){updateScrollUI();scrollUITick=false});scrollUITick=true}},{passive:true});
-if(btt)btt.addEventListener('click',function(){window.scrollTo({top:0,behavior:'smooth'})});
+function updateScrollUI(){var sy=window.scrollY;if(waFloat)waFloat.classList.toggle('visible',sy>300);if(stickyCta){var heroBot=heroSection?heroSection.getBoundingClientRect().bottom:0;var contactTop=contactSection?contactSection.getBoundingClientRect().top:9999;var show=heroBot<-50&&contactTop>window.innerHeight;stickyCta.classList.toggle('visible',show);stickyCta.setAttribute('aria-hidden',String(!show))}}
+var orbTimer;var docEl=document.documentElement;
+function orbsDodge(){docEl.classList.add('is-scrolling');clearTimeout(orbTimer);orbTimer=setTimeout(function(){docEl.classList.remove('is-scrolling')},700)}
+var scrollUITick=false;window.addEventListener('scroll',function(){orbsDodge();if(!scrollUITick){requestAnimationFrame(function(){updateScrollUI();scrollUITick=false});scrollUITick=true}},{passive:true});
 
 /* Typewriter Effect */
 var twEl=document.getElementById('heroHeading');
