@@ -31,6 +31,71 @@
   var got = [];               /* true/false לכל שאלה בסבב */
   var perTopic = {};
 
+  /* ---- זוגות מלכודת ----
+     שאלות כמעט זהות שהתשובה הנכונה בהן **שונה** — בדיוק המקום שבו מי
+     ששינן משפט נופל.
+
+     ⚠️ זיהוי אוטומטי נבדק ונפסל. אשכול לפי דמיון טקסט מצא 41 אשכולות,
+     ומהם **31 היו שגויים** — "לחץ אוויר נמוך מדי בצמיגים יגרום:" מופיעה
+     שלוש פעמים עם שלוש תשובות נכונות שונות, וכולן נכונות. הודעה בסגנון
+     "שיננת ולא הבנת" שם היא פשוט שקר לתלמיד. לכן הרשימה **מאומתת ידנית**
+     ומוחזקת ב-data/confusion-pairs.json. עדיף עשרה נכונים מארבעים שחלקם
+     מטעים. */
+  var twinOf = {};            /* id → { twin, why } */
+
+  function loadPairs() {
+    return fetch('../data/confusion-pairs.json')
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (doc) {
+        if (!doc || !doc.pairs) return;
+        doc.pairs.forEach(function (p) {
+          twinOf[p.a.id] = { twin: p.b, why: p.why };
+          twinOf[p.b.id] = { twin: p.a, why: p.why };
+        });
+      })
+      .catch(function () { /* הפיצ'ר אופציונלי — כישלון טעינה לא שובר כלום */ });
+  }
+
+  function twinBox(q) {
+    var rec = twinOf[q.id];
+    if (!rec) return null;
+    var box = document.createElement('div');
+    box.className = 'twin';
+
+    var h = document.createElement('p');
+    h.className = 'twin__head';
+    h.textContent = 'יש שאלה כמעט זהה — עם תשובה אחרת';
+    box.appendChild(h);
+
+    var why = document.createElement('p');
+    why.className = 'twin__why';
+    why.textContent = rec.why;
+    box.appendChild(why);
+
+    var grid = document.createElement('div');
+    grid.className = 'twin__grid';
+    [[q.text, q.answers[q.correct], 'זו שענית עליה'],
+     [rec.twin.text, rec.twin.answer, 'התאומה שלה']].forEach(function (row) {
+      var cell = document.createElement('div');
+      cell.className = 'twin__cell';
+      var tag = document.createElement('span');
+      tag.className = 'twin__tag';
+      tag.textContent = row[2];
+      cell.appendChild(tag);
+      var t = document.createElement('p');
+      t.className = 'twin__q';
+      t.textContent = row[0];
+      cell.appendChild(t);
+      var a = document.createElement('p');
+      a.className = 'twin__a';
+      a.textContent = row[1];
+      cell.appendChild(a);
+      grid.appendChild(cell);
+    });
+    box.appendChild(grid);
+    return box;
+  }
+
   /* ---------- localStorage: שאלות שטעית בהן, משותף עם הסימולטור ---------- */
   function readMissed() {
     try { return JSON.parse(localStorage.getItem(MISSED_KEY)) || []; }
@@ -193,6 +258,9 @@
       box.appendChild(a);
     }
 
+    var tw = twinBox(q);
+    if (tw) box.appendChild(tw);
+
     stage.appendChild(box);
     nextBtn.disabled = false;
     nextBtn.focus();
@@ -348,6 +416,7 @@
 
       paintMissedButton();
       setupSpeech();
+      loadPairs();
     })
     .catch(function (err) {
       pickEl.innerHTML = '<p class="study__err">לא הצלחנו לטעון את השאלות. ' +

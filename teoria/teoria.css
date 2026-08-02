@@ -251,3 +251,19 @@
 .teoria-note b{color:var(--white)}
 @media (max-width:480px){.mode-grid{grid-template-columns:1fr}}
 @media (prefers-reduced-motion:reduce){.mode-card{transition:none!important;transform:none!important}}
+
+/* ---- זוג מלכודת ----
+   רשימה מאומתת ידנית (10 זוגות). זיהוי אוטומטי נבדק ונפסל — 31 מתוך 41
+   אשכולות היו שגויים, וההודעה שהייתה נשלחת לתלמיד הייתה שקרית. */
+.twin{margin-block-start:1rem;padding:.95rem 1rem;border-radius:13px;
+  border:1px solid rgba(244,208,63,.4);background:rgba(244,208,63,.07)}
+.twin__head{margin:0 0 .35rem;font-weight:700;color:var(--spark);font-size:.98rem}
+.twin__head::before{content:"⚡ ";}
+.twin__why{margin:0 0 .8rem;font-size:.93rem;line-height:1.6;color:var(--silver)}
+.twin__grid{display:grid;gap:.6rem;grid-template-columns:repeat(auto-fit,minmax(210px,1fr))}
+.twin__cell{padding:.75rem .85rem;border-radius:11px;border:1px solid var(--line);
+  background:rgba(0,0,0,.28)}
+.twin__tag{display:inline-block;margin-block-end:.35rem;font-family:var(--font-mono);
+  font-size:.68rem;letter-spacing:.06em;color:var(--spark)}
+.twin__q{margin:0 0 .35rem;font-size:.92rem;line-height:1.5;font-weight:500}
+.twin__a{margin:0;font-size:.9rem;line-height:1.5;color:var(--silver)}
