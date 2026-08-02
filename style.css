@@ -393,16 +393,20 @@ input:focus-visible,.btn:focus-visible,a:focus-visible{outline:2px solid var(--p
 .relay>.is-in.testimonial-card:hover,.relay>.is-in.graduate-card:hover{transform:translateY(-6px)}
 
 @media(max-width:920px){
-  .relay{padding-block-end:1.5rem}
-  /* 4.6rem clears the sticky site header */
-  .relay>*{position:sticky;top:4.6rem;
+  /* `.grid.relay>*` (0,2,0), NOT `.relay>*` (0,1,0): .testimonial-card and
+     .graduate-card both declare position:relative later in this file, and at
+     equal specificity the later rule wins — the sticky never applied and the
+     cards simply scrolled past each other. Measured: position computed as
+     `relative`, zero overlap at every scroll offset. */
+  .grid.relay{padding-block-end:1.5rem;gap:.9rem}
+  .grid.relay>*{position:sticky;top:4.6rem;
     /* Opaque enough to actually cover the card beneath — the shared glass fill
        is nearly transparent, which would let the stack show through. */
-    background:linear-gradient(150deg,#ffffff12,#ffffff03 46%),rgba(13,11,7,.96);
+    background:linear-gradient(150deg,#ffffff12,#ffffff03 46%),rgba(13,11,7,.97);
     box-shadow:0 -14px 44px #000000ab,0 18px 40px -22px #000000e6}
-  .relay>:nth-child(2){top:5.3rem}
-  .relay>:nth-child(3){top:6rem}
-  .relay>:nth-child(4){top:6.7rem}
+  .grid.relay>:nth-child(2){top:5.3rem}
+  .grid.relay>:nth-child(3){top:6rem}
+  .grid.relay>:nth-child(4){top:6.7rem}
 }
 @media(prefers-reduced-motion:reduce){
   .relay>*{opacity:1;transform:none;transition:none;position:static}
