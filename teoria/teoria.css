@@ -1,0 +1,64 @@
+/* ===================================================================
+   Teoria section — scoped styles.
+   Loads AFTER the shared style.min.css and never modifies it: the live
+   site must keep serving byte-identical CSS while this is in progress.
+   Every selector here is namespaced under .teoria-* or .quiz*.
+   =================================================================== */
+
+/* Draft banner. Removed in the connection commit, together with noindex. */
+.teoria-draft{margin:0;padding:.7rem 1rem;text-align:center;font-weight:700;
+  font-size:var(--fs-sm);color:#0d0b06;background:linear-gradient(110deg,#ffd166,#f4a261)}
+
+.teoria-actions{display:flex;flex-wrap:wrap;gap:1rem;margin-top:2rem}
+
+.teoria-todo{list-style:none;padding:0;margin:2.5rem 0 0;display:grid;gap:.75rem;max-width:60ch}
+.teoria-todo li{position:relative;padding-inline-start:1.4rem;color:var(--silver);line-height:var(--lh-body)}
+.teoria-todo li::before{content:"—";position:absolute;inset-inline-start:0;color:var(--spark)}
+.teoria-todo b{color:var(--white)}
+
+/* --- Quiz ---------------------------------------------------------- */
+.quiz{max-width:640px;margin:0 auto;display:grid;gap:1.2rem}
+.quiz__bar{display:flex;align-items:center;justify-content:space-between;gap:1rem}
+.quiz__progress{font-family:var(--font-mono);font-size:var(--fs-sm);color:var(--muted);
+  font-variant-numeric:tabular-nums}
+.quiz__timer{font-family:var(--font-mono);font-size:var(--fs-sm);color:var(--silver);
+  font-variant-numeric:tabular-nums;background:var(--glass);border:1px solid var(--line);
+  border-radius:100px;padding:.35rem .9rem;cursor:pointer}
+.quiz__timer[data-paused="true"]{color:var(--spark);border-color:var(--line-lit)}
+
+.quiz__stage{min-height:14rem}
+.quiz__loading{color:var(--muted)}
+.quiz__question{margin:0 0 1.2rem;font-size:var(--fs-lead);color:var(--white);line-height:var(--lh-heading)}
+
+.quiz__answers{list-style:none;padding:0;margin:0;display:grid;gap:.7rem}
+/* A real <button> per answer: keyboard and screen-reader support for free. */
+.quiz__answer{width:100%;text-align:start;font:inherit;font-weight:600;color:var(--silver);
+  padding:.95rem 1.15rem;border-radius:14px;cursor:pointer;
+  background:var(--glass);border:1px solid var(--line);box-shadow:var(--glass-edge);
+  transition:border-color .25s var(--ease-smooth),background .25s var(--ease-smooth),color .25s var(--ease-smooth)}
+.quiz__answer:hover:not([disabled]){border-color:var(--line-lit);color:var(--white)}
+.quiz__answer[aria-pressed="true"]{border-color:var(--spark);color:var(--white)}
+.quiz__answer[data-state="correct"]{border-color:#6cc79a;background:rgba(108,199,154,.12);color:#eafff4}
+.quiz__answer[data-state="wrong"]{border-color:#e07a8b;background:rgba(224,122,139,.12);color:#ffeef1}
+.quiz__answer[disabled]{cursor:default}
+
+/* Avi's note is the whole point of the section: it only ever appears
+   after the answer is revealed, so it reads as insight, not as a hint. */
+.quiz__note{margin:1.1rem 0 0;padding:.9rem 1.1rem;border-radius:14px;
+  background:#c8791f1f;border:1px solid #c8791f5c;color:var(--silver);line-height:var(--lh-body)}
+.quiz__note b{color:var(--amber-lit)}
+
+.quiz__foot{display:flex;justify-content:flex-end}
+/* A control that cannot be used must not look usable. .btn-primary carries
+   its gold fill regardless of state, so the disabled look is set here. */
+.quiz__foot .btn[disabled]{opacity:.35;box-shadow:none;cursor:not-allowed;filter:saturate(.35)}
+
+.quiz__result{text-align:center}
+.quiz__score{font-family:var(--font-head);font-weight:900;font-size:clamp(2.5rem,2rem+4vw,4rem);
+  line-height:1;background-image:linear-gradient(#fffdf5,var(--spark));
+  -webkit-background-clip:text;background-clip:text;color:transparent}
+.quiz__verdict{margin:.4rem 0 1.4rem;color:var(--silver)}
+
+@media(prefers-reduced-motion:reduce){
+  .quiz__answer{transition:none}
+}

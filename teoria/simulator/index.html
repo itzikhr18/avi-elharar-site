@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>סימולציית מבחן תיאוריה — עבודה בתהליך | אבי אלחרר</title>
+  <meta name="description" content="סימולציית מבחן תיאוריה בסבב דומה למבחן האמיתי. הסקשן בבנייה." />
+  <meta name="theme-color" content="#0a0a0a" />
+  <meta name="robots" content="noindex, nofollow" />
+  <link rel="canonical" href="https://avielharar.co.il/teoria/simulator/" />
+  <link rel="alternate" hreflang="he-IL" href="https://avielharar.co.il/teoria/simulator/" />
+  <link rel="alternate" hreflang="x-default" href="https://avielharar.co.il/teoria/simulator/" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800&family=Rubik:wght@700;800;900&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../../style.min.css?v=20260802n" />
+  <link rel="stylesheet" href="../teoria.css?v=1" />
+</head>
+<body>
+  <a class="skip-link" href="#main-content">דלג לתוכן הראשי</a>
+
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a href="../../" class="brand" aria-label="עמוד הבית של אבי אלחרר">
+        <img src="../../logo.svg" alt="אבי אלחרר - מורה נהיגה" class="brand-logo" height="52" width="52" />
+      </a>
+      <nav aria-label="ניווט ראשי">
+        <ul class="menu"><li><a href="../">חזרה לתיאוריה</a></li></ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <p class="teoria-draft" role="status">סקשן בבנייה — השאלות כאן הן שאלות דמה, לא מהמאגר הרשמי.</p>
+
+    <section class="section container">
+      <div class="quiz" id="quiz" data-src="../data/questions.sample.json" data-count="3">
+        <div class="quiz__bar">
+          <span class="quiz__progress" id="quizProgress">—</span>
+          <button class="quiz__timer" id="quizTimer" type="button" aria-live="off">00:00</button>
+        </div>
+
+        <div class="quiz__stage" id="quizStage" aria-live="polite">
+          <p class="quiz__loading">טוען שאלות…</p>
+        </div>
+
+        <div class="quiz__foot">
+          <button class="btn btn-primary" id="quizNext" type="button" disabled>הבא</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>© כל הזכויות שמורות לאבי אלחרר</p>
+    </div>
+  </footer>
+
+  <script src="../teoria.js?v=1" defer></script>
+</body>
+</html>

@@ -26,6 +26,7 @@ class SitePageParser(HTMLParser):
         self.description_count = 0
         self.theme_colors: list[str] = []
         self.canonicals: list[str] = []
+        self.robots: list[str] = []
         self.alternates: list[tuple[str, str]] = []
         self.ids: list[str] = []
         self.references: list[tuple[str, str]] = []
@@ -45,6 +46,8 @@ class SitePageParser(HTMLParser):
             self.ids.append(values["id"])
         if tag == "meta" and values.get("name", "").lower() == "description":
             self.description_count += 1
+        if tag == "meta" and values.get("name", "").lower() == "robots":
+            self.robots.append(values.get("content", ""))
         if tag == "meta" and values.get("name", "").lower() == "theme-color":
             self.theme_colors.append(values.get("content", ""))
         if tag == "link" and "canonical" in values.get("rel", "").lower().split():
@@ -117,6 +120,7 @@ def main() -> int:
     errors: list[str] = []
     pages: dict[str, tuple[Path, SitePageParser]] = {}
     canonicals: set[str] = set()
+    draft_urls: set[str] = set()
 
     html_files = sorted(ROOT.rglob("index.html"))
     for path in html_files:
@@ -142,7 +146,14 @@ def main() -> int:
             errors.append(
                 f"{label}: canonical must be {expected_canonical!r}, got {parser.canonicals!r}"
             )
-        canonicals.update(parser.canonicals)
+        # A page that declares noindex is unpublished work in progress. It still
+        # has to satisfy every structural rule below, but it must NOT appear in
+        # the sitemap — telling Google to crawl a URL we also tell it to drop is
+        # a contradictory signal, and it is how a draft leaks out by accident.
+        if any("noindex" in value.lower() for value in parser.robots):
+            draft_urls.add(expected_canonical)
+        else:
+            canonicals.update(parser.canonicals)
         expected_alternates = [("he-IL", expected_canonical), ("x-default", expected_canonical)]
         if parser.alternates != expected_alternates:
             errors.append(
@@ -199,6 +210,11 @@ def main() -> int:
         sitemap_urls = [item.text or "" for item in sitemap_root.findall("s:url/s:loc", namespace)]
         if len(sitemap_urls) != len(set(sitemap_urls)):
             errors.append("sitemap.xml: duplicate URLs")
+        leaked = sorted(draft_urls & set(sitemap_urls))
+        if leaked:
+            errors.append(
+                "sitemap.xml: lists noindex draft pages: " + ", ".join(leaked)
+            )
         if set(sitemap_urls) != canonicals:
             errors.append(
                 "sitemap.xml: URLs do not match page canonicals "
