@@ -40,3 +40,8 @@ __pycache__/
 .cache/
 dist/
 build/
+
+# תמונות המאגר הרשמי — כפופות לתנאי gov.il ודורשות הסכמה בכתב.
+# דחיפה ל-GitHub היא פרסום. ראה teoria/docs/licence.md סעיף 6.
+teoria/data/images/
+teoria/data/signs/
