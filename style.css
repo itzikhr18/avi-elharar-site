@@ -40,7 +40,61 @@
   --fs-xs: .9rem;       /* 14.4px — copyright, breadcrumbs */
   --lh-body: 1.7;
   --lh-heading: 1.25;
+
+  /* === Design System v3 =================================================
+     Ported from the itzik-digital reference build. Same structure — layered
+     glow, glass and depth — with the signal hues rotated from blue/cyan/violet
+     into the brand's gold/amber family. ================================== */
+
+  /* Surface — warm-tinted blacks so gold glows sit in the same family */
+  --ink:       #0b0a07;
+  --ink-2:     #100d08;
+  --ink-3:     #17120a;
+  --panel:     #14100a;
+
+  /* Text */
+  --white:     #fbf8f2;
+  --silver:    #e8e0d2;
+  --faint:     #8a7d6b;   /* smallest labels only */
+
+  /* Signal — gold replaces cyan as the accent that carries markers and dots */
+  --gold:      #d4af37;
+  --gold-lit:  #e8c65a;
+  --spark:     #f4d03f;
+  --spark-lit: #ffe680;
+  --amber:     #c8791f;   /* warm third hue for gradients (was violet) */
+  --amber-lit: #e39a3c;
+
+  /* Structure */
+  --line:      #ffffff1c;
+  --line-2:    #ffffff2e;
+  --line-lit:  #f4d03f3d;
+  --glass:     linear-gradient(145deg, #ffffff14, #d4af370f);
+  --glass-edge: inset 0 1px 0 #ffffff26;
+  --glow:      #d4af3747;   /* per-card accent, overridden locally */
+
+  /* Rhythm */
+  --gut:  clamp(1.25rem, 4vw, 3rem);
+  --sect: clamp(5rem, 12vw, 9.5rem);
+  --max:  76rem;
+
+  /* Ghost heading — size and offset drive the section's top padding, so the
+     marker rule always clears the letters. */
+  --ghost-size: clamp(78px, 13.5vw, 215px);
+  --ghost-top:  2rem;
+
+  /* Motion */
+  --ease-ds:   cubic-bezier(.22,1,.36,1);
+  --ease-ds-2: cubic-bezier(.65,0,.35,1);
+
+  --font-head: "Rubik", "Heebo", "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
 }
+
+/* Ghost clearance — sections carrying a ghost word reserve the full glyph
+   height above their content so the marker rule lands under the letters
+   rather than through them. 1.03em covers descenders like ק. */
+:root { --ghost-clearance: calc(var(--ghost-top) + (var(--ghost-size) * 1.03) + .5rem); }
 
 *,*::before,*::after{box-sizing:border-box}
 html{scroll-behavior:smooth;-webkit-font-smoothing:antialiased;scroll-padding-top:5rem}
@@ -450,6 +504,139 @@ html[dir="rtl"] .hero-visual{transform:translateX(40px) scale(.95)}
 .text-review:hover{border-color:var(--primary)}
 .text-review p{line-height:var(--lh-body);color:var(--muted);margin:0 0 .75rem;font-style:normal}
 .text-review cite{font-size:var(--fs-xs);color:var(--primary-strong);font-style:normal;font-weight:600}
+
+/* ==========================================================================
+   DESIGN SYSTEM v3 — ported from the itzik-digital reference build
+   One dark stage. Layered glow, glass and depth. Signal hues rotated from
+   blue/cyan/violet into the brand's gold/amber family.
+   Everything below intentionally overrides the older flat-card treatment.
+   ========================================================================== */
+
+/* ---------- Stage ----------
+   The reference is uniformly dark; its glow, glass and clipped-text fills all
+   depend on it. The former cream sections become tinted dark surfaces, and the
+   warm cream survives as text colour instead of as a background. */
+.section-soft{background:var(--ink-2);color:var(--silver)}
+.section-dark{background:linear-gradient(180deg,var(--ink),#000)}
+.section-soft::before{background:linear-gradient(90deg,transparent,var(--line-lit),transparent)}
+
+/* Light-section text that was hard-coded against cream, re-pointed at the
+   dark stage. Without these the copy would sit near-black on near-black. */
+.section-soft .section-intro,.about-lead,.about-item p,.about-school-card p,
+.faq-item__body>p{color:var(--muted)}
+.about-item strong,.about-school-card h3,.faq-item summary{color:var(--white)}
+.price-row__name{color:var(--silver)}
+.price-row__amount{color:var(--spark);background:linear-gradient(135deg,var(--spark),var(--gold-lit));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.price-row--highlight .price-row__amount{color:var(--spark-lit)}
+.a11y-statement-content{color:var(--silver)}
+
+/* ---------- Blueprint grid substrate ----------
+   The faint plane everything else floats above. Masked to a soft ellipse so it
+   fades out before the section edge instead of stopping on a hard line. */
+.grid-bed::before{content:"";position:absolute;inset:0;z-index:0;pointer-events:none;
+  background-image:linear-gradient(#ffffff0a 1px,#0000 1px),linear-gradient(90deg,#ffffff0a 1px,#0000 1px);
+  background-size:76px 76px;
+  -webkit-mask-image:radial-gradient(ellipse 85% 70% at 60% 35%,#000,transparent 78%);
+  mask-image:radial-gradient(ellipse 85% 70% at 60% 35%,#000,transparent 78%)}
+
+/* Per-section radial glow. Position is set locally via --glow-x / --glow-y. */
+.glow-bed::after{content:"";position:absolute;inset:0;z-index:0;pointer-events:none;
+  background:radial-gradient(ellipse 55% 45% at var(--glow-x,70%) var(--glow-y,18%),#d4af3714,transparent 72%)}
+
+/* ---------- Typography ----------
+   Heavy geometric sans, set tight. The negative tracking and sub-1 leading are
+   what make Hebrew headings read as a solid mass rather than loose letters. */
+h1,h2,h3,h4{font-family:var(--font-head);font-weight:900;line-height:1;letter-spacing:-.05em;color:var(--white);text-wrap:balance;overflow-wrap:break-word}
+h1{font-size:clamp(2.15rem,1.3rem + 3.4vw,4rem);line-height:.98;letter-spacing:-.055em;margin:.8rem 0 1.2rem;font-weight:900}
+h2{font-size:clamp(1.85rem,1.2rem + 2.5vw,3rem);letter-spacing:-.05em;line-height:1.02;margin:0 0 .9rem;font-weight:900}
+h3{font-size:clamp(1.2rem,1.05rem + .6vw,1.5rem);line-height:1.1;font-weight:900}
+
+/* Brushed-chrome fill. background-clip only cuts against the text of the
+   element carrying it, so it goes on each heading, never on a wrapper. */
+.sheen,h1,h2{background:linear-gradient(#fffdf7 0%,#e4dccb 42%,#8a8172 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+
+/* The old gold underline bar — the numbered marker does that job now. */
+.section h2::after{display:none}
+
+/* Two-tone heading: the second half runs a gold gradient while the first
+   stays chrome. Must sit on an inline span inside the heading. */
+.tint{display:block;background-image:linear-gradient(90deg,var(--spark),var(--gold) 52%,var(--amber-lit));-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent}
+.tint--cool{background-image:linear-gradient(135deg,#fffdf7 12%,#bfae8c 62%,var(--spark) 100%)}
+
+/* The accent dot opts back out of the clipped fill. */
+.dot-c{color:var(--spark);-webkit-text-fill-color:var(--spark);text-shadow:0 0 20px #f4d03f8a}
+
+/* ---------- Patch ----------
+   One word lifted out of the heading onto a painted swatch, tilted off the
+   baseline. One per heading at most — it works because it's the exception.
+   A line carrying a patch must drop its own background-clip:text, or the
+   browser paints the child's glyphs a second time as part of the parent's
+   clipped fill and the word shows twice. */
+.has-patch{background-image:none!important;-webkit-background-clip:border-box!important;background-clip:border-box!important;color:var(--white)!important;-webkit-text-fill-color:var(--white)!important}
+.patch{display:inline-block;position:relative;padding:.02em .26em .08em;margin-inline:.04em;border-radius:.14em;color:#1a1410;-webkit-text-fill-color:#1a1410;background:linear-gradient(102deg,var(--spark-lit),var(--spark) 58%,var(--amber-lit));-webkit-background-clip:border-box;background-clip:border-box;transform:rotate(-1.4deg);box-shadow:0 8px 22px #d4af3744,inset 0 1px 0 #ffffff5c}
+.patch--cool{background:linear-gradient(102deg,#fffdf7,var(--gold-lit) 60%,var(--amber));box-shadow:0 8px 22px #c8791f3d,inset 0 1px 0 #ffffff66}
+
+/* ---------- Oversized ghost heading ----------
+   A watermark set behind the section content. This is what carries the page's
+   scale — the readable heading alone can't do it. */
+.ghost{position:absolute;inset-block-start:var(--ghost-top);inset-inline:0;z-index:0;
+  font-family:var(--font-head);font-weight:900;font-size:var(--ghost-size);letter-spacing:-.07em;
+  line-height:.9;text-align:center;white-space:nowrap;opacity:.14;
+  background:linear-gradient(#e8dfc9,#5c5344);-webkit-background-clip:text;background-clip:text;
+  color:transparent;pointer-events:none;user-select:none}
+
+/* Sections carrying a ghost reserve the full glyph height above their content
+   so the marker rule lands under the letters instead of cutting through them. */
+.section--ghost{padding-block-start:var(--ghost-clearance)}
+
+/* ---------- Section marker ----------
+   Numbered label with a rule that runs out to the edge. Hebrew gets no
+   tracking — only the mono numeral does. */
+.marker{font-family:var(--font-body);font-size:.8125rem;font-weight:700;color:var(--spark);
+  display:flex;align-items:center;gap:.85rem;margin:0 0 2rem;position:relative;z-index:2}
+.marker::after{content:"";flex:1;height:1px;background:linear-gradient(to left,var(--line-2),transparent)}
+.marker .num{font-family:var(--font-mono);font-size:.6875rem;letter-spacing:.16em;color:var(--faint);font-variant-numeric:tabular-nums}
+
+/* ---------- Buttons ---------- */
+.btn{border-radius:100px;padding:.95rem 1.8rem;gap:.7rem;border:0;isolation:isolate}
+.btn-primary{color:#1a1410;background:linear-gradient(110deg,#fffaf0 8%,var(--spark) 100%);box-shadow:0 12px 40px #d4af3738,inset 0 1px 0 #ffffffb3;border:0}
+.btn-primary:hover{transform:translateY(-3px);background:linear-gradient(110deg,#fffdf7 8%,var(--spark-lit) 100%);box-shadow:0 20px 52px #d4af375c,inset 0 1px 0 #ffffffcc}
+.btn-secondary{color:var(--white);background:var(--glass);border:1px solid var(--line-2);box-shadow:var(--glass-edge);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}
+.btn-secondary:hover{border-color:var(--line-lit);box-shadow:var(--glass-edge),0 18px 44px #f4d03f1f;transform:translateY(-3px)}
+.btn .arrow{font-family:var(--font-mono);transition:transform .35s var(--ease-ds)}
+.btn:hover .arrow{transform:translateX(-5px)}
+
+/* ---------- Glass panels ----------
+   One surface treatment across every card type, replacing the flat fills. */
+.card,.guide-card,.area-detail-card,.text-review,.about-school-card,
+.price-table,.hero-metrics li,.stat-item,.faq-item{
+  background:var(--glass);border:1px solid var(--line);box-shadow:var(--glass-edge);
+  backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}
+.card:hover,.guide-card:hover,.area-detail-card:hover{border-color:var(--line-lit);box-shadow:var(--glass-edge),0 22px 60px #d4af3714}
+.stat-item{border-radius:var(--radius);padding:1.4rem 1rem}
+.area-chip{background:var(--glass);border-color:var(--line);box-shadow:var(--glass-edge)}
+.area-chip:hover{border-color:var(--line-lit)}
+
+/* ---------- Portrait ----------
+   Radial halo behind the subject plus a floating caption badge. */
+.hero-visual::before{background:radial-gradient(ellipse 70% 60% at 50% 40%,#d4af3733,transparent 72%);filter:blur(38px)}
+.portrait-badge{position:absolute;bottom:1.1rem;inset-inline-start:50%;transform:translateX(50%);
+  display:flex;align-items:center;gap:.5rem;padding:.5rem 1.1rem;border-radius:100px;
+  background:rgba(12,10,7,.82);border:1px solid var(--line-2);box-shadow:var(--glass-edge),0 10px 30px #00000066;
+  backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);font-size:var(--fs-xs);color:var(--silver);white-space:nowrap}
+.portrait-badge b{color:var(--white);font-weight:700}
+
+/* ---------- Eyebrow pill ---------- */
+.eyebrow{background:var(--glass);border:1px solid var(--line-2);box-shadow:var(--glass-edge);
+  padding:.45rem 1.1rem;border-radius:100px;backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);color:var(--spark)}
+.eyebrow::before{width:7px;height:7px;border-radius:50%;background:var(--spark);box-shadow:0 0 12px var(--spark)}
+
+/* ---------- Responsive tuning for the system ---------- */
+@media(max-width:780px){
+  :root{--ghost-size:24vw;--ghost-top:1.5rem}
+  .ghost{opacity:.11}
+  .patch{padding-inline:.2em;transform:rotate(-1deg)}
+}
 
 /* --- Responsive --------------------------------------------------- */
 @media(max-width:920px){
