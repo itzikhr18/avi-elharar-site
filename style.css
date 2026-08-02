@@ -376,26 +376,33 @@ input:focus-visible,.btn:focus-visible,a:focus-visible{outline:2px solid var(--p
 .reveal-stagger.visible>:nth-child(9){transition-delay:.64s}
 .reveal-stagger.visible>*{opacity:1;transform:translateY(0)}
 
-/* --- Relay reveal (testimonial + graduate photos) ------------------
-   The cards hand the slot over to one another: each arrives from the side,
-   and the one above leaves in the opposite direction as it goes, so a scroll
-   reads as one continuous exchange instead of a row of independent fades.
-   Scroll back up and it plays in reverse — the states are driven by an
-   IntersectionObserver, not a one-shot trigger. */
-.relay>*{--relay-x:16%;opacity:0;
-  transform:translate3d(var(--relay-x),26px,0) scale(.9);
-  transition:opacity .65s var(--ease-ds),transform .8s var(--ease-ds)}
-.relay>:nth-child(even){--relay-x:-16%}
-/* Three across on desktop: give each column its own beat so they still
-   land one after the other rather than all at once. */
-.relay>:nth-child(3n+2){transition-delay:.1s}
-.relay>:nth-child(3n){transition-delay:.2s}
-.relay>.is-in{opacity:1;transform:translate3d(0,0,0) scale(1)}
-.relay>.is-out{opacity:0;transform:translate3d(calc(var(--relay-x) * -1.1),-30px,0) scale(.94)}
-/* Hover lift must still win once the card has landed. */
+/* --- Relay: a stacked deck (testimonial + graduate photos) ---------
+   In one column the cards no longer slide past each other — each one pins
+   under the header and the next scrolls up and covers it, so the section
+   reads as one card being replaced by the next. The sticky offset steps down
+   per card, leaving a thin edge of the ones underneath visible as a deck.
+   The reveal is a plain fade so it never fights the stacking. */
+.relay>*{opacity:0;transform:translate3d(0,20px,0);
+  transition:opacity .55s var(--ease-ds),transform .65s var(--ease-ds)}
+.relay>:nth-child(3n+2){transition-delay:.09s}
+.relay>:nth-child(3n){transition-delay:.18s}
+.relay>.is-in{opacity:1;transform:translate3d(0,0,0)}
 .relay>.is-in.testimonial-card:hover,.relay>.is-in.graduate-card:hover{transform:translateY(-6px)}
+
+@media(max-width:920px){
+  .relay{padding-block-end:1.5rem}
+  /* 4.6rem clears the sticky site header */
+  .relay>*{position:sticky;top:4.6rem;
+    /* Opaque enough to actually cover the card beneath — the shared glass fill
+       is nearly transparent, which would let the stack show through. */
+    background:linear-gradient(150deg,#ffffff12,#ffffff03 46%),rgba(13,11,7,.96);
+    box-shadow:0 -14px 44px #000000ab,0 18px 40px -22px #000000e6}
+  .relay>:nth-child(2){top:5.3rem}
+  .relay>:nth-child(3){top:6rem}
+  .relay>:nth-child(4){top:6.7rem}
+}
 @media(prefers-reduced-motion:reduce){
-  .relay>*,.relay>.is-in,.relay>.is-out{opacity:1;transform:none;transition:none}
+  .relay>*{opacity:1;transform:none;transition:none;position:static}
 }
 
 .hero-copy>*{opacity:0;transform:translateY(30px)}
@@ -617,7 +624,13 @@ html.is-scrolling .float-orb,html.is-scrolling .wa-float.visible{opacity:.45}
     inset 0 -1px 0 #00000047,
     0 10px 24px -14px #000000cc;
   backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);
-  transition:transform .4s var(--ease-ds),box-shadow .4s var(--ease-smooth),border-color .3s var(--ease-smooth)}
+  transition:transform .4s var(--ease-ds),box-shadow .4s var(--ease-smooth),border-color .3s var(--ease-smooth);
+  animation:rowFloat 6.4s var(--ease-smooth) infinite;
+  animation-delay:calc(var(--row-i,0) * -1.05s)}
+@keyframes rowFloat{
+  0%,100%{transform:translate3d(0,0,0)}
+  50%{transform:translate3d(0,-7px,0)}
+}
 /* Top-edge specular streak — the cue that sells the glass. */
 .price-row::before{content:'';position:absolute;inset-inline:14%;top:0;height:1px;width:auto;
   background:linear-gradient(to left,transparent,rgb(var(--row-rgb)/.75),transparent);
@@ -628,13 +641,14 @@ html.is-scrolling .float-orb,html.is-scrolling .wa-float.visible{opacity:.45}
    six breathe out of step instead of pulsing as one block. */
 .price-row::after{inset:-16px;border-radius:30px;filter:blur(12px);opacity:1;
   background:radial-gradient(58% 130% at 50% 50%,rgb(var(--row-rgb)/.32),transparent 72%);
-  animation:rowAura 7s var(--ease-smooth) infinite;
+  animation:rowAura 6.4s var(--ease-smooth) infinite;
   animation-delay:calc(var(--row-i,0) * -1.15s)}
 @keyframes rowAura{
   0%,100%{opacity:.14;transform:scale(.96)}
   50%{opacity:.5;transform:scale(1.03)}
 }
 .price-row:hover,html[dir="rtl"] .price-row:hover{
+  animation:none;
   background:
     linear-gradient(150deg,#ffffff1c,#ffffff00 46%),
     linear-gradient(150deg,rgb(var(--row-rgb)/.22),rgb(var(--row-rgb)/.05) 62%),
@@ -677,7 +691,7 @@ html.is-scrolling .float-orb,html.is-scrolling .wa-float.visible{opacity:.45}
   border-color:rgb(var(--row-rgb)/.38)}
 @media(prefers-reduced-motion:reduce){
   .price-table{perspective:none}
-  .price-row::after,.price-row__icon{animation:none}
+  .price-row,.price-row::after,.price-row__icon{animation:none}
   .price-row::after{opacity:.16;transform:none}
   .price-row:hover,html[dir="rtl"] .price-row:hover{transform:none}
   .price-row:hover .price-row__icon{transform:none}

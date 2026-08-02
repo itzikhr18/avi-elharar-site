@@ -40,9 +40,9 @@ requestAnimationFrame(function(){setTimeout(function(){if(hc)hc.classList.add('a
 var re=document.querySelectorAll('.reveal,.reveal-stagger');
 if(re.length&&'IntersectionObserver'in window){var ro=new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('visible');ro.unobserve(e.target)}})},{threshold:.15,rootMargin:'0px 0px -40px 0px'});re.forEach(function(el){ro.observe(el)})}
 
-/* Relay reveal — testimonial / graduate photos hand the slot to each other */
+/* Relay: fade each card in once; the sticky stack does the rest */
 var relayEls=document.querySelectorAll('.relay>*');
-if(relayEls.length&&'IntersectionObserver'in window){var relayObs=new IntersectionObserver(function(entries){entries.forEach(function(e){var el=e.target;if(e.isIntersecting){el.classList.add('is-in');el.classList.remove('is-out')}else{el.classList.remove('is-in');if(e.boundingClientRect.top<0)el.classList.add('is-out');else el.classList.remove('is-out')}})},{threshold:.32,rootMargin:'-4% 0px -10% 0px'});relayEls.forEach(function(el){relayObs.observe(el)})}
+if(relayEls.length&&'IntersectionObserver'in window){var relayObs=new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('is-in');relayObs.unobserve(e.target)}})},{threshold:.2,rootMargin:'0px 0px -8% 0px'});relayEls.forEach(function(el){relayObs.observe(el)})}
 
 /* Counter Animation */
 function ac(el){var txt=el.textContent.trim(),m=txt.match(/^([\d,]+)/);if(!m)return;var tgt=parseInt(m[1].replace(/,/g,''),10);if(isNaN(tgt)||tgt===0)return;var sfx=txt.replace(m[1],''),dur=1800,st=performance.now();function ease(t){return t===1?1:1-Math.pow(2,-10*t)}function up(now){var p=Math.min((now-st)/dur,1);el.textContent=Math.round(ease(p)*tgt).toLocaleString()+sfx;if(p<1)requestAnimationFrame(up);else el.textContent=txt}el.textContent='0'+sfx;requestAnimationFrame(up)}
