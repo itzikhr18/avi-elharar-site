@@ -99,7 +99,14 @@
 *,*::before,*::after{box-sizing:border-box}
 html{scroll-behavior:smooth;-webkit-font-smoothing:antialiased;scroll-padding-top:5rem}
 
-body{margin:0;font-family:var(--font-body);font-size:18px;font-weight:400;background:var(--bg);color:var(--text);line-height:var(--lh-body);overflow-x:hidden;position:relative;font-optical-sizing:auto}
+/* overflow-x is CLIP, not HIDDEN. `hidden` on one axis computes the other to
+   `auto`, which turns <body> into a scroll container — and every
+   position:sticky inside then resolves against that container instead of the
+   viewport. Chrome hides the damage by propagating body overflow to the
+   viewport; mobile Safari does not, which is the classic "sticky works on
+   desktop, does nothing on iPhone" bug. `clip` never creates a scroll
+   container, so sticky is safe. */
+body{margin:0;font-family:var(--font-body);font-size:18px;font-weight:400;background:var(--bg);color:var(--text);line-height:var(--lh-body);overflow-x:clip;position:relative;font-optical-sizing:auto}
 @media(max-width:720px){body{font-size:17px}}
 html{scrollbar-color:var(--primary) #0a0a0a;scrollbar-width:thin}
 ::-webkit-scrollbar{width:11px;height:11px}
@@ -393,16 +400,20 @@ input:focus-visible,.btn:focus-visible,a:focus-visible{outline:2px solid var(--p
 .relay>.is-in.testimonial-card:hover,.relay>.is-in.graduate-card:hover{transform:translateY(-6px)}
 
 @media(max-width:920px){
-  .relay{padding-block-end:1.5rem}
-  /* 4.6rem clears the sticky site header */
-  .relay>*{position:sticky;top:4.6rem;
+  /* `.grid.relay>*` (0,2,0), NOT `.relay>*` (0,1,0): .testimonial-card and
+     .graduate-card both declare position:relative later in this file, and at
+     equal specificity the later rule wins — the sticky never applied and the
+     cards simply scrolled past each other. Measured: position computed as
+     `relative`, zero overlap at every scroll offset. */
+  .grid.relay{padding-block-end:1.5rem;gap:.9rem}
+  .grid.relay>*{position:sticky;top:4.6rem;
     /* Opaque enough to actually cover the card beneath — the shared glass fill
        is nearly transparent, which would let the stack show through. */
-    background:linear-gradient(150deg,#ffffff12,#ffffff03 46%),rgba(13,11,7,.96);
+    background:linear-gradient(150deg,#ffffff12,#ffffff03 46%),rgba(13,11,7,.97);
     box-shadow:0 -14px 44px #000000ab,0 18px 40px -22px #000000e6}
-  .relay>:nth-child(2){top:5.3rem}
-  .relay>:nth-child(3){top:6rem}
-  .relay>:nth-child(4){top:6.7rem}
+  .grid.relay>:nth-child(2){top:5.3rem}
+  .grid.relay>:nth-child(3){top:6rem}
+  .grid.relay>:nth-child(4){top:6.7rem}
 }
 @media(prefers-reduced-motion:reduce){
   .relay>*{opacity:1;transform:none;transition:none;position:static}
