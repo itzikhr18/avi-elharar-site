@@ -197,13 +197,6 @@ h1{font-family:var(--font-display);font-size:clamp(1.8rem,5vw,3rem);line-height:
 .stat-item__plus{font-size:clamp(1.4rem,2.5vw,2rem);font-weight:800;background:linear-gradient(135deg,var(--primary),var(--accent));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
 .stat-item__label{display:block;color:var(--muted);font-size:var(--fs-xs);margin-top:.4rem;font-weight:500}
 
-/* --- Back to Top Button ------------------------------------------- */
-.back-to-top{position:fixed;bottom:2rem;inset-inline-end:2rem;z-index:55;width:52px;height:52px;border-radius:50%;border:2px solid var(--primary);background:rgba(10,10,10,.85);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);color:var(--primary);display:flex;align-items:center;justify-content:center;cursor:pointer;opacity:0;transform:translateY(60px) scale(.5);pointer-events:none;transition:opacity .5s var(--ease-out),transform .5s var(--ease-bounce),box-shadow var(--dur-m) var(--ease-smooth),background var(--dur-m) var(--ease-smooth);box-shadow:0 0 20px var(--primary-glow),0 4px 15px rgba(0,0,0,.3)}
-.back-to-top.visible{opacity:1;transform:translateY(0) scale(1);pointer-events:auto;animation:btt-pulse 2s ease-in-out 1}
-@keyframes btt-pulse{0%{box-shadow:0 0 20px var(--primary-glow)}50%{box-shadow:0 0 40px var(--primary-glow),0 0 60px rgba(212,175,55,.15)}100%{box-shadow:0 0 20px var(--primary-glow)}}
-.back-to-top:hover{box-shadow:0 0 35px var(--primary-glow),0 0 60px rgba(212,175,55,.15);background:rgba(212,175,55,.15);transform:translateY(-3px) scale(1.1)}
-.back-to-top:active{transform:scale(.9)}
-
 /* --- Typewriter Cursor -------------------------------------------- */
 .typewriter-cursor{display:inline-block;width:4px;height:1.15em;background:var(--primary);margin-inline-start:4px;vertical-align:text-bottom;border-radius:2px;box-shadow:0 0 12px var(--primary-glow),0 0 24px rgba(212,175,55,.15);animation:tw-blink .6s ease-in-out infinite alternate}
 @keyframes tw-blink{0%{opacity:1;box-shadow:0 0 12px var(--primary-glow),0 0 24px rgba(212,175,55,.15)}100%{opacity:.2;box-shadow:0 0 4px var(--primary-glow)}}
@@ -341,6 +334,10 @@ html[dir="rtl"] .price-row:hover{transform:translateX(8px) scale(1.02)}
 
 /* --- Contact ------------------------------------------------------ */
 .contact-wrap{display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:start}
+.contact-lead{margin-bottom:1.2rem}
+.contact-bullets{list-style:none;padding:0;margin:0;display:grid;gap:.6rem}
+.contact-bullets li{display:flex;align-items:center;gap:.55rem;color:var(--silver)}
+.contact-bullets li::before{content:"←";color:var(--primary);font-weight:800;flex:none}
 .contact-form{display:grid;gap:.75rem;background:rgba(255,255,255,.03);border:1px solid var(--border);padding:1.5rem;border-radius:var(--radius-lg);backdrop-filter:blur(8px);transition:border-color var(--dur-m) var(--ease-smooth),box-shadow var(--dur-m) var(--ease-smooth)}
 .contact-form:focus-within{border-color:var(--border-hover);box-shadow:0 0 40px rgba(212,175,55,.06)}
 
@@ -441,11 +438,52 @@ html[dir="rtl"] .hero-visual{transform:translateX(40px) scale(.95)}
 .graduate-card:hover img{transform:scale(1.03)}
 .graduate-card figcaption{margin-top:.85rem;color:var(--muted);font-size:var(--fs-sm);line-height:var(--lh-body);text-align:center;font-weight:500}
 
-/* --- Floating WhatsApp Button ------------------------------------- */
-.wa-float{position:fixed;bottom:2rem;inset-inline-start:2rem;z-index:56;width:48px;height:48px;display:flex;align-items:center;justify-content:center;background:rgba(10,10,10,.92);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border:1.5px solid var(--primary);color:#fff;border-radius:50%;box-shadow:0 4px 16px rgba(0,0,0,.35);cursor:pointer;text-decoration:none;opacity:0;transform:translateY(20px) scale(.9);pointer-events:none;transition:opacity .4s var(--ease-out),transform .4s var(--ease-out),border-color var(--dur-m) var(--ease-smooth),box-shadow var(--dur-m) var(--ease-smooth)}
-.wa-float.visible{opacity:1;transform:translateY(0) scale(1);pointer-events:auto}
-.wa-float:hover{border-color:var(--accent);box-shadow:0 6px 22px rgba(212,175,55,.25),0 0 0 4px rgba(212,175,55,.08);transform:translateY(-2px)}
-.wa-float:active{transform:translateY(0) scale(.96)}
+/* --- Floating action orbs ----------------------------------------------
+   WhatsApp and the accessibility toggle share one treatment: a translucent
+   glass sphere tinted with the service's own official colour, lit from the
+   top-left so it reads as a 3D object rather than a flat chip.
+
+   Deliberately see-through at rest (--orb-rest) so page text stays legible
+   underneath — these sit above the content for the whole scroll, so an opaque
+   disc would permanently cover a slice of every section. They solidify on
+   hover/focus, when the user is actually aiming at them. */
+.float-orb{
+  --orb-size:52px;
+  --orb-rest:.62;
+  position:fixed;z-index:56;width:var(--orb-size);height:var(--orb-size);
+  display:flex;align-items:center;justify-content:center;
+  border-radius:50%;border:1px solid rgb(var(--orb-rgb)/.5);cursor:pointer;text-decoration:none;
+  color:rgb(var(--orb-rgb));opacity:var(--orb-rest);
+  background:
+    radial-gradient(60% 55% at 32% 26%,#ffffff5c,#ffffff00 62%),
+    radial-gradient(120% 110% at 70% 84%,rgb(var(--orb-rgb)/.55),rgb(var(--orb-rgb)/.12) 70%),
+    rgba(10,9,6,.34);
+  box-shadow:
+    inset 0 1px 1px #ffffff59,
+    inset 0 -6px 14px rgb(var(--orb-rgb)/.28),
+    0 10px 26px #0000006e,
+    0 0 22px rgb(var(--orb-rgb)/.22);
+  backdrop-filter:blur(9px) saturate(150%);-webkit-backdrop-filter:blur(9px) saturate(150%);
+  transition:opacity .3s var(--ease-smooth),transform .35s var(--ease-bounce),box-shadow .3s var(--ease-smooth)}
+.float-orb:hover,.float-orb:focus-visible{opacity:1;transform:translateY(-3px) scale(1.06);
+  box-shadow:inset 0 1px 1px #ffffff73,inset 0 -6px 14px rgb(var(--orb-rgb)/.4),
+             0 14px 34px #00000080,0 0 34px rgb(var(--orb-rgb)/.42)}
+.float-orb:active{transform:translateY(0) scale(.95)}
+/* While the page is actually moving the orbs step almost fully out of the way,
+   then return ~0.7s after the scroll settles. They are never in front of copy
+   the visitor is in the middle of reading. */
+html.is-scrolling .float-orb,html.is-scrolling .wa-float.visible{opacity:.14}
+.float-orb svg{position:relative;filter:drop-shadow(0 1px 2px #00000073)}
+
+/* WhatsApp — official brand green */
+.wa-float{--orb-rgb:37 211 102;bottom:1.5rem;inset-inline-start:1.5rem;
+  opacity:0;transform:translateY(20px) scale(.9);pointer-events:none}
+.wa-float.visible{opacity:var(--orb-rest);transform:translateY(0) scale(1);pointer-events:auto}
+.wa-float svg{fill:currentColor}
+/* The label is for assistive tech only — rendered, it overflowed the orb and
+   printed across the section text behind it. */
+.wa-float__label{position:absolute;width:1px;height:1px;margin:-1px;padding:0;
+  overflow:hidden;clip-path:inset(50%);white-space:nowrap;border:0}
 
 /* --- Sticky CTA Bar ----------------------------------------------- */
 .sticky-cta{position:fixed;top:0;inset-inline:0;z-index:49;background:linear-gradient(135deg,rgba(10,10,10,.95),rgba(20,20,20,.95));backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-bottom:1px solid var(--border);padding:.6rem 0;opacity:0;transform:translateY(-100%);pointer-events:none;transition:opacity .4s var(--ease-smooth),transform .4s var(--ease-out)}
@@ -532,6 +570,72 @@ html[dir="rtl"] .hero-visual{transform:translateX(40px) scale(.95)}
 .price-row__name{color:var(--silver)}
 .price-row__amount{color:var(--spark);background:linear-gradient(135deg,var(--spark),var(--gold-lit));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
 .price-row--highlight .price-row__amount{color:var(--spark-lit)}
+
+/* ---------- Price table: tinted glass, lit from above ----------
+   Each row carries its own --row-rgb, set inline in the HTML, so the six
+   line items read as six distinct objects instead of one grey stack. The
+   hues stay muted and warm — saturated neon would fight the gold palette.
+   The table is a perspective container; rows lift toward the viewer on
+   hover rather than just changing colour. */
+.price-table{perspective:900px;perspective-origin:50% 40%;gap:.55rem;padding:.2rem;
+  background:none;border:0;box-shadow:none;backdrop-filter:none;-webkit-backdrop-filter:none}
+.price-row{
+  --row-rgb:212 175 55;
+  transform-style:preserve-3d;border-bottom:0;margin-bottom:0;border-radius:16px;
+  padding:1.05rem 1.25rem;border:1px solid rgb(var(--row-rgb)/.22);
+  background:
+    linear-gradient(150deg,#ffffff12,#ffffff00 46%),
+    linear-gradient(150deg,rgb(var(--row-rgb)/.14),rgb(var(--row-rgb)/.03) 62%),
+    rgba(255,255,255,.028);
+  box-shadow:
+    inset 0 1px 0 #ffffff2e,
+    inset 0 -1px 0 #00000047,
+    0 10px 24px -14px #000000cc;
+  backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);
+  transition:transform .4s var(--ease-ds),box-shadow .4s var(--ease-smooth),border-color .3s var(--ease-smooth)}
+/* Top-edge specular streak — the cue that sells the glass. */
+.price-row::before{content:'';position:absolute;inset-inline:14%;top:0;height:1px;width:auto;
+  background:linear-gradient(to left,transparent,rgb(var(--row-rgb)/.75),transparent);
+  opacity:.55;transform:none;border-radius:0;transition:opacity .3s var(--ease-smooth)}
+.price-row::after{background:radial-gradient(120% 150% at 22% 0%,rgb(var(--row-rgb)/.16),transparent 68%)}
+.price-row:hover,html[dir="rtl"] .price-row:hover{
+  background:
+    linear-gradient(150deg,#ffffff1c,#ffffff00 46%),
+    linear-gradient(150deg,rgb(var(--row-rgb)/.22),rgb(var(--row-rgb)/.05) 62%),
+    rgba(255,255,255,.04);
+  border-color:rgb(var(--row-rgb)/.5);
+  transform:translateZ(26px) rotateX(3.5deg);
+  box-shadow:inset 0 1px 0 #ffffff40,inset 0 -1px 0 #00000047,
+             0 26px 46px -20px #000000e6,0 0 30px rgb(var(--row-rgb)/.18)}
+.price-row:hover::before{opacity:1;transform:none}
+
+/* The icon tile is the "object" that carries the colour: a rounded glass
+   cube with a top highlight and a coloured bounce light from below. */
+.price-row__icon{width:44px;height:44px;border-radius:13px;
+  color:rgb(var(--row-rgb));background:
+    linear-gradient(160deg,#ffffff38,#ffffff00 55%),
+    linear-gradient(160deg,rgb(var(--row-rgb)/.42),rgb(var(--row-rgb)/.12));
+  border:1px solid rgb(var(--row-rgb)/.4);
+  box-shadow:inset 0 1px 1px #ffffff66,inset 0 -5px 10px rgb(var(--row-rgb)/.3),
+             0 8px 18px -8px rgb(var(--row-rgb)/.55);
+  transition:transform .4s var(--ease-ds),box-shadow .35s var(--ease-smooth)}
+.price-row:hover .price-row__icon{color:rgb(var(--row-rgb));background:
+    linear-gradient(160deg,#ffffff4d,#ffffff00 55%),
+    linear-gradient(160deg,rgb(var(--row-rgb)/.55),rgb(var(--row-rgb)/.16));
+  transform:translateZ(16px) scale(1.07) rotate(-4deg);
+  box-shadow:inset 0 1px 1px #ffffff80,inset 0 -5px 10px rgb(var(--row-rgb)/.42),
+             0 14px 26px -8px rgb(var(--row-rgb)/.7)}
+.price-row__amount{background-image:linear-gradient(135deg,#fffdf5,rgb(var(--row-rgb)))}
+.price-row--highlight{background:
+    linear-gradient(150deg,#ffffff17,#ffffff00 46%),
+    linear-gradient(150deg,rgb(var(--row-rgb)/.2),rgb(var(--row-rgb)/.05) 62%),
+    rgba(255,255,255,.04);
+  border-color:rgb(var(--row-rgb)/.38)}
+@media(prefers-reduced-motion:reduce){
+  .price-table{perspective:none}
+  .price-row:hover,html[dir="rtl"] .price-row:hover{transform:none}
+  .price-row:hover .price-row__icon{transform:none}
+}
 .a11y-statement-content{color:var(--silver)}
 
 /* ---------- Blueprint grid substrate ----------
@@ -591,7 +695,10 @@ h3{font-size:clamp(1.2rem,1.05rem + .6vw,1.5rem);line-height:1.1;font-weight:900
 
 /* Sections carrying a ghost reserve the full glyph height above their content
    so the marker rule lands under the letters instead of cutting through them. */
-.section--ghost{padding-block-start:var(--ghost-clearance);overflow-x:clip}
+/* Two classes, not one: the responsive `.section{padding:3rem 0}` overrides later
+   in this file would otherwise win on specificity-tie + source order and collapse
+   the reserve, dropping the ghost straight onto the marker rule (mobile bug). */
+.section.section--ghost{padding-block-start:var(--ghost-clearance);overflow-x:clip}
 /* clip, not hidden — hidden would kill any position:sticky inside the section */
 
 /* ---------- Section marker ----------
@@ -734,8 +841,11 @@ body.a11y-high-contrast .ghost{display:none!important}
 .about-portrait::before{content:"";position:absolute;inset:-14%;z-index:0;border-radius:50%;
   background:radial-gradient(ellipse 62% 58% at 50% 42%,#d4af373d,transparent 72%);filter:blur(30px)}
 .about-portrait picture{position:relative;z-index:1;display:block}
-.about-portrait img{width:100%;height:auto;border-radius:var(--radius-lg);
-  border:1px solid var(--line-2);box-shadow:0 26px 60px #000000a6}
+/* Cut-out portrait: no frame. A border or radius here would outline the
+   transparent canvas, not the subject. Depth comes from drop-shadow, which
+   follows the alpha channel, plus the gold halo behind. */
+.about-portrait img{width:100%;height:auto;border-radius:0;border:0;background:none;
+  box-shadow:none;filter:drop-shadow(0 22px 34px #000000b3) drop-shadow(0 2px 6px #00000073)}
 .about-portrait figcaption{position:absolute;z-index:2;bottom:-.9rem;inset-inline-start:50%;
   transform:translateX(50%);display:flex;align-items:center;gap:.55rem;white-space:nowrap;
   padding:.5rem 1.15rem;border-radius:100px;background:rgba(12,10,7,.88);
@@ -830,8 +940,8 @@ body.a11y-high-contrast .ghost{display:none!important}
   .faq-item summary{padding:.9rem 1rem}
   .faq-item p{padding:0 1rem 1rem}
   .footer-wrap{flex-direction:column;text-align:center;gap:.5rem}
-  .back-to-top{bottom:1.2rem;inset-inline-end:1.2rem;width:46px;height:46px}
-  .wa-float{bottom:1.2rem;inset-inline-start:1.2rem;width:44px;height:44px}
+  .float-orb{--orb-size:46px;--orb-rest:.55}
+  .wa-float{bottom:1.1rem;inset-inline-start:1.1rem}
   .wa-float svg{width:22px;height:22px}
   .sticky-cta__text{display:none}
   .sticky-cta__inner{gap:.5rem}
@@ -839,10 +949,13 @@ body.a11y-high-contrast .ghost{display:none!important}
 }
 
 /* --- Accessibility Widget ----------------------------------------- */
-.a11y-widget{position:fixed;inset-inline-end:2rem;bottom:6rem;z-index:57}
-.a11y-toggle{width:52px;height:52px;border-radius:50%;border:2px solid #4a90d9;background:rgba(10,10,10,.9);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);color:#4a90d9;display:flex;align-items:center;justify-content:center;cursor:pointer;box-shadow:0 4px 20px rgba(74,144,217,.3);transition:transform var(--dur-f) var(--ease-bounce),box-shadow var(--dur-m) var(--ease-smooth),background var(--dur-m) var(--ease-smooth)}
-.a11y-toggle:hover{transform:scale(1.1);box-shadow:0 6px 28px rgba(74,144,217,.45);background:rgba(74,144,217,.15)}
-.a11y-toggle:active{transform:scale(.95)}
+/* Sits where the back-to-top arrow used to be. The toggle itself is a
+   .float-orb (see above) tinted with the standard accessibility blue; only
+   position and the panel anchoring live here. */
+.a11y-widget{position:fixed;inset-inline-end:1.5rem;bottom:1.5rem;z-index:57}
+.a11y-toggle{--orb-rgb:74 144 217;position:relative}
+/* While the panel is open the toggle must be unmistakably solid. */
+.a11y-toggle[aria-expanded="true"]{opacity:1}
 
 .a11y-panel{position:absolute;bottom:calc(100% + .75rem);inset-inline-end:0;width:300px;background:rgba(20,20,20,.97);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border:1px solid rgba(74,144,217,.3);border-radius:var(--radius-lg);box-shadow:0 16px 50px rgba(0,0,0,.5);opacity:0;transform:translateY(20px) scale(.95);pointer-events:none;transition:opacity .3s var(--ease-out),transform .3s var(--ease-bounce);overflow:hidden}
 .a11y-panel.open{opacity:1;transform:translateY(0) scale(1);pointer-events:auto}
@@ -892,13 +1005,12 @@ body.a11y-big-cursor,body.a11y-big-cursor *{cursor:url("data:image/svg+xml,%3Csv
 body.a11y-stop-animations *,body.a11y-stop-animations *::before,body.a11y-stop-animations *::after{animation:none!important;transition:none!important}
 
 @media(max-width:920px){
-  .a11y-widget{inset-inline-end:1.2rem;bottom:5rem}
-  .a11y-toggle{width:46px;height:46px}
+  .a11y-widget{inset-inline-end:1.1rem;bottom:1.1rem}
   .a11y-panel{width:280px}
 }
 @media(max-width:480px){
-  .a11y-widget{inset-inline-end:1rem;bottom:4.5rem}
-  .a11y-toggle{width:42px;height:42px}
+  .a11y-widget{inset-inline-end:.9rem;bottom:.9rem}
+  .float-orb{--orb-size:42px}
   .a11y-panel{width:260px;inset-inline-end:-0.5rem}
 }
 
