@@ -42,27 +42,27 @@
   <link rel="alternate" hreflang="x-default" href="https://avielharar.co.il/maamarim/5-tauyot-test-yerushalayim/" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@500;700;900&family=Heebo:wght@300;400;500;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="../../style.min.css?v=20260529b" />
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../../style.min.css?v=20260802" />
 
   <!-- Article-specific styles (reuse global theme tokens) -->
   <style>
     .article-hero{padding:3.5rem 0 1.5rem}
-    .breadcrumbs{font-size:.85rem;color:var(--muted);margin-bottom:1.2rem}
+    .breadcrumbs{font-size:var(--fs-xs);color:var(--muted);margin-bottom:1.2rem}
     .breadcrumbs a{color:var(--muted);text-decoration:none;border-bottom:1px solid transparent;transition:color .2s,border-color .2s}
     .breadcrumbs a:hover{color:var(--primary);border-color:var(--primary)}
     .breadcrumbs span{margin:0 .35rem;opacity:.5}
-    .article-eyebrow{color:var(--primary);font-weight:700;letter-spacing:.04em;font-size:.9rem;margin:0 0 .5rem}
-    .article-title{font-family:var(--font-display);font-size:clamp(2rem,4.6vw,3.2rem);line-height:1.1;font-weight:900;letter-spacing:-.02em;margin:.3rem 0 1rem;text-wrap:balance}
-    .article-lead{font-size:1.15rem;color:var(--text);max-width:62ch;line-height:1.75}
-    .article-meta{display:flex;flex-wrap:wrap;gap:.6rem 1.2rem;align-items:center;margin-top:1.4rem;font-size:.9rem;color:var(--muted)}
+    .article-eyebrow{color:var(--primary);font-weight:700;letter-spacing:.04em;font-size:var(--fs-sm);margin:0 0 .5rem}
+    .article-title{font-family:var(--font-display);font-size:clamp(1.8rem,5vw,3rem);line-height:var(--lh-heading);font-weight:800;letter-spacing:-.02em;margin:.3rem 0 1rem;text-wrap:balance}
+    .article-lead{font-size:var(--fs-lead);color:var(--text);max-width:62ch;line-height:var(--lh-body)}
+    .article-meta{display:flex;flex-wrap:wrap;gap:.6rem 1.2rem;align-items:center;margin-top:1.4rem;font-size:var(--fs-sm);color:var(--muted)}
     .article-body{max-width:760px;margin:0 auto;padding:1rem 0 2rem}
-    .article-body p{font-size:1.05rem;line-height:1.85;margin:0 0 1.2rem}
+    .article-body p{line-height:var(--lh-body);margin:0 0 1.2rem}
     .article-body h2{margin-top:2.6rem}
     .mistake{background:rgba(255,255,255,.025);border:1px solid var(--border);border-radius:var(--radius-lg);padding:1.8rem 1.6rem;margin:1.5rem 0}
-    .mistake__num{display:inline-flex;align-items:center;justify-content:center;font-family:var(--font-display);font-weight:900;font-size:1.1rem;width:2.4rem;height:2.4rem;border-radius:50%;background:linear-gradient(135deg,var(--primary),var(--accent));color:#1a1410;margin-bottom:.8rem}
-    .mistake h3{font-size:1.4rem;margin:.2rem 0 .8rem;font-weight:800}
-    .mistake__cost{margin-top:1.1rem;padding:.9rem 1.1rem;border-radius:var(--radius);background:rgba(212,175,55,.06);border:1px solid rgba(212,175,55,.18);font-size:.98rem}
+    .mistake__num{display:inline-flex;align-items:center;justify-content:center;font-family:var(--font-display);font-weight:800;font-size:1.1rem;width:2.4rem;height:2.4rem;border-radius:50%;background:linear-gradient(135deg,var(--primary),var(--accent));color:#1a1410;margin-bottom:.8rem}
+    .mistake h3{margin:.2rem 0 .8rem}
+    .mistake__cost{margin-top:1.1rem;padding:.9rem 1.1rem;border-radius:var(--radius);background:rgba(212,175,55,.06);border:1px solid rgba(212,175,55,.18)}
     .mistake__cost strong{color:var(--primary)}
     .compare{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:2rem 0}
     .compare__col{border-radius:var(--radius-lg);border:1px solid var(--border);padding:1.4rem 1.2rem;background:rgba(255,255,255,.02)}
@@ -72,7 +72,7 @@
     .compare__col--bad .compare__head{color:#e57373}
     .compare__col--good .compare__head{color:#81c784}
     .compare ul{list-style:none;margin:0;padding:0}
-    .compare li{display:flex;align-items:flex-start;gap:.55rem;padding:.55rem 0;font-size:.97rem;line-height:1.45;border-bottom:1px solid rgba(255,255,255,.05)}
+    .compare li{display:flex;align-items:flex-start;gap:.55rem;padding:.55rem 0;font-size:var(--fs-sm);line-height:1.5;border-bottom:1px solid rgba(255,255,255,.05)}
     .compare li:last-child{border-bottom:none}
     .compare li::before{flex:none;font-weight:800;line-height:1.4}
     .compare__col--bad li::before{content:"✕";color:#e57373}
@@ -80,13 +80,13 @@
     .article-cta{text-align:center;background:linear-gradient(135deg,rgba(212,175,55,.08),rgba(244,208,63,.04));border:1px solid rgba(212,175,55,.22);border-radius:var(--radius-lg);padding:2.4rem 1.6rem;margin:3rem 0 1rem}
     .article-cta h2{margin-top:0}
     .article-cta__list{list-style:none;padding:0;margin:1.4rem auto;max-width:420px;text-align:right;display:grid;gap:.6rem}
-    .article-cta__list li{display:flex;align-items:center;gap:.55rem;font-size:1rem}
+    .article-cta__list li{display:flex;align-items:center;gap:.55rem;font-size:var(--fs-btn)}
     .article-cta__list li::before{content:"←";color:var(--primary);font-weight:800}
     .article-cta .hero-actions{justify-content:center}
     .author-box{display:flex;gap:1rem;align-items:flex-start;background:rgba(255,255,255,.025);border:1px solid var(--border);border-radius:var(--radius-lg);padding:1.4rem;margin:2rem 0}
     .author-box img{width:84px;height:84px;border-radius:50%;object-fit:cover;flex:none;border:1px solid var(--border)}
-    .author-box h3{margin:0 0 .3rem;font-size:1.15rem}
-    .author-box p{font-size:.95rem;color:var(--muted);margin:0;line-height:1.6}
+    .author-box h3{margin:0 0 .3rem}
+    .author-box p{font-size:var(--fs-sm);color:var(--muted);margin:0;line-height:var(--lh-body)}
     @media(max-width:640px){.compare{grid-template-columns:1fr}.author-box{flex-direction:column;align-items:center;text-align:center}}
   </style>
 

@@ -31,6 +31,7 @@ A high-performance, multi-page marketing site built for conversion and local sea
 |-- sitemap.xml                 # XML sitemap with image extensions
 |-- robots.txt                  # Crawler directives
 |-- CNAME                       # Custom domain binding
+|-- scripts/build_css.py        # style.css -> style.min.css (whitespace-only, verified)
 |-- scripts/validate_site.py    # Dependency-free static-site validator
 |-- .github/workflows/          # Pull request and main-branch validation
 |-- CLAUDE.md                   # AI assistant project context
@@ -97,7 +98,7 @@ npm install -g terser clean-css-cli
 vim style.css main.js index.html
 
 # Rebuild minified assets
-cleancss -o style.min.css style.css
+python3 scripts/build_css.py          # style.css -> style.min.css
 terser main.js -o main.min.js --compress --mangle
 
 # Commit & push (GitHub Pages auto-deploys from main)
@@ -124,6 +125,7 @@ The same validator runs automatically for every pull request and every push to `
 - **Static HTML pages** — the homepage owns the main conversion sections; `/maamarim/` contains indexable editorial content.
 - **RTL-first** — all layout is `dir="rtl"`. CSS uses logical properties where applicable.
 - **Dark + gold palette** — black (`#0a0a0a`) base, classic gold (`#d4af37`) accent, warm cream (`#faf7f0`) on light sections. No light-mode toggle.
+- **Typography (itzik-design-system)** — single family, Heebo (400/500/700/800). Base 18px, 17px at ≤720px; `1rem` stays 16px because `html` is never overridden. Headings scale with `clamp()` (`h1` 1.8→3rem, `h2` 1.5→2.2rem, `h3` fixed 1.15rem); line-height 1.7 for running text, 1.25 for headings. Sizes come from the `--fs-*` tokens in `:root` — add a token rather than a one-off `font-size`.
 - **Cache-busting via query string** — minified assets are referenced as `style.min.css?v=YYYYMMDD<letter>`. Bump the suffix when you change the file so returning visitors fetch fresh CSS.
 - **Hebrew content** — all user-facing text is in Hebrew. Schema/meta includes English alternates for search engines.
 

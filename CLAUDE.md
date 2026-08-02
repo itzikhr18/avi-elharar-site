@@ -27,6 +27,7 @@
 - `sitemap.xml` - מפת אתר עם image sitemap
 - `robots.txt` - הנחיות לסורקים
 - `CNAME` - חיבור דומיין מותאם
+- `scripts/build_css.py` - בניית `style.min.css` מ-`style.css` (whitespace בלבד, עם אימות זהות מול המקור)
 - `scripts/validate_site.py` - בדיקות אוטומטיות לקישורים פנימיים, canonical, Schema, sitemap ונכסי production
 - `.github/workflows/validate-site.yml` - הרצת הבדיקות בכל PR ובכל push ל-main
 
@@ -116,6 +117,23 @@
 - [ ] עדכון Schema אם יש שינויים בשירותים
 
 ## היסטוריית שינויים
+### 02/08/2026 — יישום מערכת הטיפוגרפיה `itzik-design-system`
+- **רקע**: המשתמש ביקש לשפץ את האתר לפי הסקיל `itzik-design-system`. הסקיל עצמו לא היה זמין בסשן (לא בסקילים המקומיים, לא בסקילי claude.ai ולא בקטלוג הפלאגינים), ולכן **סקציית הטיפוגרפיה הודבקה ידנית** על ידי המשתמש ויושמה במלואה. שאר סקציות המערכת (צבעים, spacing, רכיבים) טרם התקבלו — לא נגענו בפלטה ובמרווחים.
+- **⚠️ שינוי כיוון מודע**: המערכת מגדירה **משפחת גופן אחת** — Heebo. כתוצאה מכך **`Frank Ruhl Libre` הוסר לגמרי** מהאתר, כולל מהכותרות, מספרי הסטטיסטיקה, מדדי ה-hero והמחירים. זהו ביטול של כיוון ה-"Refined Editorial Luxury" מ-29/05/2026 שהתבסס על display serif. המשתנה `--font-display` נשמר כ-**alias** ל-`--font-body` כדי שכל הכללים הקיימים ימשיכו להתאים בלי שכתוב רוחבי.
+- **טעינת גופן**: `family=Frank+Ruhl+Libre:wght@500;700;900&family=Heebo:wght@300;400;500;700;800` → `family=Heebo:wght@400;500;700;800` בכל 4 הדפים (`index.html`, `404.html`, `maamarim/index.html`, דף המאמר). `preconnect` + `display=swap` נשמרו. משקל 300 ירד (לא בשימוש); **כל שימושי `font-weight:900` הומרו ל-800** (h1, `.article-title`, `.mistake__num`) כדי שלא יסונתז משקל שלא נטען.
+- **טוקנים חדשים ב-`:root`**: `--fs-lead: 1.15rem`, `--fs-btn: 1rem`, `--fs-sm: .95rem`, `--fs-xs: .9rem`, `--lh-body: 1.7`, `--lh-heading: 1.25`. מכאן ואילך גודל טקסט חדש צריך לצאת מטוקן, לא מ-`font-size` חד-פעמי.
+- **בסיס**: `body` קיבל `font-size:18px` + `font-weight:400` מפורשים (קודם ירש 16px מברירת המחדל), ו-`@media(max-width:720px){body{font-size:17px}}` — נקודת שבירה חדשה שלא הייתה באתר (היו רק 920/640/480). `html` לא נדרס, כך ש-`1rem` נשאר 16px.
+- **סקאלת כותרות**: `h1` `clamp(2.2rem,5.4vw,4rem)`/900/lh1.04 → `clamp(1.8rem,5vw,3rem)`/800/lh1.25. `h2` `clamp(1.8rem,3.4vw,2.8rem)` → `clamp(1.5rem,3.5vw,2.2rem)`/800/lh1.25. `h3` היה ללא גודל גלובלי (ונדרס פר-רכיב בין 1.05rem ל-1.35rem) → **1.15rem קבוע**/700/lh1.25.
+- **ניקוי דריסות רספונסיביות**: הוסרו ~20 דריסות `font-size` מתוך `@media` 920/640/480 (h1, h2, `.subhead`, `.card p`, `.btn`, `.about-lead`, `.faq-item summary` ועוד). ה-`clamp()` על הכותרות + מדרגת ה-17px הן כעת מנגנון הרספונסיביות היחיד; שינויי padding בבלוקים האלה נשמרו.
+- **נרמול טקסט הגוף**: כל פסקאות התוכן (`.card p`, `.guide-card p`, `.area-detail-card p`, `.faq-item__body>p`, `.process-step__content p`, `.about-item p`, `.text-review p`, `.article-body p`, `.a11y-statement-content p`) עברו מסקאלה מפוזרת (.88/.92/.93/.95/1/1.05rem) לירושה של 18px. פסקאות פתיח (`.subhead`, `.about-lead`, `.section-intro`, `.article-lead`) → 1.15rem. מטא/קטן → `.95rem`; copyright ו-breadcrumbs → `.9rem`.
+- **משקלים**: `.form-note` 500 → 700 (מקביל ל-`.form-status` במפרט), `.footer-links a` → 700 (מקביל ל-`.link-out`). `.btn`/`label`/`summary`/`.brand`/`.process-step__num` כבר תאמו.
+- **לא נגענו**: פאנל הנגישות הצף (`.a11y-panel*`, `.a11y-option*`) ותגי ה-micro (`.school-badge__label/__since`, `.price-badge`) — chrome בגודל קבוע שהמפרט לא מכסה, ושינוי בו מסכן פריסה. מצוין כאן במפורש כדי שלא ייחשב לפספוס.
+- **תהליך build**: נוסף `scripts/build_css.py` — minifier של whitespace והערות בלבד (בלי כתיבה מחדש של טוקנים), שמסרב לכתוב אלא אם הפלט זהה למקור אחרי הסרת כל תווי הרווח, הסוגריים מאוזנים, מספר הכללים זהה ו-`calc()`/data-URIs שרדו. פלט: 46,251 בתים, חיסכון 8.2%, 458 כללים, 0 שורות חדשות, 3 data-URIs שלמים. ה-README עודכן מ-`cleancss` לסקריפט הזה.
+- **אימות**: `scripts/validate_site.py` עובר. נמדדו ערכים מחושבים בדפדפן מול ה-`style.min.css` שנשלח: body 18px/lh1.7, h1 800/lh1.25, h3 18.4px/700, lead 18.4px, btn 16px/700, copyright 14.4px — כולם ב-Heebo. נבדקו גם גבולות נקודת השבירה: 719px→17px, 721px→18px, ו-390px מקבע h1 על 28.8px ו-h2 על 24px (מינימום ה-clamp).
+- **cache-busting**: `style.min.css?v=20260529b → ?v=20260802` בכל 4 הדפים. `main.min.js` לא שונה — נשאר `?v=20260524`.
+- עדכון sitemap lastmod ל-2026-08-02T12:00:00+03:00 בכל 3 ה-URLs.
+- **נקודה לאישור**: לפי המפרט `h3` (18.4px) כמעט זהה בגודלו לטקסט הרץ (18px), כך שההיררכיה בין כותרת-משנה לפסקה נשענת על משקל בלבד. בולט במיוחד בכרטיסי המאמר. זו התנהגות נאמנה למפרט, לא באג — אם רוצים ניגוד חזק יותר צריך להחליט על מדרגת h3 גבוהה יותר במערכת עצמה.
+
 ### 21/06/2026 — בדיקת מצב, CI ותיקון פערי תיעוד
 - האתר החי נבדק מול `main`: דף הבית, דף המאמרים, המאמר הראשון, CSS, JS, sitemap ו-robots זהים לקבצי המאגר ומחזירים בהצלחה.
 - נוסף validator ללא תלויות חיצוניות שבודק את כל דפי ה-HTML, קישורים ונכסים מקומיים, canonical, מזהי fragment, JSON-LD, התאמת sitemap, robots, CNAME וקבצי production.
