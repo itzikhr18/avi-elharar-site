@@ -1,0 +1,4401 @@
+{
+  "downloadedAt": "2026-08-02T18:42:11.503Z",
+  "source": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01|tq_pic_02|tq_pic_03/he/",
+  "requested": 439,
+  "succeeded": 439,
+  "failed": 0,
+  "files": {
+    "TQ_PIC_31073.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_31073.jpg",
+      "bytes": 11492,
+      "width": 350,
+      "height": 230,
+      "sha256": "b34906f075f667b6f2489072b9132be7a52af88ba2054dc600100c95708214e5",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3190.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3190.jpg",
+      "bytes": 31661,
+      "width": 350,
+      "height": 230,
+      "sha256": "05879afab4cb0a2ac0ca8b3b680d40e212190bc65d630e30f72654746576efc0",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3368.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3368.jpg",
+      "bytes": 21535,
+      "width": 350,
+      "height": 228,
+      "sha256": "c65be922e58945ed175fc344f7cb0be98aab177a6eb3778140a8a0166829e99e",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3601.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3601.jpg",
+      "bytes": 9767,
+      "width": 350,
+      "height": 92,
+      "sha256": "9b82457519b895e1713ab903595133b3b1310678a0b0879d0bc4adfe3eb87e3d",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3453.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3453.jpg",
+      "bytes": 5808,
+      "width": 350,
+      "height": 230,
+      "sha256": "98c934b47e42c3f7e79955dd84866e59590b057ff63905573f1074d23738d654",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3667.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3667.jpg",
+      "bytes": 6532,
+      "width": 350,
+      "height": 226,
+      "sha256": "39f38769d40a3f512e604202ffe814c0ecdc093733a83381723c972f8a3102a6",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3183.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3183.jpg",
+      "bytes": 8974,
+      "width": 350,
+      "height": 230,
+      "sha256": "d345098dddd92f9f7b19a7f38181ddb03db1168c464e1c90ad0e12005a178327",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3434.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3434.jpg",
+      "bytes": 11333,
+      "width": 350,
+      "height": 230,
+      "sha256": "b2b5118329e765b0eb81fd90e5ce33c95b863ced28f84439b4e51513857660f3",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3560.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3560.jpg",
+      "bytes": 9810,
+      "width": 350,
+      "height": 230,
+      "sha256": "8f3b26eee3229061aeb8cf9e0f2333db379c72576fcb8ad712795e12b742aa09",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3986.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_03/he/TQ_PIC_3986.jpg",
+      "bytes": 19531,
+      "width": 350,
+      "height": 230,
+      "sha256": "c6d6ef0f0c498537dd4de24132006014ef9396dd9e256b3735871be81e6af562",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3464.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3464.jpg",
+      "bytes": 7646,
+      "width": 350,
+      "height": 230,
+      "sha256": "7944e34ad68f7cadc49096a2ab98ab11704581ed4422172a96dd53a92ce106db",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3705.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3705.jpg",
+      "bytes": 38211,
+      "width": 350,
+      "height": 230,
+      "sha256": "5beee8fb8a1d81df65781972ef71e666ed1d2f0496721a4d1075c98016807b93",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3114.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3114.jpg",
+      "bytes": 13685,
+      "width": 350,
+      "height": 230,
+      "sha256": "c02120b2b64761d669c97b5f6d88f67fb5c3045b3ca3baf9deed48522e83cbdf",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3727.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3727.jpg",
+      "bytes": 38807,
+      "width": 350,
+      "height": 230,
+      "sha256": "6017bd985efea4a7cf5d6d319325a6ab04b49b9447bc79045dfa84c89c6b2c17",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3402.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3402.jpg",
+      "bytes": 14734,
+      "width": 350,
+      "height": 230,
+      "sha256": "ff859b3dd60ad0bee99e0d0dc7ec19afc3a58aaf7293d11910d0941b34a78066",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3419.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3419.jpg",
+      "bytes": 9617,
+      "width": 350,
+      "height": 230,
+      "sha256": "7341e7b584e895d331bea6476f2caf0060c7cb1f5c91ac7018b71ded60b0c028",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3702.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3702.jpg",
+      "bytes": 41024,
+      "width": 350,
+      "height": 230,
+      "sha256": "a471e8b89b0fa1e6b09f5dc6ec94fe018c74840ba85e25b1119e9d4d6df25fba",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3641.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3641.jpg",
+      "bytes": 5476,
+      "width": 350,
+      "height": 230,
+      "sha256": "cd90fa162496d303ab27e620cfdd44f8a95e39145a22a54177a0e3c54bebed6c",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3015.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3015.jpg",
+      "bytes": 14932,
+      "width": 350,
+      "height": 230,
+      "sha256": "a7428f4c8c136a4f68dada613063146a30dc0d68e419316b4cd51a88a6a07bc6",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_31802.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_31802.jpg",
+      "bytes": 15447,
+      "width": 350,
+      "height": 230,
+      "sha256": "5d459d252049aa3122c601ce92a11022f3e15f02b7461a81177075b4afad2d52",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_31307.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_31307.jpg",
+      "bytes": 12792,
+      "width": 350,
+      "height": 230,
+      "sha256": "b84fd19daad3cf8339ad247c822b4bfcb5bac09a476cbb6814b8750f741f8bd4",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3985.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_03/he/TQ_PIC_3985.jpg",
+      "bytes": 31051,
+      "width": 350,
+      "height": 230,
+      "sha256": "a2f5ce53222f5646e4d84c293457bd608a56b673d4fa09eb0c3933ec30322cb8",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3155.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3155.jpg",
+      "bytes": 38729,
+      "width": 350,
+      "height": 230,
+      "sha256": "16c6989ebe14e727831ecbb5865c13060d5f1947f4340b0b4f9ed370ff60b07c",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3449.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3449.jpg",
+      "bytes": 11652,
+      "width": 350,
+      "height": 230,
+      "sha256": "04d8e5d4d7735a751398fb5e8f285c128bd25979069b73c8dd5e0239687a14a6",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3280.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3280.jpg",
+      "bytes": 22858,
+      "width": 350,
+      "height": 230,
+      "sha256": "dbe288d1f43457c10eed99b757cf705579d829e8e2e266353d3ace7edfe56e8e",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3216.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3216.jpg",
+      "bytes": 12819,
+      "width": 350,
+      "height": 230,
+      "sha256": "296063fe0b801ef5a42fad579b3d66e4c0bb5c6f84a340ccab506bf0fbc9c04f",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3443.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3443.jpg",
+      "bytes": 7248,
+      "width": 350,
+      "height": 230,
+      "sha256": "70ef8558a33b1dd9d5f8c873ca8ffb002df1f520aa34d4031c24eb73dc28110d",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_31507.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_31507.jpg",
+      "bytes": 19390,
+      "width": 350,
+      "height": 223,
+      "sha256": "b83e3c035aceac8234f4828921d7285e0bfeac1f5ffd0e59e35b1504ff058f12",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3018.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3018.jpg",
+      "bytes": 28332,
+      "width": 350,
+      "height": 230,
+      "sha256": "935a14d22d0f9874c02a2462a7eba51ad6202ce48d8d4b4d9779a68b5b6deb23",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3471.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3471.jpg",
+      "bytes": 8943,
+      "width": 350,
+      "height": 230,
+      "sha256": "e6133eda5cdce75916fed2a6bd09a88b2ab3d33dd60dbda27ef1deb4dca758bf",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_31269.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_31269.jpg",
+      "bytes": 14388,
+      "width": 350,
+      "height": 230,
+      "sha256": "ba8bda7c14ba52fb084ddb2794ca4c4d829e7923ba5be649fd33b8a25073c316",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3385.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3385.jpg",
+      "bytes": 8297,
+      "width": 350,
+      "height": 220,
+      "sha256": "58bb9effe0b40a278450b42e5787f5e49ffb3c1a044dc3a399366fd66794c82f",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3466.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3466.jpg",
+      "bytes": 9156,
+      "width": 350,
+      "height": 230,
+      "sha256": "2bf92fb9a7326b2147e4da3ce318da669e2a3b41b1e66bc9096fd826408dc861",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3160.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3160.jpg",
+      "bytes": 28679,
+      "width": 350,
+      "height": 230,
+      "sha256": "6fadbefd56ed4afcc8cf8172a83d314160ea0be7fb468d837756300500360a84",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3461.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3461.jpg",
+      "bytes": 9219,
+      "width": 350,
+      "height": 230,
+      "sha256": "a51990126cd3aa70a032fb8231bad6d4d02c401cd906e98a77b1720a0eb44eae",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3537.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3537.jpg",
+      "bytes": 11814,
+      "width": 350,
+      "height": 230,
+      "sha256": "abb52e8f5f167aeee119dd2b9fdfd76989db16591d84d85f9e7440dec8b8aa2b",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3491.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3491.jpg",
+      "bytes": 8379,
+      "width": 350,
+      "height": 230,
+      "sha256": "15f0265fbd24665b41ee7a38d564d3d2d4f4f93807908d14b71c6286f4147b26",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3711.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3711.jpg",
+      "bytes": 35708,
+      "width": 350,
+      "height": 230,
+      "sha256": "c990248d9ddb97eb589fdc7846d4dd00cbf8384f055e5c410ead7df45c05462c",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3538.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3538.jpg",
+      "bytes": 11952,
+      "width": 350,
+      "height": 230,
+      "sha256": "b64944fa626401838754f2979f733348e2b1b1326702b59e9d1181c7318b2ace",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3507.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3507.jpg",
+      "bytes": 11606,
+      "width": 350,
+      "height": 230,
+      "sha256": "afa9aa58ce826e6d951ab3b23fb6852783b7ed11c247493ac126881d5bae8564",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3909.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3909.jpg",
+      "bytes": 41849,
+      "width": 350,
+      "height": 230,
+      "sha256": "0761eed88909c648d20d4a5005ebc4f32aa4bd66f72966e21a646998c9746487",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_31569.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_31569.jpg",
+      "bytes": 30059,
+      "width": 350,
+      "height": 230,
+      "sha256": "936aed47671e6af35ef2094cc491f6bc3542bfa8c1457ef170b77f1aab008fcb",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3656.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3656.jpg",
+      "bytes": 7323,
+      "width": 350,
+      "height": 230,
+      "sha256": "8d3bd6d3e1ec3e915abfa7583b3d851f8f70ca23546f0f35fb552111f0123c0b",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3616.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3616.jpg",
+      "bytes": 8172,
+      "width": 350,
+      "height": 230,
+      "sha256": "111bd304a6ad93e442512dd464a9fbb823fac6279db2439a73f8e7835d0609f1",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3726.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3726.jpg",
+      "bytes": 30988,
+      "width": 350,
+      "height": 230,
+      "sha256": "a589719bdce0306863775ed08bf9c29aa729f77cb1c1bd7b464457291e529d1b",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_31036.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_31036.jpg",
+      "bytes": 7407,
+      "width": 350,
+      "height": 230,
+      "sha256": "1d30a1f2e087e3427f5a1ea1f026d6ef3ccf22b54ceb81d309e71bd826820a7b",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3977.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_03/he/TQ_PIC_3977.jpg",
+      "bytes": 26921,
+      "width": 350,
+      "height": 230,
+      "sha256": "97b811764fb5718a4f7649bb92ed9e038f143147b82a0cefcf1e5b7ad54ae903",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3382.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3382.jpg",
+      "bytes": 20585,
+      "width": 350,
+      "height": 229,
+      "sha256": "32091e19e813244d85fb53c1b5998e41e0219c51ad80fd3ec264549850bfb73e",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3505.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3505.jpg",
+      "bytes": 11082,
+      "width": 350,
+      "height": 230,
+      "sha256": "b4257e49cd304c93f243fcec918c2fd3df0c6aa5d6dfde656516e3f39bd75b8f",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3832.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3832.jpg",
+      "bytes": 19605,
+      "width": 350,
+      "height": 230,
+      "sha256": "f317a0604c0a98215fbc3a1f4b1c05e3b0e7554924af85feafe688709ee780d1",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3215.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3215.jpg",
+      "bytes": 14745,
+      "width": 350,
+      "height": 180,
+      "sha256": "ce45b90608bc3d5a1206b626f739def427910c2434c7d2078659e8f41d2f4fb7",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3441.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3441.jpg",
+      "bytes": 9727,
+      "width": 350,
+      "height": 230,
+      "sha256": "730ccd7e28504589bd2abd2cb48d7950c5517dff4b43e21fcab03e32fc25fec7",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3094.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3094.jpg",
+      "bytes": 19326,
+      "width": 350,
+      "height": 230,
+      "sha256": "f94d90218627b952dee0cfb81f111cb3589685a5f4bc1498aa8e8453b30ec3db",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3545.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3545.jpg",
+      "bytes": 9412,
+      "width": 350,
+      "height": 180,
+      "sha256": "1ef2a2cf5a7aea36d674bed2ec089404386672ce4e4e7e7666162bbc1c011b11",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3541.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3541.jpg",
+      "bytes": 10004,
+      "width": 350,
+      "height": 180,
+      "sha256": "0db761eb201a764188e7e6f7dbc1a2963ea422de3f69da5c25f75a521c95a1d2",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3706.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3706.jpg",
+      "bytes": 41306,
+      "width": 350,
+      "height": 230,
+      "sha256": "170c8ffe89b9454b87e4e1d0dbe5b79630c30976d8a11ceec2c612b1acb6db11",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3369.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3369.jpg",
+      "bytes": 26627,
+      "width": 350,
+      "height": 230,
+      "sha256": "099d4805fb2c4ce823809dd165677f8404171f2858d9cbe6e136aafdbd4f5f9a",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3179.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3179.jpg",
+      "bytes": 25003,
+      "width": 350,
+      "height": 230,
+      "sha256": "cd86e042bce8cccdf867dded7459f1eb9571f0f33c553bb9117192bfa4b819e6",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3462.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3462.jpg",
+      "bytes": 27580,
+      "width": 350,
+      "height": 230,
+      "sha256": "212dc67a85c98e9cd39b0a90148fdd01d4206914207eac74e48c5264b0eb9e48",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3590.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3590.jpg",
+      "bytes": 5382,
+      "width": 350,
+      "height": 150,
+      "sha256": "d7292d56b38af741ee13f20671bbc030016f1f88c93f710b27d9d46169b2e82f",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3439.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3439.jpg",
+      "bytes": 8533,
+      "width": 350,
+      "height": 230,
+      "sha256": "f11a9d4c98f4c13b8790a1650fec74f608f66febe0506643c96444d16c3ba467",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3085.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3085.jpg",
+      "bytes": 25655,
+      "width": 350,
+      "height": 230,
+      "sha256": "9c9e9d78862c9032094ebe4dfc6cb1449a9fdd11cac35976e6b39e640072c8c0",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3225.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3225.jpg",
+      "bytes": 26741,
+      "width": 350,
+      "height": 230,
+      "sha256": "45fbae9be6cc470f76b1c188264623674388d6b51b533d7fa58fff768cfaa751",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3774.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3774.jpg",
+      "bytes": 21730,
+      "width": 350,
+      "height": 230,
+      "sha256": "bd0b8e45087bf634598e62462a2aa264ee3168cebb217778f1cf80e8c7ab4f4e",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3572.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3572.jpg",
+      "bytes": 14813,
+      "width": 350,
+      "height": 230,
+      "sha256": "1e9ee3c6310a8cb3ad6c18baa8a29ef0336f50fd808580ece3fb538135d9d189",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3955.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3955.jpg",
+      "bytes": 30398,
+      "width": 350,
+      "height": 230,
+      "sha256": "3a20681036ba7eaf6f3077c741f1846ad9e077ffe9d8312bb52773366cabf39e",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3147.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3147.jpg",
+      "bytes": 9249,
+      "width": 350,
+      "height": 230,
+      "sha256": "aa863b47151d47e0564f10ab3ab553c1b310922da23416508e2830f14704cf5c",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3138.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3138.jpg",
+      "bytes": 14422,
+      "width": 350,
+      "height": 230,
+      "sha256": "41103af4a9cfaa03f192394daa05a09b818cae28941d44ed3c459fc179ddd8fd",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3694.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3694.jpg",
+      "bytes": 13408,
+      "width": 350,
+      "height": 230,
+      "sha256": "8ec1f8eba4ec0c3506d9bb1e1a9960026b2843e74c8c694c1888211d3e6f38e5",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3475.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3475.jpg",
+      "bytes": 8025,
+      "width": 350,
+      "height": 230,
+      "sha256": "cf632c4e5f907abeb38abac8ae334c29ceb9f94fa8414d83ac462bc7e95154fe",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_31022.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_31022.jpg",
+      "bytes": 23537,
+      "width": 350,
+      "height": 230,
+      "sha256": "df5a70a5ed2aaa46f280eb010fd4e2bafcee52f998d473397be489d4a54b48c0",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3682.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3682.jpg",
+      "bytes": 5580,
+      "width": 350,
+      "height": 230,
+      "sha256": "409920f35473fda4cdd5eec0c6ef7ad623ccbb358ea0b54ee35219a5e71e42f1",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3227.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3227.jpg",
+      "bytes": 28302,
+      "width": 350,
+      "height": 230,
+      "sha256": "942490bd4c0db81e3c60c7bd097fbfbc85523a66a1fab9238dc4e02be9a89f7b",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3609.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3609.jpg",
+      "bytes": 7508,
+      "width": 350,
+      "height": 230,
+      "sha256": "820777231051cb627ea221162241f88968f0c6689c3b9dd3f77c86b0f2195fe8",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3633.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3633.jpg",
+      "bytes": 6152,
+      "width": 350,
+      "height": 230,
+      "sha256": "e74b56f9043b19f5bffe4b0c27ed6fa6e154055632f58f17332e189e7cc1b563",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3079.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3079.jpg",
+      "bytes": 26169,
+      "width": 350,
+      "height": 230,
+      "sha256": "9938c7d6dfd3cfb84e30401a33650650ab8f747746e076fd6ff198dc43793d17",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3663.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3663.jpg",
+      "bytes": 5904,
+      "width": 350,
+      "height": 230,
+      "sha256": "128ca5148b0c711360e3fb864390b89ab965caa5b09d1dee97c76b9b10dff096",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3786.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3786.jpg",
+      "bytes": 26691,
+      "width": 350,
+      "height": 230,
+      "sha256": "bb72311626a5ae75a0de89f45d17d80bea67d6ae5695bcf4123a45617c538c7f",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3416.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3416.jpg",
+      "bytes": 8279,
+      "width": 350,
+      "height": 230,
+      "sha256": "8ee09d5ad1a8fd4ba1b9bf020a989eca139a84243f8db917052788d7d12e9d1d",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3456.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3456.jpg",
+      "bytes": 10859,
+      "width": 350,
+      "height": 230,
+      "sha256": "69fa2f807b418c583be3992816c23d709f437b78c7de79b0ab0c3cbebd76c35e",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3657.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3657.jpg",
+      "bytes": 4992,
+      "width": 350,
+      "height": 150,
+      "sha256": "92aa7f0b0f0901572647441ddd7d879d9be36b19130169411f514d146a3ebbb1",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3396.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3396.jpg",
+      "bytes": 22948,
+      "width": 350,
+      "height": 228,
+      "sha256": "566f7a169e7dce2103bb66cd0a4eab742deaf5bbd905d294379ee761e6d2d4e7",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3158.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3158.jpg",
+      "bytes": 30387,
+      "width": 350,
+      "height": 230,
+      "sha256": "5d754276333cb914e472e67a1a5b228eaa02029d7a58e90893cad4494656056e",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3917.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3917.jpg",
+      "bytes": 28440,
+      "width": 350,
+      "height": 230,
+      "sha256": "0b8bb74daaa0453ac0cec396f1604c41cc4ee9a4715c7df9a277aa7f5edb9932",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3882.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3882.jpg",
+      "bytes": 27216,
+      "width": 350,
+      "height": 230,
+      "sha256": "b777204dd8a8f2e76f2b4862c77a98bd6684a601d1969ac52bd4fd050755acbf",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3530.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3530.jpg",
+      "bytes": 6529,
+      "width": 350,
+      "height": 230,
+      "sha256": "0a3794a02ea90de7a5a9cfbe751a3ef6bc98736fd4b2b153cb3c5143f44deccc",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3548.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3548.jpg",
+      "bytes": 8362,
+      "width": 350,
+      "height": 230,
+      "sha256": "0d0a5545096ac5ba66c9cd3ac568b93bffe64a15c3377f69ac45950a94f16fbc",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3185.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3185.jpg",
+      "bytes": 22293,
+      "width": 350,
+      "height": 230,
+      "sha256": "2500701e20543f4b5df0c37a829c87ee0297390f177ae24ea87798224a60be8a",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3432.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3432.jpg",
+      "bytes": 9199,
+      "width": 350,
+      "height": 230,
+      "sha256": "276ff82e26d6a14c72dd9bca62bac446f23c0ffaa9bd40918cd39eb61706ffb4",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_31219.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_31219.jpg",
+      "bytes": 10591,
+      "width": 350,
+      "height": 230,
+      "sha256": "874c34621593e02b99023b369334280f0e2054dd920068c45c4411c3d2767856",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3361.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3361.jpg",
+      "bytes": 19673,
+      "width": 350,
+      "height": 228,
+      "sha256": "fa6eeb5d08ab383b770faa17a16f23bf5f29b09b6c9f121f36c9c8dba5aeecc5",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3636.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3636.jpg",
+      "bytes": 3042,
+      "width": 350,
+      "height": 216,
+      "sha256": "d21e11a7f0068171713cb603d9634db39844d9aec85aca27189cb12238e6fd7d",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3919.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3919.jpg",
+      "bytes": 29539,
+      "width": 350,
+      "height": 230,
+      "sha256": "6005a3ad8db326bb15e641bf2e240f3e13696f9f930e79d9206e48328bf62eac",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3210.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3210.jpg",
+      "bytes": 27895,
+      "width": 350,
+      "height": 230,
+      "sha256": "3fce7316d737ca30aa423d6dd230c4a2693d693f2a6f927244ab674f2a16f945",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3517.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3517.jpg",
+      "bytes": 20242,
+      "width": 350,
+      "height": 155,
+      "sha256": "3fd89bb5d2964d7e1029f3be05f09fe9b211039dae65d03cec4065af631aa187",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_31556.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_31556.jpg",
+      "bytes": 14080,
+      "width": 350,
+      "height": 160,
+      "sha256": "878038638803b4f12c4d224d669a515780d84818010ed6758dafe94952c92ba1",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3603.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3603.jpg",
+      "bytes": 5189,
+      "width": 350,
+      "height": 230,
+      "sha256": "f75501c40ef0d4a0459f437820490dfe3585119aed8fe930683946ec685e34a5",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3627.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3627.jpg",
+      "bytes": 12588,
+      "width": 350,
+      "height": 230,
+      "sha256": "a35e62d27fdf7442b6d3824d1348de15d23a2f3e38bbb39e4b51c613340ceec4",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3448.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3448.jpg",
+      "bytes": 17721,
+      "width": 350,
+      "height": 230,
+      "sha256": "637f34c0ee3d7548a78d3dc54675c65653c29794c04ddea9836c07966bf46154",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3207.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3207.jpg",
+      "bytes": 12795,
+      "width": 350,
+      "height": 230,
+      "sha256": "fbf62bb7d62ffebbec3472c9f5c295c5f4caaead7068ff8422cf01dfe8360798",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3110.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3110.jpg",
+      "bytes": 17475,
+      "width": 350,
+      "height": 230,
+      "sha256": "0ff5da56a070111acc66483971fc8bf86802cf034d3b910f6de15f731d35335d",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3512.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3512.jpg",
+      "bytes": 21996,
+      "width": 350,
+      "height": 230,
+      "sha256": "f3090e154b21242804230d18008742553142822403a1335acf5c609efaf96001",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3550.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3550.jpg",
+      "bytes": 12959,
+      "width": 350,
+      "height": 180,
+      "sha256": "f63bb02e5ef01aeecd3df094634f7103e8fcbbab7d3cf885eca64da4bd686a5f",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3139.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3139.jpg",
+      "bytes": 18059,
+      "width": 350,
+      "height": 230,
+      "sha256": "4166d2924c5dfac2e269044afee7155930b517182f067f124a868a54eceddbb2",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3912.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3912.jpg",
+      "bytes": 32966,
+      "width": 350,
+      "height": 230,
+      "sha256": "7a9627ee69c5e4b6a3b22a49af85a6f78fdeb44e31ee19039097f3a5501d7955",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3567.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3567.jpg",
+      "bytes": 17817,
+      "width": 350,
+      "height": 200,
+      "sha256": "7d74575abece648f0be8340b8e0ac402dfe814bff87ae0c9658d53fe23590a3e",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3395.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3395.jpg",
+      "bytes": 23227,
+      "width": 350,
+      "height": 226,
+      "sha256": "4f0e242e6d288eb2414a6bb47caa819ad0df91dd21422a5862e10c38182ebbc0",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3495.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3495.jpg",
+      "bytes": 9489,
+      "width": 350,
+      "height": 230,
+      "sha256": "91f18b20c1b776492e728f31be6af95652ca2e7be67be271c1fdabd8b68842f8",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3436.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3436.jpg",
+      "bytes": 9501,
+      "width": 350,
+      "height": 230,
+      "sha256": "32685a9a5fe679693db3a625f09b18b606c1d9ae8e55f8db22fdcee9f321b19e",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3420.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3420.jpg",
+      "bytes": 8650,
+      "width": 350,
+      "height": 230,
+      "sha256": "302c5f8d55f603cd0f0b4c708b294266d610015261b6713011e42e74f5184d92",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3490.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3490.jpg",
+      "bytes": 8953,
+      "width": 350,
+      "height": 230,
+      "sha256": "5b4fb7b6dd5e908479c4a588e98a59f9aeefcecdbb10f80a11423c84910819e9",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3677.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3677.jpg",
+      "bytes": 10211,
+      "width": 350,
+      "height": 230,
+      "sha256": "985068834460c1da3dafff14a53d6e4508d9fbfdb3ef0071a8fafdec0cfea5f2",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3658.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3658.jpg",
+      "bytes": 5054,
+      "width": 350,
+      "height": 150,
+      "sha256": "65f7df742c65cea44666013712fdaa938845b92222a184213a6af4748a2a2631",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_31204.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_31204.jpg",
+      "bytes": 22616,
+      "width": 350,
+      "height": 230,
+      "sha256": "59b52c80bdf529c83d9c7aea7a8222b5adc55718481b9a4386923ef6cbc56c60",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3928.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3928.jpg",
+      "bytes": 27549,
+      "width": 350,
+      "height": 230,
+      "sha256": "8485d6acced02f25928bdd93a6593d591f2159650ddadae198a55d366d1eced9",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3414.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3414.jpg",
+      "bytes": 9115,
+      "width": 350,
+      "height": 230,
+      "sha256": "9bd8268fa67240022b668a5ea44e3993cd6057b568ff38b5352c1dc869ecfa76",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3673.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_03/he/TQ_PIC_3673.jpg",
+      "bytes": 10224,
+      "width": 350,
+      "height": 230,
+      "sha256": "ab834058617b03bf7259b312edcdd8e016d75219dc1537c857b67ac1343eeae7",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3579.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3579.jpg",
+      "bytes": 8895,
+      "width": 350,
+      "height": 230,
+      "sha256": "2d2e3d45107970b5ed0115cdfa3fa2dd2f7a1a35c7d69f17f559210ca8efa32a",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3383.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3383.jpg",
+      "bytes": 28225,
+      "width": 350,
+      "height": 230,
+      "sha256": "eba0b82050ea437f5b970eb3d25d8d1f20288adc102a31817b455ba2f5aeaf8d",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3683.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3683.jpg",
+      "bytes": 9836,
+      "width": 350,
+      "height": 230,
+      "sha256": "a4385c73f0e94d1728cd91689c44c272351eb3ce8ff9f43403a4f069fd1b7879",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3826.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3826.jpg",
+      "bytes": 33144,
+      "width": 350,
+      "height": 230,
+      "sha256": "3b8ba553dd8bc263594ad226294c3dcf8277859ed1f122f911af442d04dd9376",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3979.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_03/he/TQ_PIC_3979.jpg",
+      "bytes": 23557,
+      "width": 350,
+      "height": 230,
+      "sha256": "f450fcb093042814a6f2013c818a648054d0e5b5251e3c0f00c854e91443e8ea",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_31278.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_31278.jpg",
+      "bytes": 18734,
+      "width": 350,
+      "height": 230,
+      "sha256": "a301246af80d85e67f7a1b8bd4091e42ddb0659d543dbd91f0a6f97701e123e2",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3896.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3896.jpg",
+      "bytes": 26385,
+      "width": 350,
+      "height": 230,
+      "sha256": "b26c316d8f937133c0d6ac3fd2c1d073e37748f2f1fbc56899b7d822861f4fe4",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3372.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3372.jpg",
+      "bytes": 17483,
+      "width": 350,
+      "height": 230,
+      "sha256": "35bcdd7a8fda98c0818c29cd78efaae26b0e3957a1ab36d7747bbb54c9726879",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3418.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3418.jpg",
+      "bytes": 12613,
+      "width": 350,
+      "height": 230,
+      "sha256": "3864a95937f211baf750ca54de11ddd3f4ed291921bddaf0a4c9e51670cc0d38",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3365.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3365.jpg",
+      "bytes": 21502,
+      "width": 350,
+      "height": 229,
+      "sha256": "1e2a73015a1a362ab7f4361f26094dd167976e1fa0987e8152b424140f4f145c",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3585.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3585.jpg",
+      "bytes": 9671,
+      "width": 350,
+      "height": 230,
+      "sha256": "2df3371c788d5e3409d209f51e9629def35aff9b721598ae23b91c01d3a94bb6",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3451.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3451.jpg",
+      "bytes": 9559,
+      "width": 350,
+      "height": 230,
+      "sha256": "f4722bb2429985908db2370c1707a47ae083d32aadcb0d57fbe7d76c67222663",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3407.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3407.jpg",
+      "bytes": 7854,
+      "width": 350,
+      "height": 230,
+      "sha256": "98555db455e8597b14e8a48ac6d0fefddfac2663ae4d1b74c21195bd5060c779",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3941.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3941.jpg",
+      "bytes": 24605,
+      "width": 350,
+      "height": 230,
+      "sha256": "9635b8dc951d696511ac61301eecdacad8b6f72d3c0c0f0c0e55fde8e6381977",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3679.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3679.jpg",
+      "bytes": 7994,
+      "width": 350,
+      "height": 230,
+      "sha256": "6f868023bbee696eb2a707ae3255333f2f98d42b2ec494f7a5a78a7b40904f26",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3607.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3607.jpg",
+      "bytes": 21347,
+      "width": 350,
+      "height": 230,
+      "sha256": "c3fc80b6f75f292169eb11a175e71658e98ec69baba003b30f9cb19f8e2841e0",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3539.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3539.jpg",
+      "bytes": 10274,
+      "width": 350,
+      "height": 180,
+      "sha256": "8ddc888abc377ead75e95666a7fea6f9770d14408da7649683216d81f8b06773",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3486.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3486.jpg",
+      "bytes": 8821,
+      "width": 350,
+      "height": 230,
+      "sha256": "efbbdbb7c84763943c690dc9e0d6dea273c121ceabf43736d9d64e5ab346b355",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_31348.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_31348.jpg",
+      "bytes": 19370,
+      "width": 350,
+      "height": 230,
+      "sha256": "879cebbea9636de802e9a11144b36f913d175a8ca59ff0c50cfc06838c0d02f6",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3644.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3644.jpg",
+      "bytes": 6879,
+      "width": 350,
+      "height": 230,
+      "sha256": "2753b43910e27e0eff1ef6348cf1497f2473c631f7a88e330ea57188802fbb33",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3473.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3473.jpg",
+      "bytes": 8522,
+      "width": 350,
+      "height": 230,
+      "sha256": "cb86af86d9a28fb3de91bd2dfcab78688ad6fca7a107c583fe3ed882872a1e4c",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3962.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3962.jpg",
+      "bytes": 19446,
+      "width": 350,
+      "height": 230,
+      "sha256": "63d0f0ee9d7f8f93f518de13587ea7a6c9eda638e35d0bc53cbeda50fe46ec38",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3878.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3878.jpg",
+      "bytes": 27167,
+      "width": 350,
+      "height": 230,
+      "sha256": "9576253646c0e229d31f42009a3404eef29cc8ef92f4da41d0ac0c91b87440bd",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3967.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3967.jpg",
+      "bytes": 28965,
+      "width": 350,
+      "height": 230,
+      "sha256": "1996ed67ec0e966663939ba6819cc2a38368b4387ffcde41a862f8e1ee2b5654",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3605.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3605.jpg",
+      "bytes": 12360,
+      "width": 350,
+      "height": 230,
+      "sha256": "0c6838d7a73e2452679d5336dad0184f4b17baa225e390626131b503a7b0a090",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3531.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3531.jpg",
+      "bytes": 13404,
+      "width": 350,
+      "height": 180,
+      "sha256": "611f0af3f5a870e1a41e08b254ad320152248476db76ce39192da1615bf96ccb",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_31572.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_31572.jpg",
+      "bytes": 10881,
+      "width": 350,
+      "height": 230,
+      "sha256": "b842582a2115478324fbea78325bcc2bba05bb2484ab3ea7f1eb1a947627a0e1",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_31723.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_31723.jpg",
+      "bytes": 34714,
+      "width": 350,
+      "height": 214,
+      "sha256": "e0f56caafcc54b8cdff3a8fb103e3b0654e3b2277e71d49909da9e9e545c674a",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3675.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3675.jpg",
+      "bytes": 5285,
+      "width": 350,
+      "height": 150,
+      "sha256": "cb8bbfd0d5d430854218751a554fe81b23e7a990b90091675a9a820b00bd5471",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3358.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3358.jpg",
+      "bytes": 18995,
+      "width": 350,
+      "height": 230,
+      "sha256": "11e12153e6800f8feabca3c8edff6f381dc0ad0ad7ea070c51ab8a2a26a85376",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3430.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3430.jpg",
+      "bytes": 8942,
+      "width": 350,
+      "height": 230,
+      "sha256": "0f26eb3aae9a0af1edf41514c8177fc003d63146a17bc27a91345257a764ff86",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3176.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3176.jpg",
+      "bytes": 14410,
+      "width": 344,
+      "height": 230,
+      "sha256": "401f0c00783576bac62a82c82177b9185cfaedc5409ec13ebb4fd95fd3c90453",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3664.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3664.jpg",
+      "bytes": 6320,
+      "width": 350,
+      "height": 230,
+      "sha256": "12187efa0004f2809888295d55357baaa382223873e3c5571a677e36b1a2d7c6",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_31391.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_31391.jpg",
+      "bytes": 20341,
+      "width": 350,
+      "height": 208,
+      "sha256": "942985f64db771b6107fc3a1cc24869ce6f537e82542162884d60e7cf0777e62",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3470.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3470.jpg",
+      "bytes": 29810,
+      "width": 350,
+      "height": 230,
+      "sha256": "1e2bbefc7b4bc8a3bcb78972ea796e5747d9eb380a64621e130e43989f1e9bd1",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_31477.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_31477.jpg",
+      "bytes": 24050,
+      "width": 350,
+      "height": 230,
+      "sha256": "ceac241aa62d5a0189b95fb23d5f894a04e5184c5559904c751f2da8e8d2b39e",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3115.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3115.jpg",
+      "bytes": 12291,
+      "width": 350,
+      "height": 230,
+      "sha256": "df0a3557c84e4f69797409bdec7df8a9ca361d0b8491a224de9c917a0692b0a3",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3700.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3700.jpg",
+      "bytes": 46667,
+      "width": 350,
+      "height": 230,
+      "sha256": "0feb9820e0a811f47bd054b49e1d1693b0d77f09c4e7a7127c58dd4dadf6e577",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3426.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3426.jpg",
+      "bytes": 8030,
+      "width": 350,
+      "height": 230,
+      "sha256": "e3445c9d2657a00cd6feeedf62ddc65efad350d2ebe1ad0549b900885131c925",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3435.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3435.jpg",
+      "bytes": 9165,
+      "width": 350,
+      "height": 230,
+      "sha256": "adbcdf2ab77c066cbad5445777e42137e64af208af6bec3dd5cf660b405f88d1",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3716.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3716.jpg",
+      "bytes": 37101,
+      "width": 350,
+      "height": 230,
+      "sha256": "d24114dd85420293f2f5b906120387fc1c1880949fd224e965eeec8dd5031de7",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3499.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3499.jpg",
+      "bytes": 9852,
+      "width": 350,
+      "height": 230,
+      "sha256": "4d87f5e08fb0b194d1ba4a4682e8a6040c0bcb90297c815d98c1f5ca3e0a1582",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3968.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3968.jpg",
+      "bytes": 17400,
+      "width": 350,
+      "height": 230,
+      "sha256": "6c7b77f53540cd72cb1bf7679ad92949f4bb30df944f8352d89e01da7cb6a50d",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3355.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3355.jpg",
+      "bytes": 21472,
+      "width": 350,
+      "height": 230,
+      "sha256": "c22c78e627225a3fcc85debcdd569a7000077bf34bded295de58aef81a763392",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3509.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3509.jpg",
+      "bytes": 12744,
+      "width": 350,
+      "height": 230,
+      "sha256": "30b345ba458ecd5d47895eb874785549bb7345e250d03e13f1720cc4c7490d06",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3625.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3625.jpg",
+      "bytes": 5272,
+      "width": 350,
+      "height": 230,
+      "sha256": "3ce37ac320e9553941ad92bb2f0a3d04c99c5ccb2af91ce3353a21d02af63980",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3571.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3571.jpg",
+      "bytes": 20361,
+      "width": 349,
+      "height": 230,
+      "sha256": "fd070fea932e62f0e9e7509470faf85019e4cde10c3f9753e7db45dafa56b3b4",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3956.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3956.jpg",
+      "bytes": 34071,
+      "width": 350,
+      "height": 230,
+      "sha256": "0009cc0a4272c7342f14f56008434071ba3972669728eec70ecbd6533affd261",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3116.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3116.jpg",
+      "bytes": 12725,
+      "width": 350,
+      "height": 230,
+      "sha256": "1be3c2bfec2b6bd93f4832555c57b8236fe9513bb67a166794b00284a1f4bc9c",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_31607.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_31607.jpg",
+      "bytes": 11964,
+      "width": 350,
+      "height": 129,
+      "sha256": "c3a2f7ba8541282391f212e06b9e28fca77f899a67b13c0bb23aef07e5b2f99e",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3717.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3717.jpg",
+      "bytes": 40512,
+      "width": 350,
+      "height": 230,
+      "sha256": "17a125c4bd1ad56393b70a8d83c0511cb152c8c30ee1672eef31cc47c879bcb8",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_31688.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_31688.jpg",
+      "bytes": 36689,
+      "width": 350,
+      "height": 222,
+      "sha256": "0135201c07d5185d58da31df0e8e226cbad5269e167bf22b97b4f17ad6bce66d",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3111.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3111.jpg",
+      "bytes": 16143,
+      "width": 350,
+      "height": 230,
+      "sha256": "f9e7a587575b0ff0a11e27212d9ed7900a63b15c1856776005fc5ac6acbe47d0",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3106.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3106.jpg",
+      "bytes": 16316,
+      "width": 350,
+      "height": 230,
+      "sha256": "d9e5444d2b65dda89ee40e0faceb8f2730186110dfb6587ad536950499d82f81",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3012.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3012.jpg",
+      "bytes": 26619,
+      "width": 350,
+      "height": 230,
+      "sha256": "bdcdcb6811e80c7bc713009cfa1fed69ff2b081531496cffb811e1681b5f2ddf",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3556.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3556.jpg",
+      "bytes": 6617,
+      "width": 350,
+      "height": 180,
+      "sha256": "2a3d4d6f32a2f451a630282c6bc79eed0696fc109bb03e4c1966e7c3085c2f2c",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3720.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3720.jpg",
+      "bytes": 29927,
+      "width": 350,
+      "height": 230,
+      "sha256": "4b5e613d8f642d41863d4b00511edef6b6869a57608f2958e0ee36aaf4c51211",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3883.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3883.jpg",
+      "bytes": 32092,
+      "width": 350,
+      "height": 230,
+      "sha256": "d80c8bdbd149170fb303132c62a40d0be51659953f3fc9bb0fae12ceaa0c69cc",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3703.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3703.jpg",
+      "bytes": 43407,
+      "width": 350,
+      "height": 230,
+      "sha256": "76b2b49b63a0b3399b1eea82006cf9dcbedb4ace6f0a8724fba9613c3dc15a45",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3497.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3497.jpg",
+      "bytes": 9463,
+      "width": 350,
+      "height": 230,
+      "sha256": "12141690d36a0d36a9d2f7e76b31f1bffbec45fc8280ce843bccfe8d34973adf",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3879.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3879.jpg",
+      "bytes": 17192,
+      "width": 350,
+      "height": 230,
+      "sha256": "745083c33b0600f81bff2e6bc768e625be5d0cacdbd4c3692f4b7e54027a56cd",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3728.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3728.jpg",
+      "bytes": 37785,
+      "width": 350,
+      "height": 230,
+      "sha256": "54a4891d96c3831a2fb1466f26d2861af3059205dd092ced707a35d83bb4ff63",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3578.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3578.jpg",
+      "bytes": 12625,
+      "width": 350,
+      "height": 230,
+      "sha256": "dc3a370ed066c87f4d79683dd70f51028e59ab780ef3e9d65b31d13c57a7c33a",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3618.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3618.jpg",
+      "bytes": 10518,
+      "width": 350,
+      "height": 200,
+      "sha256": "e8d5c43ee4c54f38a7564b81e944820aac50eea41983d63e8fcfd73a52e00d13",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3953.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3953.jpg",
+      "bytes": 21576,
+      "width": 350,
+      "height": 230,
+      "sha256": "7b478f901b4fc4b1e38150a0812624d56e35a4d29a1e63f65f5176b8c8fd1efa",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3494.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3494.jpg",
+      "bytes": 12526,
+      "width": 350,
+      "height": 230,
+      "sha256": "61ae12405749151ed828b1151f55092afc685fecc31897d769f61b775e4eae00",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3513.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3513.jpg",
+      "bytes": 11282,
+      "width": 350,
+      "height": 181,
+      "sha256": "11c9fb0572d6f4daa32b3deaf3a8770a9f6a368cff17655130b8295340bc140e",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3082.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3082.jpg",
+      "bytes": 30560,
+      "width": 350,
+      "height": 230,
+      "sha256": "d04ca39cbe97e0cea7b97728af10fda3852f330cf2db1b8896ab3d662d2f1570",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3186.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3186.jpg",
+      "bytes": 9850,
+      "width": 350,
+      "height": 230,
+      "sha256": "e2c13759e55aac56bd74a21bdfcb84195e7fb0537a287cc29f2a6f148ed37391",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3960.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3960.jpg",
+      "bytes": 25229,
+      "width": 350,
+      "height": 230,
+      "sha256": "28d42ec965a94372df28c01d8bc6c5e8d91a36a29f29f7e4f2d32d047abffa86",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_31637.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_31637.jpg",
+      "bytes": 19355,
+      "width": 350,
+      "height": 201,
+      "sha256": "e155e65b6fa8b5d404dd844cad31cbb46ece5b74807d51c63e1bba58ac3a5a62",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3356.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3356.jpg",
+      "bytes": 19588,
+      "width": 350,
+      "height": 230,
+      "sha256": "4a9ce3ee97dd62ad8db632b0d984ede4b90c83e8accb1795f6ba607b5cc93bf2",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3602.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3602.jpg",
+      "bytes": 5060,
+      "width": 350,
+      "height": 200,
+      "sha256": "cd5b3c3d026fdd12f7e141851ac3c3e4e551b3dbc4077bb90c1202545427c2b9",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3899.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3899.jpg",
+      "bytes": 24252,
+      "width": 350,
+      "height": 230,
+      "sha256": "b2f2f8f86229da889880559c09cca2351827676b374330a9927e4e4123d9bd68",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3568.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3568.jpg",
+      "bytes": 8650,
+      "width": 350,
+      "height": 230,
+      "sha256": "c2f855cdc6af9f82e0cf1bc6ce3184feae34f478f9848502d0ca13a0accdb1d3",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3976.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_03/he/TQ_PIC_3976.jpg",
+      "bytes": 19217,
+      "width": 350,
+      "height": 230,
+      "sha256": "d4a77aa5374febe60893a7258312e54d247c01958bd987e2ca42b1b889dfc51a",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3503.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3503.jpg",
+      "bytes": 10185,
+      "width": 350,
+      "height": 230,
+      "sha256": "ceda5fca1ba5770cd70f66e06a500ccbf84011971485add6babd6006dc6b1abe",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3046.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3046.jpg",
+      "bytes": 12420,
+      "width": 350,
+      "height": 230,
+      "sha256": "beed0cecb19b5bd271fd58a3b816f4a519c9e9c0176c6b7796734812291857e4",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3552.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3552.jpg",
+      "bytes": 11469,
+      "width": 350,
+      "height": 180,
+      "sha256": "1b12e07dd036be3c76563038644a23e7d6ed7598f6faaa838dd1ddbea6d10433",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3888.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3888.jpg",
+      "bytes": 33029,
+      "width": 350,
+      "height": 230,
+      "sha256": "34f17992a400a57a18217a41efb8bcb460d70c2ddd72eaa9cb8c7545b6dfc83d",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3796.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3796.jpg",
+      "bytes": 25894,
+      "width": 350,
+      "height": 230,
+      "sha256": "1fc112e16952b8dd820bc57b3e9c493d38b5f65897a1f06b8d517b24238b0b0f",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3938.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3938.jpg",
+      "bytes": 30370,
+      "width": 350,
+      "height": 230,
+      "sha256": "1f649dbb1587a9e4beacd9448e7a033487efc8a71d4d95df3f9d7e8bcba6f0f4",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3409.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3409.jpg",
+      "bytes": 7938,
+      "width": 350,
+      "height": 230,
+      "sha256": "537f9dd952f1f763d2d6ff217a5748feb405167e99d94cbc223b53067b26a575",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3423.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3423.jpg",
+      "bytes": 7665,
+      "width": 350,
+      "height": 230,
+      "sha256": "ae79fad403714198117273e7ded1b9cf5626a288decb48573bc590b6d55757cb",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3634.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3634.jpg",
+      "bytes": 3244,
+      "width": 350,
+      "height": 230,
+      "sha256": "7ab48d4b34713cfd46a062b506bacd2a6b7896eae01c4374ac642fa0208068f6",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3933.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3933.jpg",
+      "bytes": 19696,
+      "width": 350,
+      "height": 230,
+      "sha256": "09504ffa13ab4cc0c7fe57f5fe3c6e8fed0ee2ea5c46bc528b7c8cc6bdd46883",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3153.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3153.jpg",
+      "bytes": 11469,
+      "width": 350,
+      "height": 180,
+      "sha256": "f7a6cda4ed31060e18bd0f04fe4d296100951e3c475cd73297daffe5e4953335",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_31799.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_31799.jpg",
+      "bytes": 19628,
+      "width": 350,
+      "height": 230,
+      "sha256": "647fb56de6dccf131800386445908b661b762f30e38d59deb9e2293cf551a7b5",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_31237.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_31237.jpg",
+      "bytes": 11409,
+      "width": 350,
+      "height": 223,
+      "sha256": "88c2eadb66411b06e423c0ac77c555eb74de5d2c88ec4e31502f0d0b190ffb23",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3784.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3784.jpg",
+      "bytes": 16898,
+      "width": 350,
+      "height": 230,
+      "sha256": "0a1990912d856f51b9349e5a7a56aaeb9a1653df769f541ae480fc5bd695977d",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3661.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3661.jpg",
+      "bytes": 7574,
+      "width": 350,
+      "height": 150,
+      "sha256": "a090185209080cf61b5165cafc1e8dc27728b2ab67acd4c15f7ef0678573a1c3",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3889.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3889.jpg",
+      "bytes": 25776,
+      "width": 350,
+      "height": 230,
+      "sha256": "baf1d7bf95431d50d382f4917ed24020ebe6ad1a2932764107d1240232de477e",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3105.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3105.jpg",
+      "bytes": 16761,
+      "width": 350,
+      "height": 230,
+      "sha256": "286a096f03878decca4131c3c439131a37c74b64cc5e479d43366da12cfcab62",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3623.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3623.jpg",
+      "bytes": 9956,
+      "width": 350,
+      "height": 230,
+      "sha256": "c20bf43cfc3df3c0e3b0feccec504eecd2b13eacb076ddfcb6f4b3ac60ac02bf",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3940.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3940.jpg",
+      "bytes": 26058,
+      "width": 350,
+      "height": 230,
+      "sha256": "597338d16f149a44f6f5eebbda8b938095976d12334247fb61c8bbf1ad68c248",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3508.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3508.jpg",
+      "bytes": 9428,
+      "width": 350,
+      "height": 230,
+      "sha256": "b508925cbb2a140df08e2f8667c6ead017db27e9c30489a5e29bf89a2c5ce8cc",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3884.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3884.jpg",
+      "bytes": 18082,
+      "width": 350,
+      "height": 230,
+      "sha256": "fab0f2a2755c1767926f336517f9e4859705fb6b3d88a065cf0eb6048e7854e7",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3785.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3785.jpg",
+      "bytes": 4435,
+      "width": 350,
+      "height": 200,
+      "sha256": "caa8154a1fdcb345b468c1c62ff9028790e74d33a2792b4bd5795f84a9583b41",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3154.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3154.jpg",
+      "bytes": 34497,
+      "width": 350,
+      "height": 230,
+      "sha256": "23df0695d9eca8150635d71a191a2a4c79f407a71799ee8e20b0146598753524",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3600.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3600.jpg",
+      "bytes": 4683,
+      "width": 350,
+      "height": 180,
+      "sha256": "8ebf66acf18f6c6e9a10ddef3d1222825d1a2201acf598d6459698940949f783",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3924.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3924.jpg",
+      "bytes": 28349,
+      "width": 350,
+      "height": 230,
+      "sha256": "8cc94999a29d781ccf3055d757845b0df494d4af2f9c14a167b14dd76ea2108c",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_31535.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_31535.jpg",
+      "bytes": 21243,
+      "width": 350,
+      "height": 230,
+      "sha256": "25e10f153db141debc1b8f74f04df4e7dc24641ad498e0bd7aaa6b5c659375e1",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3913.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3913.jpg",
+      "bytes": 34255,
+      "width": 350,
+      "height": 230,
+      "sha256": "7672958cc3b9c7e324aba37100156e35d7f6691d11ce59d3b0906226d3600ea6",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3373.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3373.jpg",
+      "bytes": 23976,
+      "width": 350,
+      "height": 228,
+      "sha256": "2fc163581ed54d847dea43608896dc585b83d07477d16dc5663f6b3dd65d9eb5",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3839.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3839.jpg",
+      "bytes": 34961,
+      "width": 350,
+      "height": 230,
+      "sha256": "d44239cb2544f22e847d220ab07efb71d770936bc179721480b8a16cecca94fe",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3710.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3710.jpg",
+      "bytes": 42785,
+      "width": 350,
+      "height": 230,
+      "sha256": "8cf0e9451b577ab477e66cc99f26641ae63dc2acaa00acf7e01afd71c5fa2433",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3468.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3468.jpg",
+      "bytes": 9804,
+      "width": 350,
+      "height": 230,
+      "sha256": "5df6e4c69ceabec23315822018972ef66613f12bd88c25f1deeba8ee040421a7",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_31078.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_31078.jpg",
+      "bytes": 16818,
+      "width": 350,
+      "height": 200,
+      "sha256": "df38dc33d249a62569e784787a33647446995d63e885af6b3b38650c1a99acce",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3759.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3759.jpg",
+      "bytes": 7822,
+      "width": 350,
+      "height": 200,
+      "sha256": "21e767703c85ec132135c0ebfd3a9eedbe8db883ec34909403f641cf7f83438e",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3910.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3910.jpg",
+      "bytes": 41928,
+      "width": 350,
+      "height": 230,
+      "sha256": "936c0c4413a8c7f923eee512d293c422d3baf36aa5b210dd6f80d011cdcbc490",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3926.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3926.jpg",
+      "bytes": 31482,
+      "width": 350,
+      "height": 230,
+      "sha256": "153d4ca37eb745391acd8adb19b74409090fe99a3f7098525f3cf14be0014149",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3880.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3880.jpg",
+      "bytes": 24349,
+      "width": 350,
+      "height": 230,
+      "sha256": "d6605b4748f36dff0c78ae8cef28279b472d45c8787fdab80490df4e27301507",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3714.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3714.jpg",
+      "bytes": 36224,
+      "width": 350,
+      "height": 230,
+      "sha256": "a12a69d85319114768f319b74b2a66d96a344d880e0208f42b0c042d336277b5",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3635.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3635.jpg",
+      "bytes": 4534,
+      "width": 350,
+      "height": 230,
+      "sha256": "ace953bc40f5b7564a022f76feffe6d1ae6d2e898024c7dc397301068ed5f986",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_31390.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_31390.jpg",
+      "bytes": 34285,
+      "width": 350,
+      "height": 230,
+      "sha256": "2bca12056f817b1f711dcb90e9014d61c0ab30158f6d81d378581491ff7b5f20",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3948.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3948.jpg",
+      "bytes": 29446,
+      "width": 350,
+      "height": 230,
+      "sha256": "51ea68f4d087e1dea2ca0150afe8781a7fdc13c0a1b525fd7dad3062513b17d7",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3815.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3815.jpg",
+      "bytes": 32102,
+      "width": 350,
+      "height": 230,
+      "sha256": "cb2a1e1eb7ef82bdb5cb4a2e684548e45d0df65bc66dcdbbf75912f1d97e6fe8",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_31729.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_31729.jpg",
+      "bytes": 20288,
+      "width": 350,
+      "height": 230,
+      "sha256": "62d1708f7c85ee03578a1af9992efd227dc44e16f2bd89eb383e5d4e94e8a570",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3386.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3386.jpg",
+      "bytes": 6806,
+      "width": 350,
+      "height": 230,
+      "sha256": "1d7b4882ae364ae8dfe645380ba368b206eb88a03d7d9a488cbf4dd3e5121ef0",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3721.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3721.jpg",
+      "bytes": 37880,
+      "width": 350,
+      "height": 230,
+      "sha256": "9ab6cbf1d7d3b5540aa784751d3f1b13b4da9bf2ac2571e87eaa8c40a647508f",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3947.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3947.jpg",
+      "bytes": 26798,
+      "width": 350,
+      "height": 230,
+      "sha256": "7093431270c5e70951c4cdf95b50e82185a653abe898e34a4f66c45b0e91165b",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3445.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3445.jpg",
+      "bytes": 10644,
+      "width": 350,
+      "height": 230,
+      "sha256": "6f508948d97665ec4e9915d4dd8eed18be09d9df0b00334e7923827295b9f839",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3963.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3963.jpg",
+      "bytes": 25543,
+      "width": 350,
+      "height": 230,
+      "sha256": "7637f38a3dac96189933010e728e43be308342dd6b881473dac6e75b85c67c08",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3895.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3895.jpg",
+      "bytes": 18787,
+      "width": 350,
+      "height": 230,
+      "sha256": "9b49a5bf50509ea7a83094707dd9162231640e41adf51b7150eb1be95876b911",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3974.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_03/he/TQ_PIC_3974.jpg",
+      "bytes": 28779,
+      "width": 350,
+      "height": 230,
+      "sha256": "91bca9b8414763aa9119d99612013625ea3fe5b9da33be0067710f1d30846410",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3113.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3113.jpg",
+      "bytes": 15237,
+      "width": 350,
+      "height": 228,
+      "sha256": "9aad6a3812eec3088aaf0b4aacdfde9ba7bd2df0530265d3b91613f6082b2416",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3378.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3378.jpg",
+      "bytes": 18156,
+      "width": 350,
+      "height": 228,
+      "sha256": "c443f8b2ea583d81637bc62220e8e25a66bea64da5a809afb4bb9db38c49c49d",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3380.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3380.jpg",
+      "bytes": 18936,
+      "width": 350,
+      "height": 229,
+      "sha256": "9777569bde830da185fb5314328480fc569a127ed6cbb89307f2415476f8d839",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3482.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3482.jpg",
+      "bytes": 3909,
+      "width": 350,
+      "height": 230,
+      "sha256": "e3797a1cde34b81d6f762ca26be3ee1a3ed011f44287cf14e10c07d77b3e57f1",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3650.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3650.jpg",
+      "bytes": 18691,
+      "width": 350,
+      "height": 226,
+      "sha256": "2054e510b940b8440facbbb5f2dd8d84bcb596212362662a9a71f3054ec3a38f",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3108.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3108.jpg",
+      "bytes": 17116,
+      "width": 350,
+      "height": 230,
+      "sha256": "ea30750a77d2c50fc29b345b33be9d1c66b996c1ecc5a00557b2ceff98a4ab4a",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3413.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3413.jpg",
+      "bytes": 8715,
+      "width": 350,
+      "height": 230,
+      "sha256": "ce37fedc19e7b1484a85472e6a2e5a50dd6672e4fa1df4938cd74a506349a43e",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3670.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3670.jpg",
+      "bytes": 8007,
+      "width": 350,
+      "height": 230,
+      "sha256": "7d3b1c0aee2a87fa7e79665ac908fbae6bd852c0fa07739e35a50b461b0506c2",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3902.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3902.jpg",
+      "bytes": 31437,
+      "width": 350,
+      "height": 230,
+      "sha256": "df265d9336c10daddc8a876ead5404bd166c36a59019ea4ab022437dbf7638fe",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3363.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3363.jpg",
+      "bytes": 13164,
+      "width": 350,
+      "height": 200,
+      "sha256": "607cb0fcdff2fafd14f01d7e0d431c3152413a810f24ca6960f610974c7159f1",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3390.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3390.jpg",
+      "bytes": 22933,
+      "width": 350,
+      "height": 230,
+      "sha256": "5e91dcc608c9b4a589c90f6a18d78b89a0b08e8311dc2331f362d1aeefe3bcc0",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3371.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3371.jpg",
+      "bytes": 25110,
+      "width": 350,
+      "height": 229,
+      "sha256": "69e764ac776f6c187865619b673ad08fc2eba153d89635d20d73371a85fa62c4",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3970.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3970.jpg",
+      "bytes": 30593,
+      "width": 350,
+      "height": 230,
+      "sha256": "66b905e6481750757c64ebd49420238be700dc973a2cf6019de2d7581aea54da",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3898.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3898.jpg",
+      "bytes": 38727,
+      "width": 350,
+      "height": 230,
+      "sha256": "5453ed17bf61814c74ad93a0cc94d244ee18dc0f705d6ad80b347d096971e435",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_31519.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_31519.jpg",
+      "bytes": 11927,
+      "width": 350,
+      "height": 230,
+      "sha256": "1fa839be8bced60d50d393ce3f0fd0e5b94b02a8fd2860b2c33a6ef4b7919fd9",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3971.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3971.jpg",
+      "bytes": 35034,
+      "width": 350,
+      "height": 230,
+      "sha256": "a2c09d1210b029a7eec16d949b350ad890529e5911c1189dc5a34b48f2ecca26",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3562.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3562.jpg",
+      "bytes": 10976,
+      "width": 350,
+      "height": 230,
+      "sha256": "29248bda5655dcadc8e9c4d6e7349043b4720a77910623f8930386523fc06a46",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3769.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3769.jpg",
+      "bytes": 26366,
+      "width": 350,
+      "height": 230,
+      "sha256": "ea916feb58608276582619a98e2e97582c6b5ae0925c5b82b4c9a0ce88410c17",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3905.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3905.jpg",
+      "bytes": 28989,
+      "width": 350,
+      "height": 230,
+      "sha256": "d17feb0b7cf17bb2abb456b8ed4a73669d9a8c990f7698633dcdf87dbf5bf995",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3397.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3397.jpg",
+      "bytes": 21574,
+      "width": 350,
+      "height": 230,
+      "sha256": "ed818b64442015394148a8d47dde1f842290261e8f250e383841907b84d3954c",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3771.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3771.jpg",
+      "bytes": 32701,
+      "width": 350,
+      "height": 230,
+      "sha256": "a7aaef5b065cf9a6d338c525cd07806b2d0a91753e53e02630f3201b067c2d23",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3181.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3181.jpg",
+      "bytes": 16733,
+      "width": 350,
+      "height": 230,
+      "sha256": "ca809d5f0b7d4668527d2b2c38c35c29642643a775cf1ce9699df25ec77407e5",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3639.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3639.jpg",
+      "bytes": 5574,
+      "width": 350,
+      "height": 230,
+      "sha256": "d7337128417f1b08b93d2108128ee90dd5766b769c4128d506322ee2c7fdca2b",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3564.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3564.jpg",
+      "bytes": 12725,
+      "width": 350,
+      "height": 230,
+      "sha256": "758214108f983f8242664a8e74864688ad40718b09c4e89abc3a8de118c0e5c4",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3519.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3519.jpg",
+      "bytes": 9679,
+      "width": 350,
+      "height": 230,
+      "sha256": "10e5c3bff8b10cb1a63e3ecb045f13760c40b5e8aa3542bc875c1ac60c564f65",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_31276.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_31276.jpg",
+      "bytes": 27711,
+      "width": 350,
+      "height": 230,
+      "sha256": "89898604608f40601fde02612168709a0f7d7a64aaf7dff61bfc88a125fdf32d",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3708.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3708.jpg",
+      "bytes": 37148,
+      "width": 350,
+      "height": 230,
+      "sha256": "7b01fbde386b6bae08ba1cc167f5a1c6656cd9ccb83a87ad1fe7162c93caf2f2",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3084.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3084.jpg",
+      "bytes": 29117,
+      "width": 350,
+      "height": 230,
+      "sha256": "6469f4f9c681cab973148f9fcfdc5547ee25c7c28b5522e3efa1a9a25287803d",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3389.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3389.jpg",
+      "bytes": 4753,
+      "width": 350,
+      "height": 150,
+      "sha256": "e282f9d1d4da85bdd118c599ae671dbabff12738e7cafe73564d6c1878e84a20",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_31501.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_31501.jpg",
+      "bytes": 20781,
+      "width": 350,
+      "height": 230,
+      "sha256": "a85362c300d05777346999f14814756a98a73fa1281d9015e671b2b7e096a1b9",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_31671.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_31671.jpg",
+      "bytes": 15001,
+      "width": 350,
+      "height": 154,
+      "sha256": "59af0cfc46c8ac1e53e3021f0bf594cd3e101f5794b013166559ad8d0614d2b0",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3428.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3428.jpg",
+      "bytes": 7790,
+      "width": 350,
+      "height": 230,
+      "sha256": "7d54a8b33b239d2d20dca18b9991b1265aa904d817030aab6b6dae241dd27207",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3377.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3377.jpg",
+      "bytes": 25871,
+      "width": 350,
+      "height": 229,
+      "sha256": "f7242372dd76072df8d6c53910f781d7db773e530be066b6e5b9c9cae810e73e",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3583.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3583.jpg",
+      "bytes": 8547,
+      "width": 350,
+      "height": 230,
+      "sha256": "b95acd17d5885a9352ea4b820e405dcac0e19d8fd9ae3252bc34390205d31ade",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3527.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3527.jpg",
+      "bytes": 11862,
+      "width": 350,
+      "height": 230,
+      "sha256": "da9f6c01ed0aba98e346b54ff52ec758c7ca1cee0770dcadfe19aeac6a2c247b",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3922.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3922.jpg",
+      "bytes": 24787,
+      "width": 350,
+      "height": 230,
+      "sha256": "6420c965a2f01de4fbdd5a74bf541782bda6a6ad2d6b57344141d4724c723b6e",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3725.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3725.jpg",
+      "bytes": 36464,
+      "width": 350,
+      "height": 230,
+      "sha256": "069dba7170bbb9aa205548a43dfa7ec0dc39232391081873f08e898f07806de2",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3915.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3915.jpg",
+      "bytes": 36369,
+      "width": 350,
+      "height": 230,
+      "sha256": "55d6001ab5ac926d213c47779c0c72ba31489ccfc2e7b67494a73196a1734571",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3958.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3958.jpg",
+      "bytes": 30449,
+      "width": 350,
+      "height": 230,
+      "sha256": "57428bae09dbffdb5f8b827529317fa37b71d6b5b4d10ea501176c01a45621dc",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3528.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3528.jpg",
+      "bytes": 12716,
+      "width": 350,
+      "height": 230,
+      "sha256": "b635d5567b2253df42142a94638be49d7ab7f22962e4d376d6de02a33000788f",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3659.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3659.jpg",
+      "bytes": 4265,
+      "width": 350,
+      "height": 150,
+      "sha256": "c796d5e7ce7522937d5055ff3533bf11cb660329941c5daeda02b98fa9f8e765",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3652.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3652.jpg",
+      "bytes": 6375,
+      "width": 350,
+      "height": 230,
+      "sha256": "3658e8ecb132d166365a13a97838d43857bbcef30e5710529baceb5be2b15e41",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3411.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3411.jpg",
+      "bytes": 8125,
+      "width": 350,
+      "height": 230,
+      "sha256": "48a48ced6178c576c662cc33c4f89a258e0d652b5449d1432c847239b709b795",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_31731.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_31731.jpg",
+      "bytes": 20228,
+      "width": 350,
+      "height": 230,
+      "sha256": "bbbcbc094ea6fc978fa31eb9ce0ddb139d86708c7c71950d5aeb4683228a7c2c",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3595.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3595.jpg",
+      "bytes": 6897,
+      "width": 350,
+      "height": 230,
+      "sha256": "a206d330a2143d6ae61ebb1e6d72b77647fff084901eabc7fb163ddb3349df4a",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3593.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3593.jpg",
+      "bytes": 11368,
+      "width": 350,
+      "height": 230,
+      "sha256": "cc928718cd6ec6bbbb656174c3a605fe684f1bac33ed0384a460b9e3c8df690f",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3685.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3685.jpg",
+      "bytes": 7987,
+      "width": 350,
+      "height": 200,
+      "sha256": "d4e96cc840e593f6f0838c8b960dcc4b5eb406b65e84e80552f03928df5cb8b1",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3707.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3707.jpg",
+      "bytes": 46598,
+      "width": 350,
+      "height": 230,
+      "sha256": "723ea50dc5c73a87fcd0346ae4f45a6cae9c6c2dd5832359801b30ce851839a6",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3892.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3892.jpg",
+      "bytes": 28694,
+      "width": 350,
+      "height": 230,
+      "sha256": "ede1b235f5c115755aa41a93c22d1e46713f807b9bf5eabb75133c658cd113d3",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3697.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3697.jpg",
+      "bytes": 40111,
+      "width": 350,
+      "height": 230,
+      "sha256": "8aef600ba8c2d4b81250a003344969aa926afb5197a3320431773e84e9b6760a",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3669.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3669.jpg",
+      "bytes": 11230,
+      "width": 350,
+      "height": 230,
+      "sha256": "48a072f642a6942cbf1dae905e71f906dc02b114e09d2bdec48452b7574ad5b4",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3359.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3359.jpg",
+      "bytes": 20076,
+      "width": 350,
+      "height": 230,
+      "sha256": "c0535e5a00697656d3fd05b22c38b735efdc739f1257c61d3e78ebeb847b7449",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3599.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3599.jpg",
+      "bytes": 3673,
+      "width": 350,
+      "height": 200,
+      "sha256": "c5309a9fab328a2f5bd1866747dd60642466aaa1ecf40c56d38d513293e801b0",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3597.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3597.jpg",
+      "bytes": 8623,
+      "width": 350,
+      "height": 230,
+      "sha256": "fc77f895bc7d9d8baacaa34aed68adadcf7affb6fc91eb003ee8710781cf5cb9",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3973.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3973.jpg",
+      "bytes": 24608,
+      "width": 350,
+      "height": 230,
+      "sha256": "3dc53b75d6fc5022c50e2e3b20e8cf37b645be4e73ddc5c925b3d32d7fcd6c11",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_31321.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_31321.jpg",
+      "bytes": 3296,
+      "width": 350,
+      "height": 130,
+      "sha256": "e6abee94b84954d2782c6441bd8dd944cb575a4686726cf4c5324fc954ac57cb",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3981.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_03/he/TQ_PIC_3981.jpg",
+      "bytes": 24766,
+      "width": 350,
+      "height": 230,
+      "sha256": "b124d09184ac470897012dab6252e876907af1f1c5971117cdafc48d09349b7e",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3405.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3405.jpg",
+      "bytes": 20640,
+      "width": 350,
+      "height": 230,
+      "sha256": "e7b6c0e47e9c365a02e8a1662ca53fd727068e8230ebc430bcd5e08ac138df3b",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3622.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3622.jpg",
+      "bytes": 11408,
+      "width": 350,
+      "height": 230,
+      "sha256": "7d368c64e2b73cc24c67308ec6d4804a85f6d9751c07e349e30ef0786de038c5",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3900.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3900.jpg",
+      "bytes": 32046,
+      "width": 350,
+      "height": 230,
+      "sha256": "cf64938832b83b1ab47c6fdf470fd50286136ef383bc72acdcbd67c05256c88d",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3776.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3776.jpg",
+      "bytes": 24018,
+      "width": 350,
+      "height": 230,
+      "sha256": "00c921110885cbf47d1ea316aac30b8d3f21f9618beca0f05d3db042daf0924c",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3188.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3188.jpg",
+      "bytes": 15984,
+      "width": 350,
+      "height": 230,
+      "sha256": "732cd2469a6f908579689988cccc153c6f143cc7e478eafaac907fe255ea433a",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3091.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3091.jpg",
+      "bytes": 36567,
+      "width": 350,
+      "height": 222,
+      "sha256": "f48bc9453c3407fe90714f100d7eca0d74d3b564b59ed743cb929f5c0e6017a0",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3647.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3647.jpg",
+      "bytes": 3502,
+      "width": 350,
+      "height": 230,
+      "sha256": "b46e1d62cb4e3b979ebdc19db93044ffb56889ca57c93825e1b6a4b1ef759ecf",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3415.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3415.jpg",
+      "bytes": 10482,
+      "width": 350,
+      "height": 230,
+      "sha256": "814b8c30d210146912faa6f4ab12ccd2c3c2bb644938dabc46785c52ec29bcfd",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3885.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3885.jpg",
+      "bytes": 17361,
+      "width": 350,
+      "height": 230,
+      "sha256": "02992d78242607bfbfdb81184d4dba3284957b5ad00ebcf067fb176531c186e3",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3978.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_03/he/TQ_PIC_3978.jpg",
+      "bytes": 24956,
+      "width": 350,
+      "height": 230,
+      "sha256": "51aa3831ab6b4c1cc44028dbb77f405f8fd245e75f9911045c0fa26104ab5dc4",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3929.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3929.jpg",
+      "bytes": 30267,
+      "width": 350,
+      "height": 230,
+      "sha256": "0139973535231f7382bf0eaa9bec648d0f15e0fd194ebb749a29cc4a74f7580e",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3718.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3718.jpg",
+      "bytes": 42246,
+      "width": 350,
+      "height": 230,
+      "sha256": "81aafeeb512110515cb0c87d7c048c81e204f20286118ec15cce85fdb4e76a4c",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3921.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3921.jpg",
+      "bytes": 35307,
+      "width": 350,
+      "height": 230,
+      "sha256": "0c0c3761d227db9566d5edd2f06c6c7a3cc21471ca45bf46512e3a43d809a3be",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3132.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3132.jpg",
+      "bytes": 22703,
+      "width": 350,
+      "height": 230,
+      "sha256": "48ae1285485f50f6fcc74553f52a957721722b6950ee302b5faebe7cba7daddb",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3511.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3511.jpg",
+      "bytes": 10847,
+      "width": 350,
+      "height": 230,
+      "sha256": "ffa9b2075636f4a5ad65b330a708fff1e8a32f155ee3386d5d233ea2e2fa3f1b",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_31672.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_31672.jpg",
+      "bytes": 17861,
+      "width": 350,
+      "height": 99,
+      "sha256": "33b57d855f2926f2409451b6a7219e81d7e48340ababb8238a8beb5e9104f7c1",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3208.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3208.jpg",
+      "bytes": 36439,
+      "width": 350,
+      "height": 230,
+      "sha256": "a54a87facbd3e9456a7c9cb76fdac0dfa43d8b5f523c60122a3525ea19dbf52a",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3881.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3881.jpg",
+      "bytes": 34088,
+      "width": 350,
+      "height": 230,
+      "sha256": "f28a8c1218623e9b2a71bf0baacf8402e15cd996ce13c5d177700dabb4c6860a",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3522.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3522.jpg",
+      "bytes": 28093,
+      "width": 350,
+      "height": 230,
+      "sha256": "aeb014781eaa2f29367671722ebd2b967176c27595abd0fd791d8372df0c37fc",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3211.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3211.jpg",
+      "bytes": 18209,
+      "width": 350,
+      "height": 230,
+      "sha256": "501b27b2b88f1b1614f69f46f0da5a919696a569437dfc604fbd96a8e045674d",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3704.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3704.jpg",
+      "bytes": 36655,
+      "width": 350,
+      "height": 230,
+      "sha256": "97ac88de07010a737cfeb08bef3ac357875e0d3a6b75b971a9ef0742949d81bd",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3715.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3715.jpg",
+      "bytes": 38818,
+      "width": 350,
+      "height": 230,
+      "sha256": "1b6183c919f297399f43cf97416a463c3fb93b3fcd1a866c7db2c52e9b83ff00",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3576.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3576.jpg",
+      "bytes": 11571,
+      "width": 350,
+      "height": 230,
+      "sha256": "2a5271d33a0e979b2b633fd45f95d6896af1a94b706d76e9df4343ef586c87f4",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3624.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3624.jpg",
+      "bytes": 5390,
+      "width": 350,
+      "height": 230,
+      "sha256": "b176534393867bc9dbe64ba7e97f361cd4e6bcd1f39cb1985ed45bf298e13595",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3577.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3577.jpg",
+      "bytes": 9418,
+      "width": 350,
+      "height": 150,
+      "sha256": "543d53fe3cbb82fe13d5d7438de081b8d269d1058da56cdddc8a1745634f0f37",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3575.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3575.jpg",
+      "bytes": 9688,
+      "width": 350,
+      "height": 230,
+      "sha256": "bac64d73ad602407db78f510801f4f1dd96694e8aeebd8e8ab16900531d9a7b2",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3632.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3632.jpg",
+      "bytes": 14366,
+      "width": 350,
+      "height": 200,
+      "sha256": "24390ed60ef001a75fe5b8d6f5275695214b80d47e57a555feea4e1b52a7aa59",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3662.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3662.jpg",
+      "bytes": 5913,
+      "width": 350,
+      "height": 230,
+      "sha256": "e67bb5a034d2b8d4f737e01bd8d0e58fac8adf7cb05839de70fd2652ce661012",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3904.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3904.jpg",
+      "bytes": 24437,
+      "width": 350,
+      "height": 230,
+      "sha256": "26876e4baffaa61869ab7fbe7f12185a916fca5e56c485a3d2401c0a1e372472",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3680.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3680.jpg",
+      "bytes": 3794,
+      "width": 350,
+      "height": 230,
+      "sha256": "38959c55f82c577813035e22c6fb1124671a0b013fa67ea6d2506291503f745a",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_31570.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_31570.jpg",
+      "bytes": 25573,
+      "width": 350,
+      "height": 230,
+      "sha256": "6dd057b9470a581c7696a18d2e359fe7a9c8371ad61511f6be08e97a48c7a8c2",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3676.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3676.jpg",
+      "bytes": 6992,
+      "width": 350,
+      "height": 230,
+      "sha256": "18e56348126186e389999d9c26a7929711844d14ae7e97412aaf32d0b4d5f00a",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3628.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3628.jpg",
+      "bytes": 11557,
+      "width": 350,
+      "height": 200,
+      "sha256": "b3a1b24246b44e8c6721bc4ee4ea8a620fb677fc6351d392913b6efa7ac9ba74",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3608.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3608.jpg",
+      "bytes": 6939,
+      "width": 350,
+      "height": 230,
+      "sha256": "463a5b2c816667254789feb1d619f94297c33cf4dea632efaba61c3d25ac163b",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3478.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3478.jpg",
+      "bytes": 31311,
+      "width": 350,
+      "height": 230,
+      "sha256": "ae2c764c8a7deedd7870fa681af5e78bbb29d1cb8ef0e496284cb43b3f2c621c",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3719.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3719.jpg",
+      "bytes": 41803,
+      "width": 350,
+      "height": 230,
+      "sha256": "7b770b922928de2629a649d1402739568a7b5ac0ebb502d76c2983cec16c5abc",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_31652.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_31652.jpg",
+      "bytes": 10657,
+      "width": 350,
+      "height": 79,
+      "sha256": "2984626e0e978bb99a7d81fe7ffff4baf5e8190cfb135d3342304925f248ed37",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3484.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3484.jpg",
+      "bytes": 7740,
+      "width": 350,
+      "height": 230,
+      "sha256": "c396bd1fb5baf07593137b453878d8f0159fa7dd5f2d39e7ee6ed60e150275bf",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3375.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3375.jpg",
+      "bytes": 26717,
+      "width": 350,
+      "height": 229,
+      "sha256": "b2e7a8058bc786a796ad990bc18d88970a582d02aedc521613d40202416f04e0",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_31638.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_31638.jpg",
+      "bytes": 10745,
+      "width": 350,
+      "height": 230,
+      "sha256": "c396344955145e652ffed0586cd7c58def569be0f1d56c5dc657a333f252e7b9",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3093.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3093.jpg",
+      "bytes": 5862,
+      "width": 350,
+      "height": 230,
+      "sha256": "3e3c1c69bcb57c197ad46f5fd85a6e1afc1e63291ddc32e2a2bafd1259925722",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_31803.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_31803.jpg",
+      "bytes": 19804,
+      "width": 350,
+      "height": 230,
+      "sha256": "3aaa9dd5f7f5c621fa31edbbc128603e337bea206eec9b16d7b9ec965e05a2ed",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3931.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3931.jpg",
+      "bytes": 45199,
+      "width": 350,
+      "height": 230,
+      "sha256": "f31f61ef623bd320fcf322bd4424665a473f3f5c52849bdc58cf7182175d65e0",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3459.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3459.jpg",
+      "bytes": 17061,
+      "width": 350,
+      "height": 230,
+      "sha256": "ee36b2d17650d9698011430e73a8cb668a6c10df438bc8f6abf01595eb477ac0",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3184.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3184.jpg",
+      "bytes": 11806,
+      "width": 350,
+      "height": 230,
+      "sha256": "8904eb9f2bd8d0131a93bce422374f5e26c9422f3b38e5911e4d7edd4be1ee73",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3975.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_03/he/TQ_PIC_3975.jpg",
+      "bytes": 26029,
+      "width": 350,
+      "height": 230,
+      "sha256": "a3469ed7d81c635cfa53b0f1f6660b34715352d196efcc48259adfe2c5c88936",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3887.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3887.jpg",
+      "bytes": 18117,
+      "width": 350,
+      "height": 230,
+      "sha256": "04be70ebca696a72795bdafaad1716916f8d08490cfc04e002a8401bb82ab1e9",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3180.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3180.jpg",
+      "bytes": 25107,
+      "width": 350,
+      "height": 230,
+      "sha256": "b6fc97d9ac7fc390e97bad3988f4b669d3a6949eb99857963d707111d3082aaa",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3943.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3943.jpg",
+      "bytes": 28183,
+      "width": 350,
+      "height": 230,
+      "sha256": "61343988065ad9cb9ac18cb475982790ecd921200ae5045295bcfefb3b10e0f5",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_31123.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_31123.jpg",
+      "bytes": 18271,
+      "width": 350,
+      "height": 230,
+      "sha256": "40431e9ac012fae30aa95a91a6ee598e48160360654c176854892844cb22bf24",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3949.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3949.jpg",
+      "bytes": 28725,
+      "width": 350,
+      "height": 230,
+      "sha256": "41ebdb19f7b0bc73991bd28694717c060009949c97bb80796bf961fe9847be6a",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3674.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3674.jpg",
+      "bytes": 35278,
+      "width": 350,
+      "height": 230,
+      "sha256": "c73af5943dc3ff04a9bd36132b4e79f27f321067acde3640b636f80cc366344b",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3972.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3972.jpg",
+      "bytes": 25509,
+      "width": 350,
+      "height": 230,
+      "sha256": "2e6b49548027518401ae08a8d94d9ed0effce8f8698d0c36044f0bbe5b2b9e67",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3182.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3182.jpg",
+      "bytes": 9275,
+      "width": 350,
+      "height": 230,
+      "sha256": "2e263a6041de0e64ac75db227025182081456589d8f03ba83dbfe47e863cfc3d",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3906.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3906.jpg",
+      "bytes": 44203,
+      "width": 350,
+      "height": 230,
+      "sha256": "37df6b151f6b3dc503916fb93a0cab74cb72e6a96068efe88858518637520df6",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3381.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3381.jpg",
+      "bytes": 8522,
+      "width": 350,
+      "height": 230,
+      "sha256": "7621f6a1934a0e339b2555ce8d1a34b9df14d8185ea2d0955b38aac4f69afaba",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3946.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3946.jpg",
+      "bytes": 34151,
+      "width": 350,
+      "height": 230,
+      "sha256": "64e4a55c63ee90c9a5676928cd4597962924cae5f559b21e887379a8dad60af4",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3724.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3724.jpg",
+      "bytes": 38602,
+      "width": 350,
+      "height": 230,
+      "sha256": "13d957a9fe48b68d1425a85c3b94adf19fcb899527da126acaaae9a1e29de27d",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3205.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3205.jpg",
+      "bytes": 10133,
+      "width": 350,
+      "height": 230,
+      "sha256": "32f194db68bbe2071ae07f7d6523eecff10727749fbcfa19452b06d8a586672b",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3580.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3580.jpg",
+      "bytes": 15407,
+      "width": 350,
+      "height": 230,
+      "sha256": "213153bd7a4cabbde72ca152d5a126f6ce26bb4416000c267bec7971861f0203",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_31387.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_31387.jpg",
+      "bytes": 15263,
+      "width": 350,
+      "height": 230,
+      "sha256": "6fb98140ece2ad57c935177ed8fbf141e9b25261537da6552d1aea72dc4a6709",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3936.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3936.jpg",
+      "bytes": 23299,
+      "width": 350,
+      "height": 230,
+      "sha256": "77ba0c3751479598d03667a94da3ef4914938c5ec29c833f0eac6beab5db3c36",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_31760.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_31760.jpg",
+      "bytes": 31434,
+      "width": 350,
+      "height": 230,
+      "sha256": "6b14d203d2bc665fb7b374c066e8632e13ff49664403875c0bf44bcfe4c303c7",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3492.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3492.jpg",
+      "bytes": 20231,
+      "width": 350,
+      "height": 230,
+      "sha256": "0f3ff134d17f75f5a8034532f2c20b4f742d7142538dc5d60f18579b98a6af6d",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3586.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3586.jpg",
+      "bytes": 5265,
+      "width": 350,
+      "height": 180,
+      "sha256": "92a128a32f84f66b039c96482a8d7734adf40bf32ea925404f88b9bc5cb20bdb",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3932.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3932.jpg",
+      "bytes": 32933,
+      "width": 350,
+      "height": 230,
+      "sha256": "4df0612141bb9fa8c91047c2cfb6e4cc470f6a2c701961b154ce7eb1a1bf932e",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3745.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3745.jpg",
+      "bytes": 21949,
+      "width": 350,
+      "height": 230,
+      "sha256": "154f72206604ba469c11f68577215b518123988410d66315dbe14dfe3faadb17",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3911.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3911.jpg",
+      "bytes": 32791,
+      "width": 350,
+      "height": 230,
+      "sha256": "17756902ad46bec3a7190efc7f37b6216c2a88881834bf48bd6f2a5be68cc176",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3942.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3942.jpg",
+      "bytes": 26709,
+      "width": 350,
+      "height": 230,
+      "sha256": "7ee7e741806516bdecd1189e020276bb90dd9e5d0ef4d06c3d9ffcb9d4e44ba2",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3642.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3642.jpg",
+      "bytes": 5301,
+      "width": 350,
+      "height": 230,
+      "sha256": "cf46109cdbda2473ac2c83cb246eac5e58e2fcb8f451263df2fd3f7ef76f63ec",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3394.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3394.jpg",
+      "bytes": 19002,
+      "width": 350,
+      "height": 230,
+      "sha256": "b5da7c25337fd5e4c2bdf277dc6c09ae1fff804393cf54c5952e9d9c7f119bf9",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3631.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3631.jpg",
+      "bytes": 13751,
+      "width": 350,
+      "height": 200,
+      "sha256": "26c99927fe7fe03a3edee3ebe4be8cf2d78aa47a11e734ef7a2ad2474058c15a",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3672.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3672.jpg",
+      "bytes": 10049,
+      "width": 350,
+      "height": 230,
+      "sha256": "ee46fde405c4bbd5fce72ea7430649e49dd55c122e9ad77df0844fe1a1e6aeaa",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3310.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3310.jpg",
+      "bytes": 11784,
+      "width": 350,
+      "height": 120,
+      "sha256": "f4053d83b9b905b4fcd27444b1f74819a20eeb06dad81afd11167a20ff2e411a",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3549.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3549.jpg",
+      "bytes": 11430,
+      "width": 350,
+      "height": 180,
+      "sha256": "393ab0b1b959ee44a0bac24e1065b8f5405abfebd0ad454a0aae0b3a898fb978",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3730.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3730.jpg",
+      "bytes": 23845,
+      "width": 350,
+      "height": 230,
+      "sha256": "045ab78742b179b9da6dcf9102ebae5b238a075d7b684d7a3c9ea568900364a7",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3242.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3242.jpg",
+      "bytes": 22701,
+      "width": 350,
+      "height": 226,
+      "sha256": "683902433165d3ce050cf23d2af350942361c1b3da6fe322a8df04f722073e1f",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_31467.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_31467.jpg",
+      "bytes": 22990,
+      "width": 350,
+      "height": 230,
+      "sha256": "2bb82ad9bb56d52fe4645f7f6622abeea5025251df15aae4568c6e6c42d7d13c",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3360.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3360.jpg",
+      "bytes": 21578,
+      "width": 350,
+      "height": 227,
+      "sha256": "d5e02ea2868688b32a3a4669e637535cb5a5f2983f8b13d1cd3965743cf515f6",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3384.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3384.jpg",
+      "bytes": 20221,
+      "width": 350,
+      "height": 181,
+      "sha256": "3568c9c6458d8026b8a1d83142be002566862cf6a69444c98c0a45175f450c74",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3493.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3493.jpg",
+      "bytes": 7140,
+      "width": 350,
+      "height": 230,
+      "sha256": "cac77246618f1f5f8411e748cea109af9c92019cf7579dca6e7e3efaecc6096d",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3794.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3794.jpg",
+      "bytes": 25636,
+      "width": 350,
+      "height": 230,
+      "sha256": "11558136058e96b83ceab3bfe8178258e05562b1bbf1a60802cf3ea5bf59802c",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3957.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3957.jpg",
+      "bytes": 33316,
+      "width": 350,
+      "height": 230,
+      "sha256": "dc83955477b151361e1d9edbff81b458ddb4aa92ae3b5fb540e9205a20de2408",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3557.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3557.jpg",
+      "bytes": 2717,
+      "width": 350,
+      "height": 180,
+      "sha256": "441de605f867aeaa0b1000e65cff04436168914d6a2f6e295279eec4497b15a2",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3952.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3952.jpg",
+      "bytes": 25835,
+      "width": 350,
+      "height": 230,
+      "sha256": "1518d53adeff6b96a84bd5aa76dd45096bc7ad1af70af4c631e232eb41b6fbf2",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3400.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3400.jpg",
+      "bytes": 23758,
+      "width": 350,
+      "height": 230,
+      "sha256": "99c7c1018339fc1cbde31784839a9afce8e4331060d16078294088d1fa9202aa",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3787.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3787.jpg",
+      "bytes": 17285,
+      "width": 350,
+      "height": 130,
+      "sha256": "4541add19bcded090b2031adf96b95d377eddddf936b2160b5338d10ad0e7d4f",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3980.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_03/he/TQ_PIC_3980.jpg",
+      "bytes": 25238,
+      "width": 350,
+      "height": 230,
+      "sha256": "2d94e135ba2042a05ae2ccca40a8075efa54a86b73a9ae5837b17f645e89f04f",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3651.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3651.jpg",
+      "bytes": 5797,
+      "width": 350,
+      "height": 224,
+      "sha256": "f9fff569619eb7c00ae55e23018ff40e765bcc3d1811180df1d3a7da8a716051",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3376.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3376.jpg",
+      "bytes": 24320,
+      "width": 350,
+      "height": 230,
+      "sha256": "4626a32a7f11e414eb061ae2f875cd4e56237481884ec4a74c6ce5985760f8a3",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3501.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3501.jpg",
+      "bytes": 9325,
+      "width": 350,
+      "height": 230,
+      "sha256": "79ebbac2919a5fc7780b005f612541a046ef8a939b6d3bdb8dccc29b7aeca9bf",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3540.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3540.jpg",
+      "bytes": 8621,
+      "width": 350,
+      "height": 230,
+      "sha256": "e2dff5208df383b2492ad60de7c17ef4a0f956c87dab83e730352ff199bd9a45",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3729.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3729.jpg",
+      "bytes": 31551,
+      "width": 350,
+      "height": 230,
+      "sha256": "6505d8370725177a644ecdf5b55c5e05e7cd72b73c86638d9441f9383346f807",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3982.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_03/he/TQ_PIC_3982.jpg",
+      "bytes": 27235,
+      "width": 350,
+      "height": 230,
+      "sha256": "1985884aa5e03e40143c50a46d6e7a5af199258760f039c134f9980585528ac0",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3649.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3649.jpg",
+      "bytes": 6337,
+      "width": 350,
+      "height": 230,
+      "sha256": "185a2b15579fa2ec0edb2b101e5c3428c083b8217ef93220111213a0917d3af0",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3447.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3447.jpg",
+      "bytes": 5898,
+      "width": 350,
+      "height": 230,
+      "sha256": "64adb30737c2f7941357f064fcffafca8f20cde40c970cc653002e27e4120400",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3945.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3945.jpg",
+      "bytes": 29610,
+      "width": 350,
+      "height": 230,
+      "sha256": "2d9db22960a6953f87c8c33fe12af8a5c0f55fd43f0332eed146744961090c95",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3523.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3523.jpg",
+      "bytes": 24834,
+      "width": 350,
+      "height": 230,
+      "sha256": "f94b3d437b052f0e0ba8d53ec7af4c5f14da0b1bb10749cb2523a0ae5b515eba",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3698.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3698.jpg",
+      "bytes": 36973,
+      "width": 350,
+      "height": 230,
+      "sha256": "3019a2d0a85105aa530a7b3c1ef7b9667cfc53e0ba71574a3cd23d15f89cbae3",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3598.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3598.jpg",
+      "bytes": 6780,
+      "width": 350,
+      "height": 180,
+      "sha256": "ff9cb9d3b89dbf18188e68d35b5b630348ae7fa9acafacb909e5a24a790f9ae3",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3770.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3770.jpg",
+      "bytes": 26623,
+      "width": 350,
+      "height": 230,
+      "sha256": "619c2f75d985cf0d8a46a464301ddeeb3c6421437ff8c7065d58790716e25ccb",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3984.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_03/he/TQ_PIC_3984.jpg",
+      "bytes": 31420,
+      "width": 350,
+      "height": 230,
+      "sha256": "7ae86e15b029934c007f24cffde36127e5017c386738d1e5a143c13383d2f886",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3404.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3404.jpg",
+      "bytes": 20526,
+      "width": 350,
+      "height": 229,
+      "sha256": "88e0f087ae4a42abb6cc70118891dba60be71a58a647220c5a65aa636164e105",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3939.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3939.jpg",
+      "bytes": 23040,
+      "width": 350,
+      "height": 230,
+      "sha256": "e0665a02643827bfc5460d2e6b7a5ee05865fb360fb6d9296b2f9f05947a649c",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3214.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3214.jpg",
+      "bytes": 13644,
+      "width": 350,
+      "height": 230,
+      "sha256": "c014952a32692d886c6874f9361081afee0456105079a4f4a5cedc3d2de022d7",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3699.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3699.jpg",
+      "bytes": 45251,
+      "width": 350,
+      "height": 230,
+      "sha256": "11cef918c31316869a72a2a7ab05963ff06114ef244763a91c811b6cb8e31896",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3544.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3544.jpg",
+      "bytes": 10377,
+      "width": 350,
+      "height": 180,
+      "sha256": "122323bfb3b2056b60a6d1903a45e983755cdb934e87c7b3f6ed98e8e0a4bf0a",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3914.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3914.jpg",
+      "bytes": 40487,
+      "width": 350,
+      "height": 230,
+      "sha256": "d6cbd31a243456824bfcd491b9218ae98f390af8ab5af37cf2ca65298059d99e",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3901.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3901.jpg",
+      "bytes": 29756,
+      "width": 350,
+      "height": 230,
+      "sha256": "a70bd894b0278fbb685e14aaca3b7f3863723f7524a88f6b5e8fdc10ab6ac58c",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3684.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3684.jpg",
+      "bytes": 4730,
+      "width": 350,
+      "height": 100,
+      "sha256": "7560399075073558673715b09cba21b862a5836f8b34f103214fc2ce4e6d11c0",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3367.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3367.jpg",
+      "bytes": 16343,
+      "width": 350,
+      "height": 230,
+      "sha256": "7b680870d91dc96d1720ad0c70fd520ab5c6891bf3e9f87a8a46594b79e847ab",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3370.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3370.jpg",
+      "bytes": 20656,
+      "width": 350,
+      "height": 224,
+      "sha256": "9f326dae4c6c49585e600a05943b3a31560b730b02121f60f9dd93d206af22be",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3112.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3112.jpg",
+      "bytes": 13951,
+      "width": 350,
+      "height": 221,
+      "sha256": "32fb0e21a84d4adcef329f58d4e1e8b07266103bc804e3e957aae8fffd7e3626",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3640.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3640.jpg",
+      "bytes": 3995,
+      "width": 350,
+      "height": 230,
+      "sha256": "a0fe26cfa3d370ca6628abbd93cfa30c40015c8e874687597e6a6a3082e8acfb",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_31007.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_31007.jpg",
+      "bytes": 28237,
+      "width": 350,
+      "height": 230,
+      "sha256": "e69f65b6ba83f66a785735984fc59d9a59d982efa424a0447e0d682ca812db2c",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3403.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3403.jpg",
+      "bytes": 19571,
+      "width": 350,
+      "height": 230,
+      "sha256": "a1d2ac835eb28325a7246a6a11ddd07bff9955a7a6a3340b24ad0319234bb165",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3524.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3524.jpg",
+      "bytes": 10667,
+      "width": 350,
+      "height": 230,
+      "sha256": "b9582c7fa33f2ec8cce2a2d80d224c778c5c05f6ff74abc020fabd0261ce9391",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3709.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3709.jpg",
+      "bytes": 42704,
+      "width": 350,
+      "height": 230,
+      "sha256": "57ce40de863ca901cd352f0ffdadb5a530f92cd3931bc472344c44e805f442fd",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3944.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3944.jpg",
+      "bytes": 20439,
+      "width": 350,
+      "height": 230,
+      "sha256": "395601cb4247a60e64e1cf7427d45c197bbf4a368f2d8f73d1f27e2b31d3d220",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_31769.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_31769.jpg",
+      "bytes": 21773,
+      "width": 350,
+      "height": 228,
+      "sha256": "14e9c02e74db312ce6b92c7b210dc6095bbbb8a7471818b1e4795f1aca4993fc",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3391.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3391.jpg",
+      "bytes": 24701,
+      "width": 350,
+      "height": 230,
+      "sha256": "4d3dc31e09ee0181adeca184b2f6b57bfea42674a3ca001e1f5193076dc9afed",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3630.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3630.jpg",
+      "bytes": 13520,
+      "width": 350,
+      "height": 230,
+      "sha256": "e6e1e96acc06e3e4f34c6941eaca1037a6606d822149fbbd442f996b2917fccd",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3937.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3937.jpg",
+      "bytes": 29092,
+      "width": 350,
+      "height": 230,
+      "sha256": "50316b92d754d5560238eff39b86f1fb157ff34002f18223d6a288b5ec551d3d",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3666.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3666.jpg",
+      "bytes": 6497,
+      "width": 350,
+      "height": 230,
+      "sha256": "19d4e77d8db177c52f7b323a7b5e4a6a6e59daac54cbe4fe13f359acf909ca69",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_31711.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_31711.jpg",
+      "bytes": 17408,
+      "width": 350,
+      "height": 230,
+      "sha256": "76be4ffe87723b565d804f3ea1a91d03e14edbd74095a0e7c38e7da400c296ed",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3701.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3701.jpg",
+      "bytes": 45517,
+      "width": 350,
+      "height": 230,
+      "sha256": "9b5caaba644216acbdfe1b09e28c6e0de0651e1ae1dd2cc03b2d91a6cbd1ee95",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_31801.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_31801.jpg",
+      "bytes": 13442,
+      "width": 350,
+      "height": 230,
+      "sha256": "294c6d269678e2c594405aeb17a506c0b933b272add8385c7818f682b7731294",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3387.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3387.jpg",
+      "bytes": 20882,
+      "width": 350,
+      "height": 230,
+      "sha256": "76d1c3b961619c5f0b415ef10c1d654ade59bb62b004ddf20bf4ab9b506f04e4",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3582.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3582.jpg",
+      "bytes": 10229,
+      "width": 350,
+      "height": 230,
+      "sha256": "9567d9af616b1bf3d83cc2e7390b4c88a0bd1c9c7e6b731e01a159c77dc788ce",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3643.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3643.jpg",
+      "bytes": 4727,
+      "width": 350,
+      "height": 230,
+      "sha256": "e5b17047cbf5eaa057c84cb5fccf02dfdf7d82a6402dc5b2db15df2d6dcf3088",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3690.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3690.jpg",
+      "bytes": 4388,
+      "width": 350,
+      "height": 230,
+      "sha256": "e8a1786053a7f349d419f7f0a1d73ba2999125d494b5aa341c45cb21041cda61",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3983.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_03/he/TQ_PIC_3983.jpg",
+      "bytes": 33886,
+      "width": 350,
+      "height": 230,
+      "sha256": "742fe899b2142271c69cf1dc1556d4fbfe352f73ec0478afb9cc06566af3a971",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3144.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3144.jpg",
+      "bytes": 23966,
+      "width": 350,
+      "height": 230,
+      "sha256": "aef6459a9998308073d8e2e8590c56ff029b36d112e2656ada0e8096ec9c5028",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3581.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3581.jpg",
+      "bytes": 11792,
+      "width": 350,
+      "height": 180,
+      "sha256": "52ef2d185e3afaea7a2fd180689b44da2ed820515784489c2d0f94c0a61f6eff",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3966.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3966.jpg",
+      "bytes": 28761,
+      "width": 350,
+      "height": 230,
+      "sha256": "b0b840b0d4ada0f92d1089e3ff9d8364157aca5a703b9c0d939d843b8df734ef",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3712.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3712.jpg",
+      "bytes": 45434,
+      "width": 350,
+      "height": 230,
+      "sha256": "60f5a37f0f2e5559f7d02a290e078e175f9ae223da1a1a14959828735fec041e",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3504.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3504.jpg",
+      "bytes": 20527,
+      "width": 350,
+      "height": 230,
+      "sha256": "30afc49a24330666d0e74fa908a9300c7a6eb01d9e7bdf45b7c500162decd95c",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3925.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_02/he/TQ_PIC_3925.jpg",
+      "bytes": 32216,
+      "width": 350,
+      "height": 230,
+      "sha256": "4e0ff22816ed4375c05f9e1f05adf618706564d6c4f93e7c5883e8123a087500",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3362.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3362.jpg",
+      "bytes": 18378,
+      "width": 350,
+      "height": 230,
+      "sha256": "aa756712615d5cfdeebe473099207cdd6062de497098a895e884023523107cad",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    },
+    "TQ_PIC_3393.jpg": {
+      "url": "https://www.gov.il/BlobFolder/generalpage/tq_pic_01/he/TQ_PIC_3393.jpg",
+      "bytes": 24450,
+      "width": 350,
+      "height": 230,
+      "sha256": "6f0357d1f3d6709dbeb3a5dd81805dee8015ee5e9f7a3b3f3858f21dad239892",
+      "contentType": "image/jpeg",
+      "format": "jpeg",
+      "attempts": 1
+    }
+  },
+  "failures": [],
+  "notes": []
+}

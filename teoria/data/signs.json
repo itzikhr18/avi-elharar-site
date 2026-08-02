@@ -7,6 +7,7 @@
     "colors": null,
     "description": null,
     "scope": "בדרך שלפניך.",
+    "imageFile": "signs/101.png",
     "sourcePart": 1,
     "sourcePage": 7,
     "sharedCell": false
@@ -19,6 +20,7 @@
     "colors": null,
     "description": null,
     "scope": "בדרך שלפניך.",
+    "imageFile": "signs/102.png",
     "sourcePart": 1,
     "sourcePage": 7,
     "sharedCell": true
@@ -31,6 +33,7 @@
     "colors": null,
     "description": null,
     "scope": "בדרך שלפניך.",
+    "imageFile": "signs/103.png",
     "sourcePart": 1,
     "sourcePage": 7,
     "sharedCell": true
@@ -43,6 +46,7 @@
     "colors": null,
     "description": null,
     "scope": "בדרך שלפניך.",
+    "imageFile": "signs/104.png",
     "sourcePart": 1,
     "sourcePage": 7,
     "sharedCell": true
@@ -55,6 +59,7 @@
     "colors": null,
     "description": null,
     "scope": "בדרך שלפניך.",
+    "imageFile": "signs/105.png",
     "sourcePart": 1,
     "sourcePage": 7,
     "sharedCell": true
@@ -67,6 +72,7 @@
     "colors": null,
     "description": null,
     "scope": "בדרך שלפניך.",
+    "imageFile": "signs/106.png",
     "sourcePart": 1,
     "sourcePage": 7,
     "sharedCell": false
@@ -79,6 +85,7 @@
     "colors": null,
     "description": null,
     "scope": "בדרך שלפניך.",
+    "imageFile": "signs/107.png",
     "sourcePart": 1,
     "sourcePage": 7,
     "sharedCell": true
@@ -91,6 +98,7 @@
     "colors": null,
     "description": null,
     "scope": "בדרך שלפניך.",
+    "imageFile": "signs/108.png",
     "sourcePart": 1,
     "sourcePage": 7,
     "sharedCell": true
@@ -103,6 +111,7 @@
     "colors": null,
     "description": null,
     "scope": "בדרך שלפניך.",
+    "imageFile": "signs/109.png",
     "sourcePart": 1,
     "sourcePage": 8,
     "sharedCell": false
@@ -115,6 +124,7 @@
     "colors": null,
     "description": null,
     "scope": "בדרך שלפניך.",
+    "imageFile": "signs/110.png",
     "sourcePart": 1,
     "sourcePage": 8,
     "sharedCell": true
@@ -127,6 +137,7 @@
     "colors": null,
     "description": null,
     "scope": "בדרך שלפניך.",
+    "imageFile": "signs/111.png",
     "sourcePart": 1,
     "sourcePage": 8,
     "sharedCell": true
@@ -139,6 +150,7 @@
     "colors": null,
     "description": null,
     "scope": "במקום הצבתו.",
+    "imageFile": "signs/112.png",
     "sourcePart": 1,
     "sourcePage": 8,
     "sharedCell": false
@@ -151,6 +163,7 @@
     "colors": null,
     "description": null,
     "scope": "במקום הצבתו.",
+    "imageFile": "signs/113.png",
     "sourcePart": 1,
     "sourcePage": 8,
     "sharedCell": false
@@ -163,6 +176,7 @@
     "colors": null,
     "description": null,
     "scope": "בצומת שלפניך.",
+    "imageFile": "signs/114.png",
     "sourcePart": 1,
     "sourcePage": 8,
     "sharedCell": false
@@ -175,6 +189,7 @@
     "colors": null,
     "description": null,
     "scope": "בצומת שלפניך.",
+    "imageFile": "signs/115.png",
     "sourcePart": 1,
     "sourcePage": 8,
     "sharedCell": true
@@ -187,6 +202,7 @@
     "colors": null,
     "description": null,
     "scope": "בצומת שלפניך.",
+    "imageFile": "signs/116.png",
     "sourcePart": 1,
     "sourcePage": 8,
     "sharedCell": true
@@ -199,6 +215,7 @@
     "colors": null,
     "description": null,
     "scope": "בצומת שלפניך.",
+    "imageFile": "signs/117.png",
     "sourcePart": 1,
     "sourcePage": 9,
     "sharedCell": false
@@ -211,6 +228,7 @@
     "colors": null,
     "description": null,
     "scope": "בצומת שלפניך.",
+    "imageFile": "signs/118.png",
     "sourcePart": 1,
     "sourcePage": 9,
     "sharedCell": false
@@ -223,6 +241,7 @@
     "colors": null,
     "description": null,
     "scope": "בצמתים שלפניך.",
+    "imageFile": "signs/119.png",
     "sourcePart": 1,
     "sourcePage": 9,
     "sharedCell": true
@@ -235,6 +254,7 @@
     "colors": null,
     "description": null,
     "scope": "בצמתים שלפניך.",
+    "imageFile": "signs/120.png",
     "sourcePart": 1,
     "sourcePage": 9,
     "sharedCell": true
@@ -247,6 +267,7 @@
     "colors": null,
     "description": null,
     "scope": "בצומת שלפניך.",
+    "imageFile": "signs/121.png",
     "sourcePart": 1,
     "sourcePage": 9,
     "sharedCell": false
@@ -259,6 +280,7 @@
     "colors": null,
     "description": null,
     "scope": "בדרך שלפניך.",
+    "imageFile": "signs/122.png",
     "sourcePart": 1,
     "sourcePage": 9,
     "sharedCell": false
@@ -271,6 +293,7 @@
     "colors": null,
     "description": null,
     "scope": "ב התמזגות שלפניך.",
+    "imageFile": "signs/123.png",
     "sourcePart": 1,
     "sourcePage": 9,
     "sharedCell": true
@@ -283,6 +306,7 @@
     "colors": null,
     "description": null,
     "scope": "ב התמזגות שלפניך.",
+    "imageFile": "signs/124.png",
     "sourcePart": 1,
     "sourcePage": 9,
     "sharedCell": true
@@ -295,6 +319,7 @@
     "colors": null,
     "description": null,
     "scope": "ב התמזגות שלפניך.",
+    "imageFile": "signs/125.png",
     "sourcePart": 1,
     "sourcePage": 10,
     "sharedCell": true
@@ -307,6 +332,7 @@
     "colors": null,
     "description": null,
     "scope": "ב התמזגות שלפניך.",
+    "imageFile": "signs/126.png",
     "sourcePart": 1,
     "sourcePage": 10,
     "sharedCell": true
@@ -319,6 +345,7 @@
     "colors": null,
     "description": null,
     "scope": "בדרך שלפניך. אם הוצב מעל הכביש, יחול רק על הנתיב שמתחתיו.",
+    "imageFile": "signs/127.png",
     "sourcePart": 1,
     "sourcePage": 10,
     "sharedCell": true
@@ -331,6 +358,7 @@
     "colors": null,
     "description": null,
     "scope": "בדרך שלפניך. אם הוצב מעל הכביש, יחול רק על הנתיב שמתחתיו.",
+    "imageFile": "signs/127פ.png",
     "sourcePart": 1,
     "sourcePage": 10,
     "sharedCell": true
@@ -343,6 +371,7 @@
     "colors": null,
     "description": null,
     "scope": "בדרך שלפניך.",
+    "imageFile": "signs/128.png",
     "sourcePart": 1,
     "sourcePage": 10,
     "sharedCell": false
@@ -355,6 +384,7 @@
     "colors": null,
     "description": null,
     "scope": "בדרך שלפניך.",
+    "imageFile": "signs/129.png",
     "sourcePart": 1,
     "sourcePage": 10,
     "sharedCell": false
@@ -367,6 +397,7 @@
     "colors": null,
     "description": null,
     "scope": "בדרך שלפניך.",
+    "imageFile": "signs/130.png",
     "sourcePart": 1,
     "sourcePage": 11,
     "sharedCell": false
@@ -379,6 +410,7 @@
     "colors": null,
     "description": null,
     "scope": "בדרך שלפניך.",
+    "imageFile": "signs/131.png",
     "sourcePart": 1,
     "sourcePage": 11,
     "sharedCell": false
@@ -391,6 +423,7 @@
     "colors": null,
     "description": null,
     "scope": "בדרך שלפניך.",
+    "imageFile": "signs/132.png",
     "sourcePart": 1,
     "sourcePage": 11,
     "sharedCell": false
@@ -403,6 +436,7 @@
     "colors": null,
     "description": null,
     "scope": "במפגש שלפניך.",
+    "imageFile": "signs/133.png",
     "sourcePart": 1,
     "sourcePage": 11,
     "sharedCell": false
@@ -415,6 +449,7 @@
     "colors": null,
     "description": null,
     "scope": "במפגש שלפניך.",
+    "imageFile": "signs/134.png",
     "sourcePart": 1,
     "sourcePage": 11,
     "sharedCell": false
@@ -427,6 +462,7 @@
     "colors": null,
     "description": null,
     "scope": "בדרך שלפניך.",
+    "imageFile": "signs/135.png",
     "sourcePart": 1,
     "sourcePage": 11,
     "sharedCell": false
@@ -439,6 +475,7 @@
     "colors": null,
     "description": null,
     "scope": "בדרך שלפניך.",
+    "imageFile": "signs/136.png",
     "sourcePart": 1,
     "sourcePage": 11,
     "sharedCell": false
@@ -451,6 +488,7 @@
     "colors": null,
     "description": null,
     "scope": "בדרך שלפניך.",
+    "imageFile": "signs/137.png",
     "sourcePart": 1,
     "sourcePage": 12,
     "sharedCell": false
@@ -463,6 +501,7 @@
     "colors": null,
     "description": null,
     "scope": "בדרך שלפניך.",
+    "imageFile": "signs/138.png",
     "sourcePart": 1,
     "sourcePage": 12,
     "sharedCell": false
@@ -475,6 +514,7 @@
     "colors": null,
     "description": null,
     "scope": "בדרך שלפניך.",
+    "imageFile": "signs/139.png",
     "sourcePart": 1,
     "sourcePage": 12,
     "sharedCell": false
@@ -487,6 +527,7 @@
     "colors": null,
     "description": null,
     "scope": "בדרך שלפניך.",
+    "imageFile": "signs/140.png",
     "sourcePart": 1,
     "sourcePage": 12,
     "sharedCell": false
@@ -499,6 +540,7 @@
     "colors": null,
     "description": null,
     "scope": "בדרך שלפניך",
+    "imageFile": "signs/141.png",
     "sourcePart": 1,
     "sourcePage": 12,
     "sharedCell": false
@@ -511,6 +553,7 @@
     "colors": null,
     "description": null,
     "scope": "בדרך שלפניך.",
+    "imageFile": "signs/142.png",
     "sourcePart": 1,
     "sourcePage": 12,
     "sharedCell": true
@@ -523,6 +566,7 @@
     "colors": null,
     "description": null,
     "scope": "בדרך שלפניך.",
+    "imageFile": "signs/143.png",
     "sourcePart": 1,
     "sourcePage": 12,
     "sharedCell": true
@@ -535,6 +579,7 @@
     "colors": null,
     "description": null,
     "scope": "בדרך שלפניך.",
+    "imageFile": "signs/144.png",
     "sourcePart": 1,
     "sourcePage": 13,
     "sharedCell": false
@@ -547,6 +592,7 @@
     "colors": null,
     "description": null,
     "scope": "בדרך שלפניך.",
+    "imageFile": "signs/145.png",
     "sourcePart": 1,
     "sourcePage": 13,
     "sharedCell": false
@@ -559,6 +605,7 @@
     "colors": null,
     "description": null,
     "scope": "בדרך שלפניך.",
+    "imageFile": "signs/146.png",
     "sourcePart": 1,
     "sourcePage": 13,
     "sharedCell": false
@@ -571,6 +618,7 @@
     "colors": null,
     "description": null,
     "scope": "בדרך שלפניך.",
+    "imageFile": "signs/147.png",
     "sourcePart": 1,
     "sourcePage": 13,
     "sharedCell": false
@@ -583,6 +631,7 @@
     "colors": null,
     "description": null,
     "scope": "בצידי הדרך שלפניך.",
+    "imageFile": "signs/148.png",
     "sourcePart": 1,
     "sourcePage": 13,
     "sharedCell": false
@@ -595,6 +644,7 @@
     "colors": null,
     "description": null,
     "scope": "בצידי המסלול שלפניך.",
+    "imageFile": "signs/149.png",
     "sourcePart": 1,
     "sourcePage": 13,
     "sharedCell": false
@@ -607,6 +657,7 @@
     "colors": null,
     "description": null,
     "scope": "בדרך שלפניך.",
+    "imageFile": "signs/150.png",
     "sourcePart": 1,
     "sourcePage": 14,
     "sharedCell": true
@@ -619,6 +670,7 @@
     "colors": null,
     "description": null,
     "scope": "בדרך שלפניך.",
+    "imageFile": "signs/150פ.png",
     "sourcePart": 1,
     "sourcePage": 14,
     "sharedCell": true
@@ -631,6 +683,7 @@
     "colors": null,
     "description": null,
     "scope": "בדרך שלפניך",
+    "imageFile": "signs/151.png",
     "sourcePart": 1,
     "sourcePage": 14,
     "sharedCell": true
@@ -643,6 +696,7 @@
     "colors": null,
     "description": null,
     "scope": "בדרך שלפניך",
+    "imageFile": "signs/151פ.png",
     "sourcePart": 1,
     "sourcePage": 14,
     "sharedCell": true
@@ -655,6 +709,7 @@
     "colors": null,
     "description": null,
     "scope": "בדרך שלפניך",
+    "imageFile": "signs/152.png",
     "sourcePart": 1,
     "sourcePage": 14,
     "sharedCell": false
@@ -667,6 +722,7 @@
     "colors": null,
     "description": null,
     "scope": "בדרך שלפניך",
+    "imageFile": "signs/153.png",
     "sourcePart": 1,
     "sourcePage": 14,
     "sharedCell": false
@@ -679,6 +735,7 @@
     "colors": null,
     "description": null,
     "scope": "בצומת או בתנועות שלפניך. הוצב התמרור מעל רמזור יחולו הוראות הרמזור על התנועות המותרות על פי התמרור; הוצב התמרור מעל הכביש, יחול רק על הנתיב שמתחתיו.",
+    "imageFile": "signs/201.png",
     "sourcePart": 2,
     "sourcePage": 16,
     "sharedCell": false
@@ -691,6 +748,7 @@
     "colors": null,
     "description": null,
     "scope": "בצומת או בתנועות שלפניך. הוצב התמרור מעל רמזור יחולו הוראות הרמזור על התנועות המותרות על פי התמרור; הוצב התמרור מעל הכביש, יחול רק על הנתיב שמתחתיו.",
+    "imageFile": "signs/202.png",
     "sourcePart": 2,
     "sourcePage": 16,
     "sharedCell": false
@@ -703,6 +761,7 @@
     "colors": null,
     "description": null,
     "scope": "בצומת או בתנועה שלפניך. הוצב התמרור מעל רמזור יחולו הוראות הרמזור על התנועה המותרת על פי התמרור; הוצב התמרור מעל הכביש, יחול רק על הנתיב שמתחתיו.",
+    "imageFile": "signs/203.png",
     "sourcePart": 2,
     "sourcePage": 16,
     "sharedCell": false
@@ -715,6 +774,7 @@
     "colors": null,
     "description": null,
     "scope": "בצומת או בתנועה שלפניך.",
+    "imageFile": "signs/204.png",
     "sourcePart": 2,
     "sourcePage": 17,
     "sharedCell": false
@@ -727,6 +787,7 @@
     "colors": null,
     "description": null,
     "scope": "בצומת או בתנועה שלפניך.",
+    "imageFile": "signs/205.png",
     "sourcePart": 2,
     "sourcePage": 17,
     "sharedCell": false
@@ -739,6 +800,7 @@
     "colors": null,
     "description": null,
     "scope": "בצומת או בתנועה שלפניך. הוצב התמרור מעל רמזור יחולו הור אות הרמזור על התנועה המותרת על פי התמרור; הוצב התמרור מעל הכביש, יחול רק על הנתיב שמתחתיו.",
+    "imageFile": "signs/206.png",
     "sourcePart": 2,
     "sourcePage": 18,
     "sharedCell": false
@@ -751,6 +813,7 @@
     "colors": null,
     "description": null,
     "scope": "בצומת או בתנועה שלפניך. הוצב התמרור מעל רמזור יחולו הוראות הרמזור על התנועה המותרת על פי התמרור; הוצב התמרור מעל הכביש, יחול רק על הנתיב שמתחתיו.",
+    "imageFile": "signs/207.png",
     "sourcePart": 2,
     "sourcePage": 18,
     "sharedCell": false
@@ -763,6 +826,7 @@
     "colors": null,
     "description": null,
     "scope": "בצומת או בתנועות שלפניך. הוצב התמרור מעל רמזור יחולו הוראות הרמזור על התנועה המותרת על פי התמרור; הוצב התמרור מעל הכביש, יחול רק על הנתיב שמתחתיו.",
+    "imageFile": "signs/208.png",
     "sourcePart": 2,
     "sourcePage": 18,
     "sharedCell": false
@@ -775,6 +839,7 @@
     "colors": null,
     "description": null,
     "scope": "בצומת או בתנועות שלפניך. הוצב התמרור מעל רמזור יחולו הוראות הרמזור על התנועה המותרת על פי התמרור; הוצב התמרור מעל הכביש, יחול רק על הנתיב שמתחתיו.",
+    "imageFile": "signs/209.png",
     "sourcePart": 2,
     "sourcePage": 19,
     "sharedCell": false
@@ -787,6 +852,7 @@
     "colors": null,
     "description": null,
     "scope": "בצומת או בתנועות שלפניך. הוצב התמרור מעל רמזור יחולו הוראות הרמזור על התנועה המותרת על פי התמרור; הוצב התמרור מעל הכביש, יחול רק על הנתיב שמתחתיו.",
+    "imageFile": "signs/210.png",
     "sourcePart": 2,
     "sourcePage": 19,
     "sharedCell": false
@@ -799,6 +865,7 @@
     "colors": null,
     "description": null,
     "scope": "בצומת או בתנועה שלפניך. הוצב התמרור מעל רמזור יחולו הוראות הרמזור על התנועה המותרת על פי התמרור; הוצב התמרור מעל הכביש, יחול רק על הנתיב שמתחתיו.",
+    "imageFile": "signs/211.png",
     "sourcePart": 2,
     "sourcePage": 19,
     "sharedCell": true
@@ -811,6 +878,7 @@
     "colors": null,
     "description": null,
     "scope": "בצומת או בתנועה שלפניך. הוצב התמרור מעל רמזור יחולו הוראות הרמזור על התנועה המותרת על פי התמרור; הוצב התמרור מעל הכביש, יחול רק על הנתיב שמתחתיו.",
+    "imageFile": "signs/212.png",
     "sourcePart": 2,
     "sourcePage": 19,
     "sharedCell": true
@@ -823,6 +891,7 @@
     "colors": null,
     "description": null,
     "scope": "במקום המעבר.",
+    "imageFile": "signs/213.png",
     "sourcePart": 2,
     "sourcePage": 19,
     "sharedCell": false
@@ -835,6 +904,7 @@
     "colors": null,
     "description": null,
     "scope": "במקום המעבר.",
+    "imageFile": "signs/214.png",
     "sourcePart": 2,
     "sourcePage": 20,
     "sharedCell": true
@@ -847,6 +917,7 @@
     "colors": null,
     "description": null,
     "scope": "במקום המעבר.",
+    "imageFile": "signs/215.png",
     "sourcePart": 2,
     "sourcePage": 20,
     "sharedCell": true
@@ -859,6 +930,7 @@
     "colors": null,
     "description": null,
     "scope": "עד לתמרור 217 או 424 .",
+    "imageFile": "signs/216.png",
     "sourcePart": 2,
     "sourcePage": 20,
     "sharedCell": false
@@ -871,6 +943,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/217.png",
     "sourcePart": 2,
     "sourcePage": 20,
     "sharedCell": false
@@ -883,6 +956,7 @@
     "colors": null,
     "description": null,
     "scope": "עד לצומת הבא או עד ל תמרור 217 .",
+    "imageFile": "signs/218.png",
     "sourcePart": 2,
     "sourcePage": 20,
     "sharedCell": false
@@ -895,6 +969,7 @@
     "colors": null,
     "description": null,
     "scope": "עד לצומת הבא .",
+    "imageFile": "signs/219.png",
     "sourcePart": 2,
     "sourcePage": 20,
     "sharedCell": false
@@ -907,6 +982,7 @@
     "colors": null,
     "description": null,
     "scope": "עד ל תמרור 221 .",
+    "imageFile": "signs/220.png",
     "sourcePart": 2,
     "sourcePage": 21,
     "sharedCell": false
@@ -919,6 +995,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/221.png",
     "sourcePart": 2,
     "sourcePage": 21,
     "sharedCell": false
@@ -931,6 +1008,7 @@
     "colors": null,
     "description": null,
     "scope": "עד לתמרור 223 .",
+    "imageFile": "signs/222.png",
     "sourcePart": 2,
     "sourcePage": 21,
     "sharedCell": false
@@ -943,6 +1021,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/223.png",
     "sourcePart": 2,
     "sourcePage": 21,
     "sharedCell": false
@@ -955,6 +1034,7 @@
     "colors": null,
     "description": null,
     "scope": "עד הצומת הבא או עד תמרור 225 .",
+    "imageFile": "signs/224.png",
     "sourcePart": 2,
     "sourcePage": 21,
     "sharedCell": false
@@ -967,6 +1047,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/225.png",
     "sourcePart": 2,
     "sourcePage": 21,
     "sharedCell": false
@@ -979,6 +1060,7 @@
     "colors": null,
     "description": null,
     "scope": "עד ל צומת הבא או עד לתמרור 224 , 227 , 228 , 229 .",
+    "imageFile": "signs/226.png",
     "sourcePart": 2,
     "sourcePage": 21,
     "sharedCell": false
@@ -991,6 +1073,7 @@
     "colors": null,
     "description": null,
     "scope": "עד ל צומת הבא או עד לתמרור 224 , 226 , 228 , 229 .",
+    "imageFile": "signs/227.png",
     "sourcePart": 2,
     "sourcePage": 21,
     "sharedCell": false
@@ -1003,6 +1086,7 @@
     "colors": null,
     "description": null,
     "scope": "עד ל צומת הבא או עד לתמרור 224 , 226 , 227 , 229 .",
+    "imageFile": "signs/228.png",
     "sourcePart": 2,
     "sourcePage": 22,
     "sharedCell": false
@@ -1015,6 +1099,7 @@
     "colors": null,
     "description": null,
     "scope": "עד ל צומת הבא או עד לתמרור 224 , 226 , 227 , 228 .",
+    "imageFile": "signs/229.png",
     "sourcePart": 2,
     "sourcePage": 22,
     "sharedCell": false
@@ -1027,6 +1112,7 @@
     "colors": null,
     "description": null,
     "scope": "עד לתמרור 231 . הוצב מעל הכביש יחול רק על הנתיב שמתחתיו .",
+    "imageFile": "signs/230.png",
     "sourcePart": 2,
     "sourcePage": 22,
     "sharedCell": false
@@ -1039,6 +1125,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/231.png",
     "sourcePart": 2,
     "sourcePage": 23,
     "sharedCell": false
@@ -1051,6 +1138,7 @@
     "colors": null,
     "description": null,
     "scope": "ב מקום שלפניו הוצב התמרור ולכל הנתיבים בכביש , למעט הנתיבים שבהם חל תמרור 302 .",
+    "imageFile": "signs/301.png",
     "sourcePart": 3,
     "sourcePage": 25,
     "sharedCell": false
@@ -1063,6 +1151,7 @@
     "colors": null,
     "description": null,
     "scope": "ב מקום שלפניו הוצב התמרור ולכל הנתיבים בכביש. הוצב התמרור בצד שמאל של הכביש כוחו יפה לגבי הפניה שמאלה ולגבי פניית פרסה לשמאל בלבד . הוצב מעל הכביש, יחול רק על הנתיב שמתחתיו.",
+    "imageFile": "signs/302.png",
     "sourcePart": 3,
     "sourcePage": 25,
     "sharedCell": false
@@ -1075,6 +1164,7 @@
     "colors": null,
     "description": null,
     "scope": "ב מעגל התנועה .",
+    "imageFile": "signs/303.png",
     "sourcePart": 3,
     "sourcePage": 25,
     "sharedCell": false
@@ -1087,6 +1177,7 @@
     "colors": null,
     "description": null,
     "scope": "ב מקום הצבתו, עד לקבלת היתר להמשך הנסיעה או עד להופעתו של תמרור 305 .",
+    "imageFile": "signs/304.png",
     "sourcePart": 3,
     "sourcePage": 25,
     "sharedCell": false
@@ -1099,6 +1190,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/305.png",
     "sourcePart": 3,
     "sourcePage": 25,
     "sharedCell": false
@@ -1111,6 +1203,7 @@
     "colors": null,
     "description": null,
     "scope": "במקום שבו מסומן מעבר החציה בכביש.",
+    "imageFile": "signs/306.png",
     "sourcePart": 3,
     "sourcePage": 26,
     "sharedCell": false
@@ -1123,6 +1216,7 @@
     "colors": null,
     "description": null,
     "scope": "לאורך קטע הדרך הצרה .",
+    "imageFile": "signs/307.png",
     "sourcePart": 3,
     "sourcePage": 26,
     "sharedCell": false
@@ -1135,6 +1229,7 @@
     "colors": null,
     "description": null,
     "scope": "לאורך קטע הדרך הצרה.",
+    "imageFile": "signs/308.png",
     "sourcePart": 3,
     "sourcePage": 26,
     "sharedCell": false
@@ -1147,6 +1242,7 @@
     "colors": null,
     "description": null,
     "scope": "עד לצומת או עד למחלף הקרוב, או עד לתמרור 310 .",
+    "imageFile": "signs/309.png",
     "sourcePart": 3,
     "sourcePage": 26,
     "sharedCell": false
@@ -1159,6 +1255,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/310.png",
     "sourcePart": 3,
     "sourcePage": 26,
     "sharedCell": false
@@ -1171,6 +1268,7 @@
     "colors": null,
     "description": null,
     "scope": "בכביש שבו הוצב התמרור.",
+    "imageFile": "signs/401.png",
     "sourcePart": 4,
     "sourcePage": 28,
     "sharedCell": true
@@ -1183,6 +1281,7 @@
     "colors": null,
     "description": null,
     "scope": "בכביש שבו הוצב התמרור.",
+    "imageFile": "signs/401פ.png",
     "sourcePart": 4,
     "sourcePage": 28,
     "sharedCell": true
@@ -1195,6 +1294,7 @@
     "colors": null,
     "description": null,
     "scope": "בכביש שבו הוצב התמרור.",
+    "imageFile": "signs/402.png",
     "sourcePart": 4,
     "sourcePage": 28,
     "sharedCell": false
@@ -1207,6 +1307,7 @@
     "colors": null,
     "description": null,
     "scope": "במקום החסימה.",
+    "imageFile": "signs/403.png",
     "sourcePart": 4,
     "sourcePage": 28,
     "sharedCell": false
@@ -1219,6 +1320,7 @@
     "colors": null,
     "description": null,
     "scope": "במפגש שלפניך.",
+    "imageFile": "signs/404.png",
     "sourcePart": 4,
     "sourcePage": 28,
     "sharedCell": false
@@ -1231,6 +1333,7 @@
     "colors": null,
     "description": null,
     "scope": "בכביש שלצידו הוצב התמרור.",
+    "imageFile": "signs/405.png",
     "sourcePart": 4,
     "sourcePage": 28,
     "sharedCell": false
@@ -1243,6 +1346,7 @@
     "colors": null,
     "description": null,
     "scope": "בכביש שלצידו הוצב התמרור. הוצב התמרור מעל הכביש, יחול התמרור רק על הנתיב שמתחתיו.",
+    "imageFile": "signs/406.png",
     "sourcePart": 4,
     "sourcePage": 29,
     "sharedCell": false
@@ -1255,6 +1359,7 @@
     "colors": null,
     "description": null,
     "scope": "בכביש שלצידו הוצב התמרור.",
+    "imageFile": "signs/407.png",
     "sourcePart": 4,
     "sourcePage": 29,
     "sharedCell": false
@@ -1267,6 +1372,7 @@
     "colors": null,
     "description": null,
     "scope": "בכביש שלצידו הוצב התמרור.",
+    "imageFile": "signs/408.png",
     "sourcePart": 4,
     "sourcePage": 29,
     "sharedCell": false
@@ -1279,6 +1385,7 @@
     "colors": null,
     "description": null,
     "scope": "בכביש שלצידו הוצב התמרור.",
+    "imageFile": "signs/409.png",
     "sourcePart": 4,
     "sourcePage": 29,
     "sharedCell": false
@@ -1291,6 +1398,7 @@
     "colors": null,
     "description": null,
     "scope": "בכביש שלצידו הוצב התמרור.",
+    "imageFile": "signs/410.png",
     "sourcePart": 4,
     "sourcePage": 29,
     "sharedCell": false
@@ -1303,6 +1411,7 @@
     "colors": null,
     "description": null,
     "scope": "ב דרך ש בה הוצב התמרור.",
+    "imageFile": "signs/411.png",
     "sourcePart": 4,
     "sourcePage": 29,
     "sharedCell": false
@@ -1315,6 +1424,7 @@
     "colors": null,
     "description": null,
     "scope": "ב דרך ש בה הוצב התמרור.",
+    "imageFile": "signs/412.png",
     "sourcePart": 4,
     "sourcePage": 29,
     "sharedCell": false
@@ -1327,6 +1437,7 @@
     "colors": null,
     "description": null,
     "scope": "בדרך שבה הוצב התמרור.",
+    "imageFile": "signs/413.png",
     "sourcePart": 4,
     "sourcePage": 30,
     "sharedCell": false
@@ -1339,6 +1450,7 @@
     "colors": null,
     "description": null,
     "scope": "בדרך שבה הוצב התמרור.",
+    "imageFile": "signs/414.png",
     "sourcePart": 4,
     "sourcePage": 30,
     "sharedCell": false
@@ -1351,6 +1463,7 @@
     "colors": null,
     "description": null,
     "scope": "בכביש שלצידו הוצב התמרור.",
+    "imageFile": "signs/415.png",
     "sourcePart": 4,
     "sourcePage": 30,
     "sharedCell": false
@@ -1363,6 +1476,7 @@
     "colors": null,
     "description": null,
     "scope": "בכביש שלצידו הוצב התמרור . הוצב התמרור מעל הכביש, או הנתיב או השול, יחול התמרור רק על הנתיב או השול שמתחתיו.",
+    "imageFile": "signs/416.png",
     "sourcePart": 4,
     "sourcePage": 30,
     "sharedCell": false
@@ -1375,6 +1489,7 @@
     "colors": null,
     "description": null,
     "scope": "בכביש שלצידו הוצב התמרור. הוצב התמרור מעל הכביש, יחול התמרור רק על הנתיב שמתחתיו.",
+    "imageFile": "signs/417.png",
     "sourcePart": 4,
     "sourcePage": 30,
     "sharedCell": false
@@ -1387,6 +1502,7 @@
     "colors": null,
     "description": null,
     "scope": "עד לתמרור 419 .",
+    "imageFile": "signs/418.png",
     "sourcePart": 4,
     "sourcePage": 31,
     "sharedCell": false
@@ -1399,6 +1515,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/419.png",
     "sourcePart": 4,
     "sourcePage": 31,
     "sharedCell": false
@@ -1411,6 +1528,7 @@
     "colors": null,
     "description": null,
     "scope": "עד לצומת הקרוב או עד לתמרור 421 .",
+    "imageFile": "signs/420.png",
     "sourcePart": 4,
     "sourcePage": 31,
     "sharedCell": false
@@ -1423,6 +1541,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/421.png",
     "sourcePart": 4,
     "sourcePage": 31,
     "sharedCell": false
@@ -1435,6 +1554,7 @@
     "colors": null,
     "description": null,
     "scope": "עד לצומת הקרוב או עד לתמרור 423 .",
+    "imageFile": "signs/422.png",
     "sourcePart": 4,
     "sourcePage": 31,
     "sharedCell": false
@@ -1447,6 +1567,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/423.png",
     "sourcePart": 4,
     "sourcePage": 31,
     "sharedCell": false
@@ -1459,6 +1580,7 @@
     "colors": null,
     "description": null,
     "scope": "עד לתמרור 216 או 425 .",
+    "imageFile": "signs/424.png",
     "sourcePart": 4,
     "sourcePage": 32,
     "sharedCell": false
@@ -1471,6 +1593,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/425.png",
     "sourcePart": 4,
     "sourcePage": 32,
     "sharedCell": false
@@ -1483,6 +1606,7 @@
     "colors": null,
     "description": null,
     "scope": "עד לצומת הקרוב או עד לתמרור 216 , 217 , 424 , 425 , 427 או עד לתמרור הקובע מהירות אחרת; צוין אחרת בתמרור שמתחתיו – יחול האמור בו; הוצב התמרור מעל הכביש או השול, יחול רק על הנתיב או השול שמתחתיו, בהתאמה.",
+    "imageFile": "signs/426.png",
     "sourcePart": 4,
     "sourcePage": 32,
     "sharedCell": true
@@ -1495,6 +1619,7 @@
     "colors": null,
     "description": null,
     "scope": "עד לצומת הקרוב או עד לתמרור 216 , 217 , 424 , 425 , 427 או עד לתמרור הקובע מהירות אחרת; צוין אחרת בתמרור שמתחתיו – יחול האמור בו; הוצב התמרור מעל הכביש או השול, יחול רק על הנתיב או השול שמתחתיו, בהתאמה.",
+    "imageFile": "signs/426פ.png",
     "sourcePart": 4,
     "sourcePage": 32,
     "sharedCell": true
@@ -1507,6 +1632,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/427.png",
     "sourcePart": 4,
     "sourcePage": 32,
     "sharedCell": false
@@ -1519,6 +1645,7 @@
     "colors": null,
     "description": null,
     "scope": "עד לצומת הקרוב, כולל הצומת.",
+    "imageFile": "signs/428.png",
     "sourcePart": 4,
     "sourcePage": 33,
     "sharedCell": true
@@ -1531,6 +1658,7 @@
     "colors": null,
     "description": null,
     "scope": "עד לצומת הקרוב, כולל הצומת.",
+    "imageFile": "signs/429.png",
     "sourcePart": 4,
     "sourcePage": 33,
     "sharedCell": true
@@ -1543,6 +1671,7 @@
     "colors": null,
     "description": null,
     "scope": "עד לצומת הקרוב, כולל הצומת.",
+    "imageFile": "signs/430.png",
     "sourcePart": 4,
     "sourcePage": 33,
     "sharedCell": true
@@ -1555,6 +1684,7 @@
     "colors": null,
     "description": null,
     "scope": "עד לצומת הקרוב, כולל הצומת.",
+    "imageFile": "signs/431.png",
     "sourcePart": 4,
     "sourcePage": 33,
     "sharedCell": true
@@ -1567,6 +1697,7 @@
     "colors": null,
     "description": null,
     "scope": "עד לצומת הקרוב או עד לתמרור 433 , 434 , 437 , 626 , 627 , 817 .",
+    "imageFile": "signs/432.png",
     "sourcePart": 4,
     "sourcePage": 33,
     "sharedCell": false
@@ -1579,6 +1710,7 @@
     "colors": null,
     "description": null,
     "scope": "עד לצומת הקרוב או עד לתמרור 432 , 434 , 437 , 626 , 627 , 817 .",
+    "imageFile": "signs/433.png",
     "sourcePart": 4,
     "sourcePage": 33,
     "sharedCell": false
@@ -1591,6 +1723,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/434.png",
     "sourcePart": 4,
     "sourcePage": 34,
     "sharedCell": false
@@ -1603,6 +1736,7 @@
     "colors": null,
     "description": null,
     "scope": "עד ל תמרור 436 .",
+    "imageFile": "signs/435.png",
     "sourcePart": 4,
     "sourcePage": 34,
     "sharedCell": false
@@ -1615,6 +1749,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/436.png",
     "sourcePart": 4,
     "sourcePage": 34,
     "sharedCell": false
@@ -1627,6 +1762,7 @@
     "colors": null,
     "description": null,
     "scope": "ב מקום הצבתו.",
+    "imageFile": "signs/437.png",
     "sourcePart": 4,
     "sourcePage": 34,
     "sharedCell": false
@@ -1639,6 +1775,7 @@
     "colors": null,
     "description": null,
     "scope": "ב מקום הצבתו .",
+    "imageFile": "signs/438.png",
     "sourcePart": 4,
     "sourcePage": 34,
     "sharedCell": false
@@ -1651,6 +1788,7 @@
     "colors": null,
     "description": null,
     "scope": "על פי האמור בו.",
+    "imageFile": "signs/439.png",
     "sourcePart": 4,
     "sourcePage": 34,
     "sharedCell": false
@@ -1663,6 +1801,7 @@
     "colors": null,
     "description": null,
     "scope": "עד לתמרור 441",
+    "imageFile": "signs/440.png",
     "sourcePart": 4,
     "sourcePage": 35,
     "sharedCell": false
@@ -1675,6 +1814,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/441.png",
     "sourcePart": 4,
     "sourcePage": 35,
     "sharedCell": false
@@ -1687,6 +1827,7 @@
     "colors": null,
     "description": null,
     "scope": ") 1 ( בכל הימים והשעות, אלא אם צוין אחרת בתמרור 439 שמוצב מתחתיו. ) 2 ( צוינו בתמרור 439 שמוצב כאמור בפסקה ) 1 ( שעות בלבד, בלא ציון ימים, התמרור יהיה תקף בכל הימים, למעט ביום הקודם ליום המנוחה כמשמעותו לפי סעיף 18 א)א( לפקו דת סדרי השלטון והמשפט, התש\"ח - 1948 , החל מהשעה 17:00 , וביום המנוחה. ) 3 ( בנתיב על פי סימון 503 , 515 או 516 בהתאמה, או עד אחד מאלה: ) 1 ( תמרור 231 . ) 2 ( תמרור 502 . ) 3 ( הצומת הקרוב. ) 4 ( קצה המסילה. ) 4 ( הוצב התמרור מעל הנתיב או השול, יחול תמרור 501 רק על הנתיב או השול שמתחתיו, בהתאמה.",
+    "imageFile": "signs/501.png",
     "sourcePart": 5,
     "sourcePage": 37,
     "sharedCell": false
@@ -1699,6 +1840,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/502.png",
     "sourcePart": 5,
     "sourcePage": 38,
     "sharedCell": false
@@ -1711,6 +1853,7 @@
     "colors": null,
     "description": null,
     "scope": "בקטע שסומן.",
+    "imageFile": "signs/503.png",
     "sourcePart": 5,
     "sourcePage": 38,
     "sharedCell": false
@@ -1723,6 +1866,7 @@
     "colors": null,
     "description": null,
     "scope": "עד לצומת הקרוב או עד לתמרור 145 , או עד לתמרור 618 .",
+    "imageFile": "signs/504.png",
     "sourcePart": 5,
     "sourcePage": 38,
     "sharedCell": false
@@ -1735,6 +1879,7 @@
     "colors": null,
     "description": null,
     "scope": "לפי סימון 511 , 512 או 513 .",
+    "imageFile": "signs/505.png",
     "sourcePart": 5,
     "sourcePage": 39,
     "sharedCell": false
@@ -1747,6 +1892,7 @@
     "colors": null,
     "description": null,
     "scope": "לכל אורך הרציף או לפי סימון 511 או 513 , או ארבעים מטר ים לפני התמרור וארבעים מטר ים אחריו .",
+    "imageFile": "signs/506.png",
     "sourcePart": 5,
     "sourcePage": 39,
     "sharedCell": false
@@ -1759,6 +1905,7 @@
     "colors": null,
     "description": null,
     "scope": "עד ל תמרור 508 .",
+    "imageFile": "signs/507.png",
     "sourcePart": 5,
     "sourcePage": 39,
     "sharedCell": false
@@ -1771,6 +1918,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/508.png",
     "sourcePart": 5,
     "sourcePage": 39,
     "sharedCell": false
@@ -1783,6 +1931,7 @@
     "colors": null,
     "description": null,
     "scope": "לפי סימון, 511 או 512 , או 513 או חמישה מטר ים לפני ו חמישה מטר ים אחרי מקום הצבתו .",
+    "imageFile": "signs/509.png",
     "sourcePart": 5,
     "sourcePage": 40,
     "sharedCell": false
@@ -1795,6 +1944,7 @@
     "colors": null,
     "description": null,
     "scope": "חמישה מטרים לפני וחמישה מטרים אחרי מקום הצבתו.",
+    "imageFile": "signs/510.png",
     "sourcePart": 5,
     "sourcePage": 40,
     "sharedCell": false
@@ -1807,6 +1957,7 @@
     "colors": null,
     "description": null,
     "scope": "לאורך הסימון.",
+    "imageFile": "signs/511.png",
     "sourcePart": 5,
     "sourcePage": 40,
     "sharedCell": false
@@ -1819,6 +1970,7 @@
     "colors": null,
     "description": null,
     "scope": "לאורך הסימון.",
+    "imageFile": "signs/512.png",
     "sourcePart": 5,
     "sourcePage": 40,
     "sharedCell": false
@@ -1831,6 +1983,7 @@
     "colors": null,
     "description": null,
     "scope": "לאורך הסימון.",
+    "imageFile": "signs/513.png",
     "sourcePart": 5,
     "sourcePage": 41,
     "sharedCell": false
@@ -1843,6 +1996,7 @@
     "colors": null,
     "description": null,
     "scope": "בקטע שסומן",
+    "imageFile": "signs/514.png",
     "sourcePart": 5,
     "sourcePage": 41,
     "sharedCell": false
@@ -1855,6 +2009,7 @@
     "colors": null,
     "description": null,
     "scope": "בקטע שסומן",
+    "imageFile": "signs/515.png",
     "sourcePart": 5,
     "sourcePage": 42,
     "sharedCell": false
@@ -1867,6 +2022,7 @@
     "colors": null,
     "description": null,
     "scope": "בקטע שסומן",
+    "imageFile": "signs/516.png",
     "sourcePart": 5,
     "sourcePage": 42,
     "sharedCell": false
@@ -1879,6 +2035,7 @@
     "colors": null,
     "description": null,
     "scope": "במחלף או בצומת הקרוב.",
+    "imageFile": "signs/601.png",
     "sourcePart": 6,
     "sourcePage": 44,
     "sharedCell": false
@@ -1891,6 +2048,7 @@
     "colors": null,
     "description": null,
     "scope": "בנתיבים שמתחת לשלט.",
+    "imageFile": "signs/602.png",
     "sourcePart": 6,
     "sourcePage": 44,
     "sharedCell": false
@@ -1903,6 +2061,7 @@
     "colors": null,
     "description": null,
     "scope": "בנתיבים שמתחת לשלט.",
+    "imageFile": "signs/603.png",
     "sourcePart": 6,
     "sourcePage": 44,
     "sharedCell": false
@@ -1915,6 +2074,7 @@
     "colors": null,
     "description": null,
     "scope": "לקראת הצומת שלפניך.",
+    "imageFile": "signs/604.png",
     "sourcePart": 6,
     "sourcePage": 45,
     "sharedCell": false
@@ -1927,6 +2087,7 @@
     "colors": null,
     "description": null,
     "scope": "בנתיבי היציאה שלפניך.",
+    "imageFile": "signs/605.png",
     "sourcePart": 6,
     "sourcePage": 45,
     "sharedCell": false
@@ -1939,6 +2100,7 @@
     "colors": null,
     "description": null,
     "scope": "במחלף שלפניך.",
+    "imageFile": "signs/606.png",
     "sourcePart": 6,
     "sourcePage": 45,
     "sharedCell": false
@@ -1951,6 +2113,7 @@
     "colors": null,
     "description": null,
     "scope": "במחלף שלפניך.",
+    "imageFile": "signs/607.png",
     "sourcePart": 6,
     "sourcePage": 46,
     "sharedCell": false
@@ -1963,6 +2126,7 @@
     "colors": null,
     "description": null,
     "scope": "במחלף שלפניך.",
+    "imageFile": "signs/608.png",
     "sourcePart": 6,
     "sourcePage": 46,
     "sharedCell": false
@@ -1975,6 +2139,7 @@
     "colors": null,
     "description": null,
     "scope": "בדרך שלפניך.",
+    "imageFile": "signs/609.png",
     "sourcePart": 6,
     "sourcePage": 46,
     "sharedCell": false
@@ -1987,6 +2152,7 @@
     "colors": null,
     "description": null,
     "scope": "בדרך שלפניך.",
+    "imageFile": "signs/610.png",
     "sourcePart": 6,
     "sourcePage": 47,
     "sharedCell": false
@@ -1999,6 +2165,7 @@
     "colors": null,
     "description": null,
     "scope": "בדרך שלפניך.",
+    "imageFile": "signs/611.png",
     "sourcePart": 6,
     "sourcePage": 47,
     "sharedCell": false
@@ -2011,6 +2178,7 @@
     "colors": null,
     "description": null,
     "scope": "בדרך שלפניך.",
+    "imageFile": "signs/612.png",
     "sourcePart": 6,
     "sourcePage": 48,
     "sharedCell": false
@@ -2023,6 +2191,7 @@
     "colors": null,
     "description": null,
     "scope": "ב נתיבים שלפניך.",
+    "imageFile": "signs/613.png",
     "sourcePart": 6,
     "sourcePage": 48,
     "sharedCell": false
@@ -2035,6 +2204,7 @@
     "colors": null,
     "description": null,
     "scope": "בדרך שלפניך.",
+    "imageFile": "signs/614.png",
     "sourcePart": 6,
     "sourcePage": 49,
     "sharedCell": false
@@ -2047,6 +2217,7 @@
     "colors": null,
     "description": null,
     "scope": "במחלף שלפניך.",
+    "imageFile": "signs/615.png",
     "sourcePart": 6,
     "sourcePage": 49,
     "sharedCell": false
@@ -2059,6 +2230,7 @@
     "colors": null,
     "description": null,
     "scope": "בצומת שלפניך.",
+    "imageFile": "signs/616.png",
     "sourcePart": 6,
     "sourcePage": 49,
     "sharedCell": false
@@ -2071,6 +2243,7 @@
     "colors": null,
     "description": null,
     "scope": "במקום הצבתו.",
+    "imageFile": "signs/617.png",
     "sourcePart": 6,
     "sourcePage": 50,
     "sharedCell": false
@@ -2083,6 +2256,7 @@
     "colors": null,
     "description": null,
     "scope": "עד לצומת הקרוב או עד לתמרור 145 , או עד לתמרור 504 .",
+    "imageFile": "signs/618.png",
     "sourcePart": 6,
     "sourcePage": 50,
     "sharedCell": false
@@ -2095,6 +2269,7 @@
     "colors": null,
     "description": null,
     "scope": "בדרך שלפניך.",
+    "imageFile": "signs/619.png",
     "sourcePart": 6,
     "sourcePage": 50,
     "sharedCell": true
@@ -2107,6 +2282,7 @@
     "colors": null,
     "description": null,
     "scope": "בדרך שלפניך.",
+    "imageFile": "signs/620.png",
     "sourcePart": 6,
     "sourcePage": 50,
     "sharedCell": true
@@ -2119,6 +2295,7 @@
     "colors": null,
     "description": null,
     "scope": "בדרך שלפניך.",
+    "imageFile": "signs/621.png",
     "sourcePart": 6,
     "sourcePage": 51,
     "sharedCell": true
@@ -2131,6 +2308,7 @@
     "colors": null,
     "description": null,
     "scope": "בדרך שלפניך.",
+    "imageFile": "signs/622.png",
     "sourcePart": 6,
     "sourcePage": 51,
     "sharedCell": true
@@ -2143,6 +2321,7 @@
     "colors": null,
     "description": null,
     "scope": "בכביש שלפניך.",
+    "imageFile": "signs/623.png",
     "sourcePart": 6,
     "sourcePage": 51,
     "sharedCell": false
@@ -2155,6 +2334,7 @@
     "colors": null,
     "description": null,
     "scope": "בכביש שמימין או משמאל, בהתאמה.",
+    "imageFile": "signs/624.png",
     "sourcePart": 6,
     "sourcePage": 51,
     "sharedCell": true
@@ -2167,6 +2347,7 @@
     "colors": null,
     "description": null,
     "scope": "בכביש שמימין או משמאל, בהתאמה.",
+    "imageFile": "signs/625.png",
     "sourcePart": 6,
     "sourcePage": 51,
     "sharedCell": true
@@ -2179,6 +2360,7 @@
     "colors": null,
     "description": null,
     "scope": "עד לצומת הקרוב, אלא אם כן סומנו אבני השפה בצומת ואחריו בתמרור 817 , או עד לתמרור 432 , 433 , 627 או 628 .",
+    "imageFile": "signs/626.png",
     "sourcePart": 6,
     "sourcePage": 52,
     "sharedCell": false
@@ -2191,6 +2373,7 @@
     "colors": null,
     "description": null,
     "scope": "במדרכה שלפניך, עד לצומת הקרוב אלא אם כן סומנו אבני השפה בצומת ואחריו בתמרור 817 או שסומנו בצומת ואחריו מקומות חניה בתמרור 819 , או עד לתמרור 432 , 433 או 628 .",
+    "imageFile": "signs/627.png",
     "sourcePart": 6,
     "sourcePage": 52,
     "sharedCell": false
@@ -2203,6 +2386,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/628.png",
     "sourcePart": 6,
     "sourcePage": 52,
     "sharedCell": false
@@ -2215,6 +2399,7 @@
     "colors": null,
     "description": null,
     "scope": "על פי האמור בו.",
+    "imageFile": "signs/629.png",
     "sourcePart": 6,
     "sourcePage": 53,
     "sharedCell": true
@@ -2227,6 +2412,7 @@
     "colors": null,
     "description": null,
     "scope": "על פי האמור בו.",
+    "imageFile": "signs/629פ.png",
     "sourcePart": 6,
     "sourcePage": 53,
     "sharedCell": true
@@ -2239,6 +2425,7 @@
     "colors": null,
     "description": null,
     "scope": "למקום במרחק הנקוב.",
+    "imageFile": "signs/630.png",
     "sourcePart": 6,
     "sourcePage": 53,
     "sharedCell": false
@@ -2251,6 +2438,7 @@
     "colors": null,
     "description": null,
     "scope": "לאורך הקטע הנקוב.",
+    "imageFile": "signs/631.png",
     "sourcePart": 6,
     "sourcePage": 53,
     "sharedCell": false
@@ -2263,6 +2451,7 @@
     "colors": null,
     "description": null,
     "scope": "אחרי הפניה.",
+    "imageFile": "signs/632.png",
     "sourcePart": 6,
     "sourcePage": 53,
     "sharedCell": false
@@ -2275,6 +2464,7 @@
     "colors": null,
     "description": null,
     "scope": "בדרך שלפניך, עד תמרור 634 .",
+    "imageFile": "signs/633.png",
     "sourcePart": 6,
     "sourcePage": 53,
     "sharedCell": false
@@ -2287,6 +2477,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/634.png",
     "sourcePart": 6,
     "sourcePage": 53,
     "sharedCell": false
@@ -2299,6 +2490,7 @@
     "colors": null,
     "description": null,
     "scope": "בדרך שלפניך וסביבתה.",
+    "imageFile": "signs/635.png",
     "sourcePart": 6,
     "sourcePage": 54,
     "sharedCell": false
@@ -2311,6 +2503,7 @@
     "colors": null,
     "description": null,
     "scope": "עד לצומת הקרוב או עד לתמרור 145 , או עד לתמרור 618 .",
+    "imageFile": "signs/636.png",
     "sourcePart": 6,
     "sourcePage": 54,
     "sharedCell": false
@@ -2323,6 +2516,7 @@
     "colors": null,
     "description": null,
     "scope": "במפרץ.",
+    "imageFile": "signs/637.png",
     "sourcePart": 6,
     "sourcePage": 54,
     "sharedCell": false
@@ -2335,6 +2529,7 @@
     "colors": null,
     "description": null,
     "scope": "עד לצומת הקרוב, אלא אם כן סומנו מקומות לחניה בתמרור 819 או 820 , או עד לתמרור ים 432 , 433 , 437 , 626 או 627 .",
+    "imageFile": "signs/638.png",
     "sourcePart": 6,
     "sourcePage": 54,
     "sharedCell": false
@@ -2347,6 +2542,7 @@
     "colors": null,
     "description": null,
     "scope": "עד לתמרור 640",
+    "imageFile": "signs/639.png",
     "sourcePart": 6,
     "sourcePage": 54,
     "sharedCell": false
@@ -2359,6 +2555,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/640.png",
     "sourcePart": 6,
     "sourcePage": 54,
     "sharedCell": false
@@ -2371,6 +2568,7 @@
     "colors": null,
     "description": null,
     "scope": "נוהג רכב.",
+    "imageFile": "signs/701.png",
     "sourcePart": 7,
     "sourcePage": 56,
     "sharedCell": false
@@ -2383,6 +2581,7 @@
     "colors": null,
     "description": null,
     "scope": "נוהג רכב.",
+    "imageFile": "signs/702.png",
     "sourcePart": 7,
     "sourcePage": 56,
     "sharedCell": false
@@ -2395,6 +2594,7 @@
     "colors": null,
     "description": null,
     "scope": "נוהג רכב.",
+    "imageFile": "signs/703.png",
     "sourcePart": 7,
     "sourcePage": 57,
     "sharedCell": false
@@ -2407,6 +2607,7 @@
     "colors": null,
     "description": null,
     "scope": "נוהג רכב.",
+    "imageFile": "signs/704.png",
     "sourcePart": 7,
     "sourcePage": 57,
     "sharedCell": false
@@ -2419,6 +2620,7 @@
     "colors": null,
     "description": null,
     "scope": "נוהג רכב.",
+    "imageFile": "signs/705.png",
     "sourcePart": 7,
     "sourcePage": 57,
     "sharedCell": false
@@ -2431,6 +2633,7 @@
     "colors": null,
     "description": null,
     "scope": "נוהג רכב.",
+    "imageFile": "signs/706.png",
     "sourcePart": 7,
     "sourcePage": 58,
     "sharedCell": true
@@ -2443,6 +2646,7 @@
     "colors": null,
     "description": null,
     "scope": "נוהג רכב.",
+    "imageFile": "signs/707.png",
     "sourcePart": 7,
     "sourcePage": 58,
     "sharedCell": true
@@ -2455,6 +2659,7 @@
     "colors": null,
     "description": null,
     "scope": "נוהג ברכבת מקומית או ברכב.",
+    "imageFile": "signs/708.png",
     "sourcePart": 7,
     "sourcePage": 58,
     "sharedCell": false
@@ -2467,6 +2672,7 @@
     "colors": null,
     "description": null,
     "scope": "נוהג ברכבת מקומית או ברכב.",
+    "imageFile": "signs/709.png",
     "sourcePart": 7,
     "sourcePage": 59,
     "sharedCell": false
@@ -2479,6 +2685,7 @@
     "colors": null,
     "description": null,
     "scope": "נוהג ברכבת מקומית או ברכב.",
+    "imageFile": "signs/710.png",
     "sourcePart": 7,
     "sourcePage": 59,
     "sharedCell": false
@@ -2491,6 +2698,7 @@
     "colors": null,
     "description": null,
     "scope": "נוהג ברכבת מקומית או ברכב.",
+    "imageFile": "signs/711.png",
     "sourcePart": 7,
     "sourcePage": 59,
     "sharedCell": true
@@ -2503,6 +2711,7 @@
     "colors": null,
     "description": null,
     "scope": "נוהג ברכבת מקומית או ברכב.",
+    "imageFile": "signs/712.png",
     "sourcePart": 7,
     "sourcePage": 59,
     "sharedCell": true
@@ -2515,6 +2724,7 @@
     "colors": null,
     "description": null,
     "scope": "נוהג ברכבת מקומית או ברכב.",
+    "imageFile": "signs/713.png",
     "sourcePart": 7,
     "sourcePage": 60,
     "sharedCell": true
@@ -2527,6 +2737,7 @@
     "colors": null,
     "description": null,
     "scope": "נוהג ברכבת מקומית או ברכב.",
+    "imageFile": "signs/714.png",
     "sourcePart": 7,
     "sourcePage": 60,
     "sharedCell": true
@@ -2539,6 +2750,7 @@
     "colors": null,
     "description": null,
     "scope": "נוהג ברכבת מקומית או ברכב.",
+    "imageFile": "signs/715.png",
     "sourcePart": 7,
     "sourcePage": 60,
     "sharedCell": false
@@ -2551,6 +2763,7 @@
     "colors": null,
     "description": null,
     "scope": "נוהג ברכבת מקומית או ברכב.",
+    "imageFile": "signs/716.png",
     "sourcePart": 7,
     "sourcePage": 61,
     "sharedCell": false
@@ -2563,6 +2776,7 @@
     "colors": null,
     "description": null,
     "scope": "נוהג ברכבת מקומית או ברכב.",
+    "imageFile": "signs/717.png",
     "sourcePart": 7,
     "sourcePage": 61,
     "sharedCell": false
@@ -2575,6 +2789,7 @@
     "colors": null,
     "description": null,
     "scope": "הולך רגל.",
+    "imageFile": "signs/718.png",
     "sourcePart": 7,
     "sourcePage": 61,
     "sharedCell": false
@@ -2587,6 +2802,7 @@
     "colors": null,
     "description": null,
     "scope": "הולך רגל.",
+    "imageFile": "signs/719.png",
     "sourcePart": 7,
     "sourcePage": 61,
     "sharedCell": false
@@ -2599,6 +2815,7 @@
     "colors": null,
     "description": null,
     "scope": "תנועת אופניים, כהגדרתם בסעיף 1 להודעה זו.",
+    "imageFile": "signs/720.png",
     "sourcePart": 7,
     "sourcePage": 61,
     "sharedCell": false
@@ -2611,6 +2828,7 @@
     "colors": null,
     "description": null,
     "scope": "תנועת אופניים, כהגדרתם בסעיף 1 להודעה זו.",
+    "imageFile": "signs/721.png",
     "sourcePart": 7,
     "sourcePage": 61,
     "sharedCell": false
@@ -2623,6 +2841,7 @@
     "colors": null,
     "description": null,
     "scope": "כל משתמשי הדרך.",
+    "imageFile": "signs/722.png",
     "sourcePart": 7,
     "sourcePage": 62,
     "sharedCell": false
@@ -2635,6 +2854,7 @@
     "colors": null,
     "description": null,
     "scope": "נוהג רכב.",
+    "imageFile": "signs/723.png",
     "sourcePart": 7,
     "sourcePage": 62,
     "sharedCell": true
@@ -2647,6 +2867,7 @@
     "colors": null,
     "description": null,
     "scope": "נוהג רכב.",
+    "imageFile": "signs/723פ.png",
     "sourcePart": 7,
     "sourcePage": 62,
     "sharedCell": true
@@ -2659,6 +2880,7 @@
     "colors": null,
     "description": null,
     "scope": "נוהג רכב.",
+    "imageFile": "signs/724.png",
     "sourcePart": 7,
     "sourcePage": 62,
     "sharedCell": true
@@ -2671,6 +2893,7 @@
     "colors": null,
     "description": null,
     "scope": "נוהג רכב.",
+    "imageFile": "signs/724פ.png",
     "sourcePart": 7,
     "sourcePage": 62,
     "sharedCell": true
@@ -2683,6 +2906,7 @@
     "colors": null,
     "description": null,
     "scope": "נוהג רכב.",
+    "imageFile": "signs/725.png",
     "sourcePart": 7,
     "sourcePage": 63,
     "sharedCell": true
@@ -2695,6 +2919,7 @@
     "colors": null,
     "description": null,
     "scope": "נוהג רכב.",
+    "imageFile": "signs/725פ.png",
     "sourcePart": 7,
     "sourcePage": 63,
     "sharedCell": true
@@ -2707,6 +2932,7 @@
     "colors": null,
     "description": null,
     "scope": "נוהג רכב.",
+    "imageFile": "signs/726.png",
     "sourcePart": 7,
     "sourcePage": 63,
     "sharedCell": true
@@ -2719,6 +2945,7 @@
     "colors": null,
     "description": null,
     "scope": "נוהג רכב.",
+    "imageFile": "signs/726פ.png",
     "sourcePart": 7,
     "sourcePage": 63,
     "sharedCell": true
@@ -2731,6 +2958,7 @@
     "colors": null,
     "description": null,
     "scope": "נוהג באופניים כהגדרתם בסעיף 1 להודעה זו;",
+    "imageFile": "signs/727.png",
     "sourcePart": 7,
     "sourcePage": 63,
     "sharedCell": false
@@ -2743,6 +2971,7 @@
     "colors": null,
     "description": null,
     "scope": "נוהג באופניים כהגדרתם בסעיף 1 להודעה זו;",
+    "imageFile": "signs/728.png",
     "sourcePart": 7,
     "sourcePage": 64,
     "sharedCell": false
@@ -2755,6 +2984,7 @@
     "colors": null,
     "description": null,
     "scope": "נוהג באופניים כהגדרתם בסעיף 1 להודעה זו;",
+    "imageFile": "signs/729.png",
     "sourcePart": 7,
     "sourcePage": 64,
     "sharedCell": false
@@ -2767,6 +2997,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/801.png",
     "sourcePart": 8,
     "sourcePage": 66,
     "sharedCell": false
@@ -2779,6 +3010,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/802.png",
     "sourcePart": 8,
     "sourcePage": 66,
     "sharedCell": false
@@ -2791,6 +3023,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/803.png",
     "sourcePart": 8,
     "sourcePage": 66,
     "sharedCell": false
@@ -2803,6 +3036,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/804.png",
     "sourcePart": 8,
     "sourcePage": 66,
     "sharedCell": false
@@ -2815,6 +3049,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/805.png",
     "sourcePart": 8,
     "sourcePage": 66,
     "sharedCell": false
@@ -2827,6 +3062,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/806.png",
     "sourcePart": 8,
     "sourcePage": 66,
     "sharedCell": false
@@ -2839,6 +3075,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/807.png",
     "sourcePart": 8,
     "sourcePage": 66,
     "sharedCell": false
@@ -2851,6 +3088,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/808.png",
     "sourcePart": 8,
     "sourcePage": 66,
     "sharedCell": false
@@ -2863,6 +3101,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/809.png",
     "sourcePart": 8,
     "sourcePage": 67,
     "sharedCell": false
@@ -2875,6 +3114,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/810.png",
     "sourcePart": 8,
     "sourcePage": 67,
     "sharedCell": false
@@ -2887,6 +3127,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/811.png",
     "sourcePart": 8,
     "sourcePage": 67,
     "sharedCell": false
@@ -2899,6 +3140,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/812.png",
     "sourcePart": 8,
     "sourcePage": 67,
     "sharedCell": false
@@ -2911,6 +3153,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/813.png",
     "sourcePart": 8,
     "sourcePage": 67,
     "sharedCell": false
@@ -2923,6 +3166,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/814.png",
     "sourcePart": 8,
     "sourcePage": 67,
     "sharedCell": false
@@ -2935,6 +3179,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/815.png",
     "sourcePart": 8,
     "sourcePage": 67,
     "sharedCell": false
@@ -2947,6 +3192,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/816.png",
     "sourcePart": 8,
     "sourcePage": 68,
     "sharedCell": false
@@ -2959,6 +3205,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/817.png",
     "sourcePart": 8,
     "sourcePage": 68,
     "sharedCell": false
@@ -2971,6 +3218,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/818.png",
     "sourcePart": 8,
     "sourcePage": 68,
     "sharedCell": false
@@ -2983,6 +3231,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/819.png",
     "sourcePart": 8,
     "sourcePage": 68,
     "sharedCell": false
@@ -2995,6 +3244,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/820.png",
     "sourcePart": 8,
     "sourcePage": 68,
     "sharedCell": false
@@ -3007,6 +3257,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/821.png",
     "sourcePart": 8,
     "sourcePage": 68,
     "sharedCell": false
@@ -3019,6 +3270,7 @@
     "colors": null,
     "description": null,
     "scope": "ממקום הצבתו ועד לתמרור 902 .",
+    "imageFile": "signs/901.png",
     "sourcePart": 9,
     "sourcePage": 70,
     "sharedCell": true
@@ -3031,6 +3283,7 @@
     "colors": null,
     "description": null,
     "scope": "ממקום הצבתו ועד לתמרור 902 .",
+    "imageFile": "signs/901פ.png",
     "sourcePart": 9,
     "sourcePage": 70,
     "sharedCell": true
@@ -3043,6 +3296,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/902.png",
     "sourcePart": 9,
     "sourcePage": 70,
     "sharedCell": false
@@ -3055,6 +3309,7 @@
     "colors": null,
     "description": null,
     "scope": "בכביש שלפניך באתר עבודה בדרך.",
+    "imageFile": "signs/903.png",
     "sourcePart": 9,
     "sourcePage": 70,
     "sharedCell": false
@@ -3067,6 +3322,7 @@
     "colors": null,
     "description": null,
     "scope": "בצומת שלפניך באתר עבודה בדרך.",
+    "imageFile": "signs/904.png",
     "sourcePart": 9,
     "sourcePage": 70,
     "sharedCell": false
@@ -3079,6 +3335,7 @@
     "colors": null,
     "description": null,
     "scope": "בכביש שלפניך באתר עבודה בדרך.",
+    "imageFile": "signs/905.png",
     "sourcePart": 9,
     "sourcePage": 70,
     "sharedCell": false
@@ -3091,6 +3348,7 @@
     "colors": null,
     "description": null,
     "scope": "בכביש שלפניך באתר עבודה בדרך.",
+    "imageFile": "signs/906.png",
     "sourcePart": 9,
     "sourcePage": 71,
     "sharedCell": true
@@ -3103,6 +3361,7 @@
     "colors": null,
     "description": null,
     "scope": "בכביש שלפניך באתר עבודה בדרך.",
+    "imageFile": "signs/907.png",
     "sourcePart": 9,
     "sourcePage": 71,
     "sharedCell": true
@@ -3115,6 +3374,7 @@
     "colors": null,
     "description": null,
     "scope": "בכביש שלפניך באתר עבודה בדרך.",
+    "imageFile": "signs/908.png",
     "sourcePart": 9,
     "sourcePage": 71,
     "sharedCell": false
@@ -3127,6 +3387,7 @@
     "colors": null,
     "description": null,
     "scope": "בכביש שלפניך באתר עבודה בדרך.",
+    "imageFile": "signs/909.png",
     "sourcePart": 9,
     "sourcePage": 71,
     "sharedCell": false
@@ -3139,6 +3400,7 @@
     "colors": null,
     "description": null,
     "scope": "בכביש שלפניך באתר עבודה בדרך.",
+    "imageFile": "signs/910.png",
     "sourcePart": 9,
     "sourcePage": 71,
     "sharedCell": true
@@ -3151,6 +3413,7 @@
     "colors": null,
     "description": null,
     "scope": "בכביש שלפניך באתר עבודה בדרך.",
+    "imageFile": "signs/911.png",
     "sourcePart": 9,
     "sourcePage": 71,
     "sharedCell": true
@@ -3163,6 +3426,7 @@
     "colors": null,
     "description": null,
     "scope": "בכביש שלפניך באתר עבודה בדרך.",
+    "imageFile": "signs/912.png",
     "sourcePart": 9,
     "sourcePage": 72,
     "sharedCell": true
@@ -3175,6 +3439,7 @@
     "colors": null,
     "description": null,
     "scope": "בכביש שלפניך באתר עבודה בדרך.",
+    "imageFile": "signs/913.png",
     "sourcePart": 9,
     "sourcePage": 72,
     "sharedCell": true
@@ -3187,6 +3452,7 @@
     "colors": null,
     "description": null,
     "scope": "בכביש שלפניך באתר עבודה בדרך.",
+    "imageFile": "signs/914.png",
     "sourcePart": 9,
     "sourcePage": 72,
     "sharedCell": false
@@ -3199,6 +3465,7 @@
     "colors": null,
     "description": null,
     "scope": "על פי האמור בו, באתר עבודה בדרך.",
+    "imageFile": "signs/915.png",
     "sourcePart": 9,
     "sourcePage": 72,
     "sharedCell": false
@@ -3211,6 +3478,7 @@
     "colors": null,
     "description": null,
     "scope": "למקום במרחק הנקוב, באתר עבודה בדרך.",
+    "imageFile": "signs/916.png",
     "sourcePart": 9,
     "sourcePage": 72,
     "sharedCell": false
@@ -3223,6 +3491,7 @@
     "colors": null,
     "description": null,
     "scope": "לאורך הקטע הנקוב, באתר עבודה בדרך.",
+    "imageFile": "signs/917.png",
     "sourcePart": 9,
     "sourcePage": 72,
     "sharedCell": false
@@ -3235,6 +3504,7 @@
     "colors": null,
     "description": null,
     "scope": "לאורך הסימון, באתר עבודה בדרך.",
+    "imageFile": "signs/918.png",
     "sourcePart": 9,
     "sourcePage": 73,
     "sharedCell": false
@@ -3247,6 +3517,7 @@
     "colors": null,
     "description": null,
     "scope": "לאורך הסימון, באתר עבודה בדרך.",
+    "imageFile": "signs/919.png",
     "sourcePart": 9,
     "sourcePage": 73,
     "sharedCell": false
@@ -3259,6 +3530,7 @@
     "colors": null,
     "description": null,
     "scope": "לאורך הסימון, באתר עבודה בדרך.",
+    "imageFile": "signs/920.png",
     "sourcePart": 9,
     "sourcePage": 73,
     "sharedCell": false
@@ -3271,6 +3543,7 @@
     "colors": null,
     "description": null,
     "scope": "לאורך הסימון, באתר עבודה בדרך.",
+    "imageFile": "signs/921.png",
     "sourcePart": 9,
     "sourcePage": 73,
     "sharedCell": false
@@ -3283,6 +3556,7 @@
     "colors": null,
     "description": null,
     "scope": "לאורך הסימון, באתר עבודה בדרך.",
+    "imageFile": "signs/922.png",
     "sourcePart": 9,
     "sourcePage": 73,
     "sharedCell": false
@@ -3295,6 +3569,7 @@
     "colors": null,
     "description": null,
     "scope": "לאורך הסימון, באתר עבודה בדרך.",
+    "imageFile": "signs/923.png",
     "sourcePart": 9,
     "sourcePage": 74,
     "sharedCell": false
@@ -3307,6 +3582,7 @@
     "colors": null,
     "description": null,
     "scope": "לאורך הסימון, באתר עבודה בדרך.",
+    "imageFile": "signs/924.png",
     "sourcePart": 9,
     "sourcePage": 74,
     "sharedCell": false
@@ -3319,6 +3595,7 @@
     "colors": null,
     "description": null,
     "scope": "במקום הסימון באתר עבודה בדרך.",
+    "imageFile": "signs/925.png",
     "sourcePart": 9,
     "sourcePage": 74,
     "sharedCell": false
@@ -3331,6 +3608,7 @@
     "colors": null,
     "description": null,
     "scope": "בנתיבים שסומנו, באתר עבודה בדרך.",
+    "imageFile": "signs/926.png",
     "sourcePart": 9,
     "sourcePage": 74,
     "sharedCell": false
@@ -3343,6 +3621,7 @@
     "colors": null,
     "description": null,
     "scope": "בנתיב שסומן, באתר עבודה בדרך.",
+    "imageFile": "signs/927.png",
     "sourcePart": 9,
     "sourcePage": 74,
     "sharedCell": false
@@ -3355,6 +3634,7 @@
     "colors": null,
     "description": null,
     "scope": "במקום הסימון, באתר עבודה בדרך.",
+    "imageFile": "signs/928.png",
     "sourcePart": 9,
     "sourcePage": 75,
     "sharedCell": false
@@ -3367,6 +3647,7 @@
     "colors": null,
     "description": null,
     "scope": "במקום החסימה, באתר עבודה בדרך.",
+    "imageFile": "signs/929.png",
     "sourcePart": 9,
     "sourcePage": 75,
     "sharedCell": false
@@ -3379,6 +3660,7 @@
     "colors": null,
     "description": null,
     "scope": "בצידי הכביש, באתר עבודה בדרך.",
+    "imageFile": "signs/930.png",
     "sourcePart": 9,
     "sourcePage": 75,
     "sharedCell": false
@@ -3391,6 +3673,7 @@
     "colors": null,
     "description": null,
     "scope": "במקום הצבתו, באתר עבודה בדרך.",
+    "imageFile": "signs/931.png",
     "sourcePart": 9,
     "sourcePage": 75,
     "sharedCell": false
@@ -3403,6 +3686,7 @@
     "colors": null,
     "description": null,
     "scope": "במקום הצבתו, באתר העבודה בדרך.",
+    "imageFile": "signs/932.png",
     "sourcePart": 9,
     "sourcePage": 75,
     "sharedCell": false
@@ -3415,6 +3699,7 @@
     "colors": null,
     "description": null,
     "scope": "במקום הצבתו, באתר העבודה בדרך.",
+    "imageFile": "signs/933.png",
     "sourcePart": 9,
     "sourcePage": 76,
     "sharedCell": true
@@ -3427,6 +3712,7 @@
     "colors": null,
     "description": null,
     "scope": "במקום הצבתו, באתר העבודה בדרך.",
+    "imageFile": "signs/933פ.png",
     "sourcePart": 9,
     "sourcePage": 76,
     "sharedCell": true
@@ -3439,6 +3725,7 @@
     "colors": null,
     "description": null,
     "scope": "במקום הצבתו, באתר העבודה בדרך.",
+    "imageFile": "signs/934.png",
     "sourcePart": 9,
     "sourcePage": 76,
     "sharedCell": true
@@ -3451,6 +3738,7 @@
     "colors": null,
     "description": null,
     "scope": "במקום הצבתו, באתר העבודה בדרך.",
+    "imageFile": "signs/934פ.png",
     "sourcePart": 9,
     "sourcePage": 76,
     "sharedCell": true
@@ -3463,6 +3751,7 @@
     "colors": null,
     "description": null,
     "scope": "במפרץ",
+    "imageFile": "signs/935.png",
     "sourcePart": 9,
     "sourcePage": 76,
     "sharedCell": false
@@ -3475,6 +3764,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": null,
     "sourcePart": 10,
     "sourcePage": 78,
     "sharedCell": false
@@ -3487,6 +3777,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": null,
     "sourcePart": 10,
     "sourcePage": 78,
     "sharedCell": false
@@ -3499,6 +3790,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": null,
     "sourcePart": 10,
     "sourcePage": 78,
     "sharedCell": false
@@ -3511,6 +3803,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-4.png",
     "sourcePart": 10,
     "sourcePage": 78,
     "sharedCell": false
@@ -3523,6 +3816,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-5.png",
     "sourcePart": 10,
     "sourcePage": 78,
     "sharedCell": false
@@ -3535,6 +3829,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-6.png",
     "sourcePart": 10,
     "sourcePage": 78,
     "sharedCell": false
@@ -3547,6 +3842,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-7.png",
     "sourcePart": 10,
     "sourcePage": 78,
     "sharedCell": false
@@ -3559,6 +3855,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-8.png",
     "sourcePart": 10,
     "sourcePage": 78,
     "sharedCell": false
@@ -3571,6 +3868,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-9.png",
     "sourcePart": 10,
     "sourcePage": 78,
     "sharedCell": false
@@ -3583,6 +3881,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-10.png",
     "sourcePart": 10,
     "sourcePage": 79,
     "sharedCell": false
@@ -3595,6 +3894,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-11.png",
     "sourcePart": 10,
     "sourcePage": 79,
     "sharedCell": false
@@ -3607,6 +3907,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-12.png",
     "sourcePart": 10,
     "sourcePage": 79,
     "sharedCell": false
@@ -3619,6 +3920,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-13.png",
     "sourcePart": 10,
     "sourcePage": 79,
     "sharedCell": false
@@ -3631,6 +3933,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-14.png",
     "sourcePart": 10,
     "sourcePage": 79,
     "sharedCell": false
@@ -3643,6 +3946,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-15.png",
     "sourcePart": 10,
     "sourcePage": 79,
     "sharedCell": false
@@ -3655,6 +3959,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-16.png",
     "sourcePart": 10,
     "sourcePage": 79,
     "sharedCell": false
@@ -3667,6 +3972,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-17.png",
     "sourcePart": 10,
     "sourcePage": 79,
     "sharedCell": false
@@ -3679,6 +3985,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": null,
     "sourcePart": 10,
     "sourcePage": 79,
     "sharedCell": false
@@ -3691,6 +3998,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": null,
     "sourcePart": 10,
     "sourcePage": 79,
     "sharedCell": false
@@ -3703,6 +4011,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-20.png",
     "sourcePart": 10,
     "sourcePage": 80,
     "sharedCell": false
@@ -3715,6 +4024,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-21.png",
     "sourcePart": 10,
     "sourcePage": 80,
     "sharedCell": false
@@ -3727,6 +4037,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-22.png",
     "sourcePart": 10,
     "sourcePage": 80,
     "sharedCell": false
@@ -3739,6 +4050,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-23.png",
     "sourcePart": 10,
     "sourcePage": 80,
     "sharedCell": false
@@ -3751,6 +4063,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-24.png",
     "sourcePart": 10,
     "sourcePage": 80,
     "sharedCell": false
@@ -3763,6 +4076,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-25.png",
     "sourcePart": 10,
     "sourcePage": 80,
     "sharedCell": false
@@ -3775,6 +4089,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-26.png",
     "sourcePart": 10,
     "sourcePage": 80,
     "sharedCell": false
@@ -3787,6 +4102,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-27.png",
     "sourcePart": 10,
     "sourcePage": 80,
     "sharedCell": false
@@ -3799,6 +4115,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-28.png",
     "sourcePart": 10,
     "sourcePage": 80,
     "sharedCell": false
@@ -3811,6 +4128,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-29.png",
     "sourcePart": 10,
     "sourcePage": 80,
     "sharedCell": false
@@ -3823,6 +4141,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-30.png",
     "sourcePart": 10,
     "sourcePage": 81,
     "sharedCell": false
@@ -3835,6 +4154,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-31.png",
     "sourcePart": 10,
     "sourcePage": 81,
     "sharedCell": false
@@ -3847,6 +4167,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-32.png",
     "sourcePart": 10,
     "sourcePage": 81,
     "sharedCell": false
@@ -3859,6 +4180,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-33.png",
     "sourcePart": 10,
     "sourcePage": 81,
     "sharedCell": false
@@ -3871,6 +4193,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-34.png",
     "sourcePart": 10,
     "sourcePage": 81,
     "sharedCell": false
@@ -3883,6 +4206,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-35.png",
     "sourcePart": 10,
     "sourcePage": 81,
     "sharedCell": false
@@ -3895,6 +4219,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-36.png",
     "sourcePart": 10,
     "sourcePage": 81,
     "sharedCell": false
@@ -3907,6 +4232,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-37.png",
     "sourcePart": 10,
     "sourcePage": 81,
     "sharedCell": false
@@ -3919,6 +4245,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-38.png",
     "sourcePart": 10,
     "sourcePage": 81,
     "sharedCell": false
@@ -3931,6 +4258,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-39.png",
     "sourcePart": 10,
     "sourcePage": 81,
     "sharedCell": false
@@ -3943,6 +4271,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-40.png",
     "sourcePart": 10,
     "sourcePage": 82,
     "sharedCell": false
@@ -3955,6 +4284,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-41.png",
     "sourcePart": 10,
     "sourcePage": 82,
     "sharedCell": false
@@ -3967,6 +4297,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-42.png",
     "sourcePart": 10,
     "sourcePage": 82,
     "sharedCell": false
@@ -3979,6 +4310,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-43.png",
     "sourcePart": 10,
     "sourcePage": 82,
     "sharedCell": false
@@ -3991,6 +4323,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-44.png",
     "sourcePart": 10,
     "sourcePage": 82,
     "sharedCell": false
@@ -4003,6 +4336,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-45.png",
     "sourcePart": 10,
     "sourcePage": 82,
     "sharedCell": false
@@ -4015,6 +4349,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-46.png",
     "sourcePart": 10,
     "sourcePage": 82,
     "sharedCell": false
@@ -4027,6 +4362,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-47.png",
     "sourcePart": 10,
     "sourcePage": 82,
     "sharedCell": false
@@ -4039,6 +4375,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-48.png",
     "sourcePart": 10,
     "sourcePage": 82,
     "sharedCell": false
@@ -4051,6 +4388,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-49.png",
     "sourcePart": 10,
     "sourcePage": 82,
     "sharedCell": false
@@ -4063,6 +4401,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-50.png",
     "sourcePart": 10,
     "sourcePage": 83,
     "sharedCell": false
@@ -4075,6 +4414,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-51.png",
     "sourcePart": 10,
     "sourcePage": 83,
     "sharedCell": false
@@ -4087,6 +4427,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-52.png",
     "sourcePart": 10,
     "sourcePage": 83,
     "sharedCell": false
@@ -4099,6 +4440,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-53.png",
     "sourcePart": 10,
     "sourcePage": 83,
     "sharedCell": false
@@ -4111,6 +4453,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-54.png",
     "sourcePart": 10,
     "sourcePage": 83,
     "sharedCell": false
@@ -4123,6 +4466,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-55.png",
     "sourcePart": 10,
     "sourcePage": 83,
     "sharedCell": false
@@ -4135,6 +4479,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-56.png",
     "sourcePart": 10,
     "sourcePage": 83,
     "sharedCell": false
@@ -4147,6 +4492,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-57.png",
     "sourcePart": 10,
     "sourcePage": 83,
     "sharedCell": false
@@ -4159,6 +4505,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-58.png",
     "sourcePart": 10,
     "sourcePage": 83,
     "sharedCell": false
@@ -4171,6 +4518,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-59.png",
     "sourcePart": 10,
     "sourcePage": 83,
     "sharedCell": false
@@ -4183,6 +4531,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-60.png",
     "sourcePart": 10,
     "sourcePage": 84,
     "sharedCell": false
@@ -4195,6 +4544,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-61.png",
     "sourcePart": 10,
     "sourcePage": 84,
     "sharedCell": false
@@ -4207,6 +4557,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-62.png",
     "sourcePart": 10,
     "sourcePage": 84,
     "sharedCell": false
@@ -4219,6 +4570,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-63.png",
     "sourcePart": 10,
     "sourcePage": 84,
     "sharedCell": false
@@ -4231,6 +4583,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-64.png",
     "sourcePart": 10,
     "sourcePage": 84,
     "sharedCell": false
@@ -4243,6 +4596,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-65.png",
     "sourcePart": 10,
     "sourcePage": 84,
     "sharedCell": false
@@ -4255,6 +4609,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-66.png",
     "sourcePart": 10,
     "sourcePage": 84,
     "sharedCell": false
@@ -4267,6 +4622,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-67.png",
     "sourcePart": 10,
     "sourcePage": 84,
     "sharedCell": false
@@ -4279,6 +4635,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-68.png",
     "sourcePart": 10,
     "sourcePage": 84,
     "sharedCell": false
@@ -4291,6 +4648,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-69.png",
     "sourcePart": 10,
     "sourcePage": 84,
     "sharedCell": false
@@ -4303,6 +4661,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-70.png",
     "sourcePart": 10,
     "sourcePage": 85,
     "sharedCell": false
@@ -4315,6 +4674,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-71.png",
     "sourcePart": 10,
     "sourcePage": 85,
     "sharedCell": false
@@ -4327,6 +4687,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-72.png",
     "sourcePart": 10,
     "sourcePage": 85,
     "sharedCell": false
@@ -4339,6 +4700,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-73.png",
     "sourcePart": 10,
     "sourcePage": 85,
     "sharedCell": false
@@ -4351,6 +4713,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-74.png",
     "sourcePart": 10,
     "sourcePage": 85,
     "sharedCell": false
@@ -4363,6 +4726,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-75.png",
     "sourcePart": 10,
     "sourcePage": 85,
     "sharedCell": false
@@ -4375,6 +4739,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": null,
     "sourcePart": 10,
     "sourcePage": 85,
     "sharedCell": false
@@ -4387,6 +4752,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": null,
     "sourcePart": 10,
     "sourcePage": 85,
     "sharedCell": false
@@ -4399,6 +4765,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": null,
     "sourcePart": 10,
     "sourcePage": 85,
     "sharedCell": false
@@ -4411,6 +4778,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": null,
     "sourcePart": 10,
     "sourcePage": 85,
     "sharedCell": false
@@ -4423,6 +4791,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-80.png",
     "sourcePart": 10,
     "sourcePage": 86,
     "sharedCell": false
@@ -4435,6 +4804,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-81.png",
     "sourcePart": 10,
     "sourcePage": 86,
     "sharedCell": false
@@ -4447,6 +4817,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-82.png",
     "sourcePart": 10,
     "sourcePage": 86,
     "sharedCell": false
@@ -4459,6 +4830,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-83.png",
     "sourcePart": 10,
     "sourcePage": 86,
     "sharedCell": false
@@ -4471,6 +4843,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-84.png",
     "sourcePart": 10,
     "sourcePage": 86,
     "sharedCell": false
@@ -4483,6 +4856,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-85.png",
     "sourcePart": 10,
     "sourcePage": 86,
     "sharedCell": false
@@ -4495,6 +4869,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-86.png",
     "sourcePart": 10,
     "sourcePage": 86,
     "sharedCell": false
@@ -4507,6 +4882,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-87.png",
     "sourcePart": 10,
     "sourcePage": 86,
     "sharedCell": false
@@ -4519,6 +4895,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-88.png",
     "sourcePart": 10,
     "sourcePage": 86,
     "sharedCell": false
@@ -4531,6 +4908,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-89.png",
     "sourcePart": 10,
     "sourcePage": 86,
     "sharedCell": false
@@ -4543,6 +4921,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-90.png",
     "sourcePart": 10,
     "sourcePage": 87,
     "sharedCell": false
@@ -4555,6 +4934,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-91.png",
     "sourcePart": 10,
     "sourcePage": 87,
     "sharedCell": false
@@ -4567,6 +4947,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-92.png",
     "sourcePart": 10,
     "sourcePage": 87,
     "sharedCell": false
@@ -4579,6 +4960,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-93.png",
     "sourcePart": 10,
     "sourcePage": 87,
     "sharedCell": false
@@ -4591,6 +4973,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": null,
     "sourcePart": 10,
     "sourcePage": 87,
     "sharedCell": false
@@ -4603,6 +4986,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": null,
     "sourcePart": 10,
     "sourcePage": 87,
     "sharedCell": false
@@ -4615,6 +4999,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": null,
     "sourcePart": 10,
     "sourcePage": 87,
     "sharedCell": false
@@ -4627,6 +5012,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": null,
     "sourcePart": 10,
     "sourcePage": 87,
     "sharedCell": false
@@ -4639,6 +5025,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": null,
     "sourcePart": 10,
     "sourcePage": 87,
     "sharedCell": false
@@ -4651,6 +5038,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": null,
     "sourcePart": 10,
     "sourcePage": 87,
     "sharedCell": false
@@ -4663,6 +5051,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-100.png",
     "sourcePart": 10,
     "sourcePage": 88,
     "sharedCell": false
@@ -4675,6 +5064,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-101.png",
     "sourcePart": 10,
     "sourcePage": 88,
     "sharedCell": false
@@ -4687,6 +5077,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-102.png",
     "sourcePart": 10,
     "sourcePage": 88,
     "sharedCell": false
@@ -4699,6 +5090,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-103.png",
     "sourcePart": 10,
     "sourcePage": 88,
     "sharedCell": false
@@ -4711,6 +5103,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-104.png",
     "sourcePart": 10,
     "sourcePage": 88,
     "sharedCell": false
@@ -4723,6 +5116,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-105.png",
     "sourcePart": 10,
     "sourcePage": 88,
     "sharedCell": false
@@ -4735,6 +5129,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-106.png",
     "sourcePart": 10,
     "sourcePage": 88,
     "sharedCell": false
@@ -4747,6 +5142,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-107.png",
     "sourcePart": 10,
     "sourcePage": 88,
     "sharedCell": false
@@ -4759,6 +5155,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-108.png",
     "sourcePart": 10,
     "sourcePage": 88,
     "sharedCell": false
@@ -4771,6 +5168,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-109.png",
     "sourcePart": 10,
     "sourcePage": 88,
     "sharedCell": false
@@ -4783,6 +5181,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-110.png",
     "sourcePart": 10,
     "sourcePage": 89,
     "sharedCell": false
@@ -4795,6 +5194,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-111.png",
     "sourcePart": 10,
     "sourcePage": 89,
     "sharedCell": false
@@ -4807,6 +5207,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-112.png",
     "sourcePart": 10,
     "sourcePage": 89,
     "sharedCell": false
@@ -4819,6 +5220,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-113.png",
     "sourcePart": 10,
     "sourcePage": 89,
     "sharedCell": false
@@ -4831,6 +5233,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-114.png",
     "sourcePart": 10,
     "sourcePage": 89,
     "sharedCell": false
@@ -4843,6 +5246,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-115.png",
     "sourcePart": 10,
     "sourcePage": 89,
     "sharedCell": false
@@ -4855,6 +5259,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-116.png",
     "sourcePart": 10,
     "sourcePage": 89,
     "sharedCell": false
@@ -4867,6 +5272,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-117.png",
     "sourcePart": 10,
     "sourcePage": 89,
     "sharedCell": false
@@ -4879,6 +5285,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-118.png",
     "sourcePart": 10,
     "sourcePage": 89,
     "sharedCell": false
@@ -4891,6 +5298,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-119.png",
     "sourcePart": 10,
     "sourcePage": 89,
     "sharedCell": false
@@ -4903,6 +5311,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-120.png",
     "sourcePart": 10,
     "sourcePage": 90,
     "sharedCell": false
@@ -4915,6 +5324,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-121.png",
     "sourcePart": 10,
     "sourcePage": 90,
     "sharedCell": false
@@ -4927,6 +5337,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": null,
     "sourcePart": 10,
     "sourcePage": 90,
     "sharedCell": false
@@ -4939,6 +5350,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": null,
     "sourcePart": 10,
     "sourcePage": 90,
     "sharedCell": false
@@ -4951,6 +5363,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": null,
     "sourcePart": 10,
     "sourcePage": 90,
     "sharedCell": false
@@ -4963,6 +5376,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": null,
     "sourcePart": 10,
     "sourcePage": 90,
     "sharedCell": false
@@ -4975,6 +5389,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": null,
     "sourcePart": 10,
     "sourcePage": 90,
     "sharedCell": false
@@ -4987,6 +5402,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": null,
     "sourcePart": 10,
     "sourcePage": 90,
     "sharedCell": false
@@ -4999,6 +5415,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": null,
     "sourcePart": 10,
     "sourcePage": 90,
     "sharedCell": false
@@ -5011,6 +5428,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": null,
     "sourcePart": 10,
     "sourcePage": 90,
     "sharedCell": false
@@ -5023,6 +5441,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-130.png",
     "sourcePart": 10,
     "sourcePage": 91,
     "sharedCell": false
@@ -5035,6 +5454,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-131.png",
     "sourcePart": 10,
     "sourcePage": 91,
     "sharedCell": false
@@ -5047,6 +5467,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-132.png",
     "sourcePart": 10,
     "sourcePage": 91,
     "sharedCell": false
@@ -5059,6 +5480,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": null,
     "sourcePart": 10,
     "sourcePage": 91,
     "sharedCell": false
@@ -5071,6 +5493,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": null,
     "sourcePart": 10,
     "sourcePage": 91,
     "sharedCell": false
@@ -5083,6 +5506,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": null,
     "sourcePart": 10,
     "sourcePage": 91,
     "sharedCell": false
@@ -5095,6 +5519,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": null,
     "sourcePart": 10,
     "sourcePage": 91,
     "sharedCell": false
@@ -5107,6 +5532,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": null,
     "sourcePart": 10,
     "sourcePage": 91,
     "sharedCell": false
@@ -5119,6 +5545,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": null,
     "sourcePart": 10,
     "sourcePage": 91,
     "sharedCell": false
@@ -5131,6 +5558,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": null,
     "sourcePart": 10,
     "sourcePage": 91,
     "sharedCell": false
@@ -5143,6 +5571,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-140.png",
     "sourcePart": 10,
     "sourcePage": 92,
     "sharedCell": false
@@ -5155,6 +5584,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": "signs/ס-141.png",
     "sourcePart": 10,
     "sourcePage": 92,
     "sharedCell": false
@@ -5167,6 +5597,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": null,
     "sourcePart": 10,
     "sourcePage": 92,
     "sharedCell": false
@@ -5179,6 +5610,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": null,
     "sourcePart": 10,
     "sourcePage": 92,
     "sharedCell": false
@@ -5191,6 +5623,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": null,
     "sourcePart": 10,
     "sourcePage": 92,
     "sharedCell": false
@@ -5203,6 +5636,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": null,
     "sourcePart": 10,
     "sourcePage": 92,
     "sharedCell": false
@@ -5215,6 +5649,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": null,
     "sourcePart": 10,
     "sourcePage": 92,
     "sharedCell": false
@@ -5227,6 +5662,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": null,
     "sourcePart": 10,
     "sourcePage": 92,
     "sharedCell": false
@@ -5239,6 +5675,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": null,
     "sourcePart": 10,
     "sourcePage": 92,
     "sharedCell": false
@@ -5251,6 +5688,7 @@
     "colors": null,
     "description": null,
     "scope": null,
+    "imageFile": null,
     "sourcePart": 10,
     "sourcePage": 92,
     "sharedCell": false

@@ -1,0 +1,6376 @@
+{
+  "generatedAt": "2026-08-02T18:47:12.259Z",
+  "method": "crop from a 4x render of the official לוח התמרורים PDF; sign code assigned by table-cell geometry, not by filename",
+  "sourceDocument": "לוח התמרורים — הודעת התעבורה (קביעת תמרורים), התשע\"א-2010, נוסח משולב ספטמבר 2022",
+  "sourceUrl": "https://www.gov.il/he/departments/policies/tamrurim_7924_01_18",
+  "renderScale": 4,
+  "requested": null,
+  "succeeded": 400,
+  "failed": 38,
+  "files": {
+    "101.png": {
+      "signCode": "101",
+      "sourcePage": 7,
+      "sourcePart": 1,
+      "category": "תמרורי אזהרה והתראה",
+      "bytes": 33325,
+      "width": 243,
+      "height": 204,
+      "sha256": "3b627ea86e02f3a9728df85065f7a645de4d34c82846da47c6b20b3eb675c69d",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 60.75,
+        "h": 51
+      }
+    },
+    "102.png": {
+      "signCode": "102",
+      "sourcePage": 7,
+      "sourcePart": 1,
+      "category": "תמרורי אזהרה והתראה",
+      "bytes": 35336,
+      "width": 246,
+      "height": 216,
+      "sha256": "d30b696ea21709d871efc6e0ef456409fafb7c8fc84aacffa85629053a7a10cc",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 61.5,
+        "h": 54
+      }
+    },
+    "103.png": {
+      "signCode": "103",
+      "sourcePage": 7,
+      "sourcePart": 1,
+      "category": "תמרורי אזהרה והתראה",
+      "bytes": 35177,
+      "width": 243,
+      "height": 216,
+      "sha256": "ba63fab314bc91067904a2db6bfb0e5714b9e8dbf0f56aab5cf0997275c60598",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 60.75,
+        "h": 54
+      }
+    },
+    "104.png": {
+      "signCode": "104",
+      "sourcePage": 7,
+      "sourcePart": 1,
+      "category": "תמרורי אזהרה והתראה",
+      "bytes": 33446,
+      "width": 243,
+      "height": 210,
+      "sha256": "804f9967cd19fa1e129a5d5b81f159c6dba87b0ab4ca6a4d3622bb129c8eba85",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 60.75,
+        "h": 52.5
+      }
+    },
+    "105.png": {
+      "signCode": "105",
+      "sourcePage": 7,
+      "sourcePart": 1,
+      "category": "תמרורי אזהרה והתראה",
+      "bytes": 34739,
+      "width": 243,
+      "height": 213,
+      "sha256": "4e86fb0c896d6762c1cab86764b528cdcd1a65f882931599cf5942c42809c4fa",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 60.75,
+        "h": 53.25
+      }
+    },
+    "106.png": {
+      "signCode": "106",
+      "sourcePage": 7,
+      "sourcePart": 1,
+      "category": "תמרורי אזהרה והתראה",
+      "bytes": 36821,
+      "width": 246,
+      "height": 213,
+      "sha256": "c1b4f6cb679b25445423e68c45f1eda6ccc25245377f5fe94df7839e752d589e",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 61.5,
+        "h": 53.25
+      }
+    },
+    "107.png": {
+      "signCode": "107",
+      "sourcePage": 7,
+      "sourcePart": 1,
+      "category": "תמרורי אזהרה והתראה",
+      "bytes": 5704,
+      "width": 399,
+      "height": 183,
+      "sha256": "b0ba8556aa209143f2103b58c1cbac8f47762cfc7b4ed5ee20fcd427156420cb",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 99.75,
+        "h": 45.75
+      }
+    },
+    "108.png": {
+      "signCode": "108",
+      "sourcePage": 7,
+      "sourcePart": 1,
+      "category": "תמרורי אזהרה והתראה",
+      "bytes": 11908,
+      "width": 387,
+      "height": 180,
+      "sha256": "bd7431afa7a9b3ff961bd2b378c623a05487bdfdc297b8825746c2331bb4fafa",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 96.6,
+        "h": 44.95
+      }
+    },
+    "109.png": {
+      "signCode": "109",
+      "sourcePage": 8,
+      "sourcePart": 1,
+      "category": "תמרורי אזהרה והתראה",
+      "bytes": 33325,
+      "width": 240,
+      "height": 213,
+      "sha256": "916a222790e6f7ea374e7ed15249118772d286782a39893b374316fc53f38295",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 60,
+        "h": 53.25
+      }
+    },
+    "110.png": {
+      "signCode": "110",
+      "sourcePage": 8,
+      "sourcePart": 1,
+      "category": "תמרורי אזהרה והתראה",
+      "bytes": 32108,
+      "width": 243,
+      "height": 207,
+      "sha256": "46abc9b750b7fbff10b6f379f2a596149963bb8e689ecece0a4a0a101f665949",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 60.75,
+        "h": 51.75
+      }
+    },
+    "111.png": {
+      "signCode": "111",
+      "sourcePage": 8,
+      "sourcePart": 1,
+      "category": "תמרורי אזהרה והתראה",
+      "bytes": 31851,
+      "width": 240,
+      "height": 210,
+      "sha256": "a133c9c2111b834e6fc0127413b180bb4bee870918af8fda6191a0a436e6e860",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 60,
+        "h": 52.5
+      }
+    },
+    "112.png": {
+      "signCode": "112",
+      "sourcePage": 8,
+      "sourcePart": 1,
+      "category": "תמרורי אזהרה והתראה",
+      "bytes": 23188,
+      "width": 373,
+      "height": 216,
+      "sha256": "e5af4c53e90d840d6bf2364a67a2a805deacc68f586276e464a8f4c655b5ad19",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 93,
+        "h": 54
+      }
+    },
+    "113.png": {
+      "signCode": "113",
+      "sourcePage": 8,
+      "sourcePart": 1,
+      "category": "תמרורי אזהרה והתראה",
+      "bytes": 1421,
+      "width": 306,
+      "height": 63,
+      "sha256": "00722dcde31a7c222a5e14860ee7e23d62fa74efb41edcc82d8d952b5d7b0599",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 76.5,
+        "h": 15.75
+      }
+    },
+    "114.png": {
+      "signCode": "114",
+      "sourcePage": 8,
+      "sourcePart": 1,
+      "category": "תמרורי אזהרה והתראה",
+      "bytes": 37037,
+      "width": 243,
+      "height": 213,
+      "sha256": "eef0c041174bef4c23a3679346c5d855b2eda4055c589a24d689176f39ae1000",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 60.75,
+        "h": 53.25
+      }
+    },
+    "115.png": {
+      "signCode": "115",
+      "sourcePage": 8,
+      "sourcePart": 1,
+      "category": "תמרורי אזהרה והתראה",
+      "bytes": 31398,
+      "width": 243,
+      "height": 210,
+      "sha256": "461343d6f1dbbab1db7adb5916a15d4f471c5c81ecd9d2513ad6bb4bb6132bd7",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 60.75,
+        "h": 52.5
+      }
+    },
+    "116.png": {
+      "signCode": "116",
+      "sourcePage": 8,
+      "sourcePart": 1,
+      "category": "תמרורי אזהרה והתראה",
+      "bytes": 31432,
+      "width": 243,
+      "height": 207,
+      "sha256": "56f3b3e85798bbac7419eb1c3f5441ea3dab6adc5461b36cfa51eab591f39565",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 60.75,
+        "h": 51.75
+      }
+    },
+    "117.png": {
+      "signCode": "117",
+      "sourcePage": 9,
+      "sourcePart": 1,
+      "category": "תמרורי אזהרה והתראה",
+      "bytes": 38975,
+      "width": 243,
+      "height": 211,
+      "sha256": "1dc4bf81c282bab925847f98f8721809354aa36c26ae3963194053670fc8aac0",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 60.75,
+        "h": 52.5
+      }
+    },
+    "118.png": {
+      "signCode": "118",
+      "sourcePage": 9,
+      "sourcePart": 1,
+      "category": "תמרורי אזהרה והתראה",
+      "bytes": 20218,
+      "width": 411,
+      "height": 183,
+      "sha256": "1ba98bfe904e278e691d203e4f779f7c39bffa8828f71237553c3c52fbadd5ba",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 102.75,
+        "h": 45.75
+      }
+    },
+    "119.png": {
+      "signCode": "119",
+      "sourcePage": 9,
+      "sourcePart": 1,
+      "category": "תמרורי אזהרה והתראה",
+      "bytes": 31817,
+      "width": 243,
+      "height": 210,
+      "sha256": "de0a7acf702f2077b90c40e0ffdd7841c45dd7b660ff08f2b6697baf62927f47",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 60.75,
+        "h": 52.5
+      }
+    },
+    "120.png": {
+      "signCode": "120",
+      "sourcePage": 9,
+      "sourcePart": 1,
+      "category": "תמרורי אזהרה והתראה",
+      "bytes": 31770,
+      "width": 246,
+      "height": 207,
+      "sha256": "8ec471f8232e985634b67adcbca5b83fba423043019e1421c04fdc098ddbec9d",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 61.5,
+        "h": 51.75
+      }
+    },
+    "121.png": {
+      "signCode": "121",
+      "sourcePage": 9,
+      "sourcePart": 1,
+      "category": "תמרורי אזהרה והתראה",
+      "bytes": 37338,
+      "width": 243,
+      "height": 213,
+      "sha256": "053edb5675f1262f0eba808efb9d7bdc41bf0345cf325cc7d5eb83d0beb6e827",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 60.75,
+        "h": 53.25
+      }
+    },
+    "122.png": {
+      "signCode": "122",
+      "sourcePage": 9,
+      "sourcePart": 1,
+      "category": "תמרורי אזהרה והתראה",
+      "bytes": 39712,
+      "width": 243,
+      "height": 210,
+      "sha256": "df6cc1537d98df6a44b0b4845c894855031807fc3f8bf7c0ef5417baf371202a",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 60.75,
+        "h": 52.5
+      }
+    },
+    "123.png": {
+      "signCode": "123",
+      "sourcePage": 9,
+      "sourcePart": 1,
+      "category": "תמרורי אזהרה והתראה",
+      "bytes": 34028,
+      "width": 243,
+      "height": 213,
+      "sha256": "3357558dd76e2068b1216ac7b03ddba2c966ce2f7b1760188f1b6da554e583bf",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 60.75,
+        "h": 53.25
+      }
+    },
+    "124.png": {
+      "signCode": "124",
+      "sourcePage": 9,
+      "sourcePart": 1,
+      "category": "תמרורי אזהרה והתראה",
+      "bytes": 34795,
+      "width": 243,
+      "height": 210,
+      "sha256": "6c321c9baf4876518d4a2ad40fc33b5a848d1048c7be6816b0ab4ec183319873",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 60.75,
+        "h": 52.5
+      }
+    },
+    "125.png": {
+      "signCode": "125",
+      "sourcePage": 10,
+      "sourcePart": 1,
+      "category": "תמרורי אזהרה והתראה",
+      "bytes": 33751,
+      "width": 243,
+      "height": 207,
+      "sha256": "f537ac4068cdb718114932527f6e03329f992088b7c5070f70127de9709aa304",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 60.75,
+        "h": 51.75
+      }
+    },
+    "126.png": {
+      "signCode": "126",
+      "sourcePage": 10,
+      "sourcePart": 1,
+      "category": "תמרורי אזהרה והתראה",
+      "bytes": 34087,
+      "width": 243,
+      "height": 207,
+      "sha256": "5f5abe25c6a71bf84ed657f539aac4843f2737d303f93efe07245fb7a6bf5018",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 60.75,
+        "h": 51.75
+      }
+    },
+    "127.png": {
+      "signCode": "127",
+      "sourcePage": 10,
+      "sourcePart": 1,
+      "category": "תמרורי אזהרה והתראה",
+      "bytes": 33566,
+      "width": 226,
+      "height": 195,
+      "sha256": "185633cf630852d3bf4088521aa432f6f9e398d68ab8ee9f767ae1c05903ffae",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 56.4,
+        "h": 48.74
+      }
+    },
+    "127פ.png": {
+      "signCode": "127פ",
+      "sourcePage": 10,
+      "sourcePart": 1,
+      "category": "תמרורי אזהרה והתראה",
+      "bytes": 32617,
+      "width": 225,
+      "height": 219,
+      "sha256": "5307850fe2fa7a248040fac47653fd9fb8ca1f55ee8b55ae83940502db7e6416",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 56.1,
+        "h": 54.71
+      }
+    },
+    "128.png": {
+      "signCode": "128",
+      "sourcePage": 10,
+      "sourcePart": 1,
+      "category": "תמרורי אזהרה והתראה",
+      "bytes": 37999,
+      "width": 218,
+      "height": 458,
+      "sha256": "0d84468613bc16e380d106380b043d5689debd01bbf89aee43ef8839fdd33b5d",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 54.4,
+        "h": 114.32
+      }
+    },
+    "129.png": {
+      "signCode": "129",
+      "sourcePage": 10,
+      "sourcePart": 1,
+      "category": "תמרורי אזהרה והתראה",
+      "bytes": 52627,
+      "width": 237,
+      "height": 467,
+      "sha256": "7af3c73dd8f0af9acaa53e424a95a2d5c8baece67789a20b8fccbe470d6e7e66",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 59.24,
+        "h": 116.55
+      }
+    },
+    "130.png": {
+      "signCode": "130",
+      "sourcePage": 11,
+      "sourcePart": 1,
+      "category": "תמרורי אזהרה והתראה",
+      "bytes": 41276,
+      "width": 246,
+      "height": 237,
+      "sha256": "0f4c9ad0c768bed3a08b6f13e1a51fa7767080b2ddc37b86af1037c603918ed5",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 61.5,
+        "h": 59.25
+      }
+    },
+    "131.png": {
+      "signCode": "131",
+      "sourcePage": 11,
+      "sourcePart": 1,
+      "category": "תמרורי אזהרה והתראה",
+      "bytes": 29891,
+      "width": 250,
+      "height": 243,
+      "sha256": "cc3dde15ff3dfb9ff3d0b6cfa3d23543709d1ee1220e75bda9a09b218800a418",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 62.25,
+        "h": 60.75
+      }
+    },
+    "132.png": {
+      "signCode": "132",
+      "sourcePage": 11,
+      "sourcePart": 1,
+      "category": "תמרורי אזהרה והתראה",
+      "bytes": 16651,
+      "width": 243,
+      "height": 243,
+      "sha256": "5a9c5506643b0146b790077e76de1681ca8e074f89a14ba087579de7bca2b172",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 60.75,
+        "h": 60.75
+      }
+    },
+    "133.png": {
+      "signCode": "133",
+      "sourcePage": 11,
+      "sourcePart": 1,
+      "category": "תמרורי אזהרה והתראה",
+      "bytes": 44973,
+      "width": 246,
+      "height": 166,
+      "sha256": "7446f428b1dfa5820855807125a93c8f693177de37155507d6606bc21db1887a",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 61.5,
+        "h": 41.25
+      }
+    },
+    "134.png": {
+      "signCode": "134",
+      "sourcePage": 11,
+      "sourcePart": 1,
+      "category": "תמרורי אזהרה והתראה",
+      "bytes": 72372,
+      "width": 246,
+      "height": 216,
+      "sha256": "ab1cd7f96bdc759f14cf176ff368685ebc136aa42419ac2a881d10c6b7f8c7bd",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 61.5,
+        "h": 54
+      }
+    },
+    "135.png": {
+      "signCode": "135",
+      "sourcePage": 11,
+      "sourcePart": 1,
+      "category": "תמרורי אזהרה והתראה",
+      "bytes": 49945,
+      "width": 280,
+      "height": 240,
+      "sha256": "68a63aae83a303ae08fdb4f2cd3f3aeeab3d5d01d302a102394431369a6be137",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 69.75,
+        "h": 60
+      }
+    },
+    "136.png": {
+      "signCode": "136",
+      "sourcePage": 11,
+      "sourcePart": 1,
+      "category": "תמרורי אזהרה והתראה",
+      "bytes": 44328,
+      "width": 280,
+      "height": 240,
+      "sha256": "3aea8449e1623c880ef891e3788a4ffadd12e3b0394b6ad3fd9ba2663e207ac5",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 69.75,
+        "h": 60
+      }
+    },
+    "137.png": {
+      "signCode": "137",
+      "sourcePage": 12,
+      "sourcePart": 1,
+      "category": "תמרורי אזהרה והתראה",
+      "bytes": 49357,
+      "width": 280,
+      "height": 243,
+      "sha256": "6515c5a59e35902a21390cd791a97e18225709e0ef669a07adeed6761ca46662",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 69.75,
+        "h": 60.75
+      }
+    },
+    "138.png": {
+      "signCode": "138",
+      "sourcePage": 12,
+      "sourcePart": 1,
+      "category": "תמרורי אזהרה והתראה",
+      "bytes": 42343,
+      "width": 280,
+      "height": 237,
+      "sha256": "9940a0ea4dfdcc42aef3291d10c3f516f2a0587ad50a15bfdcff9b36d8b79b1f",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 69.75,
+        "h": 59.25
+      }
+    },
+    "139.png": {
+      "signCode": "139",
+      "sourcePage": 12,
+      "sourcePart": 1,
+      "category": "תמרורי אזהרה והתראה",
+      "bytes": 40179,
+      "width": 280,
+      "height": 243,
+      "sha256": "31d25c5b3538b0a898fcb6803736412916a271fad7be53b5ee2fe3791fa0dc5c",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 69.75,
+        "h": 60.75
+      }
+    },
+    "140.png": {
+      "signCode": "140",
+      "sourcePage": 12,
+      "sourcePart": 1,
+      "category": "תמרורי אזהרה והתראה",
+      "bytes": 46087,
+      "width": 280,
+      "height": 237,
+      "sha256": "3385aa13b14e720673ef9c3fa70d59ef87e3f9745a2a45284e4f5fe64184000b",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 69.75,
+        "h": 59.25
+      }
+    },
+    "141.png": {
+      "signCode": "141",
+      "sourcePage": 12,
+      "sourcePart": 1,
+      "category": "תמרורי אזהרה והתראה",
+      "bytes": 47162,
+      "width": 280,
+      "height": 237,
+      "sha256": "0d93e310f1f892de2a3a55f4eb70c3cdcd20f797dde2acbded1a26a0dedab016",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 69.75,
+        "h": 59.25
+      }
+    },
+    "142.png": {
+      "signCode": "142",
+      "sourcePage": 12,
+      "sourcePart": 1,
+      "category": "תמרורי אזהרה והתראה",
+      "bytes": 44220,
+      "width": 280,
+      "height": 240,
+      "sha256": "3790c0d5bc5b5718fc11892d8a2b05be7e434e9ab42580f404d3d0d42e3b21ef",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 69.75,
+        "h": 60
+      }
+    },
+    "143.png": {
+      "signCode": "143",
+      "sourcePage": 12,
+      "sourcePart": 1,
+      "category": "תמרורי אזהרה והתראה",
+      "bytes": 45709,
+      "width": 280,
+      "height": 243,
+      "sha256": "adaa971029ae6a4d1b166fe46fd913db496574c1b4d0012b688cd568289ef156",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 69.75,
+        "h": 60.75
+      }
+    },
+    "144.png": {
+      "signCode": "144",
+      "sourcePage": 13,
+      "sourcePart": 1,
+      "category": "תמרורי אזהרה והתראה",
+      "bytes": 37729,
+      "width": 280,
+      "height": 240,
+      "sha256": "50a0004414c775722784da909801c7b029cae61e4b2940484d6fd37b5ff71fd1",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 69.75,
+        "h": 60
+      }
+    },
+    "145.png": {
+      "signCode": "145",
+      "sourcePage": 13,
+      "sourcePart": 1,
+      "category": "תמרורי אזהרה והתראה",
+      "bytes": 41144,
+      "width": 280,
+      "height": 243,
+      "sha256": "060679618be0001675005f978808f7dc036ef72358d8146a672dc1066e41f98e",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 69.75,
+        "h": 60.75
+      }
+    },
+    "146.png": {
+      "signCode": "146",
+      "sourcePage": 13,
+      "sourcePart": 1,
+      "category": "תמרורי אזהרה והתראה",
+      "bytes": 42428,
+      "width": 280,
+      "height": 246,
+      "sha256": "50dc90adbc183c18d0107efa5dacf7297a8acfac55ce2f1be6fc0a417d3af584",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 69.75,
+        "h": 61.5
+      }
+    },
+    "147.png": {
+      "signCode": "147",
+      "sourcePage": 13,
+      "sourcePart": 1,
+      "category": "תמרורי אזהרה והתראה",
+      "bytes": 45393,
+      "width": 280,
+      "height": 246,
+      "sha256": "98e7bb4328af57ecbf83aae5830e3eba543a0fd1ba7daba24745924a24113f0f",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 69.75,
+        "h": 61.5
+      }
+    },
+    "148.png": {
+      "signCode": "148",
+      "sourcePage": 13,
+      "sourcePart": 1,
+      "category": "תמרורי אזהרה והתראה",
+      "bytes": 10635,
+      "width": 172,
+      "height": 300,
+      "sha256": "5b6e7cdb59863bc1a2f2fe82d261077e966fdf9e729c7e7fdef8f590ec6b9197",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 42.75,
+        "h": 75
+      }
+    },
+    "149.png": {
+      "signCode": "149",
+      "sourcePage": 13,
+      "sourcePart": 1,
+      "category": "תמרורי אזהרה והתראה",
+      "bytes": 11284,
+      "width": 87,
+      "height": 250,
+      "sha256": "972c5e4d27efbc011b31758583f8bab61bd8e022dec21a0a5b18c0da9b4e7a3e",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 21.65,
+        "h": 62.4
+      }
+    },
+    "150.png": {
+      "signCode": "150",
+      "sourcePage": 14,
+      "sourcePart": 1,
+      "category": "תמרורי אזהרה והתראה",
+      "bytes": 38917,
+      "width": 280,
+      "height": 243,
+      "sha256": "c7ce65cc9f65974f86222afa8d56c67739b9e21b4d20310c7aed0a111412c7c2",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 69.75,
+        "h": 60.75
+      }
+    },
+    "150פ.png": {
+      "signCode": "150פ",
+      "sourcePage": 14,
+      "sourcePart": 1,
+      "category": "תמרורי אזהרה והתראה",
+      "bytes": 36061,
+      "width": 260,
+      "height": 226,
+      "sha256": "c8654d2c847525ff46189873cbde1ee7567c6f546affebe3cf080d3cc1e18643",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 64.8,
+        "h": 56.5
+      }
+    },
+    "151.png": {
+      "signCode": "151",
+      "sourcePage": 14,
+      "sourcePart": 1,
+      "category": "תמרורי אזהרה והתראה",
+      "bytes": 50762,
+      "width": 252,
+      "height": 219,
+      "sha256": "10b9f8fbebe747c328e6fe8cbca1bb5bc7432089f71beda346a6b77c8150ed38",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 63,
+        "h": 54.75
+      }
+    },
+    "151פ.png": {
+      "signCode": "151פ",
+      "sourcePage": 14,
+      "sourcePart": 1,
+      "category": "תמרורי אזהרה והתראה",
+      "bytes": 37582,
+      "width": 252,
+      "height": 226,
+      "sha256": "71ef5f80c440993d02256a6be30d44bd08306f0c066e648411871832172d20d4",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 63,
+        "h": 56.25
+      }
+    },
+    "152.png": {
+      "signCode": "152",
+      "sourcePage": 14,
+      "sourcePart": 1,
+      "category": "תמרורי אזהרה והתראה",
+      "bytes": 8475,
+      "width": 264,
+      "height": 228,
+      "sha256": "c4ff18ee0c8cdaffa7c690678430e4d760914ae1745a7fc9b4b8dcccee49a1bc",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 66,
+        "h": 57
+      }
+    },
+    "153.png": {
+      "signCode": "153",
+      "sourcePage": 14,
+      "sourcePart": 1,
+      "category": "תמרורי אזהרה והתראה",
+      "bytes": 21790,
+      "width": 273,
+      "height": 229,
+      "sha256": "097904a74f8d23c9cbc27d4d58668c15134fdd873565ecede0faaa1be8dca551",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 68.24,
+        "h": 57.2
+      }
+    },
+    "201.png": {
+      "signCode": "201",
+      "sourcePage": 16,
+      "sourcePart": 2,
+      "category": "תמרורי הוריה",
+      "bytes": 67567,
+      "width": 280,
+      "height": 273,
+      "sha256": "1409c0ba79eb4b4d2360131e54b9d428d51d96ebb71c7c40d5f13d74edb54f8e",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 69.75,
+        "h": 68.25
+      }
+    },
+    "202.png": {
+      "signCode": "202",
+      "sourcePage": 16,
+      "sourcePart": 2,
+      "category": "תמרורי הוריה",
+      "bytes": 66532,
+      "width": 280,
+      "height": 273,
+      "sha256": "640acd7551cf1a472afe077e38ab3386ea4749b5d7f1c3b1bac05b181513513a",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 69.75,
+        "h": 68.25
+      }
+    },
+    "203.png": {
+      "signCode": "203",
+      "sourcePage": 16,
+      "sourcePart": 2,
+      "category": "תמרורי הוריה",
+      "bytes": 60986,
+      "width": 276,
+      "height": 283,
+      "sha256": "971628e39742d09168085972da78295ea95de5e0797bc9fabaf1c0114080faf7",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 69,
+        "h": 70.5
+      }
+    },
+    "204.png": {
+      "signCode": "204",
+      "sourcePage": 17,
+      "sourcePart": 2,
+      "category": "תמרורי הוריה",
+      "bytes": 59491,
+      "width": 280,
+      "height": 273,
+      "sha256": "5b2c47b9cfc16f973055a0046680b2074b0a9065f356c57a6f6b7f3218dfbee4",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 69.75,
+        "h": 68.25
+      }
+    },
+    "205.png": {
+      "signCode": "205",
+      "sourcePage": 17,
+      "sourcePart": 2,
+      "category": "תמרורי הוריה",
+      "bytes": 58700,
+      "width": 280,
+      "height": 273,
+      "sha256": "d9755d8e221ca1ecf02308c6a8a338bb7552e14f9123d521f31a9c383cef3fb5",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 69.75,
+        "h": 68.25
+      }
+    },
+    "206.png": {
+      "signCode": "206",
+      "sourcePage": 18,
+      "sourcePart": 2,
+      "category": "תמרורי הוריה",
+      "bytes": 61649,
+      "width": 280,
+      "height": 276,
+      "sha256": "b19c16d7d378401a3fd75432b21cb6f609066b1b72b3886f359401fa6003f57c",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 69.75,
+        "h": 69
+      }
+    },
+    "207.png": {
+      "signCode": "207",
+      "sourcePage": 18,
+      "sourcePart": 2,
+      "category": "תמרורי הוריה",
+      "bytes": 61466,
+      "width": 280,
+      "height": 276,
+      "sha256": "086bafa4151ed57b147ee636f9ec7ef3bcf3dbd8f1749a379a44c8f86ec5c62b",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 69.75,
+        "h": 69
+      }
+    },
+    "208.png": {
+      "signCode": "208",
+      "sourcePage": 18,
+      "sourcePart": 2,
+      "category": "תמרורי הוריה",
+      "bytes": 66751,
+      "width": 280,
+      "height": 276,
+      "sha256": "e2eb1f4ab8000599aab7cf351410b2bbf1ac83ed97a2be2df691c1346a34933a",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 69.75,
+        "h": 69
+      }
+    },
+    "209.png": {
+      "signCode": "209",
+      "sourcePage": 19,
+      "sourcePart": 2,
+      "category": "תמרורי הוריה",
+      "bytes": 69709,
+      "width": 280,
+      "height": 276,
+      "sha256": "0b9966afb326af590e479301cb3ee8afcf6e9887406d78922380b013214f982c",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 69.75,
+        "h": 69
+      }
+    },
+    "210.png": {
+      "signCode": "210",
+      "sourcePage": 19,
+      "sourcePart": 2,
+      "category": "תמרורי הוריה",
+      "bytes": 69534,
+      "width": 280,
+      "height": 276,
+      "sha256": "c1c1641dc78ad7f8bbfadb114c9571586766bebf74fb88b25deaa55c762766e9",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 69.75,
+        "h": 69
+      }
+    },
+    "211.png": {
+      "signCode": "211",
+      "sourcePage": 19,
+      "sourcePart": 2,
+      "category": "תמרורי הוריה",
+      "bytes": 67531,
+      "width": 280,
+      "height": 276,
+      "sha256": "5d4574a538b9967b9c7e31c6027ab41cda569d659db66c44b1dee2e61df6f79d",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 69.75,
+        "h": 69
+      }
+    },
+    "212.png": {
+      "signCode": "212",
+      "sourcePage": 19,
+      "sourcePart": 2,
+      "category": "תמרורי הוריה",
+      "bytes": 67021,
+      "width": 280,
+      "height": 276,
+      "sha256": "faa8068d59509d7778120ede38ef2a3b1b7b3d2876a31db967b76537d25ab2c6",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 69.75,
+        "h": 69
+      }
+    },
+    "213.png": {
+      "signCode": "213",
+      "sourcePage": 19,
+      "sourcePart": 2,
+      "category": "תמרורי הוריה",
+      "bytes": 66795,
+      "width": 280,
+      "height": 273,
+      "sha256": "c91a1a82ee2794d778c6dd331da3683b53cf8bd83f587a351cfa0ac801cbc567",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 69.75,
+        "h": 68.25
+      }
+    },
+    "214.png": {
+      "signCode": "214",
+      "sourcePage": 20,
+      "sourcePart": 2,
+      "category": "תמרורי הוריה",
+      "bytes": 57186,
+      "width": 258,
+      "height": 253,
+      "sha256": "3aebd9bcad9cd28b43205c0bd3f2e5d15f7cbd8fb424bb1a5844289f69969bc3",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 64.49,
+        "h": 63.1
+      }
+    },
+    "215.png": {
+      "signCode": "215",
+      "sourcePage": 20,
+      "sourcePart": 2,
+      "category": "תמרורי הוריה",
+      "bytes": 58046,
+      "width": 261,
+      "height": 256,
+      "sha256": "60bc6cfa86b71e9f07e75f7cdc4bf2ccc35ea86607f9b9bcbc07f94798b8f0ed",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 65.2,
+        "h": 63.8
+      }
+    },
+    "216.png": {
+      "signCode": "216",
+      "sourcePage": 20,
+      "sourcePart": 2,
+      "category": "תמרורי הוריה",
+      "bytes": 37412,
+      "width": 224,
+      "height": 336,
+      "sha256": "932a5aba9ef00b1bc0f470a323bfc6b11a60ed44fecdec9ccae92e4248dbbb29",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 56,
+        "h": 84
+      }
+    },
+    "217.png": {
+      "signCode": "217",
+      "sourcePage": 20,
+      "sourcePart": 2,
+      "category": "תמרורי הוריה",
+      "bytes": 52525,
+      "width": 225,
+      "height": 336,
+      "sha256": "bcf67a492629de7f7c4b71cd0af5db4b13b96071fa18d77b09821ed636b13c93",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 56.15,
+        "h": 83.92
+      }
+    },
+    "218.png": {
+      "signCode": "218",
+      "sourcePage": 20,
+      "sourcePart": 2,
+      "category": "תמרורי הוריה",
+      "bytes": 61696,
+      "width": 249,
+      "height": 244,
+      "sha256": "622ab132caeb2f4444ad97f5ff2be33399a1eee63e301c8a39d2d4b0f663bfc3",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 62.24,
+        "h": 60.9
+      }
+    },
+    "219.png": {
+      "signCode": "219",
+      "sourcePage": 20,
+      "sourcePart": 2,
+      "category": "תמרורי הוריה",
+      "bytes": 50964,
+      "width": 249,
+      "height": 240,
+      "sha256": "3e5b79d4938efa9620849a78f6eed9ea3176b610dadbb038ca2ccb5774ef6461",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 62,
+        "h": 60
+      }
+    },
+    "220.png": {
+      "signCode": "220",
+      "sourcePage": 21,
+      "sourcePart": 2,
+      "category": "תמרורי הוריה",
+      "bytes": 36225,
+      "width": 252,
+      "height": 210,
+      "sha256": "9b8f69a207dc1a4cab58177c67516fb99d84435557b7393aaffb0ce26985dcc7",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 63,
+        "h": 52.5
+      }
+    },
+    "221.png": {
+      "signCode": "221",
+      "sourcePage": 21,
+      "sourcePart": 2,
+      "category": "תמרורי הוריה",
+      "bytes": 45084,
+      "width": 252,
+      "height": 210,
+      "sha256": "395df47fbd0cb48423bba89486e9feefc307804b122266044d909e1da7708f7b",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 63,
+        "h": 52.5
+      }
+    },
+    "222.png": {
+      "signCode": "222",
+      "sourcePage": 21,
+      "sourcePart": 2,
+      "category": "תמרורי הוריה",
+      "bytes": 24994,
+      "width": 248,
+      "height": 210,
+      "sha256": "cce39b5204c3f0dc4b27c053150128646c25aec45274280c79b3afca64221f2b",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 61.95,
+        "h": 52.48
+      }
+    },
+    "223.png": {
+      "signCode": "223",
+      "sourcePage": 21,
+      "sourcePart": 2,
+      "category": "תמרורי הוריה",
+      "bytes": 28255,
+      "width": 244,
+      "height": 209,
+      "sha256": "fe73b56b5a548ff5610a1b7128b4e2c2b40ea0368881f9f8b63693583f55640d",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 60.96,
+        "h": 52.25
+      }
+    },
+    "224.png": {
+      "signCode": "224",
+      "sourcePage": 21,
+      "sourcePart": 2,
+      "category": "תמרורי הוריה",
+      "bytes": 40653,
+      "width": 276,
+      "height": 174,
+      "sha256": "fa7dfad2bf8dc94ed2af17c66393b0dc5001ac5b8471a2a883b724e6959bb6db",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 68.75,
+        "h": 43.49
+      }
+    },
+    "225.png": {
+      "signCode": "225",
+      "sourcePage": 21,
+      "sourcePart": 2,
+      "category": "תמרורי הוריה",
+      "bytes": 40611,
+      "width": 270,
+      "height": 174,
+      "sha256": "ddc4956b9eef7e382df9ade55f04334ed8d8400a3b6cf92573ca69dd253c48e8",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 67.43,
+        "h": 43.35
+      }
+    },
+    "226.png": {
+      "signCode": "226",
+      "sourcePage": 21,
+      "sourcePart": 2,
+      "category": "תמרורי הוריה",
+      "bytes": 70702,
+      "width": 259,
+      "height": 241,
+      "sha256": "aaae40e21f4dd05a8f76fd3ac9cda5823a9f86733dfa855e736a7a28bfadcae1",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 64.6,
+        "h": 60.24
+      }
+    },
+    "227.png": {
+      "signCode": "227",
+      "sourcePage": 21,
+      "sourcePart": 2,
+      "category": "תמרורי הוריה",
+      "bytes": 82457,
+      "width": 260,
+      "height": 266,
+      "sha256": "ec4f352899da163d319b3ddfd3c10793bbc98a1b1bf653f79874460f1ccca05b",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 64.76,
+        "h": 66.25
+      }
+    },
+    "228.png": {
+      "signCode": "228",
+      "sourcePage": 22,
+      "sourcePart": 2,
+      "category": "תמרורי הוריה",
+      "bytes": 74103,
+      "width": 264,
+      "height": 255,
+      "sha256": "a3074c6584485765a1dc4e727297aaccd6a6140011dc4f47a3f1ed607ad097ef",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 66,
+        "h": 63.75
+      }
+    },
+    "229.png": {
+      "signCode": "229",
+      "sourcePage": 22,
+      "sourcePart": 2,
+      "category": "תמרורי הוריה",
+      "bytes": 70889,
+      "width": 268,
+      "height": 255,
+      "sha256": "3e12b4ddba176c4ec8430739662b14eb97894445a093874d55d22c8329473f33",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 66.75,
+        "h": 63.75
+      }
+    },
+    "230.png": {
+      "signCode": "230",
+      "sourcePage": 22,
+      "sourcePart": 2,
+      "category": "תמרורי הוריה",
+      "bytes": 23079,
+      "width": 246,
+      "height": 678,
+      "sha256": "810d7333a0469a640e730a2c05f333c936b8bdf0bf495fb48821668e68b1d80f",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 61.3,
+        "h": 169.3
+      }
+    },
+    "231.png": {
+      "signCode": "231",
+      "sourcePage": 23,
+      "sourcePart": 2,
+      "category": "תמרורי הוריה",
+      "bytes": 30237,
+      "width": 248,
+      "height": 672,
+      "sha256": "665bc6043638146941847c35827d099d1b6abff28d5204ad0401e68b6ed5fff9",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 61.8,
+        "h": 167.8
+      }
+    },
+    "301.png": {
+      "signCode": "301",
+      "sourcePage": 25,
+      "sourcePart": 3,
+      "category": "תמרורי זכות קדימה",
+      "bytes": 35980,
+      "width": 280,
+      "height": 240,
+      "sha256": "3676a94a05fde04a54816e0d129f1f1a9b4380a064c4166377f4c2fc06c4aed2",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 69.75,
+        "h": 60
+      }
+    },
+    "302.png": {
+      "signCode": "302",
+      "sourcePage": 25,
+      "sourcePart": 3,
+      "category": "תמרורי זכות קדימה",
+      "bytes": 52158,
+      "width": 280,
+      "height": 261,
+      "sha256": "9c768d752bb02593a876eb0c7817d91ef6e7d10e1f366d88f12d748f8441f190",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 69.75,
+        "h": 65.25
+      }
+    },
+    "303.png": {
+      "signCode": "303",
+      "sourcePage": 25,
+      "sourcePart": 3,
+      "category": "תמרורי זכות קדימה",
+      "bytes": 78238,
+      "width": 280,
+      "height": 273,
+      "sha256": "ca4f44b7d41c41cfc1365db9377f7b21e739b2074acd4b08cfbe58f47a248886",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 69.75,
+        "h": 68.25
+      }
+    },
+    "304.png": {
+      "signCode": "304",
+      "sourcePage": 25,
+      "sourcePart": 3,
+      "category": "תמרורי זכות קדימה",
+      "bytes": 64672,
+      "width": 280,
+      "height": 264,
+      "sha256": "d833819f1cfcf40da86cc17791e29d9f486367dd84c91504c298ab3a2ef05e74",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 69.75,
+        "h": 66
+      }
+    },
+    "305.png": {
+      "signCode": "305",
+      "sourcePage": 25,
+      "sourcePart": 3,
+      "category": "תמרורי זכות קדימה",
+      "bytes": 74138,
+      "width": 280,
+      "height": 264,
+      "sha256": "11f31a03154c6ecc30dd02afca3e0f0a430da1c5a04c8ef8e5de32cb143b7627",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 69.75,
+        "h": 66
+      }
+    },
+    "306.png": {
+      "signCode": "306",
+      "sourcePage": 26,
+      "sourcePart": 3,
+      "category": "תמרורי זכות קדימה",
+      "bytes": 40414,
+      "width": 280,
+      "height": 273,
+      "sha256": "c19427171b93dd4ba47c8ecd0fb533b8ff440ffa2db246393a5450f1b4d9abcf",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 69.75,
+        "h": 68.25
+      }
+    },
+    "307.png": {
+      "signCode": "307",
+      "sourcePage": 26,
+      "sourcePart": 3,
+      "category": "תמרורי זכות קדימה",
+      "bytes": 55837,
+      "width": 280,
+      "height": 268,
+      "sha256": "3ec1eb28b2f9e3ffa3cd9a57176d7cd6fe3510ee39430c0c176cc86c3c869809",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 69.75,
+        "h": 66.75
+      }
+    },
+    "308.png": {
+      "signCode": "308",
+      "sourcePage": 26,
+      "sourcePart": 3,
+      "category": "תמרורי זכות קדימה",
+      "bytes": 25085,
+      "width": 280,
+      "height": 280,
+      "sha256": "7e0a7f5aea7505d6061d6e7aad6b8dc81d3941e26946fb519941ac3f3b526597",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 69.75,
+        "h": 69.75
+      }
+    },
+    "309.png": {
+      "signCode": "309",
+      "sourcePage": 26,
+      "sourcePart": 3,
+      "category": "תמרורי זכות קדימה",
+      "bytes": 1871,
+      "width": 292,
+      "height": 292,
+      "sha256": "5121391017223f97565797831567c8ae0ac50c33192bd7fac2b9f493b3eb25ef",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 72.75,
+        "h": 72.75
+      }
+    },
+    "310.png": {
+      "signCode": "310",
+      "sourcePage": 26,
+      "sourcePart": 3,
+      "category": "תמרורי זכות קדימה",
+      "bytes": 2176,
+      "width": 300,
+      "height": 300,
+      "sha256": "20839fac34a0f3cbd4c2e05521a7ae7a4024d7f5f388a50b0aebfcb52b2eb94f",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 75,
+        "h": 75
+      }
+    },
+    "401.png": {
+      "signCode": "401",
+      "sourcePage": 28,
+      "sourcePart": 4,
+      "category": "תמרורי איסורים והגבלות",
+      "bytes": 55126,
+      "width": 283,
+      "height": 255,
+      "sha256": "7f351064f9ab056506b2a00343dbb21743718dcab4aacbd9b8344900b0c3b458",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 70.5,
+        "h": 63.75
+      }
+    },
+    "401פ.png": {
+      "signCode": "401פ",
+      "sourcePage": 28,
+      "sourcePart": 4,
+      "category": "תמרורי איסורים והגבלות",
+      "bytes": 9138,
+      "width": 273,
+      "height": 273,
+      "sha256": "aa2fd0e0da3ef58dba4652c27d72367c1ef31d2b89ce5bae6b204f5c9aa8d188",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 68.25,
+        "h": 68.25
+      }
+    },
+    "402.png": {
+      "signCode": "402",
+      "sourcePage": 28,
+      "sourcePart": 4,
+      "category": "תמרורי איסורים והגבלות",
+      "bytes": 48120,
+      "width": 283,
+      "height": 261,
+      "sha256": "477418ce7e8b22676a8211820699c6491ff811ac47c099763a1f6238f7692f49",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 70.5,
+        "h": 65.25
+      }
+    },
+    "403.png": {
+      "signCode": "403",
+      "sourcePage": 28,
+      "sourcePart": 4,
+      "category": "תמרורי איסורים והגבלות",
+      "bytes": 6602,
+      "width": 373,
+      "height": 48,
+      "sha256": "422932fe0833bdcda55fbf9fc7c190506060081865d6a6ad49b9ee0313af1785",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 93,
+        "h": 12
+      }
+    },
+    "404.png": {
+      "signCode": "404",
+      "sourcePage": 28,
+      "sourcePart": 4,
+      "category": "תמרורי איסורים והגבלות",
+      "bytes": 707,
+      "width": 373,
+      "height": 51,
+      "sha256": "0117bec4dfa9fbfe128cad2ddc8bd4dcd15158cd841188147443c2dfeae26e0c",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 93,
+        "h": 12.75
+      }
+    },
+    "405.png": {
+      "signCode": "405",
+      "sourcePage": 28,
+      "sourcePart": 4,
+      "category": "תמרורי איסורים והגבלות",
+      "bytes": 63317,
+      "width": 280,
+      "height": 264,
+      "sha256": "31295f892886a276f1ecd6df0666d56cd1d3f26318bf2241f72e3fbfa8cc1ef3",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 69.75,
+        "h": 66
+      }
+    },
+    "406.png": {
+      "signCode": "406",
+      "sourcePage": 29,
+      "sourcePart": 4,
+      "category": "תמרורי איסורים והגבלות",
+      "bytes": 67874,
+      "width": 270,
+      "height": 262,
+      "sha256": "f28ce48151c0ba7e647492618a13c233073f8dd5104f102c270cc5ead0ec8e07",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 67.46,
+        "h": 65.35
+      }
+    },
+    "407.png": {
+      "signCode": "407",
+      "sourcePage": 29,
+      "sourcePart": 4,
+      "category": "תמרורי איסורים והגבלות",
+      "bytes": 63642,
+      "width": 268,
+      "height": 260,
+      "sha256": "e882e1915be8a44be28295cad77e2728cb5e7c5626b88e414e66fa980c2f2f32",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 66.99,
+        "h": 64.85
+      }
+    },
+    "408.png": {
+      "signCode": "408",
+      "sourcePage": 29,
+      "sourcePart": 4,
+      "category": "תמרורי איסורים והגבלות",
+      "bytes": 69127,
+      "width": 274,
+      "height": 262,
+      "sha256": "90b5f2d194c78f52ebb48e4206ad97dd3aaa82b31399f8f5eb1ead501749d0a8",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 68.4,
+        "h": 65.49
+      }
+    },
+    "409.png": {
+      "signCode": "409",
+      "sourcePage": 29,
+      "sourcePart": 4,
+      "category": "תמרורי איסורים והגבלות",
+      "bytes": 73337,
+      "width": 269,
+      "height": 257,
+      "sha256": "8d3905f6be4de5e1ac8c8f51ede7ebf6d6d6684918c87cd55a7c6476c3be7a84",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 67.1,
+        "h": 64.21
+      }
+    },
+    "410.png": {
+      "signCode": "410",
+      "sourcePage": 29,
+      "sourcePart": 4,
+      "category": "תמרורי איסורים והגבלות",
+      "bytes": 68839,
+      "width": 272,
+      "height": 255,
+      "sha256": "f9bd44f3866cea4471d331706d01e282f89589b1109cc209a7d33fed26b747d2",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 67.99,
+        "h": 63.65
+      }
+    },
+    "411.png": {
+      "signCode": "411",
+      "sourcePage": 29,
+      "sourcePart": 4,
+      "category": "תמרורי איסורים והגבלות",
+      "bytes": 66767,
+      "width": 266,
+      "height": 249,
+      "sha256": "78fdcb7d762fe7610568511b6c04529d62821bf3e48aa97f39099ce386e15090",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 66.49,
+        "h": 62.2
+      }
+    },
+    "412.png": {
+      "signCode": "412",
+      "sourcePage": 29,
+      "sourcePart": 4,
+      "category": "תמרורי איסורים והגבלות",
+      "bytes": 76128,
+      "width": 266,
+      "height": 258,
+      "sha256": "04bc4dee9b00a4561135f3d1c5a99222e59eba468ac694c99e8b592473b18e17",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 66.5,
+        "h": 64.35
+      }
+    },
+    "413.png": {
+      "signCode": "413",
+      "sourcePage": 30,
+      "sourcePart": 4,
+      "category": "תמרורי איסורים והגבלות",
+      "bytes": 60954,
+      "width": 280,
+      "height": 268,
+      "sha256": "092e2ac7d2c40a8020a575b745e7d09aedcac8f698fddeeb5e0e33910c4d8b2d",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 69.75,
+        "h": 66.75
+      }
+    },
+    "414.png": {
+      "signCode": "414",
+      "sourcePage": 30,
+      "sourcePart": 4,
+      "category": "תמרורי איסורים והגבלות",
+      "bytes": 155337,
+      "width": 282,
+      "height": 561,
+      "sha256": "3880c1a5c50dbddc3b881596887ab2ecb233db12a1b6f04cff483d817daff1c5",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 70.48,
+        "h": 140.25
+      }
+    },
+    "415.png": {
+      "signCode": "415",
+      "sourcePage": 30,
+      "sourcePart": 4,
+      "category": "תמרורי איסורים והגבלות",
+      "bytes": 59558,
+      "width": 280,
+      "height": 268,
+      "sha256": "0985679beee509025c0c5b9f4712dfec9a2c0cb365cf58e46ff81c06fb6a36aa",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 69.75,
+        "h": 66.75
+      }
+    },
+    "416.png": {
+      "signCode": "416",
+      "sourcePage": 30,
+      "sourcePart": 4,
+      "category": "תמרורי איסורים והגבלות",
+      "bytes": 32775,
+      "width": 273,
+      "height": 270,
+      "sha256": "50a17ed25697390999779011203de3d63363f9567ef6d0685cf7e1a0c7480211",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 68.25,
+        "h": 67.5
+      }
+    },
+    "417.png": {
+      "signCode": "417",
+      "sourcePage": 30,
+      "sourcePart": 4,
+      "category": "תמרורי איסורים והגבלות",
+      "bytes": 53785,
+      "width": 295,
+      "height": 300,
+      "sha256": "828571d7ecfa7874f4ad20a6b8689223d2df8014faf00d3b2d59c29379861522",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 73.5,
+        "h": 75
+      }
+    },
+    "418.png": {
+      "signCode": "418",
+      "sourcePage": 31,
+      "sourcePart": 4,
+      "category": "תמרורי איסורים והגבלות",
+      "bytes": 70945,
+      "width": 279,
+      "height": 270,
+      "sha256": "840b4c64b4927f003c3a240aace97fad9f86cad87292e7dbf33cddc5af1ba8bd",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 69.75,
+        "h": 67.5
+      }
+    },
+    "419.png": {
+      "signCode": "419",
+      "sourcePage": 31,
+      "sourcePart": 4,
+      "category": "תמרורי איסורים והגבלות",
+      "bytes": 38192,
+      "width": 279,
+      "height": 264,
+      "sha256": "f1ed83807600482a5c1cd18a4505ac2d85368e9e46f27a1e2a17730a0c6a8233",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 69.75,
+        "h": 66
+      }
+    },
+    "420.png": {
+      "signCode": "420",
+      "sourcePage": 31,
+      "sourcePart": 4,
+      "category": "תמרורי איסורים והגבלות",
+      "bytes": 57178,
+      "width": 280,
+      "height": 259,
+      "sha256": "ed8544fde472f63bcaf4b8d9acc65bb536e5c5a8cdd593abc99e459b49af4416",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 69.75,
+        "h": 64.5
+      }
+    },
+    "421.png": {
+      "signCode": "421",
+      "sourcePage": 31,
+      "sourcePart": 4,
+      "category": "תמרורי איסורים והגבלות",
+      "bytes": 33614,
+      "width": 280,
+      "height": 259,
+      "sha256": "afab492b7755a0c80027a2a8243a457877618d6d605694c0eed22c1615d7b916",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 69.75,
+        "h": 64.5
+      }
+    },
+    "422.png": {
+      "signCode": "422",
+      "sourcePage": 31,
+      "sourcePart": 4,
+      "category": "תמרורי איסורים והגבלות",
+      "bytes": 11467,
+      "width": 280,
+      "height": 271,
+      "sha256": "f9ba2969cc9dab293362aad2a54579b0ae6c6908129c679362be51eb738feb59",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 69.9,
+        "h": 67.72
+      }
+    },
+    "423.png": {
+      "signCode": "423",
+      "sourcePage": 31,
+      "sourcePart": 4,
+      "category": "תמרורי איסורים והגבלות",
+      "bytes": 34105,
+      "width": 280,
+      "height": 268,
+      "sha256": "62b1f6191303a58571d5440c39a2a9d4133b0825f28e56261ab7419c9f1fae37",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 69.75,
+        "h": 66.75
+      }
+    },
+    "424.png": {
+      "signCode": "424",
+      "sourcePage": 32,
+      "sourcePart": 4,
+      "category": "תמרורי איסורים והגבלות",
+      "bytes": 54372,
+      "width": 280,
+      "height": 268,
+      "sha256": "7649b55d10606c84d2cfe20e3b8a4af9564a25e450d88bc3a593d84f885bac8b",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 69.75,
+        "h": 66.75
+      }
+    },
+    "425.png": {
+      "signCode": "425",
+      "sourcePage": 32,
+      "sourcePart": 4,
+      "category": "תמרורי איסורים והגבלות",
+      "bytes": 35519,
+      "width": 280,
+      "height": 259,
+      "sha256": "eb6eec9bf2c28381cacd133c37910c4d77527a0ddeda2ac4e8af045d98003cb3",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 69.75,
+        "h": 64.5
+      }
+    },
+    "426.png": {
+      "signCode": "426",
+      "sourcePage": 32,
+      "sourcePart": 4,
+      "category": "תמרורי איסורים והגבלות",
+      "bytes": 56985,
+      "width": 280,
+      "height": 259,
+      "sha256": "398fd8aca28faa535ee7b84c1441a05ec61cba493bc3eb2afc1fa1d5a096c68c",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 69.75,
+        "h": 64.5
+      }
+    },
+    "426פ.png": {
+      "signCode": "426פ",
+      "sourcePage": 32,
+      "sourcePart": 4,
+      "category": "תמרורי איסורים והגבלות",
+      "bytes": 58912,
+      "width": 280,
+      "height": 264,
+      "sha256": "a111cf8fc9c9c723c3caea49bcb6fbd566cf23e99aec47e62f3ab6995c4e4798",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 69.75,
+        "h": 66
+      }
+    },
+    "427.png": {
+      "signCode": "427",
+      "sourcePage": 32,
+      "sourcePart": 4,
+      "category": "תמרורי איסורים והגבלות",
+      "bytes": 21367,
+      "width": 299,
+      "height": 270,
+      "sha256": "68ef9f43e18fc9a541c791ba24244261bc7e1f5f838b32c60ea73f0b4ea996db",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 74.7,
+        "h": 67.47
+      }
+    },
+    "428.png": {
+      "signCode": "428",
+      "sourcePage": 33,
+      "sourcePart": 4,
+      "category": "תמרורי איסורים והגבלות",
+      "bytes": 61766,
+      "width": 280,
+      "height": 261,
+      "sha256": "65de543f12636f82796b57e3519e2e6476448d56e076245cbc51826b69070dd4",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 69.75,
+        "h": 65.25
+      }
+    },
+    "429.png": {
+      "signCode": "429",
+      "sourcePage": 33,
+      "sourcePart": 4,
+      "category": "תמרורי איסורים והגבלות",
+      "bytes": 63392,
+      "width": 280,
+      "height": 264,
+      "sha256": "78000c84f52c971d5e488c2ab69da0cdad1ff433b2bc03d7dbe09a511ce71939",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 69.75,
+        "h": 66
+      }
+    },
+    "430.png": {
+      "signCode": "430",
+      "sourcePage": 33,
+      "sourcePart": 4,
+      "category": "תמרורי איסורים והגבלות",
+      "bytes": 66591,
+      "width": 288,
+      "height": 282,
+      "sha256": "b2dd49300a7f56aab2a4b8f6e9202a446bb0e7d6d597f08c713a06e8233f6dbe",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 72,
+        "h": 70.45
+      }
+    },
+    "431.png": {
+      "signCode": "431",
+      "sourcePage": 33,
+      "sourcePart": 4,
+      "category": "תמרורי איסורים והגבלות",
+      "bytes": 67937,
+      "width": 288,
+      "height": 276,
+      "sha256": "f8f6497d7243a44d1840e73783c14a259d4419167d1727cf66104718abc1f1d2",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 71.94,
+        "h": 68.85
+      }
+    },
+    "432.png": {
+      "signCode": "432",
+      "sourcePage": 33,
+      "sourcePart": 4,
+      "category": "תמרורי איסורים והגבלות",
+      "bytes": 85161,
+      "width": 287,
+      "height": 272,
+      "sha256": "b1300efcb2f70c5bd14117e15190804e1c26ed800db266c4170536bfc126a647",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 71.71,
+        "h": 67.85
+      }
+    },
+    "433.png": {
+      "signCode": "433",
+      "sourcePage": 33,
+      "sourcePart": 4,
+      "category": "תמרורי איסורים והגבלות",
+      "bytes": 75771,
+      "width": 283,
+      "height": 267,
+      "sha256": "5f40c50b98fadcb1a6c91e813a0764b7b8c552b4b0ca6518bd1e6d272a7c510b",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 70.5,
+        "h": 66.71
+      }
+    },
+    "434.png": {
+      "signCode": "434",
+      "sourcePage": 34,
+      "sourcePart": 4,
+      "category": "תמרורי איסורים והגבלות",
+      "bytes": 92789,
+      "width": 289,
+      "height": 282,
+      "sha256": "380434ad57a27d559cc50e70b426610355747c7ef6facd1098e5033a5770c32f",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 72,
+        "h": 70.45
+      }
+    },
+    "435.png": {
+      "signCode": "435",
+      "sourcePage": 34,
+      "sourcePart": 4,
+      "category": "תמרורי איסורים והגבלות",
+      "bytes": 74325,
+      "width": 280,
+      "height": 268,
+      "sha256": "2102e7681ecc48d85171e69df5aef4c44945b2bc9f08d846e13e167926216d17",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 69.75,
+        "h": 66.75
+      }
+    },
+    "436.png": {
+      "signCode": "436",
+      "sourcePage": 34,
+      "sourcePart": 4,
+      "category": "תמרורי איסורים והגבלות",
+      "bytes": 74470,
+      "width": 280,
+      "height": 273,
+      "sha256": "3d3c8389486c12ceb010b509eae2ca9a5142b594b25a058a81c8faf8b1731eaa",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 69.75,
+        "h": 68.25
+      }
+    },
+    "437.png": {
+      "signCode": "437",
+      "sourcePage": 34,
+      "sourcePart": 4,
+      "category": "תמרורי איסורים והגבלות",
+      "bytes": 2361,
+      "width": 266,
+      "height": 266,
+      "sha256": "cc52a5960a81fa39e3a7693fa9ff001ab61ddb165ba4cde8b8f5c670119420ab",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 66.5,
+        "h": 66.5
+      }
+    },
+    "438.png": {
+      "signCode": "438",
+      "sourcePage": 34,
+      "sourcePart": 4,
+      "category": "תמרורי איסורים והגבלות",
+      "bytes": 77731,
+      "width": 286,
+      "height": 286,
+      "sha256": "e64de3632f209e6ee465707bffe72e70037f2ab788916902a09693834dd447b7",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 71.5,
+        "h": 71.5
+      }
+    },
+    "439.png": {
+      "signCode": "439",
+      "sourcePage": 34,
+      "sourcePart": 4,
+      "category": "תמרורי איסורים והגבלות",
+      "bytes": 133194,
+      "width": 357,
+      "height": 324,
+      "sha256": "00d4bf8a9aa4e5fb00a393f91c4384cae7bdc489b1bc9e7612c96bb5b1f0be32",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 89.25,
+        "h": 81
+      }
+    },
+    "440.png": {
+      "signCode": "440",
+      "sourcePage": 35,
+      "sourcePart": 4,
+      "category": "תמרורי איסורים והגבלות",
+      "bytes": 66272,
+      "width": 282,
+      "height": 278,
+      "sha256": "76688b3ced0bed1f63df9a6d145f66ca9f7d0f5995c4afe0eb975980128e3551",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 70.35,
+        "h": 69.47
+      }
+    },
+    "441.png": {
+      "signCode": "441",
+      "sourcePage": 35,
+      "sourcePart": 4,
+      "category": "תמרורי איסורים והגבלות",
+      "bytes": 55030,
+      "width": 272,
+      "height": 269,
+      "sha256": "6ad60b02def02445d94ca8ad4f3481d9cb9e3a44f82e458a193fa2fab96d79cb",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 67.84,
+        "h": 67.1
+      }
+    },
+    "501.png": {
+      "signCode": "501",
+      "sourcePage": 37,
+      "sourcePart": 5,
+      "category": "תמרורי תחבורה ציבורית",
+      "bytes": 56587,
+      "width": 306,
+      "height": 634,
+      "sha256": "c871dd6902bd9d1fc97ea13e1ae5a599b3c4265c4c45a73d5c0b1307705849e7",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 76.33,
+        "h": 158.5
+      }
+    },
+    "502.png": {
+      "signCode": "502",
+      "sourcePage": 38,
+      "sourcePart": 5,
+      "category": "תמרורי תחבורה ציבורית",
+      "bytes": 61455,
+      "width": 257,
+      "height": 549,
+      "sha256": "60796a520b0a018bc39381c29092b8630de4f9c119b53bf52c814e04b263363c",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 64.07,
+        "h": 137.01
+      }
+    },
+    "503.png": {
+      "signCode": "503",
+      "sourcePage": 38,
+      "sourcePart": 5,
+      "category": "תמרורי תחבורה ציבורית",
+      "bytes": 66347,
+      "width": 343,
+      "height": 322,
+      "sha256": "26a22800f907d282e0785898e5dee0f108e573174cb0755ba884aab6c2d9b248",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 85.5,
+        "h": 80.28
+      }
+    },
+    "504.png": {
+      "signCode": "504",
+      "sourcePage": 38,
+      "sourcePart": 5,
+      "category": "תמרורי תחבורה ציבורית",
+      "bytes": 22866,
+      "width": 280,
+      "height": 283,
+      "sha256": "b91108fc4482339d99de3482353533394ce78e48a2aeac28755d0c81fc22f75b",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 69.75,
+        "h": 70.5
+      }
+    },
+    "505.png": {
+      "signCode": "505",
+      "sourcePage": 39,
+      "sourcePart": 5,
+      "category": "תמרורי תחבורה ציבורית",
+      "bytes": 39797,
+      "width": 274,
+      "height": 318,
+      "sha256": "c06576e6be5dcf1426402e97680a0216bd051ed4f2b8bab2ca8d4f684db896c6",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 68.49,
+        "h": 79.3
+      }
+    },
+    "506.png": {
+      "signCode": "506",
+      "sourcePage": 39,
+      "sourcePart": 5,
+      "category": "תמרורי תחבורה ציבורית",
+      "bytes": 31160,
+      "width": 284,
+      "height": 300,
+      "sha256": "0c0dfdd9b58de12b5d8834ef2be377863a04bba6d8464d2dc489123f7dc648e2",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 70.85,
+        "h": 74.98
+      }
+    },
+    "507.png": {
+      "signCode": "507",
+      "sourcePage": 39,
+      "sourcePart": 5,
+      "category": "תמרורי תחבורה ציבורית",
+      "bytes": 65441,
+      "width": 231,
+      "height": 276,
+      "sha256": "dd7c73dbeb9614921dc8501c3b7316482feba4b85ad12400c213ef6058bff3ba",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 57.7,
+        "h": 68.94
+      }
+    },
+    "508.png": {
+      "signCode": "508",
+      "sourcePage": 39,
+      "sourcePart": 5,
+      "category": "תמרורי תחבורה ציבורית",
+      "bytes": 77456,
+      "width": 215,
+      "height": 277,
+      "sha256": "e2601ff96d63394cd0674703b5401d7023d35f64c357df2f4cf0fec95482f20f",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 53.7,
+        "h": 69.04
+      }
+    },
+    "509.png": {
+      "signCode": "509",
+      "sourcePage": 40,
+      "sourcePart": 5,
+      "category": "תמרורי תחבורה ציבורית",
+      "bytes": 73980,
+      "width": 222,
+      "height": 282,
+      "sha256": "e9045fb38c3e335eb7619c85a83cc2a4945a8e578f014161b5e20256ddc5a7b1",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 55.5,
+        "h": 70.44
+      }
+    },
+    "510.png": {
+      "signCode": "510",
+      "sourcePage": 40,
+      "sourcePart": 5,
+      "category": "תמרורי תחבורה ציבורית",
+      "bytes": 38366,
+      "width": 216,
+      "height": 216,
+      "sha256": "f499041174f654bd02fe8ca82f971170e6e962efb50f6556ee920d07f0ac1571",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 54,
+        "h": 54
+      }
+    },
+    "511.png": {
+      "signCode": "511",
+      "sourcePage": 40,
+      "sourcePart": 5,
+      "category": "תמרורי תחבורה ציבורית",
+      "bytes": 35893,
+      "width": 396,
+      "height": 166,
+      "sha256": "9f64b5f637d769617c3e2cadfdc764b5ddebaff7b59c12dc9419d74256c496dc",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 99,
+        "h": 41.25
+      }
+    },
+    "512.png": {
+      "signCode": "512",
+      "sourcePage": 40,
+      "sourcePart": 5,
+      "category": "תמרורי תחבורה ציבורית",
+      "bytes": 20677,
+      "width": 396,
+      "height": 156,
+      "sha256": "d9a04da3b98bd247fb06b636472dba6e82d1fb0eaa77d68d6e1f1bc9356f62ff",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 99,
+        "h": 39
+      }
+    },
+    "513.png": {
+      "signCode": "513",
+      "sourcePage": 41,
+      "sourcePart": 5,
+      "category": "תמרורי תחבורה ציבורית",
+      "bytes": 24263,
+      "width": 384,
+      "height": 208,
+      "sha256": "03e9d4e33d2f98c00fb393ded74c2f29d77f8995e046cd715146836a5f04535c",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 95.95,
+        "h": 51.97
+      }
+    },
+    "514.png": {
+      "signCode": "514",
+      "sourcePage": 41,
+      "sourcePart": 5,
+      "category": "תמרורי תחבורה ציבורית",
+      "bytes": 48681,
+      "width": 407,
+      "height": 325,
+      "sha256": "59bc5ce5d4e8ec664f145d5514859b4c36d58b9a2d5cea3ed7460244e037d560",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 101.55,
+        "h": 81.02
+      }
+    },
+    "515.png": {
+      "signCode": "515",
+      "sourcePage": 42,
+      "sourcePart": 5,
+      "category": "תמרורי תחבורה ציבורית",
+      "bytes": 36324,
+      "width": 374,
+      "height": 315,
+      "sha256": "c9ab2507c802d79a69df37f78b1ac38f58c8966963902acad2f303bb8f63be7d",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 93.44,
+        "h": 78.64
+      }
+    },
+    "516.png": {
+      "signCode": "516",
+      "sourcePage": 42,
+      "sourcePart": 5,
+      "category": "תמרורי תחבורה ציבורית",
+      "bytes": 46997,
+      "width": 370,
+      "height": 379,
+      "sha256": "fbd1e943cbd7f8cff2496220b316ce8500408b187a328a716405497949684c03",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 92.48,
+        "h": 94.56
+      }
+    },
+    "601.png": {
+      "signCode": "601",
+      "sourcePage": 44,
+      "sourcePart": 6,
+      "category": "תמרורי מודיעין והדרכה",
+      "bytes": 35549,
+      "width": 199,
+      "height": 695,
+      "sha256": "a953fe292de5e143cb3c4f7cf1788f3db37712bf7d86b1c0da482340e1c6a9b7",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 49.5,
+        "h": 173.75
+      }
+    },
+    "602.png": {
+      "signCode": "602",
+      "sourcePage": 44,
+      "sourcePart": 6,
+      "category": "תמרורי מודיעין והדרכה",
+      "bytes": 83749,
+      "width": 403,
+      "height": 258,
+      "sha256": "2c15239e2a76a7c6ce4a5c81a304b43959498a20b35b3686b1564de39e784e53",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 100.5,
+        "h": 64.5
+      }
+    },
+    "603.png": {
+      "signCode": "603",
+      "sourcePage": 44,
+      "sourcePart": 6,
+      "category": "תמרורי מודיעין והדרכה",
+      "bytes": 68717,
+      "width": 396,
+      "height": 99,
+      "sha256": "bd8ba1130eb04262e0800f1f9249e624bc49c82296443c57642a3aaf62ab8524",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 99,
+        "h": 24.75
+      }
+    },
+    "604.png": {
+      "signCode": "604",
+      "sourcePage": 45,
+      "sourcePart": 6,
+      "category": "תמרורי מודיעין והדרכה",
+      "bytes": 205363,
+      "width": 318,
+      "height": 755,
+      "sha256": "c79d4fda92708f3e3e95effcbbe5516d24fb46c14dd5bf4f66be357d24656d91",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 79.5,
+        "h": 188.75
+      }
+    },
+    "605.png": {
+      "signCode": "605",
+      "sourcePage": 45,
+      "sourcePart": 6,
+      "category": "תמרורי מודיעין והדרכה",
+      "bytes": 79038,
+      "width": 290,
+      "height": 562,
+      "sha256": "4b8742a202b5cfa8e0d7e57584d09689482cb6098f1a335b73bd14ff5599df35",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 72.35,
+        "h": 140.5
+      }
+    },
+    "606.png": {
+      "signCode": "606",
+      "sourcePage": 45,
+      "sourcePart": 6,
+      "category": "תמרורי מודיעין והדרכה",
+      "bytes": 130276,
+      "width": 328,
+      "height": 430,
+      "sha256": "d404b2579aee66925840927d23528fd10672b04f8f62f4839e575e9f74b98d1c",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 81.97,
+        "h": 107.5
+      }
+    },
+    "607.png": {
+      "signCode": "607",
+      "sourcePage": 46,
+      "sourcePart": 6,
+      "category": "תמרורי מודיעין והדרכה",
+      "bytes": 85878,
+      "width": 258,
+      "height": 629,
+      "sha256": "1d0bb8142caea7e6f522d8205e62042085c8adc9e8604d246059b00c7ebf02fa",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 64.5,
+        "h": 157.25
+      }
+    },
+    "608.png": {
+      "signCode": "608",
+      "sourcePage": 46,
+      "sourcePart": 6,
+      "category": "תמרורי מודיעין והדרכה",
+      "bytes": 40755,
+      "width": 199,
+      "height": 288,
+      "sha256": "1bfe7573de7c1a8157c78f27b26b37671dc0b3edb4f5c246a3911f64fc142416",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 49.5,
+        "h": 72
+      }
+    },
+    "609.png": {
+      "signCode": "609",
+      "sourcePage": 46,
+      "sourcePart": 6,
+      "category": "תמרורי מודיעין והדרכה",
+      "bytes": 169275,
+      "width": 301,
+      "height": 806,
+      "sha256": "7eb939f40b1c9d30e51651b103d81e89c9b0f129ec334eb7445b00d9b5b05095",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 75.05,
+        "h": 201.5
+      }
+    },
+    "610.png": {
+      "signCode": "610",
+      "sourcePage": 47,
+      "sourcePart": 6,
+      "category": "תמרורי מודיעין והדרכה",
+      "bytes": 170470,
+      "width": 294,
+      "height": 704,
+      "sha256": "f358a634f8c93d97120ab982ded05876dd9fb4af54b41d6c3d7c6e60b945edb3",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 73.5,
+        "h": 176
+      }
+    },
+    "611.png": {
+      "signCode": "611",
+      "sourcePage": 47,
+      "sourcePart": 6,
+      "category": "תמרורי מודיעין והדרכה",
+      "bytes": 67804,
+      "width": 223,
+      "height": 666,
+      "sha256": "b6ab962127fe94ef140b282bd33f403cde81487e76f7712bb37c16b7edd51f4e",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 55.5,
+        "h": 166.5
+      }
+    },
+    "612.png": {
+      "signCode": "612",
+      "sourcePage": 48,
+      "sourcePart": 6,
+      "category": "תמרורי מודיעין והדרכה",
+      "bytes": 88570,
+      "width": 174,
+      "height": 880,
+      "sha256": "814798d8e9a665a15731649c0c066a1b076cfb4476d17c180f4cea0d1bdf82ff",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 43.5,
+        "h": 220
+      }
+    },
+    "613.png": {
+      "signCode": "613",
+      "sourcePage": 48,
+      "sourcePart": 6,
+      "category": "תמרורי מודיעין והדרכה",
+      "bytes": 133642,
+      "width": 288,
+      "height": 601,
+      "sha256": "d1bb83a043475d3232f00b4901d421887818335e9491679c97bbb0d0afa8b0c4",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 71.75,
+        "h": 150.04
+      }
+    },
+    "614.png": {
+      "signCode": "614",
+      "sourcePage": 49,
+      "sourcePart": 6,
+      "category": "תמרורי מודיעין והדרכה",
+      "bytes": 27289,
+      "width": 396,
+      "height": 280,
+      "sha256": "447af117d0814c6cf20930b1d42efa380197f8bf46981a742c9bd78123131f04",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 99,
+        "h": 69.75
+      }
+    },
+    "615.png": {
+      "signCode": "615",
+      "sourcePage": 49,
+      "sourcePart": 6,
+      "category": "תמרורי מודיעין והדרכה",
+      "bytes": 97975,
+      "width": 366,
+      "height": 536,
+      "sha256": "ba9224a8c580ec3a1599f98162c430ff47ac9cba2eb0169106304faf3b64f055",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 91.5,
+        "h": 134
+      }
+    },
+    "616.png": {
+      "signCode": "616",
+      "sourcePage": 49,
+      "sourcePart": 6,
+      "category": "תמרורי מודיעין והדרכה",
+      "bytes": 82176,
+      "width": 366,
+      "height": 464,
+      "sha256": "5f4c2ea39088a5d550d7308aaad057e601fcec8c97b97b3958bc85639531df1f",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 91.5,
+        "h": 116
+      }
+    },
+    "617.png": {
+      "signCode": "617",
+      "sourcePage": 50,
+      "sourcePart": 6,
+      "category": "תמרורי מודיעין והדרכה",
+      "bytes": 150726,
+      "width": 378,
+      "height": 642,
+      "sha256": "2d918a4ccfe381b02ed9394d2bff177f13b7fc1dedda0baf0107b1161de67bff",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 94.5,
+        "h": 160.3
+      }
+    },
+    "618.png": {
+      "signCode": "618",
+      "sourcePage": 50,
+      "sourcePart": 6,
+      "category": "תמרורי מודיעין והדרכה",
+      "bytes": 18659,
+      "width": 240,
+      "height": 240,
+      "sha256": "02e43309a09d68b88831c3204b3da8c5e148b669196b234c76836bd1e59b23a2",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 60,
+        "h": 60
+      }
+    },
+    "619.png": {
+      "signCode": "619",
+      "sourcePage": 50,
+      "sourcePart": 6,
+      "category": "תמרורי מודיעין והדרכה",
+      "bytes": 24518,
+      "width": 250,
+      "height": 246,
+      "sha256": "21cb544939975ad18dfd52d86bda4d9ae6915c50d84c25952a95a46f9b7bbbc3",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 62.25,
+        "h": 61.5
+      }
+    },
+    "620.png": {
+      "signCode": "620",
+      "sourcePage": 50,
+      "sourcePart": 6,
+      "category": "תמרורי מודיעין והדרכה",
+      "bytes": 23607,
+      "width": 243,
+      "height": 246,
+      "sha256": "ca1c92a9d12c2a71d327382c7ee94112f3c375aa590b0aa7ec7ad687deae32fb",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 60.75,
+        "h": 61.5
+      }
+    },
+    "621.png": {
+      "signCode": "621",
+      "sourcePage": 51,
+      "sourcePart": 6,
+      "category": "תמרורי מודיעין והדרכה",
+      "bytes": 20645,
+      "width": 231,
+      "height": 228,
+      "sha256": "cccef0c894619d5a86f94460fc7b7d50437e99dd5eca3600b8bda1dd191ea4c2",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 57.7,
+        "h": 57
+      }
+    },
+    "622.png": {
+      "signCode": "622",
+      "sourcePage": 51,
+      "sourcePart": 6,
+      "category": "תמרורי מודיעין והדרכה",
+      "bytes": 18633,
+      "width": 227,
+      "height": 225,
+      "sha256": "d579779d3e33256310b05cee1f05450d3db09d797db96d2d1cd7ff00942bfaa1",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 56.73,
+        "h": 56.05
+      }
+    },
+    "623.png": {
+      "signCode": "623",
+      "sourcePage": 51,
+      "sourcePart": 6,
+      "category": "תמרורי מודיעין והדרכה",
+      "bytes": 12415,
+      "width": 217,
+      "height": 215,
+      "sha256": "13b4a839af1e9d21a91ab21e62632c8fd7ab3a84e2396503f1fbe5ee00520882",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 54.24,
+        "h": 53.6
+      }
+    },
+    "624.png": {
+      "signCode": "624",
+      "sourcePage": 51,
+      "sourcePart": 6,
+      "category": "תמרורי מודיעין והדרכה",
+      "bytes": 11358,
+      "width": 216,
+      "height": 216,
+      "sha256": "65a72eb9be22919132b4c3f71865e81d8c197f41215bc5595fc30ecc72b45386",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 54,
+        "h": 54
+      }
+    },
+    "625.png": {
+      "signCode": "625",
+      "sourcePage": 51,
+      "sourcePart": 6,
+      "category": "תמרורי מודיעין והדרכה",
+      "bytes": 11879,
+      "width": 216,
+      "height": 216,
+      "sha256": "e6e790785d373a93a23cd1ae0f590b53390b10db23acb0cbe56247b680b432ef",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 54,
+        "h": 54
+      }
+    },
+    "626.png": {
+      "signCode": "626",
+      "sourcePage": 52,
+      "sourcePart": 6,
+      "category": "תמרורי מודיעין והדרכה",
+      "bytes": 13525,
+      "width": 213,
+      "height": 213,
+      "sha256": "e1f67cf4f97cd6fe1ada26b9073c1ecdcfc119b2fdb7d05fe28e6eab4e8e366e",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 53.25,
+        "h": 53.25
+      }
+    },
+    "627.png": {
+      "signCode": "627",
+      "sourcePage": 52,
+      "sourcePart": 6,
+      "category": "תמרורי מודיעין והדרכה",
+      "bytes": 37790,
+      "width": 223,
+      "height": 315,
+      "sha256": "ecab7fc04de4c51016c790fd7205b299cf23f233d62407531d32279808926808",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 55.5,
+        "h": 78.75
+      }
+    },
+    "628.png": {
+      "signCode": "628",
+      "sourcePage": 52,
+      "sourcePart": 6,
+      "category": "תמרורי מודיעין והדרכה",
+      "bytes": 27590,
+      "width": 216,
+      "height": 216,
+      "sha256": "9f5bf78f32fd3bdc53272294446a95779e3af385b19a4ab66225bb38058ca2d3",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 54,
+        "h": 54
+      }
+    },
+    "629.png": {
+      "signCode": "629",
+      "sourcePage": 53,
+      "sourcePart": 6,
+      "category": "תמרורי מודיעין והדרכה",
+      "bytes": 53848,
+      "width": 379,
+      "height": 313,
+      "sha256": "0694ce17daf74a389bc3b3ea7dfb3f8f53d816ede03759005e77be464165d75d",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 94.5,
+        "h": 78
+      }
+    },
+    "629פ.png": {
+      "signCode": "629פ",
+      "sourcePage": 53,
+      "sourcePart": 6,
+      "category": "תמרורי מודיעין והדרכה",
+      "bytes": 15908,
+      "width": 346,
+      "height": 194,
+      "sha256": "c10d7debbc560547e158be7df079f119dfdf27b63c26408e1160d979529772a2",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 86.45,
+        "h": 48.48
+      }
+    },
+    "630.png": {
+      "signCode": "630",
+      "sourcePage": 53,
+      "sourcePart": 6,
+      "category": "תמרורי מודיעין והדרכה",
+      "bytes": 12501,
+      "width": 397,
+      "height": 135,
+      "sha256": "90af31cf8511aa2c1380c9d4a5647a923691d17b660e5b36c647c91b71b5fedd",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 99,
+        "h": 33.75
+      }
+    },
+    "631.png": {
+      "signCode": "631",
+      "sourcePage": 53,
+      "sourcePart": 6,
+      "category": "תמרורי מודיעין והדרכה",
+      "bytes": 11682,
+      "width": 397,
+      "height": 147,
+      "sha256": "47b2bad6f2b9b4f839b391d9bd2645505bd6b71c3d92d4a3e8d5422593835763",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 99,
+        "h": 36.75
+      }
+    },
+    "632.png": {
+      "signCode": "632",
+      "sourcePage": 53,
+      "sourcePart": 6,
+      "category": "תמרורי מודיעין והדרכה",
+      "bytes": 6341,
+      "width": 291,
+      "height": 195,
+      "sha256": "7c32e8f80c152145654501dd0f0885a13df5831f0b0efc206cd1be7543c00ec2",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 72.75,
+        "h": 48.75
+      }
+    },
+    "633.png": {
+      "signCode": "633",
+      "sourcePage": 53,
+      "sourcePart": 6,
+      "category": "תמרורי מודיעין והדרכה",
+      "bytes": 4668,
+      "width": 243,
+      "height": 240,
+      "sha256": "c1406297b696a30f67350c455ba782ef868216c770155532ff294c493b19dd03",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 60.75,
+        "h": 60
+      }
+    },
+    "634.png": {
+      "signCode": "634",
+      "sourcePage": 53,
+      "sourcePart": 6,
+      "category": "תמרורי מודיעין והדרכה",
+      "bytes": 6496,
+      "width": 244,
+      "height": 238,
+      "sha256": "b17f1a99c6ee69909afec88930034a580a73db21d9b874efdce3687d9cf48654",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 60.75,
+        "h": 59.35
+      }
+    },
+    "635.png": {
+      "signCode": "635",
+      "sourcePage": 54,
+      "sourcePart": 6,
+      "category": "תמרורי מודיעין והדרכה",
+      "bytes": 74264,
+      "width": 243,
+      "height": 336,
+      "sha256": "3d0369237385bb445a83f820594084351ac06eeba342033b45c1d66195524871",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 60.75,
+        "h": 84
+      }
+    },
+    "636.png": {
+      "signCode": "636",
+      "sourcePage": 54,
+      "sourcePart": 6,
+      "category": "תמרורי מודיעין והדרכה",
+      "bytes": 10625,
+      "width": 252,
+      "height": 252,
+      "sha256": "41ebafba92ba345552a067f7aee9495a2f54f18e030184f016c968cf3c5bae62",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 63,
+        "h": 63
+      }
+    },
+    "637.png": {
+      "signCode": "637",
+      "sourcePage": 54,
+      "sourcePart": 6,
+      "category": "תמרורי מודיעין והדרכה",
+      "bytes": 6261,
+      "width": 249,
+      "height": 249,
+      "sha256": "04d3ea60a655cecd1f3180f4433814e046f9b45c911a51297987f0c87aeed94a",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 62.25,
+        "h": 62.25
+      }
+    },
+    "638.png": {
+      "signCode": "638",
+      "sourcePage": 54,
+      "sourcePart": 6,
+      "category": "תמרורי מודיעין והדרכה",
+      "bytes": 22785,
+      "width": 245,
+      "height": 244,
+      "sha256": "fafd6d1b722e5b155406988ddaa568c0662a15e5ae318f804bf48c6542f7646d",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 61.21,
+        "h": 60.95
+      }
+    },
+    "639.png": {
+      "signCode": "639",
+      "sourcePage": 54,
+      "sourcePart": 6,
+      "category": "תמרורי מודיעין והדרכה",
+      "bytes": 32917,
+      "width": 242,
+      "height": 243,
+      "sha256": "8a58e07607934298d3549e2e7f22290623deb61867f49f89f7b7fb99573561e2",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 60.34,
+        "h": 60.55
+      }
+    },
+    "640.png": {
+      "signCode": "640",
+      "sourcePage": 54,
+      "sourcePart": 6,
+      "category": "תמרורי מודיעין והדרכה",
+      "bytes": 44247,
+      "width": 238,
+      "height": 241,
+      "sha256": "d9c852b26f34ace45da8a2afa1485c129fb611b0abf3b5075ee4006a43dff682",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 59.36,
+        "h": 60
+      }
+    },
+    "701.png": {
+      "signCode": "701",
+      "sourcePage": 56,
+      "sourcePart": 7,
+      "category": "תמרורי רמזורים ובקרת נתיבים",
+      "bytes": 44670,
+      "width": 223,
+      "height": 510,
+      "sha256": "2e09cb7ae15aae2d16bb6d7cc952ad33e45f8767122be9ee48dcc6cb5ecc4d32",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 55.5,
+        "h": 127.5
+      }
+    },
+    "702.png": {
+      "signCode": "702",
+      "sourcePage": 56,
+      "sourcePart": 7,
+      "category": "תמרורי רמזורים ובקרת נתיבים",
+      "bytes": 53706,
+      "width": 210,
+      "height": 507,
+      "sha256": "9a07c5d8db35945084695d3df4257f84a13e97e5276848f8ee4180d1187d753a",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 52.5,
+        "h": 126.75
+      }
+    },
+    "703.png": {
+      "signCode": "703",
+      "sourcePage": 57,
+      "sourcePart": 7,
+      "category": "תמרורי רמזורים ובקרת נתיבים",
+      "bytes": 32573,
+      "width": 161,
+      "height": 382,
+      "sha256": "a1901404ce7a836198e0d3b0958e7b9502c0f274c2473971efd0a7631f80dbca",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 40.15,
+        "h": 95.43
+      }
+    },
+    "704.png": {
+      "signCode": "704",
+      "sourcePage": 57,
+      "sourcePart": 7,
+      "category": "תמרורי רמזורים ובקרת נתיבים",
+      "bytes": 35669,
+      "width": 379,
+      "height": 373,
+      "sha256": "9e82173a9a797226b578ce0cf7d3980099569e512175e3ff7e49837a5174a528",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 94.5,
+        "h": 93
+      }
+    },
+    "705.png": {
+      "signCode": "705",
+      "sourcePage": 57,
+      "sourcePart": 7,
+      "category": "תמרורי רמזורים ובקרת נתיבים",
+      "bytes": 21090,
+      "width": 169,
+      "height": 376,
+      "sha256": "ec07798add8de197ea1184ab456ffa2030da210e8a73fac339b08d556d771297",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 42.25,
+        "h": 93.8
+      }
+    },
+    "706.png": {
+      "signCode": "706",
+      "sourcePage": 58,
+      "sourcePart": 7,
+      "category": "תמרורי רמזורים ובקרת נתיבים",
+      "bytes": 59823,
+      "width": 347,
+      "height": 408,
+      "sha256": "9133686c643a38bd26e2be5f799dbac209883b749d3c3167081d620d0c53854c",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 86.7,
+        "h": 102
+      }
+    },
+    "707.png": {
+      "signCode": "707",
+      "sourcePage": 58,
+      "sourcePart": 7,
+      "category": "תמרורי רמזורים ובקרת נתיבים",
+      "bytes": 42508,
+      "width": 394,
+      "height": 213,
+      "sha256": "c13eeca37772023c8fb5133eb8a9a3fe42570901461c8947f42efc2026f0d5ba",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 98.25,
+        "h": 53.25
+      }
+    },
+    "708.png": {
+      "signCode": "708",
+      "sourcePage": 58,
+      "sourcePart": 7,
+      "category": "תמרורי רמזורים ובקרת נתיבים",
+      "bytes": 21364,
+      "width": 172,
+      "height": 444,
+      "sha256": "6b8414979ea39d30ba02e92da7e2ed7b3c6c83c637f169b9fa327c4d0d05cc12",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 42.75,
+        "h": 111
+      }
+    },
+    "709.png": {
+      "signCode": "709",
+      "sourcePage": 59,
+      "sourcePart": 7,
+      "category": "תמרורי רמזורים ובקרת נתיבים",
+      "bytes": 23641,
+      "width": 175,
+      "height": 445,
+      "sha256": "9ae6d47a831bebef47737e0b2ab26f2b9857c48d4c4a03a01342ad000dbfef4f",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 43.5,
+        "h": 111
+      }
+    },
+    "710.png": {
+      "signCode": "710",
+      "sourcePage": 59,
+      "sourcePart": 7,
+      "category": "תמרורי רמזורים ובקרת נתיבים",
+      "bytes": 16764,
+      "width": 147,
+      "height": 394,
+      "sha256": "b5994060cc1abaa88f0c3b8f1e386ccd5d09418d72cf9fe3bee8ab5b31b695e6",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 36.75,
+        "h": 98.25
+      }
+    },
+    "711.png": {
+      "signCode": "711",
+      "sourcePage": 59,
+      "sourcePart": 7,
+      "category": "תמרורי רמזורים ובקרת נתיבים",
+      "bytes": 22005,
+      "width": 158,
+      "height": 378,
+      "sha256": "dc681501ac118edf06525317f046ab92fddc483de898907c14fdd0758d7db267",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 39.35,
+        "h": 94.44
+      }
+    },
+    "712.png": {
+      "signCode": "712",
+      "sourcePage": 59,
+      "sourcePart": 7,
+      "category": "תמרורי רמזורים ובקרת נתיבים",
+      "bytes": 19573,
+      "width": 150,
+      "height": 381,
+      "sha256": "55e516315d20adeb79069bbd66672f65690b41c2c505b6dcd56b0638dc50fd42",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 37.35,
+        "h": 95.14
+      }
+    },
+    "713.png": {
+      "signCode": "713",
+      "sourcePage": 60,
+      "sourcePart": 7,
+      "category": "תמרורי רמזורים ובקרת נתיבים",
+      "bytes": 23187,
+      "width": 246,
+      "height": 397,
+      "sha256": "3c8d06e2887d257e612ee1f6bcec3c293a5b6636f8ee378c665f60cbed2e1083",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 61.5,
+        "h": 99
+      }
+    },
+    "714.png": {
+      "signCode": "714",
+      "sourcePage": 60,
+      "sourcePart": 7,
+      "category": "תמרורי רמזורים ובקרת נתיבים",
+      "bytes": 22616,
+      "width": 250,
+      "height": 397,
+      "sha256": "e309d7b48ca61a780f672e6890664636bdf8bc5e3f6609750ecb8329734ed8d7",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 62.25,
+        "h": 99
+      }
+    },
+    "715.png": {
+      "signCode": "715",
+      "sourcePage": 60,
+      "sourcePart": 7,
+      "category": "תמרורי רמזורים ובקרת נתיבים",
+      "bytes": 31866,
+      "width": 379,
+      "height": 402,
+      "sha256": "d5484e131ddfdada8c45dbf6c83858fe32e81cc858ca7f26c9ca440f1e2556e3",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 94.5,
+        "h": 100.5
+      }
+    },
+    "716.png": {
+      "signCode": "716",
+      "sourcePage": 61,
+      "sourcePart": 7,
+      "category": "תמרורי רמזורים ובקרת נתיבים",
+      "bytes": 17940,
+      "width": 144,
+      "height": 376,
+      "sha256": "26e40ca4caf62908cf66c8f77beed90620b45f8f7f5e8441c807dd51110f4559",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 36,
+        "h": 93.75
+      }
+    },
+    "717.png": {
+      "signCode": "717",
+      "sourcePage": 61,
+      "sourcePart": 7,
+      "category": "תמרורי רמזורים ובקרת נתיבים",
+      "bytes": 29679,
+      "width": 393,
+      "height": 364,
+      "sha256": "166ba362cc6886d5a705e6e7351df47da2caac6d1dd966dad3b435385178f938",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 98.1,
+        "h": 90.85
+      }
+    },
+    "718.png": {
+      "signCode": "718",
+      "sourcePage": 61,
+      "sourcePart": 7,
+      "category": "תמרורי רמזורים ובקרת נתיבים",
+      "bytes": 17411,
+      "width": 147,
+      "height": 237,
+      "sha256": "3c4d407aaff15010841b0902560a2104546d400f97d0f6a17997171ba30a2bf1",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 36.75,
+        "h": 59.25
+      }
+    },
+    "719.png": {
+      "signCode": "719",
+      "sourcePage": 61,
+      "sourcePart": 7,
+      "category": "תמרורי רמזורים ובקרת נתיבים",
+      "bytes": 11870,
+      "width": 143,
+      "height": 232,
+      "sha256": "9e1fcb64f5b8dccb814d11d9b0ed0b133a2ff71b052f5cd5df825184568b8100",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 35.72,
+        "h": 57.95
+      }
+    },
+    "720.png": {
+      "signCode": "720",
+      "sourcePage": 61,
+      "sourcePart": 7,
+      "category": "תמרורי רמזורים ובקרת נתיבים",
+      "bytes": 17102,
+      "width": 132,
+      "height": 246,
+      "sha256": "6b0ff80379c72b859424448649b6dc8e7c54ac44cda36106a6cfcd4ef0f2b40e",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 33,
+        "h": 61.5
+      }
+    },
+    "721.png": {
+      "signCode": "721",
+      "sourcePage": 61,
+      "sourcePart": 7,
+      "category": "תמרורי רמזורים ובקרת נתיבים",
+      "bytes": 17698,
+      "width": 130,
+      "height": 226,
+      "sha256": "f09d4179dd62d7fac74c3a4d8048b0d95d040860aa4123e77d461731515563f8",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 32.25,
+        "h": 56.25
+      }
+    },
+    "722.png": {
+      "signCode": "722",
+      "sourcePage": 62,
+      "sourcePart": 7,
+      "category": "תמרורי רמזורים ובקרת נתיבים",
+      "bytes": 49583,
+      "width": 379,
+      "height": 421,
+      "sha256": "96424b5376d2a598a2ced72a0a2ac6943a55b7c5f8d8c92bab7c01edc0705e2a",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 94.5,
+        "h": 105
+      }
+    },
+    "723.png": {
+      "signCode": "723",
+      "sourcePage": 62,
+      "sourcePart": 7,
+      "category": "תמרורי רמזורים ובקרת נתיבים",
+      "bytes": 40418,
+      "width": 231,
+      "height": 234,
+      "sha256": "5892c04347185fb1fd46b0b7b5223102b7393d0ee176fd84bc863220af92fe70",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 57.75,
+        "h": 58.5
+      }
+    },
+    "723פ.png": {
+      "signCode": "723פ",
+      "sourcePage": 62,
+      "sourcePart": 7,
+      "category": "תמרורי רמזורים ובקרת נתיבים",
+      "bytes": 38566,
+      "width": 234,
+      "height": 232,
+      "sha256": "8129636642935ff872bd7ae2832c9ffaf20b68c4f683448dc8e33edd51d8366f",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 58.5,
+        "h": 57.75
+      }
+    },
+    "724.png": {
+      "signCode": "724",
+      "sourcePage": 62,
+      "sourcePart": 7,
+      "category": "תמרורי רמזורים ובקרת נתיבים",
+      "bytes": 19621,
+      "width": 237,
+      "height": 234,
+      "sha256": "fc3a6d3e5e332c2a99f272fd46c71e6745905044ce0fcff002753833a93aceba",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 59.25,
+        "h": 58.5
+      }
+    },
+    "724פ.png": {
+      "signCode": "724פ",
+      "sourcePage": 62,
+      "sourcePart": 7,
+      "category": "תמרורי רמזורים ובקרת נתיבים",
+      "bytes": 23711,
+      "width": 240,
+      "height": 243,
+      "sha256": "b4a604fae5c37e0a4dd6e0e579526a22e93c2eee3c0e8b6807a6dcace709078d",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 60,
+        "h": 60.75
+      }
+    },
+    "725.png": {
+      "signCode": "725",
+      "sourcePage": 63,
+      "sourcePart": 7,
+      "category": "תמרורי רמזורים ובקרת נתיבים",
+      "bytes": 27257,
+      "width": 405,
+      "height": 190,
+      "sha256": "4134952249c5efce338f2997fab04ec579a32ad79e9870d1b528d3b48b664945",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 101.25,
+        "h": 47.45
+      }
+    },
+    "725פ.png": {
+      "signCode": "725פ",
+      "sourcePage": 63,
+      "sourcePart": 7,
+      "category": "תמרורי רמזורים ובקרת נתיבים",
+      "bytes": 19362,
+      "width": 390,
+      "height": 184,
+      "sha256": "95da6f131b7a1dfd79d44e43f921bc9852d9ae9503f00e5045482eeac62a28e4",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 97.5,
+        "h": 45.8
+      }
+    },
+    "726.png": {
+      "signCode": "726",
+      "sourcePage": 63,
+      "sourcePart": 7,
+      "category": "תמרורי רמזורים ובקרת נתיבים",
+      "bytes": 29590,
+      "width": 372,
+      "height": 181,
+      "sha256": "1ade41243119b08fd006fd96df1770f09247a54bc0d4bee48400543785d9ec95",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 92.85,
+        "h": 45.15
+      }
+    },
+    "726פ.png": {
+      "signCode": "726פ",
+      "sourcePage": 63,
+      "sourcePart": 7,
+      "category": "תמרורי רמזורים ובקרת נתיבים",
+      "bytes": 18646,
+      "width": 379,
+      "height": 185,
+      "sha256": "0fd797e9afbea11b47b5429be48d7ec1526e4bcee9555fed40fe41a0639e8ce1",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 94.6,
+        "h": 46.05
+      }
+    },
+    "727.png": {
+      "signCode": "727",
+      "sourcePage": 63,
+      "sourcePart": 7,
+      "category": "תמרורי רמזורים ובקרת נתיבים",
+      "bytes": 21845,
+      "width": 182,
+      "height": 462,
+      "sha256": "e5819d161119691ec6ed20fc79591e277ba72905936c50bbea00e9e1a7f70f16",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 45.43,
+        "h": 115.42
+      }
+    },
+    "728.png": {
+      "signCode": "728",
+      "sourcePage": 64,
+      "sourcePart": 7,
+      "category": "תמרורי רמזורים ובקרת נתיבים",
+      "bytes": 13968,
+      "width": 118,
+      "height": 351,
+      "sha256": "c9b1fda1d0ec361a6fb802e2f8645c0fb8ac06b152c773a07b5934ab45fd45c8",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 29.35,
+        "h": 87.5
+      }
+    },
+    "729.png": {
+      "signCode": "729",
+      "sourcePage": 64,
+      "sourcePart": 7,
+      "category": "תמרורי רמזורים ובקרת נתיבים",
+      "bytes": 16829,
+      "width": 148,
+      "height": 358,
+      "sha256": "4652a88f2b6f532539f2d41626635ca10280c7f44aa464ee7acf712644fc26f0",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 36.81,
+        "h": 89.43
+      }
+    },
+    "801.png": {
+      "signCode": "801",
+      "sourcePage": 66,
+      "sourcePart": 8,
+      "category": "תמרורי סימון על פני הדרך",
+      "bytes": 2367,
+      "width": 399,
+      "height": 153,
+      "sha256": "c3de47bf85e42b27ccd93c367987f18b378523523156f3ac029a87fc39dcaae9",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 99.75,
+        "h": 38.25
+      }
+    },
+    "802.png": {
+      "signCode": "802",
+      "sourcePage": 66,
+      "sourcePart": 8,
+      "category": "תמרורי סימון על פני הדרך",
+      "bytes": 8107,
+      "width": 396,
+      "height": 156,
+      "sha256": "ff09fd46ba564590b1b15bf9aef2075480790b95d4e27b9bd55a79c1ce505dd5",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 99,
+        "h": 39
+      }
+    },
+    "803.png": {
+      "signCode": "803",
+      "sourcePage": 66,
+      "sourcePart": 8,
+      "category": "תמרורי סימון על פני הדרך",
+      "bytes": 1885,
+      "width": 396,
+      "height": 159,
+      "sha256": "e7164d0108dc61164fb17d551efbf8c898b7f1e7783c32248d86f8d8e6e7ecbf",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 99,
+        "h": 39.75
+      }
+    },
+    "804.png": {
+      "signCode": "804",
+      "sourcePage": 66,
+      "sourcePart": 8,
+      "category": "תמרורי סימון על פני הדרך",
+      "bytes": 10973,
+      "width": 386,
+      "height": 198,
+      "sha256": "cf062d6c43ec9b3bc6176c12f959b5bed80fb61dc55400a557db9d53da510935",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 96.3,
+        "h": 49.48
+      }
+    },
+    "805.png": {
+      "signCode": "805",
+      "sourcePage": 66,
+      "sourcePart": 8,
+      "category": "תמרורי סימון על פני הדרך",
+      "bytes": 26385,
+      "width": 396,
+      "height": 159,
+      "sha256": "f35ba5e122f65bd737bdc98192381515e21e683af669ace827e70c1ea7a5183c",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 99,
+        "h": 39.75
+      }
+    },
+    "806.png": {
+      "signCode": "806",
+      "sourcePage": 66,
+      "sourcePart": 8,
+      "category": "תמרורי סימון על פני הדרך",
+      "bytes": 4665,
+      "width": 396,
+      "height": 159,
+      "sha256": "7c1d6d6dd629c786c04bd3d4f3316b391f784865da74722c6e58e3ab731e3de0",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 99,
+        "h": 39.75
+      }
+    },
+    "807.png": {
+      "signCode": "807",
+      "sourcePage": 66,
+      "sourcePart": 8,
+      "category": "תמרורי סימון על פני הדרך",
+      "bytes": 4070,
+      "width": 397,
+      "height": 159,
+      "sha256": "998c421fe22be389ce7340255602e7c9c9cac67244c5fda691749000a1d33fea",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 99,
+        "h": 39.75
+      }
+    },
+    "808.png": {
+      "signCode": "808",
+      "sourcePage": 66,
+      "sourcePart": 8,
+      "category": "תמרורי סימון על פני הדרך",
+      "bytes": 4596,
+      "width": 411,
+      "height": 165,
+      "sha256": "b6c7684271ed0c5c90d5b661208aa657f1071e630632cb9a5e6dc5523672250b",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 102.6,
+        "h": 41.15
+      }
+    },
+    "809.png": {
+      "signCode": "809",
+      "sourcePage": 67,
+      "sourcePart": 8,
+      "category": "תמרורי סימון על פני הדרך",
+      "bytes": 27954,
+      "width": 379,
+      "height": 333,
+      "sha256": "3e0a1740714581938237d5f4b268078f85823921b4f40a94e7a7b5added20139",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 94.5,
+        "h": 83.25
+      }
+    },
+    "810.png": {
+      "signCode": "810",
+      "sourcePage": 67,
+      "sourcePart": 8,
+      "category": "תמרורי סימון על פני הדרך",
+      "bytes": 8323,
+      "width": 382,
+      "height": 213,
+      "sha256": "60e357b4e186208ae0c8b730475944975f25627e66c504ba8ebe246720e73b1b",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 95.25,
+        "h": 53.25
+      }
+    },
+    "811.png": {
+      "signCode": "811",
+      "sourcePage": 67,
+      "sourcePart": 8,
+      "category": "תמרורי סימון על פני הדרך",
+      "bytes": 8934,
+      "width": 396,
+      "height": 195,
+      "sha256": "a4ec75297fb72ac33238a278dc50f7339fbef50537b356eff660037bbffa1e13",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 99,
+        "h": 48.75
+      }
+    },
+    "812.png": {
+      "signCode": "812",
+      "sourcePage": 67,
+      "sourcePart": 8,
+      "category": "תמרורי סימון על פני הדרך",
+      "bytes": 20841,
+      "width": 401,
+      "height": 248,
+      "sha256": "61b4690c21119f2f60363097c6e5d650a349582697570140cf8c304569631379",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 100.21,
+        "h": 61.96
+      }
+    },
+    "813.png": {
+      "signCode": "813",
+      "sourcePage": 67,
+      "sourcePart": 8,
+      "category": "תמרורי סימון על פני הדרך",
+      "bytes": 29154,
+      "width": 395,
+      "height": 310,
+      "sha256": "d733425b7bb87a6c63d2dd4068ab4623876c03c8e5a0165f446ec63185f9adde",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 98.54,
+        "h": 77.46
+      }
+    },
+    "814.png": {
+      "signCode": "814",
+      "sourcePage": 67,
+      "sourcePart": 8,
+      "category": "תמרורי סימון על פני הדרך",
+      "bytes": 8147,
+      "width": 397,
+      "height": 120,
+      "sha256": "1370bb26fac2b795baea2595e391868937404eda357f0bf44dc2d3ff9d5626ad",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 99,
+        "h": 30
+      }
+    },
+    "815.png": {
+      "signCode": "815",
+      "sourcePage": 67,
+      "sourcePart": 8,
+      "category": "תמרורי סימון על פני הדרך",
+      "bytes": 19049,
+      "width": 399,
+      "height": 159,
+      "sha256": "3ef28e989f65077672036568bf096002c2b8594d065bb20d669bdc784c0ef7de",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 99.75,
+        "h": 39.75
+      }
+    },
+    "816.png": {
+      "signCode": "816",
+      "sourcePage": 68,
+      "sourcePart": 8,
+      "category": "תמרורי סימון על פני הדרך",
+      "bytes": 17133,
+      "width": 396,
+      "height": 154,
+      "sha256": "0f6a869b64e38804b87c2fcdc88ac58cba9ed55be1a7c7a480a68f61a180e5ee",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 99,
+        "h": 38.25
+      }
+    },
+    "817.png": {
+      "signCode": "817",
+      "sourcePage": 68,
+      "sourcePart": 8,
+      "category": "תמרורי סימון על פני הדרך",
+      "bytes": 33220,
+      "width": 397,
+      "height": 156,
+      "sha256": "05d1cc6c4859df85faa7fc19b2ef70b938a015a90a22affc471b9f8032b85d04",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 99,
+        "h": 39
+      }
+    },
+    "818.png": {
+      "signCode": "818",
+      "sourcePage": 68,
+      "sourcePart": 8,
+      "category": "תמרורי סימון על פני הדרך",
+      "bytes": 31774,
+      "width": 397,
+      "height": 156,
+      "sha256": "36cf36551cb494066b11c1ab74634fcb0b9c83571afffe56e6aa2ffb6e2370c1",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 99,
+        "h": 39
+      }
+    },
+    "819.png": {
+      "signCode": "819",
+      "sourcePage": 68,
+      "sourcePart": 8,
+      "category": "תמרורי סימון על פני הדרך",
+      "bytes": 14295,
+      "width": 406,
+      "height": 345,
+      "sha256": "5ad42a9696fd4b76dd1ece7b635d8edcc73ae5ea72df0c15cf8c0a1583822b09",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 101.3,
+        "h": 86.2
+      }
+    },
+    "820.png": {
+      "signCode": "820",
+      "sourcePage": 68,
+      "sourcePart": 8,
+      "category": "תמרורי סימון על פני הדרך",
+      "bytes": 13153,
+      "width": 396,
+      "height": 156,
+      "sha256": "cb2aeebacae763d9f30fcb763cadce812dd0ac70462fa37a4411606231e9300a",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 99,
+        "h": 39
+      }
+    },
+    "821.png": {
+      "signCode": "821",
+      "sourcePage": 68,
+      "sourcePart": 8,
+      "category": "תמרורי סימון על פני הדרך",
+      "bytes": 5485,
+      "width": 379,
+      "height": 228,
+      "sha256": "8506ce479903e0260b34f6397b79a077b31fae6629071bca4d332e5add0d6355",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 94.5,
+        "h": 57
+      }
+    },
+    "901.png": {
+      "signCode": "901",
+      "sourcePage": 70,
+      "sourcePart": 9,
+      "category": "תמרורים באתר עבודה",
+      "bytes": 44807,
+      "width": 280,
+      "height": 243,
+      "sha256": "f2c0eabe1bd6468c96a314e88dbb7d8347e691234b500ac02426170e3b39f741",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 69.75,
+        "h": 60.75
+      }
+    },
+    "901פ.png": {
+      "signCode": "901פ",
+      "sourcePage": 70,
+      "sourcePart": 9,
+      "category": "תמרורים באתר עבודה",
+      "bytes": 42775,
+      "width": 280,
+      "height": 273,
+      "sha256": "7cbc62ea6e7e4fe240dc4e5f8d5fe354dc4c17e8a93711758af6249835b9793b",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 69.75,
+        "h": 68.25
+      }
+    },
+    "902.png": {
+      "signCode": "902",
+      "sourcePage": 70,
+      "sourcePart": 9,
+      "category": "תמרורים באתר עבודה",
+      "bytes": 67604,
+      "width": 288,
+      "height": 285,
+      "sha256": "23ea0c10ff4d37c1adce60015a7a5d92ffb6ed8765a5a2cfd2cda612c0171194",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 72,
+        "h": 71.25
+      }
+    },
+    "903.png": {
+      "signCode": "903",
+      "sourcePage": 70,
+      "sourcePart": 9,
+      "category": "תמרורים באתר עבודה",
+      "bytes": 32294,
+      "width": 373,
+      "height": 153,
+      "sha256": "a8df220988e4981549263b7ef986be3a50d8a3e3fa34028942955de1acf1fe68",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 93,
+        "h": 38.25
+      }
+    },
+    "904.png": {
+      "signCode": "904",
+      "sourcePage": 70,
+      "sourcePart": 9,
+      "category": "תמרורים באתר עבודה",
+      "bytes": 29410,
+      "width": 369,
+      "height": 117,
+      "sha256": "eda86e417b3f3fb94e2d0f37148eebdd36649b8073aaee722c8bc4a4c5dbd059",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 92.25,
+        "h": 29.25
+      }
+    },
+    "905.png": {
+      "signCode": "905",
+      "sourcePage": 70,
+      "sourcePart": 9,
+      "category": "תמרורים באתר עבודה",
+      "bytes": 19630,
+      "width": 226,
+      "height": 226,
+      "sha256": "2aa757a3800d59142520aac8868c9da9ae2846263cb6531c95520f125bbb38c4",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 56.25,
+        "h": 56.25
+      }
+    },
+    "906.png": {
+      "signCode": "906",
+      "sourcePage": 71,
+      "sourcePart": 9,
+      "category": "תמרורים באתר עבודה",
+      "bytes": 13354,
+      "width": 228,
+      "height": 228,
+      "sha256": "152e3ab0c92538d6f5d3e6e069ce54f859e1ae1f392b5cbf542adff6dbff945e",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 57,
+        "h": 57
+      }
+    },
+    "907.png": {
+      "signCode": "907",
+      "sourcePage": 71,
+      "sourcePart": 9,
+      "category": "תמרורים באתר עבודה",
+      "bytes": 6074,
+      "width": 231,
+      "height": 228,
+      "sha256": "e0018be736b0fd3d37128c7b519beb14ab0b8d79bf8f637bc6137afd45e19fe7",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 57.75,
+        "h": 57
+      }
+    },
+    "908.png": {
+      "signCode": "908",
+      "sourcePage": 71,
+      "sourcePart": 9,
+      "category": "תמרורים באתר עבודה",
+      "bytes": 84598,
+      "width": 399,
+      "height": 213,
+      "sha256": "2ffc75a2de769fa04c9766202d11904ad8eb818e39a37690dbf3e81509b2259b",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 99.75,
+        "h": 53.25
+      }
+    },
+    "909.png": {
+      "signCode": "909",
+      "sourcePage": 71,
+      "sourcePart": 9,
+      "category": "תמרורים באתר עבודה",
+      "bytes": 6484,
+      "width": 232,
+      "height": 232,
+      "sha256": "5ea8980f84440f532e913820bbe221114dc8264b2fd384fee1ec110d2e5fd7e2",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 58,
+        "h": 58
+      }
+    },
+    "910.png": {
+      "signCode": "910",
+      "sourcePage": 71,
+      "sourcePart": 9,
+      "category": "תמרורים באתר עבודה",
+      "bytes": 4554,
+      "width": 233,
+      "height": 224,
+      "sha256": "0122452c971ad11c9a61e8e3e93176e59cbfa3bed1bcfdfdd2d34a362e160d2d",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 58.24,
+        "h": 55.85
+      }
+    },
+    "911.png": {
+      "signCode": "911",
+      "sourcePage": 71,
+      "sourcePart": 9,
+      "category": "תמרורים באתר עבודה",
+      "bytes": 5062,
+      "width": 235,
+      "height": 228,
+      "sha256": "3c6485ac42b2b090161001dd4105378523ffa6002067622ada3bd7c172e24784",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 58.6,
+        "h": 56.99
+      }
+    },
+    "912.png": {
+      "signCode": "912",
+      "sourcePage": 72,
+      "sourcePart": 9,
+      "category": "תמרורים באתר עבודה",
+      "bytes": 25045,
+      "width": 219,
+      "height": 210,
+      "sha256": "9e079f0aa91b58ccbce8b6561e44683979ce392f4081eee31b3cf281b8e1fc2a",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 54.75,
+        "h": 52.5
+      }
+    },
+    "913.png": {
+      "signCode": "913",
+      "sourcePage": 72,
+      "sourcePart": 9,
+      "category": "תמרורים באתר עבודה",
+      "bytes": 12661,
+      "width": 219,
+      "height": 207,
+      "sha256": "06bbbcfc67bde487f2aa10adb7415cf561871340b63d0d5b6e4550c7a6223f7d",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 54.75,
+        "h": 51.75
+      }
+    },
+    "914.png": {
+      "signCode": "914",
+      "sourcePage": 72,
+      "sourcePart": 9,
+      "category": "תמרורים באתר עבודה",
+      "bytes": 59395,
+      "width": 399,
+      "height": 180,
+      "sha256": "e2538b230987c966136edd0d04c5cf114dfbdfcb255a0bf437f7eb8212c4f050",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 99.75,
+        "h": 45
+      }
+    },
+    "915.png": {
+      "signCode": "915",
+      "sourcePage": 72,
+      "sourcePart": 9,
+      "category": "תמרורים באתר עבודה",
+      "bytes": 97661,
+      "width": 249,
+      "height": 471,
+      "sha256": "d8e63a04fc5ba58766c4c68819b504011856e10f9f26b4724d6c459c740e9798",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 62.25,
+        "h": 117.75
+      }
+    },
+    "916.png": {
+      "signCode": "916",
+      "sourcePage": 72,
+      "sourcePart": 9,
+      "category": "תמרורים באתר עבודה",
+      "bytes": 34553,
+      "width": 376,
+      "height": 130,
+      "sha256": "4f07e6facfeaf0db73acc84d370e0f0eda39fe2690e9b59f98fc4c6f7464833f",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 93.75,
+        "h": 32.25
+      }
+    },
+    "917.png": {
+      "signCode": "917",
+      "sourcePage": 72,
+      "sourcePart": 9,
+      "category": "תמרורים באתר עבודה",
+      "bytes": 24537,
+      "width": 369,
+      "height": 139,
+      "sha256": "a5a718e613c14480fd20f39bfb22630e89404873a8edfe54afe83c65997f718b",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 92.25,
+        "h": 34.5
+      }
+    },
+    "918.png": {
+      "signCode": "918",
+      "sourcePage": 73,
+      "sourcePart": 9,
+      "category": "תמרורים באתר עבודה",
+      "bytes": 6779,
+      "width": 385,
+      "height": 150,
+      "sha256": "56d0efb59ef42dfdf09623a290dddaa28d643df5ffc4bde6276ed68ca2640159",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 96,
+        "h": 37.5
+      }
+    },
+    "919.png": {
+      "signCode": "919",
+      "sourcePage": 73,
+      "sourcePart": 9,
+      "category": "תמרורים באתר עבודה",
+      "bytes": 25837,
+      "width": 387,
+      "height": 147,
+      "sha256": "2ec47e479ba24174724db96ed3bd97f45780c649842e61132184e1c72db89740",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 96.75,
+        "h": 36.75
+      }
+    },
+    "920.png": {
+      "signCode": "920",
+      "sourcePage": 73,
+      "sourcePart": 9,
+      "category": "תמרורים באתר עבודה",
+      "bytes": 3065,
+      "width": 387,
+      "height": 150,
+      "sha256": "7a5aa821882f7ff6ba911b6174a5127a4c1f4580449acdeca0a35c5232b7f59f",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 96.75,
+        "h": 37.5
+      }
+    },
+    "921.png": {
+      "signCode": "921",
+      "sourcePage": 73,
+      "sourcePart": 9,
+      "category": "תמרורים באתר עבודה",
+      "bytes": 6923,
+      "width": 390,
+      "height": 150,
+      "sha256": "278b7fc03552207908cf16439736930db7bafc1b847ca36fdb89b4f7a3724052",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 97.5,
+        "h": 37.5
+      }
+    },
+    "922.png": {
+      "signCode": "922",
+      "sourcePage": 73,
+      "sourcePart": 9,
+      "category": "תמרורים באתר עבודה",
+      "bytes": 10036,
+      "width": 390,
+      "height": 150,
+      "sha256": "c82203d95baa25f39b9fd8514a051a468b6256193659b833a7b717d3cdc8b126",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 97.5,
+        "h": 37.5
+      }
+    },
+    "923.png": {
+      "signCode": "923",
+      "sourcePage": 74,
+      "sourcePart": 9,
+      "category": "תמרורים באתר עבודה",
+      "bytes": 33536,
+      "width": 376,
+      "height": 150,
+      "sha256": "5ab8596c9d890ece88462021998d374f11b08c1f273c7e0730c82eff000f3364",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 93.75,
+        "h": 37.5
+      }
+    },
+    "924.png": {
+      "signCode": "924",
+      "sourcePage": 74,
+      "sourcePart": 9,
+      "category": "תמרורים באתר עבודה",
+      "bytes": 50702,
+      "width": 385,
+      "height": 336,
+      "sha256": "066316ace00ab0262239898d69275894690da932649b7befe7d30ac13af50ee3",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 96,
+        "h": 84
+      }
+    },
+    "925.png": {
+      "signCode": "925",
+      "sourcePage": 74,
+      "sourcePart": 9,
+      "category": "תמרורים באתר עבודה",
+      "bytes": 10604,
+      "width": 360,
+      "height": 199,
+      "sha256": "62d2aa201888c065b03d13c57d10a19fdea7f8f89b30eaf8695095bc64c487b9",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 90,
+        "h": 49.5
+      }
+    },
+    "926.png": {
+      "signCode": "926",
+      "sourcePage": 74,
+      "sourcePart": 9,
+      "category": "תמרורים באתר עבודה",
+      "bytes": 78212,
+      "width": 385,
+      "height": 303,
+      "sha256": "b17e7e9a1854bb2a15e7a4218153e5b644cf1c87b36b66d6fc9f55a886fb6d3a",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 96,
+        "h": 75.75
+      }
+    },
+    "927.png": {
+      "signCode": "927",
+      "sourcePage": 74,
+      "sourcePart": 9,
+      "category": "תמרורים באתר עבודה",
+      "bytes": 20112,
+      "width": 376,
+      "height": 147,
+      "sha256": "44eb8b3a1400d4d1f4e326eb768233a31a54fc3773fb673a5f65bbbd2a184c53",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 93.75,
+        "h": 36.75
+      }
+    },
+    "928.png": {
+      "signCode": "928",
+      "sourcePage": 75,
+      "sourcePart": 9,
+      "category": "תמרורים באתר עבודה",
+      "bytes": 46578,
+      "width": 364,
+      "height": 201,
+      "sha256": "e7f8f8bd044b8c79b305a53b1694ba59a1e96fa303cec9501851c7d3e584fde2",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 90.75,
+        "h": 50.25
+      }
+    },
+    "929.png": {
+      "signCode": "929",
+      "sourcePage": 75,
+      "sourcePart": 9,
+      "category": "תמרורים באתר עבודה",
+      "bytes": 7615,
+      "width": 376,
+      "height": 54,
+      "sha256": "6189a4147094517330728fcb49e65cd642c30f38eb58176150ec5a5d67ba10a2",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 93.75,
+        "h": 13.5
+      }
+    },
+    "930.png": {
+      "signCode": "930",
+      "sourcePage": 75,
+      "sourcePart": 9,
+      "category": "תמרורים באתר עבודה",
+      "bytes": 49873,
+      "width": 139,
+      "height": 259,
+      "sha256": "42f05902f69936ed0a7bb605f8592b860198a81ba4c91c7605ec8bfa0a28403d",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 34.5,
+        "h": 64.5
+      }
+    },
+    "931.png": {
+      "signCode": "931",
+      "sourcePage": 75,
+      "sourcePart": 9,
+      "category": "תמרורים באתר עבודה",
+      "bytes": 42562,
+      "width": 237,
+      "height": 226,
+      "sha256": "d2d46fafd95db7d8efc7f2aebd8495a2cd4c5fe0af2f9a24ccd467a74eb231ab",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 59.25,
+        "h": 56.25
+      }
+    },
+    "932.png": {
+      "signCode": "932",
+      "sourcePage": 75,
+      "sourcePart": 9,
+      "category": "תמרורים באתר עבודה",
+      "bytes": 1026,
+      "width": 202,
+      "height": 202,
+      "sha256": "70cbaf0ea201059e223a1d5616fc833deeb4ca189aa7ae2d0b2b9ed4ed59e561",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 50.25,
+        "h": 50.25
+      }
+    },
+    "933.png": {
+      "signCode": "933",
+      "sourcePage": 76,
+      "sourcePart": 9,
+      "category": "תמרורים באתר עבודה",
+      "bytes": 139457,
+      "width": 210,
+      "height": 510,
+      "sha256": "d489686ad7587cf87642d462a09faf60d1d80dae80c345d583946fee8f7f872e",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 52.5,
+        "h": 127.5
+      }
+    },
+    "933פ.png": {
+      "signCode": "933פ",
+      "sourcePage": 76,
+      "sourcePart": 9,
+      "category": "תמרורים באתר עבודה",
+      "bytes": 16760,
+      "width": 207,
+      "height": 216,
+      "sha256": "728647014c7e9a57e373434d012bd915f643e78bdbbc3c2ab24be31db4f56ada",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 51.56,
+        "h": 53.95
+      }
+    },
+    "934.png": {
+      "signCode": "934",
+      "sourcePage": 76,
+      "sourcePart": 9,
+      "category": "תמרורים באתר עבודה",
+      "bytes": 59867,
+      "width": 201,
+      "height": 511,
+      "sha256": "5120278bdbca65bbe5629726988d53bd395290fccc25b1ced8b4aa22dac1bd7a",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 50.25,
+        "h": 127.5
+      }
+    },
+    "934פ.png": {
+      "signCode": "934פ",
+      "sourcePage": 76,
+      "sourcePart": 9,
+      "category": "תמרורים באתר עבודה",
+      "bytes": 6962,
+      "width": 193,
+      "height": 194,
+      "sha256": "87b32bf068c6464fd31df2e92b8130a030830b1f251342255f351d0e124e4769",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 48.1,
+        "h": 48.32
+      }
+    },
+    "935.png": {
+      "signCode": "935",
+      "sourcePage": 76,
+      "sourcePart": 9,
+      "category": "תמרורים באתר עבודה",
+      "bytes": 9580,
+      "width": 207,
+      "height": 207,
+      "sha256": "bb516fcb2dae368a52f9111f97b9755af55305b0439c7bef410ac3f12437bb0e",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 51.6,
+        "h": 51.6
+      }
+    },
+    "ס-4.png": {
+      "signCode": "ס-4",
+      "sourcePage": 78,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 28628,
+      "width": 177,
+      "height": 180,
+      "sha256": "ddd719d0c9e2ce12ee33375831fbc4be3a7b75bccb02645276334d42af81b049",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 44.25,
+        "h": 45
+      }
+    },
+    "ס-5.png": {
+      "signCode": "ס-5",
+      "sourcePage": 78,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 14996,
+      "width": 175,
+      "height": 175,
+      "sha256": "140811ec89bb51192c319ac37c87afa52a578b048a21aecd7ed6ef484bed2e69",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 43.5,
+        "h": 43.5
+      }
+    },
+    "ס-6.png": {
+      "signCode": "ס-6",
+      "sourcePage": 78,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 11837,
+      "width": 177,
+      "height": 175,
+      "sha256": "9f86a6cb6a4c1ab250687bad2de1fd3a14454c5e94347f1ca939059efed8823d",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 44.25,
+        "h": 43.5
+      }
+    },
+    "ס-7.png": {
+      "signCode": "ס-7",
+      "sourcePage": 78,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 12405,
+      "width": 175,
+      "height": 175,
+      "sha256": "f6b4962795a1447a527fc821c3bbf90b933a6da3e14d8a31c866f2005c700d62",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 43.5,
+        "h": 43.5
+      }
+    },
+    "ס-8.png": {
+      "signCode": "ס-8",
+      "sourcePage": 78,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 11577,
+      "width": 177,
+      "height": 175,
+      "sha256": "e00730879072e36fb60fe88b30734f975b4b8452f73317f09f62bab618e2e3d0",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 44.25,
+        "h": 43.5
+      }
+    },
+    "ס-9.png": {
+      "signCode": "ס-9",
+      "sourcePage": 78,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 12764,
+      "width": 180,
+      "height": 183,
+      "sha256": "5a0c6b5bd19bf918f693c5ca70e452a64819a4007da4b0898fbb321d40681a41",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 45,
+        "h": 45.75
+      }
+    },
+    "ס-10.png": {
+      "signCode": "ס-10",
+      "sourcePage": 79,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 6503,
+      "width": 177,
+      "height": 177,
+      "sha256": "3265d74f45a87f75bbdabfe007dc117647b47739db89fef3ebfb23227e22df59",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 44.25,
+        "h": 44.25
+      }
+    },
+    "ס-11.png": {
+      "signCode": "ס-11",
+      "sourcePage": 79,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 8892,
+      "width": 180,
+      "height": 180,
+      "sha256": "81a2a24ac630ed15f540ba9dc2fa7e4e5cf14d807c5547316c66450510882455",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 45,
+        "h": 45
+      }
+    },
+    "ס-12.png": {
+      "signCode": "ס-12",
+      "sourcePage": 79,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 6619,
+      "width": 183,
+      "height": 180,
+      "sha256": "a24494c00a51b148f2bb9311c9aeb6739334a6e8bc11be20d351d84d5b4dfa5e",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 45.75,
+        "h": 45
+      }
+    },
+    "ס-13.png": {
+      "signCode": "ס-13",
+      "sourcePage": 79,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 7061,
+      "width": 192,
+      "height": 192,
+      "sha256": "685fae59dccc9531238e22b3f99a51d439a286effb8ab9df0e6c4ea804728b7f",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 48,
+        "h": 48
+      }
+    },
+    "ס-14.png": {
+      "signCode": "ס-14",
+      "sourcePage": 79,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 15859,
+      "width": 192,
+      "height": 204,
+      "sha256": "f112dd50e3d6093a412b07762bca6855c94787c05fba46b7917bd69f62c8181b",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 48,
+        "h": 51
+      }
+    },
+    "ס-15.png": {
+      "signCode": "ס-15",
+      "sourcePage": 79,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 41846,
+      "width": 195,
+      "height": 192,
+      "sha256": "a6b44a3e09a1289f9719e5e60146564c9decf0c63eddbd619f369c68428f499c",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 48.75,
+        "h": 48
+      }
+    },
+    "ס-16.png": {
+      "signCode": "ס-16",
+      "sourcePage": 79,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 2324,
+      "width": 210,
+      "height": 210,
+      "sha256": "8142affcd6e6f6800813d45f9e3fb47e4de730bad5769a3166c52e5c3ebf9993",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 52.5,
+        "h": 52.5
+      }
+    },
+    "ס-17.png": {
+      "signCode": "ס-17",
+      "sourcePage": 79,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 3681,
+      "width": 194,
+      "height": 194,
+      "sha256": "35b57e473622aa6fe567ab424abc4cc896d5856c6c0745f57f9d1501beabe46e",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 48.5,
+        "h": 48.5
+      }
+    },
+    "ס-20.png": {
+      "signCode": "ס-20",
+      "sourcePage": 80,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 18700,
+      "width": 189,
+      "height": 183,
+      "sha256": "0f85626bce78d2deb7f048216a6e1936f4c2faf623e7f4d5eb5c586e941c26bc",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 47.25,
+        "h": 45.75
+      }
+    },
+    "ס-21.png": {
+      "signCode": "ס-21",
+      "sourcePage": 80,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 10914,
+      "width": 189,
+      "height": 187,
+      "sha256": "b8c1718707db52041afebc07667d4014de73cbceb28196817a86576f5a05f2a2",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 47.25,
+        "h": 46.5
+      }
+    },
+    "ס-22.png": {
+      "signCode": "ס-22",
+      "sourcePage": 80,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 3120,
+      "width": 183,
+      "height": 180,
+      "sha256": "eb3cc4ca6cd7545501eeb22355ed0c0d9f0d3b1cb8f3d03b24338c5ac79741c2",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 45.75,
+        "h": 45
+      }
+    },
+    "ס-23.png": {
+      "signCode": "ס-23",
+      "sourcePage": 80,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 3891,
+      "width": 183,
+      "height": 177,
+      "sha256": "73f94ae6cf559b8d0f8eab7f004766894a5fb64b9ea5afc3e836924c3e948b1b",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 45.75,
+        "h": 44.25
+      }
+    },
+    "ס-24.png": {
+      "signCode": "ס-24",
+      "sourcePage": 80,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 2852,
+      "width": 183,
+      "height": 180,
+      "sha256": "e2e9c38d076c5e406e1b5a20b9e001bc725ceb4aaf43e456e16a5d8914dd9862",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 45.75,
+        "h": 45
+      }
+    },
+    "ס-25.png": {
+      "signCode": "ס-25",
+      "sourcePage": 80,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 3790,
+      "width": 183,
+      "height": 180,
+      "sha256": "88fa98f6e85df6c1a6f7593479cbfff968da7463fa964e151e6f5f14dad23b94",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 45.75,
+        "h": 45
+      }
+    },
+    "ס-26.png": {
+      "signCode": "ס-26",
+      "sourcePage": 80,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 3819,
+      "width": 183,
+      "height": 180,
+      "sha256": "9abc418881b998e73ad272b6383a332871e5df23af2fdeea009871dba068e662",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 45.75,
+        "h": 45
+      }
+    },
+    "ס-27.png": {
+      "signCode": "ס-27",
+      "sourcePage": 80,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 2913,
+      "width": 183,
+      "height": 183,
+      "sha256": "8e37ed2afc8b5fdd815fd12f326001b7bd74b4c0df6aae42842e6234e5284a53",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 45.75,
+        "h": 45.75
+      }
+    },
+    "ס-28.png": {
+      "signCode": "ס-28",
+      "sourcePage": 80,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 3614,
+      "width": 183,
+      "height": 183,
+      "sha256": "2d504dfc5b6f1b73116242d172e69b3eef8d2bd46fbb0cfa8dde4fced8cb379f",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 45.75,
+        "h": 45.75
+      }
+    },
+    "ס-29.png": {
+      "signCode": "ס-29",
+      "sourcePage": 80,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 10877,
+      "width": 180,
+      "height": 177,
+      "sha256": "5817aa57cf3327698ff4c921f395d3002d2130fbfad6713b73572d210995caaa",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 45,
+        "h": 44.25
+      }
+    },
+    "ס-30.png": {
+      "signCode": "ס-30",
+      "sourcePage": 81,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 5241,
+      "width": 175,
+      "height": 175,
+      "sha256": "b4a3ad61bc74b53da23f6b57705b5280d828d87bf297618e2469cd62c68312ae",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 43.5,
+        "h": 43.5
+      }
+    },
+    "ס-31.png": {
+      "signCode": "ס-31",
+      "sourcePage": 81,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 18685,
+      "width": 175,
+      "height": 172,
+      "sha256": "552b452ff97f9225e9d818120fabacf9d48b4153d56f1055e4ae1c59e9aa90ba",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 43.5,
+        "h": 42.75
+      }
+    },
+    "ס-32.png": {
+      "signCode": "ס-32",
+      "sourcePage": 81,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 12898,
+      "width": 175,
+      "height": 177,
+      "sha256": "10445b57ecf570907923e91268c016b70b51bf93110250d252f5c5f66b7a3e0a",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 43.5,
+        "h": 44.25
+      }
+    },
+    "ס-33.png": {
+      "signCode": "ס-33",
+      "sourcePage": 81,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 17113,
+      "width": 175,
+      "height": 172,
+      "sha256": "6ffd3d2e557a5dfce1bc58cc07735420c9f5cbda92880bc1de337c4ab8aefefe",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 43.5,
+        "h": 42.75
+      }
+    },
+    "ס-34.png": {
+      "signCode": "ס-34",
+      "sourcePage": 81,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 7787,
+      "width": 175,
+      "height": 175,
+      "sha256": "9cd81ee85a7691f4d672e4f42b94f3fc6741c15dad6f5feac02b82db5c651679",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 43.5,
+        "h": 43.5
+      }
+    },
+    "ס-35.png": {
+      "signCode": "ס-35",
+      "sourcePage": 81,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 14437,
+      "width": 175,
+      "height": 175,
+      "sha256": "118672a7a70800e42439f49a6474cf82eec23ea5479a323b88896fba5d2aef79",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 43.5,
+        "h": 43.5
+      }
+    },
+    "ס-36.png": {
+      "signCode": "ס-36",
+      "sourcePage": 81,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 14295,
+      "width": 180,
+      "height": 180,
+      "sha256": "d0afc33b54203a10cbf86a0bcce14a47b6edfdf4755eae7d9010d23f75267a25",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 45,
+        "h": 45
+      }
+    },
+    "ס-37.png": {
+      "signCode": "ס-37",
+      "sourcePage": 81,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 9207,
+      "width": 175,
+      "height": 177,
+      "sha256": "bf1299f91396e36d5cd81e81edee9e0eebb9eddcf70ea37c0ce940e79da1862c",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 43.5,
+        "h": 44.25
+      }
+    },
+    "ס-38.png": {
+      "signCode": "ס-38",
+      "sourcePage": 81,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 21865,
+      "width": 177,
+      "height": 177,
+      "sha256": "551ed5f8f49c84ad34290df6ab063eaf27d8df14cccde1df369d9decfaa5708f",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 44.25,
+        "h": 44.25
+      }
+    },
+    "ס-39.png": {
+      "signCode": "ס-39",
+      "sourcePage": 81,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 17857,
+      "width": 183,
+      "height": 183,
+      "sha256": "21f7778e4325c51d3d6e25b6630e469bab5e94d9676bd85828322978a2788a06",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 45.75,
+        "h": 45.75
+      }
+    },
+    "ס-40.png": {
+      "signCode": "ס-40",
+      "sourcePage": 82,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 12374,
+      "width": 173,
+      "height": 170,
+      "sha256": "8bec8a9469e7896d503077b923f2aa1c45a8d322fe5af843cf128ddb1b05624a",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 43.2,
+        "h": 42.47
+      }
+    },
+    "ס-41.png": {
+      "signCode": "ס-41",
+      "sourcePage": 82,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 15758,
+      "width": 171,
+      "height": 180,
+      "sha256": "d358facaf14b488733f15266647b17e96c3c5a2db13eec73a173c1ca8cbef2dc",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 42.75,
+        "h": 45
+      }
+    },
+    "ס-42.png": {
+      "signCode": "ס-42",
+      "sourcePage": 82,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 9102,
+      "width": 175,
+      "height": 175,
+      "sha256": "19c07a83d08528aaa7e986a43307d65228fe5f9c247c9c8b95617c9d3b361d53",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 43.5,
+        "h": 43.5
+      }
+    },
+    "ס-43.png": {
+      "signCode": "ס-43",
+      "sourcePage": 82,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 9095,
+      "width": 175,
+      "height": 175,
+      "sha256": "473d529683690300a1dbf65a37434a371fd4b4efeb6773283fd401b01c08c822",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 43.5,
+        "h": 43.5
+      }
+    },
+    "ס-44.png": {
+      "signCode": "ס-44",
+      "sourcePage": 82,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 9064,
+      "width": 175,
+      "height": 175,
+      "sha256": "1c7ebd2e2e4ce759c5627fec21238e27c400b5a51251e0a4f3081086c2d33e08",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 43.5,
+        "h": 43.5
+      }
+    },
+    "ס-45.png": {
+      "signCode": "ס-45",
+      "sourcePage": 82,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 9534,
+      "width": 177,
+      "height": 177,
+      "sha256": "0800ff8273cbfdf8746e4174ab5e6ac97cc24c71894f39c643f99334e42173a4",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 44.25,
+        "h": 44.25
+      }
+    },
+    "ס-46.png": {
+      "signCode": "ס-46",
+      "sourcePage": 82,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 6040,
+      "width": 180,
+      "height": 180,
+      "sha256": "b6d69771cace2d197371f0f453479e5b7ded88d1aff41951661884e2d689281d",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 45,
+        "h": 45
+      }
+    },
+    "ס-47.png": {
+      "signCode": "ס-47",
+      "sourcePage": 82,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 7291,
+      "width": 175,
+      "height": 172,
+      "sha256": "7a7864985dfc66531f4594482001c2de5e9ca35e3a4ee0439e8e805c70b7318c",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 43.5,
+        "h": 42.75
+      }
+    },
+    "ס-48.png": {
+      "signCode": "ס-48",
+      "sourcePage": 82,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 12327,
+      "width": 177,
+      "height": 175,
+      "sha256": "89d5ba6e4a533c569f28629d901109e256597750d04c6550b4e736e9e52c26bc",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 44.25,
+        "h": 43.5
+      }
+    },
+    "ס-49.png": {
+      "signCode": "ס-49",
+      "sourcePage": 82,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 13816,
+      "width": 175,
+      "height": 175,
+      "sha256": "b574075f331ce0226ea4c85de9d88cd907bcc8ac07e1df4f6a31c0e19f2c0f75",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 43.5,
+        "h": 43.5
+      }
+    },
+    "ס-50.png": {
+      "signCode": "ס-50",
+      "sourcePage": 83,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 11789,
+      "width": 175,
+      "height": 175,
+      "sha256": "b04582769d9768b5f270a9501559760ae73ecebf6e493e209bd611116fc614bd",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 43.5,
+        "h": 43.5
+      }
+    },
+    "ס-51.png": {
+      "signCode": "ס-51",
+      "sourcePage": 83,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 4913,
+      "width": 175,
+      "height": 175,
+      "sha256": "0cdf8249faeabde3b2a7f6eb33a1b5daad4208b7dd01696fd649f48e207f00ab",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 43.5,
+        "h": 43.5
+      }
+    },
+    "ס-52.png": {
+      "signCode": "ס-52",
+      "sourcePage": 83,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 9258,
+      "width": 175,
+      "height": 175,
+      "sha256": "712c46e4d328041a697b30fed6a3e5b280cb9c578f8270af3d186e14704bc737",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 43.5,
+        "h": 43.5
+      }
+    },
+    "ס-53.png": {
+      "signCode": "ס-53",
+      "sourcePage": 83,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 13801,
+      "width": 183,
+      "height": 180,
+      "sha256": "4c16920eced03478cace041e42c3a551505d3d65a7a0255bd1ae1274c7c3e5b4",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 45.75,
+        "h": 45
+      }
+    },
+    "ס-54.png": {
+      "signCode": "ס-54",
+      "sourcePage": 83,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 10607,
+      "width": 175,
+      "height": 175,
+      "sha256": "8ce0a569856ce8fd71a4d73322f31a10c41724a51aaba2387e5084290a6d13e9",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 43.5,
+        "h": 43.5
+      }
+    },
+    "ס-55.png": {
+      "signCode": "ס-55",
+      "sourcePage": 83,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 8988,
+      "width": 180,
+      "height": 183,
+      "sha256": "312ff59e235d4256a54e19783873ffdc8fd386d975ed9d951910f95c13b565ab",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 45,
+        "h": 45.75
+      }
+    },
+    "ס-56.png": {
+      "signCode": "ס-56",
+      "sourcePage": 83,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 10657,
+      "width": 175,
+      "height": 175,
+      "sha256": "206cf641753d24bf8312a408eebbf56bd491f18132b7be81d617e3cd75daab16",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 43.5,
+        "h": 43.5
+      }
+    },
+    "ס-57.png": {
+      "signCode": "ס-57",
+      "sourcePage": 83,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 10319,
+      "width": 175,
+      "height": 175,
+      "sha256": "dbb9cb673068f41f0e26291c56c182ed62f1e20890ac699b823a70116e7f331f",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 43.5,
+        "h": 43.5
+      }
+    },
+    "ס-58.png": {
+      "signCode": "ס-58",
+      "sourcePage": 83,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 3648,
+      "width": 175,
+      "height": 175,
+      "sha256": "fef47f1030d0176e6ac1ca6b79a3e8b097fca6c3653c962f0c0e0dc8c8b6f757",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 43.5,
+        "h": 43.5
+      }
+    },
+    "ס-59.png": {
+      "signCode": "ס-59",
+      "sourcePage": 83,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 8918,
+      "width": 180,
+      "height": 177,
+      "sha256": "3df38c48269f55a0c398a48963768058ec2ecb88ac6b146d20156eefdaabca7a",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 45,
+        "h": 44.25
+      }
+    },
+    "ס-60.png": {
+      "signCode": "ס-60",
+      "sourcePage": 84,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 4628,
+      "width": 180,
+      "height": 180,
+      "sha256": "bf5a440dcf6e27dd773586d0eb0370401ede2b1b40a250871ceccb28625b54b0",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 44.75,
+        "h": 44.75
+      }
+    },
+    "ס-61.png": {
+      "signCode": "ס-61",
+      "sourcePage": 84,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 7808,
+      "width": 175,
+      "height": 175,
+      "sha256": "98750a90a559ee0d5b58485676e43cf0ce59bd4cfed4207c458a3c29ab9272c1",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 43.5,
+        "h": 43.5
+      }
+    },
+    "ס-62.png": {
+      "signCode": "ס-62",
+      "sourcePage": 84,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 6044,
+      "width": 175,
+      "height": 175,
+      "sha256": "63bf0b82643483eacf514c0846e9ede88b5ed0d255cb2485affe8db0297e2abc",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 43.5,
+        "h": 43.5
+      }
+    },
+    "ס-63.png": {
+      "signCode": "ס-63",
+      "sourcePage": 84,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 7397,
+      "width": 175,
+      "height": 175,
+      "sha256": "cf9c68ab469e7c402628ee0a181d2ba1292ad9c2184c462321f1f0971a3cd0f1",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 43.5,
+        "h": 43.5
+      }
+    },
+    "ס-64.png": {
+      "signCode": "ס-64",
+      "sourcePage": 84,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 15970,
+      "width": 183,
+      "height": 180,
+      "sha256": "6347ee5264e2569ee2f76cefdcbad77373c45160149cbe8410877a63388752c5",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 45.75,
+        "h": 45
+      }
+    },
+    "ס-65.png": {
+      "signCode": "ס-65",
+      "sourcePage": 84,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 3211,
+      "width": 186,
+      "height": 186,
+      "sha256": "5977de213c6ac067b6f339e33f8596e9bd2d324db8bffdc22523ef801d23b795",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 46.5,
+        "h": 46.5
+      }
+    },
+    "ס-66.png": {
+      "signCode": "ס-66",
+      "sourcePage": 84,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 3262,
+      "width": 193,
+      "height": 193,
+      "sha256": "140a5fa9db14e29a257a87e84c93668f67a384b3e55f055ef67ca3a38278eb0d",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 48,
+        "h": 48
+      }
+    },
+    "ס-67.png": {
+      "signCode": "ס-67",
+      "sourcePage": 84,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 3367,
+      "width": 183,
+      "height": 183,
+      "sha256": "ecf629120ebd3f4971c42374d269772338224388d945b4760786b12b33a11b22",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 45.6,
+        "h": 45.6
+      }
+    },
+    "ס-68.png": {
+      "signCode": "ס-68",
+      "sourcePage": 84,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 5797,
+      "width": 188,
+      "height": 154,
+      "sha256": "b788f495f7437c516ba741e2a5cafc940a8043e9675e8fd0ae7c852f9e0f342d",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 46.8,
+        "h": 38.4
+      }
+    },
+    "ס-69.png": {
+      "signCode": "ס-69",
+      "sourcePage": 84,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 12411,
+      "width": 182,
+      "height": 180,
+      "sha256": "6c8d653af1997fa91aec4952e19cfe0747c3dc9219df1701d072ccc5d0a3772c",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 45.47,
+        "h": 45
+      }
+    },
+    "ס-70.png": {
+      "signCode": "ס-70",
+      "sourcePage": 85,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 8400,
+      "width": 177,
+      "height": 175,
+      "sha256": "8e4cad71a97d116cff1b702315ef450d8a6e7f3caed2cabb4fbc427f5c98101f",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 44.25,
+        "h": 43.5
+      }
+    },
+    "ס-71.png": {
+      "signCode": "ס-71",
+      "sourcePage": 85,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 9083,
+      "width": 175,
+      "height": 175,
+      "sha256": "acf5b540a9cacbe706a50067c4575a3deeaa35db41d6eeef4f0a1176846bf0e0",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 43.5,
+        "h": 43.5
+      }
+    },
+    "ס-72.png": {
+      "signCode": "ס-72",
+      "sourcePage": 85,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 8969,
+      "width": 177,
+      "height": 175,
+      "sha256": "28255b09284853394a6114d2cefe60f5478e52ba2b898c0f392dba97134f27a1",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 44.25,
+        "h": 43.5
+      }
+    },
+    "ס-73.png": {
+      "signCode": "ס-73",
+      "sourcePage": 85,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 10504,
+      "width": 183,
+      "height": 180,
+      "sha256": "82d3caa436eafd4db93134b4d5207399a0e9334139793a8c377f531430adc467",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 45.75,
+        "h": 45
+      }
+    },
+    "ס-74.png": {
+      "signCode": "ס-74",
+      "sourcePage": 85,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 15115,
+      "width": 180,
+      "height": 180,
+      "sha256": "29e9c68391db9312a58b04ace32dae2fd98820e2df2748f8b1871c9eef1f63b1",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 45,
+        "h": 45
+      }
+    },
+    "ס-75.png": {
+      "signCode": "ס-75",
+      "sourcePage": 85,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 7559,
+      "width": 177,
+      "height": 177,
+      "sha256": "24e8003daa523d59d8e74aa76f77a07a4e015f8625cd9ae21bcca171e9a81627",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 44.25,
+        "h": 44.25
+      }
+    },
+    "ס-80.png": {
+      "signCode": "ס-80",
+      "sourcePage": 86,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 12856,
+      "width": 175,
+      "height": 175,
+      "sha256": "af38393e123c61bcbead8f3eec641c59031e72ea3013b7c4003136e70cabaf06",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 43.5,
+        "h": 43.5
+      }
+    },
+    "ס-81.png": {
+      "signCode": "ס-81",
+      "sourcePage": 86,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 10063,
+      "width": 175,
+      "height": 175,
+      "sha256": "39a58abb0dd62a7091741e4ebb094bb448f287e12fdd9b1998f9af77dbe6c89a",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 43.5,
+        "h": 43.5
+      }
+    },
+    "ס-82.png": {
+      "signCode": "ס-82",
+      "sourcePage": 86,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 10413,
+      "width": 175,
+      "height": 172,
+      "sha256": "e82e0a3b971f44a0efa51214b769d6a46ddfd82a9db01c68ee2c5791f4fe2c7a",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 43.5,
+        "h": 42.75
+      }
+    },
+    "ס-83.png": {
+      "signCode": "ס-83",
+      "sourcePage": 86,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 7986,
+      "width": 175,
+      "height": 175,
+      "sha256": "8004493fa291afe1a5bec41ff967f5905739b0cb16461a1d3d65fba3c9192b80",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 43.5,
+        "h": 43.5
+      }
+    },
+    "ס-84.png": {
+      "signCode": "ס-84",
+      "sourcePage": 86,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 5441,
+      "width": 175,
+      "height": 175,
+      "sha256": "ea4be4f8a4a55e8e8e8a6b885dab3d2d78eff3ed3140f7f77e44d8d2b0ea7c28",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 43.5,
+        "h": 43.5
+      }
+    },
+    "ס-85.png": {
+      "signCode": "ס-85",
+      "sourcePage": 86,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 6947,
+      "width": 175,
+      "height": 172,
+      "sha256": "44581f50b0dd6a764e828a86f8c7e6f851e4710285ddbd4fe11f6ab1c3e8b18e",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 43.5,
+        "h": 42.75
+      }
+    },
+    "ס-86.png": {
+      "signCode": "ס-86",
+      "sourcePage": 86,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 11302,
+      "width": 175,
+      "height": 175,
+      "sha256": "eec84876aafeb26c65613c3bbf2e8b07ea6252e5e1022636b0f6b24fe25696ce",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 43.5,
+        "h": 43.5
+      }
+    },
+    "ס-87.png": {
+      "signCode": "ס-87",
+      "sourcePage": 86,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 10938,
+      "width": 175,
+      "height": 172,
+      "sha256": "5f2c19dee026ff24139f0210e99ed3606940206fa2812d619a225ce7123b642d",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 43.5,
+        "h": 42.75
+      }
+    },
+    "ס-88.png": {
+      "signCode": "ס-88",
+      "sourcePage": 86,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 8912,
+      "width": 175,
+      "height": 171,
+      "sha256": "ac6c9a86508616593311b5d9e1916677073d6a7d17c56615e3a51d083c1e9acd",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 43.5,
+        "h": 42.75
+      }
+    },
+    "ס-89.png": {
+      "signCode": "ס-89",
+      "sourcePage": 86,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 13858,
+      "width": 175,
+      "height": 172,
+      "sha256": "c0fd04448e2ed11379d0e9a2d1423ded37915e124ebb1fb99f15e8f0ca610add",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 43.5,
+        "h": 42.75
+      }
+    },
+    "ס-90.png": {
+      "signCode": "ס-90",
+      "sourcePage": 87,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 19476,
+      "width": 175,
+      "height": 172,
+      "sha256": "adc2b12f12cd64cd3e2db386479c47aed0330c998cac4e7a5f88a9e1619b7d53",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 43.5,
+        "h": 42.75
+      }
+    },
+    "ס-91.png": {
+      "signCode": "ס-91",
+      "sourcePage": 87,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 16221,
+      "width": 175,
+      "height": 175,
+      "sha256": "d1c952ec6b63b70da489318402815af74a6a2efa936da65e5cbb4f9696f04b46",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 43.5,
+        "h": 43.5
+      }
+    },
+    "ס-92.png": {
+      "signCode": "ס-92",
+      "sourcePage": 87,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 13053,
+      "width": 177,
+      "height": 175,
+      "sha256": "f0abeee1605e681b2865ac8c9e1fea39bde8d1e2e4e5be85f5c997a159053530",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 44.25,
+        "h": 43.5
+      }
+    },
+    "ס-93.png": {
+      "signCode": "ס-93",
+      "sourcePage": 87,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 6966,
+      "width": 176,
+      "height": 176,
+      "sha256": "168e24469a742acc6c31bca12f173bece5a0188994d57cba5bc38f59932e043e",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 43.8,
+        "h": 43.8
+      }
+    },
+    "ס-100.png": {
+      "signCode": "ס-100",
+      "sourcePage": 88,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 8427,
+      "width": 175,
+      "height": 175,
+      "sha256": "bd0ade38a37380cb4d5a8323441bc25b7e60fa75321cfa4c2bd7c906b6e7206d",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 43.5,
+        "h": 43.5
+      }
+    },
+    "ס-101.png": {
+      "signCode": "ס-101",
+      "sourcePage": 88,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 11830,
+      "width": 175,
+      "height": 175,
+      "sha256": "6ed12476ba4ef4659707e20e8f0156bec97f39828864c083dfac7ff90efe9b62",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 43.5,
+        "h": 43.5
+      }
+    },
+    "ס-102.png": {
+      "signCode": "ס-102",
+      "sourcePage": 88,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 12066,
+      "width": 175,
+      "height": 175,
+      "sha256": "637390e058e286e74669d2605f434195ed0cceb9e07e373ec312d593a3d63601",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 43.5,
+        "h": 43.5
+      }
+    },
+    "ס-103.png": {
+      "signCode": "ס-103",
+      "sourcePage": 88,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 11221,
+      "width": 175,
+      "height": 175,
+      "sha256": "e20feb8f1d7a504c9503503926f634910e073993fc5e60dec87322a4e03feaa4",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 43.5,
+        "h": 43.5
+      }
+    },
+    "ס-104.png": {
+      "signCode": "ס-104",
+      "sourcePage": 88,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 16274,
+      "width": 175,
+      "height": 175,
+      "sha256": "c9abaeb6302aaf72b6f852eca66c7ac239841d8f51d573e467fa8d49a8d075c4",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 43.5,
+        "h": 43.5
+      }
+    },
+    "ס-105.png": {
+      "signCode": "ס-105",
+      "sourcePage": 88,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 9265,
+      "width": 175,
+      "height": 177,
+      "sha256": "35a9085e0c9f6f616e1eed14ea0d8c264a88f6c813c9906c0f5a79ad3e0efe0e",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 43.5,
+        "h": 44.25
+      }
+    },
+    "ס-106.png": {
+      "signCode": "ס-106",
+      "sourcePage": 88,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 11625,
+      "width": 180,
+      "height": 187,
+      "sha256": "393654e274568d25c754d393341f8ad95fe1fff61be391ba21269701e95b5376",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 45,
+        "h": 46.5
+      }
+    },
+    "ס-107.png": {
+      "signCode": "ס-107",
+      "sourcePage": 88,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 15799,
+      "width": 175,
+      "height": 175,
+      "sha256": "fc54c08e789891d2e8d09e8874aeeb602abd14234bd28f30b009516e87dcb854",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 43.5,
+        "h": 43.5
+      }
+    },
+    "ס-108.png": {
+      "signCode": "ס-108",
+      "sourcePage": 88,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 12012,
+      "width": 175,
+      "height": 175,
+      "sha256": "b7959eb898cc6fe657653ae0e702d297f4165c1629e9268d79f7bb93c23b707f",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 43.5,
+        "h": 43.5
+      }
+    },
+    "ס-109.png": {
+      "signCode": "ס-109",
+      "sourcePage": 88,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 14732,
+      "width": 172,
+      "height": 187,
+      "sha256": "bcdb69d9a7777adf9395525ff13e9d4c42c28c6e5fa9bfc7031dab2b7da195ff",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 42.75,
+        "h": 46.5
+      }
+    },
+    "ס-110.png": {
+      "signCode": "ס-110",
+      "sourcePage": 89,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 18764,
+      "width": 175,
+      "height": 177,
+      "sha256": "f574b971cdde5738b94b97a3d647cfdc26561acfc3e814bc75eec0c5ca6c105d",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 43.5,
+        "h": 44.25
+      }
+    },
+    "ס-111.png": {
+      "signCode": "ס-111",
+      "sourcePage": 89,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 7605,
+      "width": 177,
+      "height": 177,
+      "sha256": "d846430749bf33db43e9e48acf50d3e159a91e0755ac715d9ac2e85f89c68ffb",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 44.25,
+        "h": 44.25
+      }
+    },
+    "ס-112.png": {
+      "signCode": "ס-112",
+      "sourcePage": 89,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 9442,
+      "width": 175,
+      "height": 175,
+      "sha256": "aaf8ee8227801cd77731f3b18946bb47f915e6ac1630a6ce54adca97fedb108f",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 43.5,
+        "h": 43.5
+      }
+    },
+    "ס-113.png": {
+      "signCode": "ס-113",
+      "sourcePage": 89,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 11513,
+      "width": 175,
+      "height": 175,
+      "sha256": "4fbaf0b2cfafa078cbd320f0890ac49d8909e70528dc3b84726af1ee41a599a7",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 43.5,
+        "h": 43.5
+      }
+    },
+    "ס-114.png": {
+      "signCode": "ס-114",
+      "sourcePage": 89,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 11104,
+      "width": 168,
+      "height": 168,
+      "sha256": "32ddfea03ba5fd8eb22ee5b818e0a8363434bec4a7e477e70648477578e25172",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 42,
+        "h": 42
+      }
+    },
+    "ס-115.png": {
+      "signCode": "ס-115",
+      "sourcePage": 89,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 17479,
+      "width": 172,
+      "height": 180,
+      "sha256": "e0869fb9403c0cecc0df4f268e278689f03605d5c42273751983d388153b7a23",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 42.75,
+        "h": 45
+      }
+    },
+    "ס-116.png": {
+      "signCode": "ס-116",
+      "sourcePage": 89,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 12702,
+      "width": 175,
+      "height": 172,
+      "sha256": "4889ef822c1383ba043ff1ad85ee1bcbee6a6d3b0da17553521d569510dbe7bb",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 43.5,
+        "h": 42.75
+      }
+    },
+    "ס-117.png": {
+      "signCode": "ס-117",
+      "sourcePage": 89,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 13563,
+      "width": 175,
+      "height": 172,
+      "sha256": "18ed30843f15711b2c3b0f79c3fba666b01791512d974fb91bee23e12055d292",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 43.5,
+        "h": 42.75
+      }
+    },
+    "ס-118.png": {
+      "signCode": "ס-118",
+      "sourcePage": 89,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 18019,
+      "width": 175,
+      "height": 175,
+      "sha256": "91ad3e900720efda209066cc17f7fd35aa6f8fe0c1950a2795d57ff3ba65fd2a",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 43.5,
+        "h": 43.5
+      }
+    },
+    "ס-119.png": {
+      "signCode": "ס-119",
+      "sourcePage": 89,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 13875,
+      "width": 180,
+      "height": 187,
+      "sha256": "aa570d50f15e96ab8845fca74f7acefddd646bd53e51e92502c9b7dd012a2c17",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 45,
+        "h": 46.5
+      }
+    },
+    "ס-120.png": {
+      "signCode": "ס-120",
+      "sourcePage": 90,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 9519,
+      "width": 171,
+      "height": 171,
+      "sha256": "d58cff4398022b80f9fc98be4087705cb6550ce40cca2451d14e0c59ef65d393",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 42.75,
+        "h": 42.75
+      }
+    },
+    "ס-121.png": {
+      "signCode": "ס-121",
+      "sourcePage": 90,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 12530,
+      "width": 178,
+      "height": 175,
+      "sha256": "836f3cf787695ceab84e0e387e8e431edb1fed5c1e984c4a6a749fec0a22f449",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 44.32,
+        "h": 43.55
+      }
+    },
+    "ס-130.png": {
+      "signCode": "ס-130",
+      "sourcePage": 91,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 10213,
+      "width": 187,
+      "height": 187,
+      "sha256": "578992c2f72b4adc0b918576a3d6e99966147f2485ce69342a52b901092fb84e",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 46.5,
+        "h": 46.5
+      }
+    },
+    "ס-131.png": {
+      "signCode": "ס-131",
+      "sourcePage": 91,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 14167,
+      "width": 180,
+      "height": 180,
+      "sha256": "42387e1ffde6710990241333cfffa06230247231e11d4d91bca4bbc4d6507a28",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 45,
+        "h": 45
+      }
+    },
+    "ס-132.png": {
+      "signCode": "ס-132",
+      "sourcePage": 91,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 6980,
+      "width": 180,
+      "height": 183,
+      "sha256": "0171e754aff6226e3cc44ebf1a17193a729a545ca2c8f76e8b4913bbd33e8c0f",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 45,
+        "h": 45.75
+      }
+    },
+    "ס-140.png": {
+      "signCode": "ס-140",
+      "sourcePage": 92,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 22137,
+      "width": 225,
+      "height": 179,
+      "sha256": "3c4ecf6c879f10624359a6fdf555a66023f84ce95e4eaecafd1f9032e2f38b8d",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 56,
+        "h": 44.5
+      }
+    },
+    "ס-141.png": {
+      "signCode": "ס-141",
+      "sourcePage": 92,
+      "sourcePart": 10,
+      "category": "נספח – סמלים",
+      "bytes": 17230,
+      "width": 227,
+      "height": 180,
+      "sha256": "b6fb3fe68304d4c134f6743f622536900908ce7456e9bc15b7a8ebd2741e414a",
+      "contentType": "image/png",
+      "placementPt": {
+        "w": 56.5,
+        "h": 45
+      }
+    }
+  },
+  "failures": [
+    {
+      "signCode": "ס-1",
+      "page": 78,
+      "reason": "no image placed in this row of the shape column"
+    },
+    {
+      "signCode": "ס-2",
+      "page": 78,
+      "reason": "no image placed in this row of the shape column"
+    },
+    {
+      "signCode": "ס-3",
+      "page": 78,
+      "reason": "no image placed in this row of the shape column"
+    },
+    {
+      "signCode": "ס-18",
+      "page": 79,
+      "reason": "no image placed in this row of the shape column"
+    },
+    {
+      "signCode": "ס-19",
+      "page": 79,
+      "reason": "no image placed in this row of the shape column"
+    },
+    {
+      "signCode": "ס-76",
+      "page": 85,
+      "reason": "no image placed in this row of the shape column"
+    },
+    {
+      "signCode": "ס-77",
+      "page": 85,
+      "reason": "no image placed in this row of the shape column"
+    },
+    {
+      "signCode": "ס-78",
+      "page": 85,
+      "reason": "no image placed in this row of the shape column"
+    },
+    {
+      "signCode": "ס-79",
+      "page": 85,
+      "reason": "no image placed in this row of the shape column"
+    },
+    {
+      "signCode": "ס-94",
+      "page": 87,
+      "reason": "no image placed in this row of the shape column"
+    },
+    {
+      "signCode": "ס-95",
+      "page": 87,
+      "reason": "no image placed in this row of the shape column"
+    },
+    {
+      "signCode": "ס-96",
+      "page": 87,
+      "reason": "no image placed in this row of the shape column"
+    },
+    {
+      "signCode": "ס-97",
+      "page": 87,
+      "reason": "no image placed in this row of the shape column"
+    },
+    {
+      "signCode": "ס-98",
+      "page": 87,
+      "reason": "no image placed in this row of the shape column"
+    },
+    {
+      "signCode": "ס-99",
+      "page": 87,
+      "reason": "no image placed in this row of the shape column"
+    },
+    {
+      "signCode": "ס-122",
+      "page": 90,
+      "reason": "no image placed in this row of the shape column"
+    },
+    {
+      "signCode": "ס-123",
+      "page": 90,
+      "reason": "no image placed in this row of the shape column"
+    },
+    {
+      "signCode": "ס-124",
+      "page": 90,
+      "reason": "no image placed in this row of the shape column"
+    },
+    {
+      "signCode": "ס-125",
+      "page": 90,
+      "reason": "no image placed in this row of the shape column"
+    },
+    {
+      "signCode": "ס-126",
+      "page": 90,
+      "reason": "no image placed in this row of the shape column"
+    },
+    {
+      "signCode": "ס-127",
+      "page": 90,
+      "reason": "no image placed in this row of the shape column"
+    },
+    {
+      "signCode": "ס-128",
+      "page": 90,
+      "reason": "no image placed in this row of the shape column"
+    },
+    {
+      "signCode": "ס-129",
+      "page": 90,
+      "reason": "no image placed in this row of the shape column"
+    },
+    {
+      "signCode": "ס-133",
+      "page": 91,
+      "reason": "no image placed in this row of the shape column"
+    },
+    {
+      "signCode": "ס-134",
+      "page": 91,
+      "reason": "no image placed in this row of the shape column"
+    },
+    {
+      "signCode": "ס-135",
+      "page": 91,
+      "reason": "no image placed in this row of the shape column"
+    },
+    {
+      "signCode": "ס-136",
+      "page": 91,
+      "reason": "no image placed in this row of the shape column"
+    },
+    {
+      "signCode": "ס-137",
+      "page": 91,
+      "reason": "no image placed in this row of the shape column"
+    },
+    {
+      "signCode": "ס-138",
+      "page": 91,
+      "reason": "no image placed in this row of the shape column"
+    },
+    {
+      "signCode": "ס-139",
+      "page": 91,
+      "reason": "no image placed in this row of the shape column"
+    },
+    {
+      "signCode": "ס-142",
+      "page": 92,
+      "reason": "no image placed in this row of the shape column"
+    },
+    {
+      "signCode": "ס-143",
+      "page": 92,
+      "reason": "no image placed in this row of the shape column"
+    },
+    {
+      "signCode": "ס-144",
+      "page": 92,
+      "reason": "no image placed in this row of the shape column"
+    },
+    {
+      "signCode": "ס-145",
+      "page": 92,
+      "reason": "no image placed in this row of the shape column"
+    },
+    {
+      "signCode": "ס-146",
+      "page": 92,
+      "reason": "no image placed in this row of the shape column"
+    },
+    {
+      "signCode": "ס-147",
+      "page": 92,
+      "reason": "no image placed in this row of the shape column"
+    },
+    {
+      "signCode": "ס-148",
+      "page": 92,
+      "reason": "no image placed in this row of the shape column"
+    },
+    {
+      "signCode": "ס-149",
+      "page": 92,
+      "reason": "no image placed in this row of the shape column"
+    }
+  ],
+  "notes": [
+    {
+      "signCode": "128",
+      "page": 10,
+      "note": "2 images in cell — merged into one crop"
+    },
+    {
+      "signCode": "129",
+      "page": 10,
+      "note": "2 images in cell — merged into one crop"
+    },
+    {
+      "signCode": "230",
+      "page": 22,
+      "note": "2 images in cell — merged into one crop"
+    },
+    {
+      "signCode": "231",
+      "page": 23,
+      "note": "2 images in cell — merged into one crop"
+    },
+    {
+      "signCode": "414",
+      "page": 30,
+      "note": "2 images in cell — merged into one crop"
+    },
+    {
+      "signCode": "503",
+      "page": 38,
+      "note": "2 images in cell — merged into one crop"
+    },
+    {
+      "signCode": "601",
+      "page": 44,
+      "note": "2 images in cell — merged into one crop"
+    },
+    {
+      "signCode": "602",
+      "page": 44,
+      "note": "2 images in cell — merged into one crop"
+    },
+    {
+      "signCode": "604",
+      "page": 45,
+      "note": "2 images in cell — merged into one crop"
+    },
+    {
+      "signCode": "605",
+      "page": 45,
+      "note": "2 images in cell — merged into one crop"
+    },
+    {
+      "signCode": "606",
+      "page": 45,
+      "note": "2 images in cell — merged into one crop"
+    },
+    {
+      "signCode": "607",
+      "page": 46,
+      "note": "2 images in cell — merged into one crop"
+    },
+    {
+      "signCode": "609",
+      "page": 46,
+      "note": "2 images in cell — merged into one crop"
+    },
+    {
+      "signCode": "610",
+      "page": 47,
+      "note": "2 images in cell — merged into one crop"
+    },
+    {
+      "signCode": "611",
+      "page": 47,
+      "note": "4 images in cell — merged into one crop"
+    },
+    {
+      "signCode": "612",
+      "page": 48,
+      "note": "4 images in cell — merged into one crop"
+    },
+    {
+      "signCode": "613",
+      "page": 48,
+      "note": "2 images in cell — merged into one crop"
+    },
+    {
+      "signCode": "615",
+      "page": 49,
+      "note": "2 images in cell — merged into one crop"
+    },
+    {
+      "signCode": "616",
+      "page": 49,
+      "note": "2 images in cell — merged into one crop"
+    },
+    {
+      "signCode": "617",
+      "page": 50,
+      "note": "3 images in cell — merged into one crop"
+    },
+    {
+      "signCode": "629",
+      "page": 53,
+      "note": "3 images in cell — merged into one crop"
+    },
+    {
+      "signCode": "706",
+      "page": 58,
+      "note": "2 images in cell — merged into one crop"
+    },
+    {
+      "signCode": "717",
+      "page": 61,
+      "note": "2 images in cell — merged into one crop"
+    },
+    {
+      "signCode": "722",
+      "page": 62,
+      "note": "2 images in cell — merged into one crop"
+    },
+    {
+      "signCode": "725",
+      "page": 63,
+      "note": "2 images in cell — merged into one crop"
+    },
+    {
+      "signCode": "725פ",
+      "page": 63,
+      "note": "2 images in cell — merged into one crop"
+    },
+    {
+      "signCode": "726",
+      "page": 63,
+      "note": "2 images in cell — merged into one crop"
+    },
+    {
+      "signCode": "726פ",
+      "page": 63,
+      "note": "2 images in cell — merged into one crop"
+    },
+    {
+      "signCode": "812",
+      "page": 67,
+      "note": "2 images in cell — merged into one crop"
+    },
+    {
+      "signCode": "813",
+      "page": 67,
+      "note": "4 images in cell — merged into one crop"
+    },
+    {
+      "signCode": "819",
+      "page": 68,
+      "note": "2 images in cell — merged into one crop"
+    },
+    {
+      "signCode": "926",
+      "page": 74,
+      "note": "4 images in cell — merged into one crop"
+    },
+    {
+      "signCode": "933",
+      "page": 76,
+      "note": "2 images in cell — merged into one crop"
+    },
+    {
+      "signCode": "934",
+      "page": 76,
+      "note": "2 images in cell — merged into one crop"
+    }
+  ]
+}
