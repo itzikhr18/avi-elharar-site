@@ -102,3 +102,152 @@
 .teoria-disclaimer{font-size:.9rem;line-height:1.6;margin:0 0 .6rem;color:var(--white)}
 .teoria-source{font-size:.82rem;line-height:1.6;margin:0 0 .8rem;color:var(--silver)}
 .teoria-source a{color:var(--gold)}
+
+/* ===================================================================
+   מצב לימוד + הקראה קולית
+   שמות המחלקות נבדקו מול style.css — אפס התנגשויות (study, topic-card,
+   speech-bar, speech-toggle). זה חשוב: שלוש פעמים בפרויקט הזה כלל נדרס
+   בגלל שוויון סגוליות וסדר מקורות.
+   =================================================================== */
+
+.study{margin-block-start:2rem}
+.study__h{font-size:clamp(1.3rem,1.1rem+.8vw,1.7rem);margin:0 0 1.1rem}
+
+/* ---- בחירת נושא ---- */
+.topic-grid{list-style:none;margin:0 0 1.4rem;padding:0;
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:.85rem}
+.topic-card{width:100%;min-height:118px;display:flex;flex-direction:column;
+  align-items:flex-start;justify-content:center;gap:.3rem;
+  padding:1.15rem 1.2rem;cursor:pointer;text-align:start;
+  font-family:inherit;font-size:1rem;color:var(--white);
+  border:1px solid var(--line);border-radius:16px;
+  background:linear-gradient(150deg,#ffffff10,#ffffff03 55%),rgba(13,11,7,.72);
+  transition:transform .18s var(--ease-ds),border-color .18s,box-shadow .18s}
+.topic-card:hover,.topic-card:focus-visible{transform:translateY(-3px);
+  border-color:var(--gold);box-shadow:0 10px 30px -12px rgba(212,175,55,.45)}
+.topic-card__icon{font-size:1.5rem;line-height:1;color:var(--spark)}
+.topic-card__name{font-family:var(--font-head);font-weight:800;font-size:1.08rem;
+  line-height:1.2;letter-spacing:-.02em}
+.topic-card__count{font-family:var(--font-mono);font-size:.82rem;color:var(--silver)}
+.topic-card--wide{grid-column:1/-1;min-height:92px;flex-direction:row;
+  align-items:center;gap:.75rem}
+.topic-card--wide .topic-card__count{margin-inline-start:auto}
+
+.study__mistakes{margin-block-start:.4rem}
+
+/* ---- מסך השאלה ---- */
+.study__bar{display:flex;align-items:center;gap:.9rem;flex-wrap:wrap;
+  margin-block-end:1rem}
+.study__topic{margin:0;font-family:var(--font-mono);font-size:.85rem;
+  color:var(--spark);letter-spacing:.04em}
+.study__dots{list-style:none;margin:0;padding:0;display:flex;gap:.32rem;
+  margin-inline-start:auto}
+.study__dot{width:9px;height:9px;border-radius:50%;
+  background:rgba(255,255,255,.16)}
+.study__dot[data-state="now"]{background:var(--spark);
+  box-shadow:0 0 0 3px rgba(244,208,63,.2)}
+.study__dot[data-state="ok"]{background:#6cc79a}
+.study__dot[data-state="no"]{background:#e0a24a}
+
+.study__q{font-size:clamp(1.05rem,1rem+.5vw,1.25rem);font-weight:500;
+  line-height:1.55;margin:0 0 1.1rem}
+
+.study__answers{list-style:none;margin:0;padding:0;display:grid;gap:.6rem}
+.study__answer{width:100%;min-height:58px;padding:.9rem 1.05rem;
+  text-align:start;cursor:pointer;font-family:inherit;font-size:1rem;
+  line-height:1.5;color:var(--white);
+  border:1px solid var(--line);border-radius:13px;
+  background:rgba(255,255,255,.035);
+  transition:border-color .16s,background .16s,transform .16s}
+.study__answer:hover:not(:disabled),.study__answer:focus-visible:not(:disabled){
+  border-color:var(--gold);background:rgba(255,255,255,.07);transform:translateX(-3px)}
+.study__answer:disabled{cursor:default;opacity:.62}
+.study__answer[data-state="correct"]{opacity:1;border-color:#6cc79a;
+  background:rgba(108,199,154,.14);font-weight:700}
+.study__answer[data-state="wrong"]{opacity:1;border-color:#e0705a;
+  background:rgba(224,112,90,.13)}
+
+/* ---- משוב ---- */
+.study__feedback{margin-block-start:1.1rem;padding:1rem 1.1rem;
+  border-radius:14px;border:1px solid var(--line);
+  background:rgba(255,255,255,.035);
+  animation:studyIn .28s var(--ease-ds) both}
+.study__feedback[data-state="ok"]{border-color:rgba(108,199,154,.45)}
+.study__feedback[data-state="no"]{border-color:rgba(224,162,74,.45)}
+@keyframes studyIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+.study__verdict{margin:0 0 .5rem;font-weight:700;font-size:1.02rem}
+.study__feedback[data-state="ok"] .study__verdict{color:#6cc79a}
+.study__feedback[data-state="no"] .study__verdict{color:#e0a24a}
+.study__why,.study__note,.study__correct{margin:.45rem 0 0;font-size:.97rem;
+  line-height:1.62;color:var(--silver)}
+.study__why b,.study__note b,.study__correct b{color:var(--white)}
+
+.study__foot{display:flex;gap:.7rem;flex-wrap:wrap;margin-block-start:1.3rem}
+.study__foot .btn{flex:1 1 auto;min-width:140px}
+.study__quit{flex:0 1 auto!important;min-width:118px!important}
+
+/* ---- סיום ---- */
+.study__sum{margin:0 0 1.2rem;color:var(--silver);font-size:1.02rem}
+.study__review{margin:0 0 1.5rem;padding-inline-start:1.2rem;display:grid;gap:.85rem}
+.study__review li{padding:.85rem .95rem;border:1px solid var(--line);
+  border-radius:13px;background:rgba(255,255,255,.03)}
+.study__review-q{margin:0 0 .35rem;font-weight:500;line-height:1.5}
+.study__review-a{margin:0;color:var(--silver);font-size:.95rem;line-height:1.55}
+.study__review-a b{color:var(--white)}
+.study__acts{display:flex;gap:.7rem;flex-wrap:wrap}
+.study__acts .btn{flex:1 1 auto;min-width:150px}
+.study__err{color:#e0a24a}
+
+/* ---- הקראה קולית ----
+   אף אחד מתשעת אתרי התרגול שנבדקו אינו מציע הקראה. המבחן הרשמי כן
+   מתקיים בשמע. */
+.speech-bar{margin-block-start:2rem;padding:1rem 1.1rem;border-radius:14px;
+  border:1px dashed var(--line);background:rgba(255,255,255,.025)}
+.speech-toggle{display:inline-flex;align-items:center;gap:.55rem;
+  min-height:48px;padding:.6rem 1.1rem;cursor:pointer;
+  font-family:inherit;font-size:1rem;font-weight:700;color:var(--white);
+  border:1px solid var(--line);border-radius:999px;
+  background:rgba(255,255,255,.04);transition:border-color .16s,background .16s}
+.speech-toggle:hover,.speech-toggle:focus-visible{border-color:var(--gold)}
+.speech-toggle.is-on{border-color:#6cc79a;background:rgba(108,199,154,.14)}
+.speech-toggle.is-on .speech-toggle__icon{animation:speechPulse 1.9s ease-in-out infinite}
+@keyframes speechPulse{0%,100%{opacity:1}50%{opacity:.45}}
+.speech-toggle__icon{font-size:1.15rem;line-height:1}
+.speech-bar__note{margin:.65rem 0 0;font-size:.88rem;color:var(--silver);line-height:1.55}
+.speech-bar__none{margin-block-start:1.6rem;font-size:.9rem;color:var(--silver);
+  line-height:1.6}
+
+@media (max-width:480px){
+  .topic-grid{grid-template-columns:1fr}
+  .study__foot .btn,.study__acts .btn{flex:1 1 100%}
+}
+@media (prefers-reduced-motion:reduce){
+  .topic-card,.study__answer,.study__feedback,.speech-toggle.is-on .speech-toggle__icon{
+    animation:none!important;transition:none!important;transform:none!important}
+}
+
+/* ---- כרטיסי מצב ב-hub ---- */
+.mode-grid{list-style:none;margin:1.6rem 0 1.4rem;padding:0;
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(255px,1fr));gap:1rem}
+.mode-card{display:flex;flex-direction:column;gap:.55rem;height:100%;
+  padding:1.5rem 1.4rem;text-decoration:none;color:var(--white);
+  border:1px solid var(--line);border-radius:18px;
+  background:linear-gradient(150deg,#ffffff10,#ffffff03 55%),rgba(13,11,7,.72);
+  transition:transform .2s var(--ease-ds),border-color .2s,box-shadow .2s}
+.mode-card:hover,.mode-card:focus-visible{transform:translateY(-4px);
+  border-color:var(--gold);box-shadow:0 16px 40px -16px rgba(212,175,55,.5)}
+.mode-card--study{border-color:rgba(212,175,55,.42)}
+.mode-card__tag{align-self:flex-start;font-family:var(--font-mono);font-size:.72rem;
+  letter-spacing:.08em;color:var(--spark);padding:.28rem .6rem;border-radius:999px;
+  background:rgba(244,208,63,.11);border:1px solid rgba(244,208,63,.28)}
+.mode-card__title{font-family:var(--font-head);font-weight:900;letter-spacing:-.03em;
+  font-size:clamp(1.35rem,1.2rem+.7vw,1.7rem);line-height:1.1}
+.mode-card__body{color:var(--silver);line-height:1.6;font-size:.97rem;flex:1}
+.mode-card__body b{color:var(--white)}
+.mode-card__go{font-weight:700;color:var(--gold-lit);margin-block-start:.3rem}
+.teoria-note{margin:1.4rem 0 1.8rem;padding:.95rem 1.1rem;border-radius:13px;
+  border:1px solid var(--line);background:rgba(255,255,255,.03);
+  font-size:.95rem;line-height:1.62;color:var(--silver)}
+.teoria-note b{color:var(--white)}
+@media (max-width:480px){.mode-grid{grid-template-columns:1fr}}
+@media (prefers-reduced-motion:reduce){.mode-card{transition:none!important;transform:none!important}}

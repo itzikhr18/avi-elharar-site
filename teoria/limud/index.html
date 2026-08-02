@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>מצב לימוד — תרגול תיאוריה בלי טיימר | אבי אלחרר</title>
+  <meta name="description" content="מצב לימוד לתיאוריה: נושא אחד, בלי טיימר, בלי ציון, עם הסבר אחרי כל שאלה. אפשר גם להאזין לשאלות." />
+  <meta name="theme-color" content="#0a0a0a" />
+  <meta name="robots" content="noindex, nofollow" />
+  <link rel="canonical" href="https://avielharar.co.il/teoria/limud/" />
+  <link rel="alternate" hreflang="he-IL" href="https://avielharar.co.il/teoria/limud/" />
+  <link rel="alternate" hreflang="x-default" href="https://avielharar.co.il/teoria/limud/" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800&family=Rubik:wght@700;800;900&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../../style.min.css?v=20260802n" />
+  <link rel="stylesheet" href="../teoria.css?v=4" />
+</head>
+<body>
+  <a class="skip-link" href="#main-content">דלג לתוכן הראשי</a>
+
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a href="../../" class="brand" aria-label="עמוד הבית של אבי אלחרר">
+        <img src="../../logo.svg" alt="אבי אלחרר - מורה נהיגה" class="brand-logo" height="52" width="52" />
+      </a>
+      <nav aria-label="ניווט ראשי">
+        <ul class="menu"><li><a href="../">חזרה לתיאוריה</a></li></ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <p class="teoria-draft" role="status">סקשן בבנייה — לא מקושר מהאתר ולא באינדוקס.</p>
+
+    <section class="section section--ghost grid-bed glow-bed container">
+      <span class="ghost" aria-hidden="true">לימוד</span>
+      <p class="marker"><span class="num">01</span> מצב לימוד</p>
+      <h1>ללמוד, <span class="tint">לא להיבחן</span></h1>
+      <p class="section-intro">בלי טיימר, בלי ציון, בלי ליפול. בוחרים נושא, עונים בקצב שלכם, ומקבלים הסבר אחרי כל שאלה. אפשר גם פשוט להאזין.</p>
+
+      <div class="study" id="study" data-src="../data/questions-b.json" data-count="10">
+
+        <!-- מסך 1: בחירת נושא -->
+        <div class="study__screen" id="studyPick">
+          <h2 class="study__h">במה נתמקד?</h2>
+          <ul class="topic-grid" id="topicGrid">
+            <li><button type="button" class="topic-card" data-topic="חוקי התנועה">
+              <span class="topic-card__icon" aria-hidden="true">§</span>
+              <span class="topic-card__name">חוקי התנועה</span>
+              <span class="topic-card__count" id="cnt-law">—</span>
+            </button></li>
+            <li><button type="button" class="topic-card" data-topic="בטיחות">
+              <span class="topic-card__icon" aria-hidden="true">◈</span>
+              <span class="topic-card__name">בטיחות בדרכים</span>
+              <span class="topic-card__count" id="cnt-safe">—</span>
+            </button></li>
+            <li><button type="button" class="topic-card" data-topic="הכרת הרכב">
+              <span class="topic-card__icon" aria-hidden="true">⚙</span>
+              <span class="topic-card__name">הכרת הרכב</span>
+              <span class="topic-card__count" id="cnt-car">—</span>
+            </button></li>
+            <li><button type="button" class="topic-card" data-topic="תמרורים">
+              <span class="topic-card__icon" aria-hidden="true">△</span>
+              <span class="topic-card__name">תמרורים</span>
+              <span class="topic-card__count" id="cnt-sign">—</span>
+            </button></li>
+            <li><button type="button" class="topic-card topic-card--wide" data-topic="">
+              <span class="topic-card__icon" aria-hidden="true">✦</span>
+              <span class="topic-card__name">מעורב — מכל הנושאים</span>
+              <span class="topic-card__count" id="cnt-all">—</span>
+            </button></li>
+          </ul>
+
+          <div class="study__mistakes" id="studyMistakes" hidden>
+            <button type="button" class="btn btn-secondary" id="studyMissedBtn">
+              חזרה על השאלות שטעיתי בהן <span id="studyMissedCount"></span>
+            </button>
+          </div>
+        </div>
+
+        <!-- מסך 2: שאלה -->
+        <div class="study__screen" id="studyRun" hidden>
+          <div class="study__bar">
+            <p class="study__topic" id="studyTopic"></p>
+            <ol class="study__dots" id="studyDots" aria-label="התקדמות"></ol>
+          </div>
+          <div class="study__stage" id="studyStage" aria-live="polite"></div>
+          <div class="study__foot">
+            <button type="button" class="btn btn-secondary study__quit" id="studyQuit">נושא אחר</button>
+            <button type="button" class="btn btn-primary" id="studyNext" disabled>הבא</button>
+          </div>
+        </div>
+
+        <!-- מסך 3: סיום -->
+        <div class="study__screen" id="studyDone" hidden></div>
+      </div>
+
+      <!-- פקד ההקראה -->
+      <div class="speech-bar" id="speechBar" hidden>
+        <button type="button" class="speech-toggle" id="speechToggle" aria-pressed="false">
+          <span class="speech-toggle__icon" aria-hidden="true">🔊</span>
+          <span class="speech-toggle__label">הקראה קולית</span>
+        </button>
+        <p class="speech-bar__note">השאלה והתשובות יוקראו בקול. אפשר לכבות בכל רגע.</p>
+      </div>
+      <p class="speech-bar__none" id="speechNone" hidden>הדפדפן הזה לא מציע קול עברי, ולכן ההקראה אינה זמינה כאן. באנדרואיד ובאייפון היא בדרך כלל עובדת.</p>
+
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p class="teoria-disclaimer"><strong>כלי תרגול פרטי.</strong> אתר זה אינו אתר רשמי, אינו מטעם משרד התחבורה ואינו נהנה מחסות או מגושפנקה של המדינה. תוצאות התרגול כאן אינן קובעות דבר לגבי המבחן הרשמי.</p>
+      <p class="teoria-source">מקור הנתונים: משרד התחבורה והבטיחות בדרכים — "מאגר השאלות והתשובות הרשמי למבחן נהיגה עיוני ממוחשב", מתוך אתר מאגרי המידע הממשלתיים <a href="https://data.gov.il/he/datasets/ministry_of_transport/tqhe" target="_blank" rel="noopener">data.gov.il</a>, ברישיון Creative Commons Attribution. נוסח השאלות מוצג מילה במילה, ללא עריכה.</p>
+      <p>© כל הזכויות שמורות לאבי אלחרר</p>
+    </div>
+  </footer>
+
+  <script src="../speech.js?v=1" defer></script>
+  <script src="../limud.js?v=1" defer></script>
+</body>
+</html>

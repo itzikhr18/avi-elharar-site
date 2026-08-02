@@ -16,7 +16,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800&family=Rubik:wght@700;800;900&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
   <!-- מערכת העיצוב המשותפת נטענת כמות שהיא ואינה משתנה -->
   <link rel="stylesheet" href="../style.min.css?v=20260802n" />
-  <link rel="stylesheet" href="teoria.css?v=3" />
+  <link rel="stylesheet" href="teoria.css?v=4" />
 </head>
 <body>
   <a class="skip-link" href="#main-content">דלג לתוכן הראשי</a>
@@ -43,16 +43,29 @@
       <span class="ghost" aria-hidden="true">תיאוריה</span>
       <p class="marker"><span class="num">01</span> תיאוריה</p>
       <h1>התיאוריה<span class="tint">מהזווית של הבוחן</span></h1>
-      <p class="section-intro">שלד ראשוני. התוכן האמיתי נכנס אחרי אימות רישיון המאגר ואחרי שאבי יכתוב את הערות הבוחן.</p>
+      <p class="section-intro">1,273 שאלות מהמאגר הרשמי של משרד התחבורה. שתי דרכים לעבוד איתן — ללמוד בנחת, או להיבחן בתנאי אמת.</p>
 
-      <div class="teoria-actions">
-        <a class="btn btn-primary" href="simulator/">התחילו סימולציה</a>
-      </div>
+      <ul class="mode-grid">
+        <li><a class="mode-card mode-card--study" href="limud/">
+          <span class="mode-card__tag">מומלץ להתחיל כאן</span>
+          <span class="mode-card__title">מצב לימוד</span>
+          <span class="mode-card__body">נושא אחד, 10 שאלות, <b>בלי טיימר ובלי ציון</b>. הסבר אחרי כל שאלה, ואפשר גם פשוט להאזין.</span>
+          <span class="mode-card__go">התחילו ללמוד ←</span>
+        </a></li>
+        <li><a class="mode-card" href="simulator/">
+          <span class="mode-card__tag">לקראת המבחן</span>
+          <span class="mode-card__title">סימולציית מבחן</span>
+          <span class="mode-card__body">30 שאלות, 40 דקות, 26 לעבור — בדיוק כמו המבחן הרשמי. בסוף: חזרה על כל הטעויות.</span>
+          <span class="mode-card__go">התחילו סימולציה ←</span>
+        </a></li>
+      </ul>
+
+      <p class="teoria-note"><b>למה יש כאן הקראה קולית?</b> המבחן הרשמי מתקיים גם בשמע, למי שמתקשה בקריאה. בדקנו תשעה אתרי תרגול ישראליים — <b>אף אחד מהם לא מציע להתאמן בפורמט הזה.</b></p>
 
       <ul class="teoria-todo">
-        <li><b>שער רישיון</b> — תנאי השימוש במאגר לא אומתו מהסביבה הזו (403). דורש בדיקה ידנית.</li>
-        <li><b>הערות בוחן</b> — הבידול היחיד מול שבעה אתרי תרגול קיימים. חסר.</li>
-        <li><b>ספרייט תמרורים</b> — SVG עצמאי, כדי לא להסתמך על קובצי תמונה שרישיונם לא ברור.</li>
+        <li><b>שאלות עם תמונה</b> — 553 מתוך 1,273 דורשות תמונה שרישיונה ממתין לאישור בכתב ממשרד התחבורה. כרגע מוצגות 720 השאלות שאינן דורשות תמונה.</li>
+        <li><b>הערות בוחן</b> — ההסבר לטעות שבחרתם, מאבי. בכתיבה.</li>
+        <li><b>ספריית תמרורים</b> — 400 תמרורים עם הקוד הרשמי. ממתינה לאותו אישור.</li>
       </ul>
     </section>
   </main>

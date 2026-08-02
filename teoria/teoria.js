@@ -84,6 +84,34 @@
     timerEl.setAttribute('aria-label', paused ? 'המשך את הטיימר' : 'עצור את הטיימר');
   });
 
+  /* ---- הקראה קולית. ראה speech.js — אף אתר תרגול ישראלי לא מציע זאת,
+     והמבחן הרשמי כן מתקיים בשמע. ---- */
+  var speakOn = false;
+  function narrate(q) {
+    if (speakOn && window.TeoriaSpeech) window.TeoriaSpeech.speak([q.text].concat(q.answers));
+  }
+  function setupSpeech() {
+    if (!window.TeoriaSpeech || !window.TeoriaSpeech.supported) return;
+    window.TeoriaSpeech.onReady(function (hasVoice) {
+      if (!hasVoice) return;
+      var bar = document.getElementById('speechBar');
+      var btn = document.getElementById('speechToggle');
+      if (!bar || !btn) return;
+      bar.hidden = false;
+      speakOn = window.TeoriaSpeech.isEnabled();
+      btn.setAttribute('aria-pressed', String(speakOn));
+      btn.classList.toggle('is-on', speakOn);
+      btn.addEventListener('click', function () {
+        speakOn = !speakOn;
+        window.TeoriaSpeech.setEnabled(speakOn);
+        btn.setAttribute('aria-pressed', String(speakOn));
+        btn.classList.toggle('is-on', speakOn);
+        if (speakOn && questions.length) narrate(questions[index]);
+        else window.TeoriaSpeech.cancel();
+      });
+    });
+  }
+
   function shuffle(list) {
     var out = list.slice();
     for (var i = out.length - 1; i > 0; i--) {
@@ -122,11 +150,13 @@
     });
 
     stage.appendChild(list);
+    narrate(q);
   }
 
   function choose(btn, list, q, picked) {
     if (answered) return;
     answered = true;
+    if (window.TeoriaSpeech) window.TeoriaSpeech.cancel();
 
     var buttons = list.querySelectorAll('.quiz__answer');
     for (var i = 0; i < buttons.length; i++) {
@@ -159,6 +189,7 @@
 
   function renderResult() {
     stopTimer();
+    if (window.TeoriaSpeech) window.TeoriaSpeech.cancel();
     progressEl.textContent = '';
     nextBtn.hidden = true;
 
@@ -262,6 +293,7 @@
       if (!questions.length) throw new Error('empty pool');
       paintTimer();
       startTimer();
+      setupSpeech();
       renderQuestion();
     })
     .catch(function (err) {

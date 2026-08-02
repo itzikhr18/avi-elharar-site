@@ -14,7 +14,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800&family=Rubik:wght@700;800;900&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="../../style.min.css?v=20260802n" />
-  <link rel="stylesheet" href="../teoria.css?v=3" />
+  <link rel="stylesheet" href="../teoria.css?v=4" />
 </head>
 <body>
   <a class="skip-link" href="#main-content">דלג לתוכן הראשי</a>
@@ -50,6 +50,15 @@
         </div>
       </div>
     </section>
+    <div class="container">
+      <div class="speech-bar" id="speechBar" hidden>
+        <button type="button" class="speech-toggle" id="speechToggle" aria-pressed="false">
+          <span class="speech-toggle__icon" aria-hidden="true">🔊</span>
+          <span class="speech-toggle__label">הקראה קולית</span>
+        </button>
+        <p class="speech-bar__note">השאלה והתשובות יוקראו בקול. אפשר לכבות בכל רגע.</p>
+      </div>
+    </div>
   </main>
 
   <footer class="site-footer">
@@ -60,6 +69,7 @@
     </div>
   </footer>
 
-  <script src="../teoria.js?v=2" defer></script>
+  <script src="../speech.js?v=1" defer></script>
+  <script src="../teoria.js?v=3" defer></script>
 </body>
 </html>
