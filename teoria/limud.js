@@ -318,7 +318,48 @@
     nextBtn.focus();
   }
 
-  function renderDone() {
+  /* ---- כיול: ניבוי לפני חשיפה ----
+     de Craen & Twisk (2011): כששואלים נהג צעיר "כמה אתה טוב" הוא עונה
+     בצניעות. הערכת היתר מתגלה **רק** כשמשווים הצהרה לביצוע נמדד.
+     לכן אנחנו לא שואלים "אתה מוכן?" — אנחנו מודדים את הפער.
+     ראה docs/pedagogy.md §2.3 ו-§א.4. */
+  function renderPredict() {
+    if (window.TeoriaSpeech) window.TeoriaSpeech.cancel();
+    doneEl.innerHTML = '';
+    var h = document.createElement('h2');
+    h.className = 'study__h';
+    h.textContent = 'רגע לפני התוצאה';
+    doneEl.appendChild(h);
+
+    var q = document.createElement('p');
+    q.className = 'study__sum';
+    q.textContent = 'כמה מתוך ' + round.length + ' לדעתכם עניתם נכון?';
+    doneEl.appendChild(q);
+
+    var row = document.createElement('div');
+    row.className = 'predict-row';
+    for (var i = 0; i <= round.length; i++) {
+      (function (n) {
+        var b = document.createElement('button');
+        b.type = 'button';
+        b.className = 'predict-btn';
+        b.textContent = n;
+        b.addEventListener('click', function () { renderDone(n); });
+        row.appendChild(b);
+      }(i));
+    }
+    doneEl.appendChild(row);
+
+    var skip = document.createElement('button');
+    skip.type = 'button';
+    skip.className = 'btn btn-secondary';
+    skip.textContent = 'דלגו — פשוט הראו לי';
+    skip.addEventListener('click', function () { renderDone(null); });
+    doneEl.appendChild(skip);
+    show(doneEl);
+  }
+
+  function renderDone(predicted) {
     if (window.TeoriaSpeech) window.TeoriaSpeech.cancel();
     var okCount = got.filter(Boolean).length;
     var missed = [];
@@ -335,8 +376,44 @@
     sum.className = 'study__sum';
     sum.textContent = missed.length
       ? okCount + ' נכונות · ' + missed.length + ' שווה לחזור עליהן'
-      : 'כל התשובות נכונות. הנושא הזה יושב.';
+      : 'כל התשובות נכונות.';
     doneEl.appendChild(sum);
+
+    /* הפער בין מה שחשבת למה שקיבלת — זה מה שמראה כיול, לא הציון. */
+    if (predicted !== null && predicted !== undefined) {
+      var gap = document.createElement('p');
+      gap.className = 'study__gap';
+      var d = okCount - predicted;
+      gap.setAttribute('data-state', d < -1 ? 'over' : (d > 1 ? 'under' : 'ok'));
+      if (d <= -2) {
+        gap.textContent = 'חשבתם ' + predicted + ', קיבלתם ' + okCount +
+          '. הערכתם את עצמכם למעלה ב-' + (-d) + '. זה הפער שחשוב לשים לב אליו — ' +
+          'לא הציון עצמו.';
+      } else if (d >= 2) {
+        gap.textContent = 'חשבתם ' + predicted + ', קיבלתם ' + okCount +
+          '. אתם יודעים יותר משנדמה לכם.';
+      } else {
+        gap.textContent = 'חשבתם ' + predicted + ', קיבלתם ' + okCount +
+          '. ההערכה העצמית שלכם מדויקת — וזה סימן טוב בפני עצמו.';
+      }
+      doneEl.appendChild(gap);
+    }
+
+    /* ⚠️ במקום "אתה מוכן" — מה שעדיין לא נבדק.
+       נורבגיה 1979: קורס שהעלה ביטחון בלי מיומנות → +17% תאונות.
+       ראה docs/pedagogy.md §א.4. */
+    var inTopic = currentTopic
+      ? all.filter(function (x) { return x.topic === currentTopic; }).length
+      : all.length;
+    if (inTopic > round.length) {
+      var cov = document.createElement('p');
+      cov.className = 'study__coverage';
+      cov.textContent = 'נבדקתם על ' + round.length + ' שאלות מתוך ' + inTopic +
+        ' ב' + (currentTopic || 'מאגר') + ' — ' +
+        Math.round(round.length / inTopic * 100) + '%. ' +
+        'רוב החומר עדיין לא נבדק.';
+      doneEl.appendChild(cov);
+    }
 
     if (missed.length) {
       var ol = document.createElement('ol');
@@ -431,7 +508,7 @@
   nextBtn.addEventListener('click', function () {
     if (!answered) return;
     index++;
-    if (index >= round.length) renderDone();
+    if (index >= round.length) renderPredict();
     else renderQuestion();
   });
   quitBtn.addEventListener('click', toPicker);

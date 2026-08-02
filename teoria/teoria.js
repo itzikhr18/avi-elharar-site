@@ -217,10 +217,26 @@
     verdict.className = 'quiz__verdict';
     verdict.setAttribute('data-state', passed ? 'pass' : 'fail');
     verdict.textContent = passed
-      ? 'עברתם. במבחן האמיתי נדרשות ' + required + ' תשובות נכונות מתוך ' + questions.length + '.'
+      ? 'עברתם את הסבב הזה. במבחן האמיתי נדרשות ' + required + ' מתוך ' + questions.length + '.'
       : 'לא עברתם. נדרשות ' + required + ' תשובות נכונות מתוך ' + questions.length +
         ' — חסרו לכם ' + (required - correctCount) + '.';
     wrap.appendChild(verdict);
+
+    /* ⚠️ אסור שמסך תוצאה של מבחן תרגול ייקרא כ"אתה מוכן".
+       נורבגיה 1979: קורס חובה שהעלה ביטחון בלי מיומנות → +17% תאונות
+       אצל מתחילים, +23% בכביש חלק. פינלנד (n=41,000) לא מצאה עלייה
+       בתאונות — אבל כן ביטחון גבוה יותר ופחות הימנעות מתנאים מסוכנים.
+       הראיות אינן חד-משמעיות, אבל כולן באותו כיוון.
+       ראה docs/pedagogy.md §א.4 ו-§2.2. */
+    if (passed && ctx) {
+      var caveat = document.createElement('p');
+      caveat.className = 'quiz__caveat';
+      caveat.textContent = 'זהו סבב אחד של ' + questions.length + ' שאלות מתוך ' +
+        ctx.all.length + ' במאגר — כ-' +
+        Math.round(questions.length / ctx.all.length * 100) + '%. ' +
+        'הוא לא אומר שאתם מוכנים למבחן.';
+      wrap.appendChild(caveat);
+    }
 
     var meta = document.createElement('p');
     meta.className = 'quiz__meta';

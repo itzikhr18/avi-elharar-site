@@ -278,3 +278,21 @@
 .study__pool{margin:0 0 1.1rem;font-size:.88rem;line-height:1.6;color:var(--silver)}
 .q-figure--sm{margin:.5rem 0;padding:.45rem;max-width:190px}
 .q-figure--sm img{border-radius:4px}
+
+/* ---- כיול ----
+   במקום "אתה מוכן" (המנגנון שהזיק בנורבגיה 1979) — הפער בין ההערכה
+   העצמית לביצוע, ומה שעדיין לא נבדק. ראה docs/pedagogy.md §א.4. */
+.predict-row{display:flex;flex-wrap:wrap;gap:.45rem;margin:0 0 1.2rem}
+.predict-btn{min-width:52px;min-height:52px;padding:.5rem;cursor:pointer;
+  font-family:var(--font-mono);font-size:1.05rem;font-weight:500;color:var(--white);
+  border:1px solid var(--line);border-radius:12px;background:rgba(255,255,255,.04);
+  transition:border-color .15s,background .15s}
+.predict-btn:hover,.predict-btn:focus-visible{border-color:var(--gold);
+  background:rgba(212,175,55,.14)}
+.study__gap{margin:0 0 1rem;padding:.85rem 1rem;border-radius:12px;
+  font-size:.98rem;line-height:1.6;border:1px solid var(--line);
+  background:rgba(255,255,255,.03)}
+.study__gap[data-state="over"]{border-color:rgba(224,162,74,.5);color:#e0a24a}
+.study__gap[data-state="ok"]{border-color:rgba(108,199,154,.45);color:#6cc79a}
+.study__coverage,.quiz__caveat{margin:0 0 1.3rem;font-size:.9rem;line-height:1.6;
+  color:var(--silver)}
