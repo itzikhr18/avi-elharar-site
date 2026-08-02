@@ -604,6 +604,8 @@ html.is-scrolling .float-orb,html.is-scrolling .wa-float.visible{opacity:.45}
   background:none;border:0;box-shadow:none;backdrop-filter:none;-webkit-backdrop-filter:none}
 .price-row{
   --row-rgb:212 175 55;
+  /* visible, so the aura and the floating icon can leave the panel */
+  overflow:visible;
   transform-style:preserve-3d;border-bottom:0;margin-bottom:0;border-radius:16px;
   padding:1.05rem 1.25rem;border:1px solid rgb(var(--row-rgb)/.22);
   background:
@@ -620,7 +622,18 @@ html.is-scrolling .float-orb,html.is-scrolling .wa-float.visible{opacity:.45}
 .price-row::before{content:'';position:absolute;inset-inline:14%;top:0;height:1px;width:auto;
   background:linear-gradient(to left,transparent,rgb(var(--row-rgb)/.75),transparent);
   opacity:.55;transform:none;border-radius:0;transition:opacity .3s var(--ease-smooth)}
-.price-row::after{background:radial-gradient(120% 150% at 22% 0%,rgb(var(--row-rgb)/.16),transparent 68%)}
+/* ::after is the aura, and it lives OUTSIDE the panel: negative inset plus a
+   blur, so the swell reads as light coming off the object rather than a fill
+   inside it. Each row is offset by a negative delay keyed to --row-i, so the
+   six breathe out of step instead of pulsing as one block. */
+.price-row::after{inset:-16px;border-radius:30px;filter:blur(12px);opacity:1;
+  background:radial-gradient(58% 130% at 50% 50%,rgb(var(--row-rgb)/.32),transparent 72%);
+  animation:rowAura 7s var(--ease-smooth) infinite;
+  animation-delay:calc(var(--row-i,0) * -1.15s)}
+@keyframes rowAura{
+  0%,100%{opacity:.14;transform:scale(.96)}
+  50%{opacity:.5;transform:scale(1.03)}
+}
 .price-row:hover,html[dir="rtl"] .price-row:hover{
   background:
     linear-gradient(150deg,#ffffff1c,#ffffff00 46%),
@@ -642,8 +655,14 @@ html.is-scrolling .float-orb,html.is-scrolling .wa-float.visible{opacity:.45}
   border:1px solid rgb(var(--row-rgb)/.4);
   box-shadow:inset 0 1px 1px #ffffff66,inset 0 -5px 10px rgb(var(--row-rgb)/.3),
              0 8px 18px -8px rgb(var(--row-rgb)/.55);
-  transition:transform .4s var(--ease-ds),box-shadow .35s var(--ease-smooth)}
-.price-row:hover .price-row__icon{color:rgb(var(--row-rgb));background:
+  transition:transform .4s var(--ease-ds),box-shadow .35s var(--ease-smooth);
+  animation:rowIconFloat 5.4s var(--ease-smooth) infinite;
+  animation-delay:calc(var(--row-i,0) * -.82s)}
+@keyframes rowIconFloat{
+  0%,100%{transform:translate3d(0,0,0) rotate(0)}
+  50%{transform:translate3d(0,-5px,0) rotate(-3deg)}
+}
+.price-row:hover .price-row__icon{animation:none;color:rgb(var(--row-rgb));background:
     linear-gradient(160deg,#ffffff3d,#ffffff00 55%),
     linear-gradient(160deg,rgb(var(--row-rgb)/.48),rgb(var(--row-rgb)/.12)),
     rgba(9,8,5,.5);
@@ -658,6 +677,8 @@ html.is-scrolling .float-orb,html.is-scrolling .wa-float.visible{opacity:.45}
   border-color:rgb(var(--row-rgb)/.38)}
 @media(prefers-reduced-motion:reduce){
   .price-table{perspective:none}
+  .price-row::after,.price-row__icon{animation:none}
+  .price-row::after{opacity:.16;transform:none}
   .price-row:hover,html[dir="rtl"] .price-row:hover{transform:none}
   .price-row:hover .price-row__icon{transform:none}
 }
@@ -714,8 +735,8 @@ h3{font-size:clamp(1.2rem,1.05rem + .6vw,1.5rem);line-height:1.1;font-weight:900
    scale — the readable heading alone can't do it. */
 .ghost{position:absolute;inset-block-start:var(--ghost-top);inset-inline:0;z-index:0;
   font-family:var(--font-head);font-weight:900;font-size:var(--ghost-size);letter-spacing:-.07em;
-  line-height:.9;text-align:center;white-space:nowrap;opacity:.2;
-  background-image:linear-gradient(#8c8272,#241f19);-webkit-background-clip:text;background-clip:text;
+  line-height:.9;text-align:center;white-space:nowrap;opacity:.5;
+  background-image:linear-gradient(#f0e4c2,#6b5f4c);-webkit-background-clip:text;background-clip:text;
   color:transparent;pointer-events:none;user-select:none}
 
 /* Sections carrying a ghost reserve the full glyph height above their content
@@ -773,7 +794,7 @@ h3{font-size:clamp(1.2rem,1.05rem + .6vw,1.5rem);line-height:1.1;font-weight:900
 /* ---------- Responsive tuning for the system ---------- */
 @media(max-width:780px){
   :root{--ghost-size:24vw;--ghost-top:1.5rem}
-  .ghost{opacity:.16}
+  .ghost{opacity:.42}
   .patch{padding-inline:.2em;transform:rotate(-1deg)}
 }
 
