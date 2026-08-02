@@ -66,3 +66,22 @@
 /* Pool notice: says out loud how much of the bank is currently reachable,
    instead of quietly serving a subset. */
 .quiz__pool{margin:0;color:var(--muted);font-size:var(--fs-xs);line-height:var(--lh-body)}
+
+/* --- Sign library --------------------------------------------------
+   The artwork is drawn, not photographed: the ministry's own image files
+   sit on gov.il under terms that forbid copying, while the shapes are
+   defined in the traffic regulations, which copyright law excludes. */
+.sign-grid{list-style:none;padding:0;margin:2rem 0 0;display:grid;gap:1rem;
+  grid-template-columns:repeat(auto-fill,minmax(240px,1fr))}
+.sign-card{display:flex;align-items:center;gap:1rem;padding:1rem 1.1rem;border-radius:16px;
+  background:var(--glass);border:1px solid var(--line);box-shadow:var(--glass-edge);
+  backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);
+  transition:border-color .3s var(--ease-smooth),transform .3s var(--ease-ds)}
+.sign-card:hover{border-color:var(--line-lit);transform:translateY(-3px)}
+.sign-card__art{flex:none;width:64px;height:64px;filter:drop-shadow(0 6px 14px #00000073)}
+.sign-card__body{min-width:0}
+.sign-card__code{margin:0 0 .2rem;font-family:var(--font-mono);font-size:var(--fs-sm);
+  font-weight:500;color:var(--spark);font-variant-numeric:tabular-nums}
+.sign-card__name{margin:0;color:var(--silver);font-size:var(--fs-sm);line-height:1.5}
+.sign-note{margin:2.5rem 0 0;color:var(--muted);font-size:var(--fs-xs);line-height:var(--lh-body);max-width:70ch}
+@media(prefers-reduced-motion:reduce){.sign-card{transition:none}.sign-card:hover{transform:none}}

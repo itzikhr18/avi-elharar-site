@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+<!--
+  ספריית תמרורים — מצוירת מאפס.
+
+  למה מצוירת ולא מצולמת: קובצי התמונה של משרד התחבורה מאוחסנים ב-www.gov.il
+  ונופלים תחת תנאי השימוש שלו, שאוסרים העתקה ללא הסכמה מראש ובכתב. הצורות
+  עצמן מוגדרות בתקנות התעבורה, שסעיף 6 לחוק זכות יוצרים מחריג מזכות יוצרים.
+  ציור עצמאי עוקף את השאלה לגמרי, וגם נותן חדות בכל רזולוציה ומשקל זעום.
+
+  כל תמרור הוא <symbol> עם viewBox אחיד 100x100. שימוש:
+      <svg class="sign"><use href="signs.svg#sign-302"/></svg>
+-->
+<defs>
+  <!-- אדום/כחול/צהוב תקניים של תמרורי ישראל, מדגם הלוח הרשמי -->
+  <style>
+    .r{fill:#d0021b}.w{fill:#fff}.k{fill:#111}.b{fill:#0b4ea2}.y{fill:#f5c400}
+    .no{fill:none}.sk{stroke:#111;stroke-width:5;fill:none;stroke-linecap:round}
+  </style>
+</defs>
+
+<!-- 301 — תן זכות קדימה: משולש הפוך, מסגרת אדומה -->
+<symbol id="sign-301" viewBox="0 0 100 100">
+  <path class="w" d="M50 92 4 10h92z"/>
+  <path class="r" d="M50 92 4 10h92zm0-11L23 20h54z" fill-rule="evenodd"/>
+</symbol>
+
+<!-- 302 — עצור: מתומן אדום עם הכיתוב עצור -->
+<symbol id="sign-302" viewBox="0 0 100 100">
+  <path class="r" d="M32 5h36l27 27v36L68 95H32L5 68V32z"/>
+  <path class="w" d="M34 11h32l24 24v30L66 89H34L10 65V35z" opacity=".18"/>
+  <text x="50" y="62" text-anchor="middle" font-family="Heebo,Arial,sans-serif"
+        font-size="30" font-weight="800" fill="#fff">עצור</text>
+</symbol>
+
+<!-- 303 — מעגל תנועה: כחול, שלושה חצים במעגל -->
+<symbol id="sign-303" viewBox="0 0 100 100">
+  <circle class="b" cx="50" cy="50" r="46"/>
+  <g fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round">
+    <path d="M64 33a22 22 0 0 1 6 20"/><path d="M60 68a22 22 0 0 1-21-4"/>
+    <path d="M31 45a22 22 0 0 1 14-14"/>
+  </g>
+  <g fill="#fff">
+    <path d="M72 56 63 51l10-5z"/><path d="M35 71l1-11 9 7z"/><path d="M50 24l8 8-11 3z"/>
+  </g>
+</symbol>
+
+<!-- 304 — עצור נייד: מתומן אדום על מוט -->
+<symbol id="sign-304" viewBox="0 0 100 100">
+  <rect x="46" y="62" width="8" height="34" fill="#555"/>
+  <path class="r" d="M30 4h26l19 19v26L56 68H30L11 49V23z"/>
+  <text x="43" y="47" text-anchor="middle" font-family="Heebo,Arial,sans-serif"
+        font-size="21" font-weight="800" fill="#fff">עצור</text>
+</symbol>
+
+<!-- 305 — התקדם בזהירות נייד: עיגול ירוק על מוט -->
+<symbol id="sign-305" viewBox="0 0 100 100">
+  <rect x="46" y="62" width="8" height="34" fill="#555"/>
+  <circle cx="43" cy="36" r="32" fill="#0a7d34"/>
+  <text x="43" y="44" text-anchor="middle" font-family="Heebo,Arial,sans-serif"
+        font-size="17" font-weight="800" fill="#fff">סע</text>
+</symbol>
+
+<!-- 306 — תן זכות קדימה להולכי רגל: משולש הפוך + הולך רגל על מעבר חצייה -->
+<symbol id="sign-306" viewBox="0 0 100 100">
+  <path class="w" d="M50 92 4 10h92z"/>
+  <path class="r" d="M50 92 4 10h92zm0-11L23 20h54z" fill-rule="evenodd"/>
+  <g class="k">
+    <circle cx="50" cy="33" r="5"/>
+    <path d="M46 40h8l5 15h-5l-1 18h-6l-1-18h-5z"/>
+    <rect x="34" y="70" width="32" height="3"/><rect x="34" y="76" width="32" height="3"/>
+  </g>
+</symbol>
+
+<!-- 307 — תן זכות קדימה בדרך צרה: עיגול לבן, חץ אדום קצר וחץ שחור ארוך -->
+<symbol id="sign-307" viewBox="0 0 100 100">
+  <circle class="w" cx="50" cy="50" r="46"/>
+  <circle class="no" cx="50" cy="50" r="43" stroke="#d0021b" stroke-width="7"/>
+  <path class="r" d="M38 74V38l-8 0 12-16 12 16h-8v36z"/>
+  <path class="k" d="M62 26v36h8L58 78 46 62h8V26z" opacity=".9"/>
+</symbol>
+
+<!-- 308 — לך זכות קדימה בדרך צרה: מלבן כחול, חץ לבן ארוך וחץ אדום קצר -->
+<symbol id="sign-308" viewBox="0 0 100 100">
+  <rect class="b" x="12" y="6" width="76" height="88" rx="4"/>
+  <path class="w" d="M38 78V32h-9l13-18 13 18h-9v46z"/>
+  <path class="r" d="M64 30v34h8L60 78 48 64h8V30z"/>
+</symbol>
+
+<!-- 309 — לך זכות קדימה בדרך: מעוין צהוב על רקע לבן -->
+<symbol id="sign-309" viewBox="0 0 100 100">
+  <path class="w" d="M50 2 98 50 50 98 2 50z"/>
+  <path class="y" d="M50 16 84 50 50 84 16 50z"/>
+</symbol>
+
+<!-- 310 — קצה דרך שיש בה זכות קדימה: אותו מעוין, מבוטל בקו -->
+<symbol id="sign-310" viewBox="0 0 100 100">
+  <path class="w" d="M50 2 98 50 50 98 2 50z"/>
+  <path class="y" d="M50 16 84 50 50 84 16 50z"/>
+  <path d="M18 82 82 18" stroke="#111" stroke-width="7" stroke-linecap="round"/>
+</symbol>
+</svg>
