@@ -27,6 +27,7 @@
   var nextBtn = document.getElementById('studyNext');
   var quitBtn = document.getElementById('studyQuit');
 
+  var ctx = null;              /* TeoriaPool: שאלות, הגדרות, ממדים, מתג התמונות */
   var all = [], round = [], index = 0, answered = false;
   var got = [];               /* true/false לכל שאלה בסבב */
   var perTopic = {};
@@ -74,8 +75,8 @@
 
     var grid = document.createElement('div');
     grid.className = 'twin__grid';
-    [[q.text, q.answers[q.correct], 'זו שענית עליה'],
-     [rec.twin.text, rec.twin.answer, 'התאומה שלה']].forEach(function (row) {
+    [[q.text, q.answers[q.correct], 'זו שענית עליה', q],
+     [rec.twin.text, rec.twin.answer, 'התאומה שלה', null]].forEach(function (row) {
       var cell = document.createElement('div');
       cell.className = 'twin__cell';
       var tag = document.createElement('span');
@@ -86,6 +87,10 @@
       t.className = 'twin__q';
       t.textContent = row[0];
       cell.appendChild(t);
+      if (row[3]) {
+        var tf = window.TeoriaPool && window.TeoriaPool.imageEl(row[3], ctx);
+        if (tf) { tf.className = 'q-figure q-figure--sm'; cell.appendChild(tf); }
+      }
       var a = document.createElement('p');
       a.className = 'twin__a';
       a.textContent = row[1];
@@ -155,6 +160,49 @@
     });
   }
 
+  /* ---- "רק שאלות בלי תמונה" ----
+     לא מגבלה אלא בחירה: מי שמשתמש בהקראה או בקורא מסך לא יכול לענות על
+     שאלה שכל תוכנה בתמונה. המתג מוצג רק כשהתמונות בכלל פעילות. */
+  function setupTextOnly() {
+    var note = document.getElementById('studyPool');
+    var bar  = document.getElementById('textOnlyBar');
+    var btn  = document.getElementById('textOnlyToggle');
+    var on   = window.TeoriaPool.isTextOnly();
+
+    function paint() {
+      if (note) note.textContent = window.TeoriaPool.poolNotice(ctx, all.length, on);
+      if (btn) {
+        btn.setAttribute('aria-pressed', String(on));
+        btn.classList.toggle('is-on', on);
+      }
+    }
+    if (bar) bar.hidden = !ctx.imagesOn;      /* אין תמונות — אין מה לסנן */
+    if (btn) {
+      btn.addEventListener('click', function () {
+        on = !on;
+        window.TeoriaPool.setTextOnly(on);
+        all = window.TeoriaPool.pool(ctx, on);
+        countTopics();
+        paint();
+      });
+    }
+    paint();
+  }
+
+  function countTopics() {
+    perTopic = {};
+    all.forEach(function (q) { perTopic[q.topic] = (perTopic[q.topic] || 0) + 1; });
+    var map = {
+      'cnt-law':  perTopic['חוקי התנועה'], 'cnt-safe': perTopic['בטיחות'],
+      'cnt-car':  perTopic['הכרת הרכב'],   'cnt-sign': perTopic['תמרורים'],
+      'cnt-all':  all.length
+    };
+    Object.keys(map).forEach(function (id) {
+      var el = document.getElementById(id);
+      if (el) el.textContent = (map[id] || 0) + ' שאלות';
+    });
+  }
+
   /* ---------- מסכים ---------- */
   function show(el) {
     [pickEl, runEl, doneEl].forEach(function (s) { s.hidden = (s !== el); });
@@ -183,6 +231,10 @@
     title.className = 'study__q';
     title.textContent = q.text;
     stage.appendChild(title);
+
+    /* התמונה מוצגת רק כשהמתג פתוח. ראה pool.js. */
+    var fig = window.TeoriaPool && window.TeoriaPool.imageEl(q, ctx);
+    if (fig) stage.appendChild(fig);
 
     var list = document.createElement('ul');
     list.className = 'study__answers';
@@ -295,6 +347,10 @@
         qt.className = 'study__review-q';
         qt.textContent = q.text;
         li.appendChild(qt);
+        /* בלי התמונה, "מה פירוש התמרור?" ברשימת הטעויות חסר משמעות —
+           התלמיד לא יודע על איזה תמרור בדיוק טעה. */
+        var rfig = window.TeoriaPool && window.TeoriaPool.imageEl(q, ctx);
+        if (rfig) { rfig.className = 'q-figure q-figure--sm'; li.appendChild(rfig); }
         var at = document.createElement('p');
         at.className = 'study__review-a';
         var b = document.createElement('b');
@@ -381,25 +437,13 @@
   quitBtn.addEventListener('click', toPicker);
 
   /* ---------- טעינה ---------- */
-  fetch(root.dataset.src)
-    .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
-    .then(function (data) {
-      /* אותה מגבלה כמו בסימולטור: שאלות שדורשות תמונה שאיננו רשאים
-         להגיש עדיין אינן נכללות. ראה docs/licence.md. */
-      all = (data.questions || []).filter(function (q) { return !q.imageRef; });
+  window.TeoriaPool.load(root.dataset.src)
+    .then(function (c) {
+      ctx = c;
+      all = window.TeoriaPool.pool(ctx, window.TeoriaPool.isTextOnly());
+      setupTextOnly();
 
-      all.forEach(function (q) { perTopic[q.topic] = (perTopic[q.topic] || 0) + 1; });
-      var map = {
-        'cnt-law':  perTopic['חוקי התנועה'],
-        'cnt-safe': perTopic['בטיחות'],
-        'cnt-car':  perTopic['הכרת הרכב'],
-        'cnt-sign': perTopic['תמרורים'],
-        'cnt-all':  all.length
-      };
-      Object.keys(map).forEach(function (id) {
-        var el = document.getElementById(id);
-        if (el) el.textContent = (map[id] || 0) + ' שאלות';
-      });
+      countTopics();
 
       var cards = document.querySelectorAll('.topic-card');
       for (var i = 0; i < cards.length; i++) {

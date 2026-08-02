@@ -267,3 +267,14 @@
   font-size:.68rem;letter-spacing:.06em;color:var(--spark)}
 .twin__q{margin:0 0 .35rem;font-size:.92rem;line-height:1.5;font-weight:500}
 .twin__a{margin:0;font-size:.9rem;line-height:1.5;color:var(--silver)}
+
+/* ---- תמונת השאלה ----
+   width/height מפורשים מגיעים מ-data/image-dims.json (נמדדו מהקבצים
+   בפועל) כדי שלא תהיה קפיצת פריסה בזמן הטעינה. */
+.q-figure{margin:0 0 1.1rem;padding:.8rem;border-radius:14px;
+  border:1px solid var(--line);background:#fff;text-align:center}
+.q-figure img{max-width:100%;height:auto;display:inline-block;border-radius:6px}
+.text-only{margin:0 0 1rem}
+.study__pool{margin:0 0 1.1rem;font-size:.88rem;line-height:1.6;color:var(--silver)}
+.q-figure--sm{margin:.5rem 0;padding:.45rem;max-width:190px}
+.q-figure--sm img{border-radius:4px}

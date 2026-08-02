@@ -1,0 +1,14 @@
+{
+ "_": "מתג אחד. false = 720 שאלות ללא תמונה. true = כל 1,273. אל תערכו ידנית — הריצו scripts/teoria_enable_images.py",
+ "imagesEnabled": false,
+ "imagesPath": "../data/images/",
+ "approval": {
+  "status": "pending",
+  "requestedOn": "2026-08-02",
+  "to": "Egov-Lishka@cio.gov.il",
+  "cc": "tdata@mot.gov.il",
+  "grantedOn": null,
+  "grantedBy": null,
+  "reference": null
+ }
+}

@@ -21,6 +21,7 @@
   var nextBtn = document.getElementById('quizNext');
 
   var questions = [];
+  var ctx = null;             /* TeoriaPool — ראה pool.js */
 
   /* ---- data hazards, all verified against the published bank ----------
      1. The licence-grade marker for private car is «В» — CYRILLIC CAPITAL VE
@@ -134,6 +135,10 @@
     title.textContent = q.text;
     stage.appendChild(title);
 
+    /* מוצג רק כשמתג התמונות פתוח. ראה pool.js ו-data/config.json. */
+    var fig = window.TeoriaPool && window.TeoriaPool.imageEl(q, ctx);
+    if (fig) stage.appendChild(fig);
+
     var list = document.createElement('ul');
     list.className = 'quiz__answers';
 
@@ -242,6 +247,9 @@
         qt.className = 'quiz__review-q';
         qt.textContent = missed[r].text;
         li.appendChild(qt);
+        /* בלי התמונה השורה חסרת משמעות בשאלות תמרור. */
+        var rf = window.TeoriaPool && window.TeoriaPool.imageEl(missed[r], ctx);
+        if (rf) { rf.className = 'q-figure q-figure--sm'; li.appendChild(rf); }
         var at = document.createElement('p');
         at.className = 'quiz__review-a';
         var lead = document.createElement('b');
@@ -271,23 +279,14 @@
     else renderQuestion();
   });
 
-  fetch(root.dataset.src)
-    .then(function (res) {
-      if (!res.ok) throw new Error('HTTP ' + res.status);
-      return res.json();
-    })
-    .then(function (data) {
+  window.TeoriaPool.load(root.dataset.src)
+    .then(function (c) {
+      ctx = c;
       var count = parseInt(root.dataset.count, 10) || 30;
-      var all = data.questions || [];
-
-      /* Only questions that are answerable without an image we may not serve. */
-      var pool = all.filter(function (q) { return !q.imageRef; });
+      var textOnly = window.TeoriaPool.isTextOnly();
+      var pool = window.TeoriaPool.pool(ctx, textOnly);
       var poolEl = document.getElementById('quizPool');
-      if (poolEl) {
-        poolEl.textContent = 'נשאלות ' + count + ' שאלות מתוך ' + pool.length +
-          ' זמינות כרגע (מתוך ' + all.length + ' במאגר). שאלות שדורשות תמונה ' +
-          'ייכנסו כשספריית התמרורים תהיה מוכנה.';
-      }
+      if (poolEl) poolEl.textContent = window.TeoriaPool.poolNotice(ctx, pool.length, textOnly);
 
       questions = shuffle(pool).slice(0, count);
       if (!questions.length) throw new Error('empty pool');
