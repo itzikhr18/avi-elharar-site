@@ -99,7 +99,14 @@
 *,*::before,*::after{box-sizing:border-box}
 html{scroll-behavior:smooth;-webkit-font-smoothing:antialiased;scroll-padding-top:5rem}
 
-body{margin:0;font-family:var(--font-body);font-size:18px;font-weight:400;background:var(--bg);color:var(--text);line-height:var(--lh-body);overflow-x:hidden;position:relative;font-optical-sizing:auto}
+/* overflow-x is CLIP, not HIDDEN. `hidden` on one axis computes the other to
+   `auto`, which turns <body> into a scroll container — and every
+   position:sticky inside then resolves against that container instead of the
+   viewport. Chrome hides the damage by propagating body overflow to the
+   viewport; mobile Safari does not, which is the classic "sticky works on
+   desktop, does nothing on iPhone" bug. `clip` never creates a scroll
+   container, so sticky is safe. */
+body{margin:0;font-family:var(--font-body);font-size:18px;font-weight:400;background:var(--bg);color:var(--text);line-height:var(--lh-body);overflow-x:clip;position:relative;font-optical-sizing:auto}
 @media(max-width:720px){body{font-size:17px}}
 html{scrollbar-color:var(--primary) #0a0a0a;scrollbar-width:thin}
 ::-webkit-scrollbar{width:11px;height:11px}
