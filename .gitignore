@@ -13,8 +13,10 @@ Thumbs.db
 notes/
 TODO.local.md
 
-# Claude Code local config
-.claude/
+# Claude Code local config — but skills are shared, so cloud sessions that can
+# only see this repo still pick up the build standard.
+.claude/*
+!.claude/skills/
 
 # Design exploration & internal docs (not part of the live site)
 design-philosophy.md
