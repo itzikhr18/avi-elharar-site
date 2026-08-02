@@ -577,6 +577,45 @@ html.is-scrolling .float-orb,html.is-scrolling .wa-float.visible{opacity:.45}
 .guide-card h3{color:var(--text);margin:0 0 .75rem}
 .guide-card p{line-height:var(--lh-body);color:var(--muted);margin:0}
 
+/* --- Article teaser ------------------------------------------------
+   The link to the article used to be one muted sentence at the end of the FAQ
+   and readers scrolled straight past it. It is a card now, and the hook is a
+   single open loop: a specific, verifiable claim from the article that only
+   the article resolves. The oversized numeral reuses the .ghost language so
+   the block reads as part of the system rather than a banner. */
+.article-teaser{position:relative;display:block;isolation:isolate;overflow:hidden;
+  margin-top:2.6rem;padding:1.5rem 1.4rem 1.2rem;border-radius:var(--radius-lg);
+  text-decoration:none;color:inherit;
+  background:linear-gradient(150deg,#f4d03f1a,#c8791f0d 58%),rgba(255,255,255,.03);
+  border:1px solid #f4d03f47;box-shadow:var(--glass-edge),0 18px 40px -24px #000000e6;
+  transition:transform .35s var(--ease-ds),border-color .3s var(--ease-smooth),box-shadow .35s var(--ease-smooth)}
+.article-teaser:hover,.article-teaser:focus-visible{transform:translateY(-4px);
+  border-color:#f4d03f99;box-shadow:var(--glass-edge),0 26px 52px -22px #000,0 0 34px #f4d03f26}
+.article-teaser__flag{display:inline-flex;align-items:center;gap:.45rem;
+  font-size:var(--fs-xs);font-weight:700;letter-spacing:.04em;color:var(--amber-lit);
+  padding:.3rem .75rem;border-radius:999px;border:1px solid #c8791f66;background:#c8791f1f}
+.article-teaser__flag::before{content:"";width:6px;height:6px;border-radius:50%;
+  background:var(--amber-lit);box-shadow:0 0 8px var(--amber-lit)}
+.article-teaser h3{margin:.9rem 0 .5rem;font-size:clamp(1.15rem,1rem+.75vw,1.5rem);color:var(--white)}
+.article-teaser__hook{margin:0;color:var(--silver);line-height:var(--lh-body)}
+.article-teaser__hook b{color:var(--spark);font-weight:800}
+.article-teaser__foot{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;
+  gap:.4rem 1rem;margin-top:1.1rem;padding-top:.9rem;border-top:1px solid var(--line)}
+.article-teaser__go{display:inline-flex;align-items:center;gap:.55rem;font-weight:800;
+  color:#1a1410;padding:.6rem 1.2rem;border-radius:100px;
+  background:linear-gradient(110deg,#fffaf0 8%,var(--spark) 100%);
+  box-shadow:0 10px 26px #d4af3733,inset 0 1px 0 #ffffffb3;
+  transition:box-shadow .35s var(--ease-smooth)}
+.article-teaser:hover .article-teaser__go{box-shadow:0 16px 36px #d4af374d,inset 0 1px 0 #ffffffcc}
+.article-teaser__go .arrow{font-family:var(--font-mono);transition:transform .35s var(--ease-ds)}
+.article-teaser:hover .arrow{transform:translateX(-6px)}
+.article-teaser__by{font-size:var(--fs-xs);color:var(--muted)}
+@media(prefers-reduced-motion:reduce){
+  .article-teaser,.article-teaser .arrow{transition:none}
+  .article-teaser:hover{transform:none}
+  .article-teaser:hover .arrow{transform:none}
+}
+
 /* --- Area Detail Cards -------------------------------------------- */
 .areas-detail{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.5rem;margin-top:2rem}
 .area-detail-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:1.5rem;transition:border-color var(--dur-f) var(--ease-smooth)}
