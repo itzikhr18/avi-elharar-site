@@ -85,3 +85,20 @@
 .sign-card__name{margin:0;color:var(--silver);font-size:var(--fs-sm);line-height:1.5}
 .sign-note{margin:2.5rem 0 0;color:var(--muted);font-size:var(--fs-xs);line-height:var(--lh-body);max-width:70ch}
 @media(prefers-reduced-motion:reduce){.sign-card{transition:none}.sign-card:hover{transform:none}}
+
+/* ---- מסך התוצאה ---- */
+.quiz__verdict{font-weight:700;font-size:1.05rem;margin:.35rem 0 .2rem}
+.quiz__verdict[data-state="pass"]{color:#6cc79a}
+.quiz__verdict[data-state="fail"]{color:#e0a24a}
+.quiz__meta{color:var(--silver);font-size:.92rem;margin:0 0 1.4rem}
+.quiz__review-title{font-size:1.05rem;margin:1.6rem 0 .6rem}
+.quiz__review{margin:0 0 1.6rem;padding-inline-start:1.2rem;display:grid;gap:.9rem}
+.quiz__review li{padding:.8rem .9rem;border:1px solid var(--line);border-radius:12px;
+  background:rgba(255,255,255,.03)}
+.quiz__review-q{margin:0 0 .35rem;font-weight:500}
+.quiz__review-a{margin:0;color:var(--silver);font-size:.95rem}
+
+/* ---- ייחוס מקור והצהרת אי-רשמיות — דרישות הרישיון, לא קישוט ---- */
+.teoria-disclaimer{font-size:.9rem;line-height:1.6;margin:0 0 .6rem;color:var(--white)}
+.teoria-source{font-size:.82rem;line-height:1.6;margin:0 0 .8rem;color:var(--silver)}
+.teoria-source a{color:var(--gold)}

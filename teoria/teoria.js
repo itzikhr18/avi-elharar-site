@@ -39,12 +39,19 @@
         pool is restricted below and the restriction is stated on screen
         rather than hidden. */
   var GRADE_B = '\u0412';
+
+  /* 26 \u05de\u05ea\u05d5\u05da 30 \u2014 \u05e1\u05e3 \u05d4\u05de\u05e2\u05d1\u05e8 \u05d4\u05e8\u05e9\u05de\u05d9, \u05db\u05dc\u05d5\u05de\u05e8 \u05e2\u05d3 4 \u05d8\u05e2\u05d5\u05d9\u05d5\u05ea.
+     \u05de\u05e7\u05d5\u05e8: \u05de\u05e9\u05e8\u05d3 \u05d4\u05ea\u05d7\u05d1\u05d5\u05e8\u05d4. \u05e8\u05d0\u05d4 teoria/docs/exam-structure.md \u05e1\u05e2\u05d9\u05e3 2.
+     \u05e0\u05e9\u05de\u05e8 \u05db\u05d9\u05d7\u05e1 \u05d5\u05dc\u05d0 \u05db\u05de\u05e1\u05e4\u05e8, \u05db\u05d3\u05d9 \u05e9\u05de\u05d1\u05d7\u05df \u05de\u05e7\u05d5\u05e6\u05e8 \u05d9\u05e7\u05d1\u05dc \u05e1\u05e3 \u05e2\u05e7\u05d1\u05d9. */
+  var PASS_RATIO = 26 / 30;
+
   var index = 0;
   var correctCount = 0;
   var answered = false;
   var seconds = 0;
   var paused = false;
   var ticker = null;
+  var missedThisRun = [];
 
   /* ---- storage: which questions this visitor got wrong ---- */
   function readMissed() {
@@ -61,10 +68,11 @@
 
   /* ---- timer: pausable on purpose. A timer a user cannot stop is an
      accessibility failure (WCAG 2.2.1), and this one is not scored. ---- */
-  function paintTimer() {
-    var m = Math.floor(seconds / 60), s = seconds % 60;
-    timerEl.textContent = (m < 10 ? '0' : '') + m + ':' + (s < 10 ? '0' : '') + s;
+  function formatTime(total) {
+    var m = Math.floor(total / 60), s = total % 60;
+    return (m < 10 ? '0' : '') + m + ':' + (s < 10 ? '0' : '') + s;
   }
+  function paintTimer() { timerEl.textContent = formatTime(seconds); }
   function startTimer() {
     stopTimer();
     ticker = setInterval(function () { if (!paused) { seconds++; paintTimer(); } }, 1000);
@@ -131,6 +139,7 @@
       correctCount++;
     } else {
       btn.setAttribute('data-state', 'wrong');
+      if (missedThisRun.indexOf(q.id) === -1) missedThisRun.push(q.id);
       rememberMissed(q.id);
     }
 
@@ -162,10 +171,57 @@
     score.textContent = correctCount + '/' + questions.length;
     wrap.appendChild(score);
 
+    /* סף המעבר הרשמי: 26 מתוך 30, כלומר עד 4 טעויות.
+       מקור: משרד התחבורה, "המבחן העיוני" — ראה docs/exam-structure.md.
+       המבחן כאן עשוי להיות קצר מ-30, ולכן הסף מחושב באותו יחס ולא מקובע. */
+    var required = Math.ceil(questions.length * PASS_RATIO);
+    var passed = correctCount >= required;
+
     var verdict = document.createElement('p');
     verdict.className = 'quiz__verdict';
-    verdict.textContent = 'שלד — מסך התוצאה יקבל את הניסוח והמשך התהליך בשלב הבא.';
+    verdict.setAttribute('data-state', passed ? 'pass' : 'fail');
+    verdict.textContent = passed
+      ? 'עברתם. במבחן האמיתי נדרשות ' + required + ' תשובות נכונות מתוך ' + questions.length + '.'
+      : 'לא עברתם. נדרשות ' + required + ' תשובות נכונות מתוך ' + questions.length +
+        ' — חסרו לכם ' + (required - correctCount) + '.';
     wrap.appendChild(verdict);
+
+    var meta = document.createElement('p');
+    meta.className = 'quiz__meta';
+    meta.textContent = 'זמן: ' + formatTime(seconds) +
+      ' · במבחן הרשמי עומדות לרשותכם 40 דקות ל-30 שאלות.';
+    wrap.appendChild(meta);
+
+    /* חזרה על הטעויות — זה מה שבאמת מקדם, ולא הציון עצמו. */
+    var missed = [];
+    for (var m = 0; m < questions.length; m++) {
+      if (missedThisRun.indexOf(questions[m].id) !== -1) missed.push(questions[m]);
+    }
+    if (missed.length) {
+      var h = document.createElement('h3');
+      h.className = 'quiz__review-title';
+      h.textContent = 'הטעויות שלכם (' + missed.length + ')';
+      wrap.appendChild(h);
+
+      var list = document.createElement('ol');
+      list.className = 'quiz__review';
+      for (var r = 0; r < missed.length; r++) {
+        var li = document.createElement('li');
+        var qt = document.createElement('p');
+        qt.className = 'quiz__review-q';
+        qt.textContent = missed[r].text;
+        li.appendChild(qt);
+        var at = document.createElement('p');
+        at.className = 'quiz__review-a';
+        var lead = document.createElement('b');
+        lead.textContent = 'התשובה הנכונה: ';
+        at.appendChild(lead);
+        at.appendChild(document.createTextNode(missed[r].answers[missed[r].correct]));
+        li.appendChild(at);
+        list.appendChild(li);
+      }
+      wrap.appendChild(list);
+    }
 
     var again = document.createElement('button');
     again.type = 'button';
