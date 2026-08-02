@@ -267,7 +267,10 @@ html[dir="rtl"] .price-row:hover{transform:translateX(8px) scale(1.02)}
 
 .price-cta{display:flex;gap:1rem;justify-content:center;margin-top:2.5rem;flex-wrap:wrap}
 .section-soft .price-cta .btn-primary{box-shadow:0 8px 28px rgba(184,148,31,.25)}
-.section-soft .price-cta .btn-secondary{border-color:#c4b48a;color:var(--text-dark)}
+/* No colour override here. This rule (0,3,0) outranks both .btn-secondary and
+   the v3 .section-soft remap, so the old cream-era `color:var(--text-dark)`
+   was painting near-black text on the near-black button — invisible. */
+.section-soft .price-cta .btn-secondary{border-color:#c4b48a}
 .section-soft .price-cta .btn-secondary:hover{border-color:var(--primary-strong);box-shadow:0 0 20px rgba(184,148,31,.15)}
 
 /* --- Areas Section ------------------------------------------------ */
