@@ -54,7 +54,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800&family=Rubik:wght@700;800;900&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.min.css?v=20260802c" />
+  <link rel="preload" as="image" href="hero-3d-480.webp" type="image/webp" media="(max-width: 480px)" fetchpriority="high" />
+  <link rel="preload" as="image" href="hero-3d-720.webp" type="image/webp" media="(min-width: 481px)" fetchpriority="high" />
+  <link rel="stylesheet" href="style.min.css?v=20260802d" />
   <!-- Structured Data -->
   <script type="application/ld+json">
   {
@@ -375,65 +377,18 @@
           <div class="stage-inner">
             <span class="ring" aria-hidden="true"></span>
             <span class="ring ring-2" aria-hidden="true"></span>
+            <span class="speedlines" aria-hidden="true"></span>
             <div class="stage-art">
-              <svg viewBox="0 0 480 300" role="img" aria-labelledby="carTitle" xmlns="http://www.w3.org/2000/svg">
-                <title id="carTitle">רכב לימוד נהיגה אוטומטי עם שלט תרגול על הגג</title>
-                <defs>
-                  <linearGradient id="carBody" x1="0" y1="0" x2="0" y2="1">
-                    <stop offset="0" stop-color="#6b5c42" /><stop offset=".42" stop-color="#332b1f" /><stop offset="1" stop-color="#16130d" />
-                  </linearGradient>
-                  <linearGradient id="carGold" x1="0" y1="0" x2="1" y2="1">
-                    <stop offset="0" stop-color="#ffe680" /><stop offset=".55" stop-color="#f4d03f" /><stop offset="1" stop-color="#c8791f" />
-                  </linearGradient>
-                  <linearGradient id="carGlass" x1="0" y1="0" x2="0" y2="1">
-                    <stop offset="0" stop-color="#dcecf6" stop-opacity=".9" /><stop offset="1" stop-color="#38454f" stop-opacity=".5" />
-                  </linearGradient>
-                  <linearGradient id="carRim" x1="0" y1="0" x2="1" y2="1">
-                    <stop offset="0" stop-color="#f7e08f" /><stop offset="1" stop-color="#8a6a1a" />
-                  </linearGradient>
-                  <radialGradient id="carLamp"><stop offset="0" stop-color="#fffbe8" /><stop offset="1" stop-color="#f4d03f" stop-opacity="0" /></radialGradient>
-                </defs>
-
-                <ellipse cx="240" cy="266" rx="176" ry="16" fill="#000" opacity=".55" />
-
-                <!-- roof training sign -->
-                <g>
-                  <rect x="186" y="60" width="118" height="30" rx="9" fill="url(#carGold)" />
-                  <rect x="192" y="66" width="106" height="18" rx="5" fill="#100e0a" opacity=".82" />
-                  <text x="245" y="80" text-anchor="middle" font-family="Rubik, Heebo, sans-serif"
-                        font-size="14" font-weight="800" fill="#f4d03f">לימוד נהיגה</text>
-                  <rect x="212" y="90" width="7" height="14" fill="#2a2419" />
-                  <rect x="272" y="90" width="7" height="14" fill="#2a2419" />
-                </g>
-
-                <!-- body -->
-                <path d="M44 206c0-20 13-31 34-35l40-7 36-42c11-13 27-20 45-20h96c22 0 42 9 55 26l30 38 40 8c19 4 30 15 30 33v10c0 9-7 16-16 16H60c-9 0-16-7-16-16z"
-                      fill="url(#carBody)" stroke="#6b5c3d" stroke-width="1.5" />
-                <!-- gold beltline -->
-                <path d="M60 178h360" stroke="url(#carGold)" stroke-width="2.5" stroke-linecap="round" opacity=".75" />
-
-                <!-- glass -->
-                <path d="M170 146l30-34c7-8 17-12 28-12h34v46z" fill="url(#carGlass)" />
-                <path d="M274 146v-46h34c14 0 27 6 35 17l22 29z" fill="url(#carGlass)" />
-
-                <!-- headlight + glow -->
-                <circle cx="424" cy="188" r="34" fill="url(#carLamp)" opacity=".85" />
-                <path d="M404 182h24c8 0 14 5 14 12s-6 11-14 11h-24z" fill="url(#carGold)" />
-                <!-- tail light -->
-                <path d="M50 184h20v20H50c-5 0-8-4-8-9s3-11 8-11z" fill="#c8791f" opacity=".85" />
-
-                <!-- wheels -->
-                <g>
-                  <circle cx="146" cy="222" r="44" fill="#0c0a07" />
-                  <circle cx="146" cy="222" r="27" fill="none" stroke="url(#carRim)" stroke-width="7" />
-                  <circle cx="146" cy="222" r="8" fill="url(#carGold)" />
-                </g>
-                <g>
-                  <circle cx="348" cy="222" r="44" fill="#0c0a07" />
-                  <circle cx="348" cy="222" r="27" fill="none" stroke="url(#carRim)" stroke-width="7" />
-                  <circle cx="348" cy="222" r="8" fill="url(#carGold)" />
-                </g>
-              </svg>
+              <picture>
+                <source type="image/webp"
+                        srcset="hero-3d-480.webp 480w, hero-3d-720.webp 720w, hero-3d-960.webp 960w, hero-3d.webp 1260w"
+                        sizes="(max-width: 480px) 260px, (max-width: 920px) 320px, 480px" />
+                <img src="hero-3d-720.jpg"
+                     srcset="hero-3d-480.jpg 480w, hero-3d-720.jpg 720w, hero-3d-960.jpg 960w, hero-3d.jpg 1260w"
+                     sizes="(max-width: 480px) 260px, (max-width: 920px) 320px, 480px"
+                     alt="רכב לימוד נהיגה אוטומטי עם שלט למד על הגג, תמרורים וגרף התקדמות שיעורי נהיגה"
+                     width="1260" height="1147" fetchpriority="high" decoding="async" />
+              </picture>
             </div>
             <span class="orb orb-1" aria-hidden="true"></span>
             <span class="orb orb-2" aria-hidden="true"></span>

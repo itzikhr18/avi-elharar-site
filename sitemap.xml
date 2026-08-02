@@ -3,9 +3,13 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://avielharar.co.il/</loc>
-    <lastmod>2026-08-02T20:30:00+03:00</lastmod>
+    <lastmod>2026-08-02T22:00:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://avielharar.co.il/hero-3d.jpg</image:loc>
+      <image:title>רכב לימוד נהיגה אוטומטי — אבי אלחרר, ירושלים ומעלה אדומים</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://avielharar.co.il/hero.jpg</image:loc>
       <image:title>אבי אלחרר מורה נהיגה וטסטר לשעבר בירושלים ומעלה אדומים</image:title>
@@ -37,13 +41,13 @@
   </url>
   <url>
     <loc>https://avielharar.co.il/maamarim/</loc>
-    <lastmod>2026-08-02T20:30:00+03:00</lastmod>
+    <lastmod>2026-08-02T22:00:00+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://avielharar.co.il/maamarim/5-tauyot-test-yerushalayim/</loc>
-    <lastmod>2026-08-02T20:30:00+03:00</lastmod>
+    <lastmod>2026-08-02T22:00:00+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

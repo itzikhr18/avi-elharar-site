@@ -671,8 +671,30 @@ body.a11y-high-contrast .ghost{display:none!important}
 
 .stage-art{position:absolute;inset-block:14% 14%;inset-inline:5% 5%;z-index:2;
   display:grid;place-items:center;transform:translateZ(46px);animation:artFloat 6.8s ease-in-out infinite}
-.stage-art svg{width:100%;height:auto;
-  filter:drop-shadow(0 38px 40px #000000cc) drop-shadow(0 0 42px #d4af372e)}
+.stage-art img,.stage-art svg{width:100%;height:auto;
+  filter:drop-shadow(0 34px 38px #000000b3) drop-shadow(0 0 46px #d4af372e)}
+/* The supplied render carries its own near-black backdrop. A soft radial mask
+   melts the rectangle edges into the stage so it reads as a floating object
+   rather than a pasted card. -webkit- prefix included: without it the mask is
+   ignored on Safari < 15.4 and the raw rectangle shows. */
+.stage-art img{
+  -webkit-mask-image:radial-gradient(ellipse 76% 74% at 50% 48%,#000 56%,transparent 93%);
+  mask-image:radial-gradient(ellipse 76% 74% at 50% 48%,#000 56%,transparent 93%);
+  animation:artBob 1.7s ease-in-out infinite}
+/* Suspension bob, layered under the slower float on the parent — together they
+   read as a car in motion rather than an object hanging in space. */
+@keyframes artBob{0%,100%{transform:translateY(0) rotate(-.35deg)}50%{transform:translateY(-6px) rotate(.35deg)}}
+
+/* Motion streaks trailing the car. Deliberately PHYSICAL left/right, not
+   logical: the car's heading is baked into the raster and must not flip with
+   text direction. */
+.speedlines{position:absolute;z-index:1;pointer-events:none;
+  top:52%;bottom:28%;left:46%;right:-10%;
+  background:repeating-linear-gradient(90deg,#f4d03f00 0 30px,#f4d03f80 30px 34px,#f4d03f00 34px 92px);
+  -webkit-mask-image:linear-gradient(to right,transparent,#000 55%,transparent);
+  mask-image:linear-gradient(to right,transparent,#000 55%,transparent);
+  opacity:.42;animation:streak 1.05s linear infinite}
+@keyframes streak{to{background-position-x:-92px}}
 @keyframes artFloat{
   0%,100%{transform:translateZ(46px) rotate(1.2deg)}
   50%{transform:translate3d(0,-16px,84px) rotate(-1.2deg)}}
