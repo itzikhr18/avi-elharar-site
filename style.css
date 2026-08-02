@@ -354,6 +354,10 @@ input:focus-visible,.btn:focus-visible,a:focus-visible{outline:2px solid var(--p
 .site-footer{border-top:1px solid var(--border);padding:1.4rem 0;position:relative;z-index:2}
 .footer-wrap{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;color:var(--muted);font-size:var(--fs-xs)}
 .footer-links a{font-weight:700}
+/* flex items default to min-width:auto, so at 320px the copyright line and the
+   link row refused to shrink and pushed the page sideways. */
+.footer-wrap>*{min-width:0}
+.footer-links{flex-wrap:wrap;justify-content:center}
 .footer-links{display:flex;align-items:center;gap:.5rem}
 .footer-sep{opacity:.4}
 .footer-wrap a{transition:color var(--dur-f) var(--ease-smooth)}
@@ -587,7 +591,8 @@ h3{font-size:clamp(1.2rem,1.05rem + .6vw,1.5rem);line-height:1.1;font-weight:900
 
 /* Sections carrying a ghost reserve the full glyph height above their content
    so the marker rule lands under the letters instead of cutting through them. */
-.section--ghost{padding-block-start:var(--ghost-clearance)}
+.section--ghost{padding-block-start:var(--ghost-clearance);overflow-x:clip}
+/* clip, not hidden — hidden would kill any position:sticky inside the section */
 
 /* ---------- Section marker ----------
    Numbered label with a rule that runs out to the edge. Hebrew gets no
@@ -636,6 +641,96 @@ h3{font-size:clamp(1.2rem,1.05rem + .6vw,1.5rem);line-height:1.1;font-weight:900
   :root{--ghost-size:24vw;--ghost-top:1.5rem}
   .ghost{opacity:.11}
   .patch{padding-inline:.2em;transform:rotate(-1deg)}
+}
+
+
+/* ==========================================================================
+   v3.1 — brighter headings, hero 3D stage, about portrait
+   ========================================================================== */
+
+/* ---------- Brighter heading fill ----------
+   The first pass faded to #8a8172 at the bottom, which read as grey on a long
+   Hebrew line. The ramp now stays inside the warm whites and only drops to a
+   light stone at the very bottom. background-IMAGE, never the shorthand — the
+   shorthand resets background-clip and the heading disappears. */
+.sheen,h1,h2{background-image:linear-gradient(#ffffff 0%,#fbf6ea 46%,#cfc3a8 100%)}
+
+/* Gradient text must survive high-contrast mode — a clipped fill that is not
+   opted out here vanishes for exactly the people who need it most. */
+body.a11y-high-contrast h1,body.a11y-high-contrast h2,
+body.a11y-high-contrast .sheen,body.a11y-high-contrast .tint{
+  background-image:none!important;color:var(--white)!important;-webkit-text-fill-color:var(--white)!important}
+body.a11y-high-contrast .ghost{display:none!important}
+
+/* ---------- Hero stage ----------
+   3D plinth for the floating illustration: art on top, depth orbs in front,
+   rings laid back in space behind it. */
+.stage{position:relative;perspective:1200px;perspective-origin:60% 40%;
+  aspect-ratio:1/1;max-width:520px;width:100%;margin-inline:auto}
+.stage-inner{position:absolute;inset:0;transform-style:preserve-3d}
+
+.stage-art{position:absolute;inset-block:14% 14%;inset-inline:5% 5%;z-index:2;
+  display:grid;place-items:center;transform:translateZ(46px);animation:artFloat 6.8s ease-in-out infinite}
+.stage-art svg{width:100%;height:auto;
+  filter:drop-shadow(0 38px 40px #000000cc) drop-shadow(0 0 42px #d4af372e)}
+@keyframes artFloat{
+  0%,100%{transform:translateZ(46px) rotate(1.2deg)}
+  50%{transform:translate3d(0,-16px,84px) rotate(-1.2deg)}}
+
+/* Depth orbs — lit top-left, shadowed bottom-right */
+.orb{position:absolute;aspect-ratio:1;border-radius:50%;
+  background:radial-gradient(circle at 30% 24%,#fffffff0,#0000 12%),
+             radial-gradient(circle at 34% 30%,var(--spark),#6b4d0d 62%,#241a05);
+  box-shadow:inset -18px -24px 32px #0d0a03b3,0 18px 45px #d4af3747}
+.orb-1{z-index:3;width:clamp(52px,6.4vw,88px);inset-block-start:3%;inset-inline-start:-1%;
+  animation:orbFloat 6.4s ease-in-out infinite}
+.orb-2{z-index:3;width:clamp(30px,4vw,52px);inset-block-end:9%;inset-inline-end:1%;
+  background:radial-gradient(circle at 30% 24%,#fffffff0,#0000 12%),
+             radial-gradient(circle at 34% 30%,var(--amber-lit),#6b3a0d 60%,#241202);
+  box-shadow:inset -12px -16px 24px #0d0a03b3,0 14px 34px #c8791f5c;
+  animation:orbFloat 5.2s ease-in-out .8s infinite reverse}
+@keyframes orbFloat{
+  0%,100%{transform:translateZ(30px) rotate(-4deg)}
+  50%{transform:translate3d(0,-22px,78px) rotate(5deg)}}
+
+/* Rings form a plinth under the artwork so it reads as floating, not pasted. */
+.ring{position:absolute;inset:7%;border-radius:50%;border:1px solid #d4af3738;
+  transform:rotateX(74deg) translateZ(-55px);box-shadow:inset 0 0 60px #d4af371f}
+.ring-2{inset:19%;border-color:#f4d03f24;transform:rotateX(74deg) translateZ(-22px)}
+
+/* Ground glow under the stage */
+.stage::after{content:"";position:absolute;inset-inline:12%;bottom:6%;height:16%;
+  border-radius:50%;background:radial-gradient(ellipse at center,#d4af3736,transparent 70%);
+  filter:blur(26px);z-index:0;pointer-events:none}
+
+/* ---------- About portrait ----------
+   Avi's photo moves here as a free-floating object with a halo behind it and a
+   name badge riding the lower edge. Objects float, content sits in cards. */
+.about-grid{grid-template-columns:.85fr 1.15fr}
+.about-portrait{position:relative;margin:0;justify-self:center;width:100%;max-width:340px}
+.about-portrait::before{content:"";position:absolute;inset:-14%;z-index:0;border-radius:50%;
+  background:radial-gradient(ellipse 62% 58% at 50% 42%,#d4af373d,transparent 72%);filter:blur(30px)}
+.about-portrait picture{position:relative;z-index:1;display:block}
+.about-portrait img{width:100%;height:auto;border-radius:var(--radius-lg);
+  border:1px solid var(--line-2);box-shadow:0 26px 60px #000000a6}
+.about-portrait figcaption{position:absolute;z-index:2;bottom:-.9rem;inset-inline-start:50%;
+  transform:translateX(50%);display:flex;align-items:center;gap:.55rem;white-space:nowrap;
+  padding:.5rem 1.15rem;border-radius:100px;background:rgba(12,10,7,.88);
+  border:1px solid var(--line-2);box-shadow:var(--glass-edge),0 12px 32px #00000080;
+  backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);
+  font-size:var(--fs-xs);color:var(--muted)}
+.about-portrait figcaption b{color:var(--white);font-weight:700}
+
+@media(max-width:920px){
+  .about-grid{grid-template-columns:1fr}
+  .about-portrait{max-width:300px;margin-block-end:1.5rem}
+  .stage{max-width:340px}
+}
+@media(max-width:480px){
+  .stage{max-width:280px}
+  :root{--ghost-size:21vw}
+  .orb-1{inset-inline-start:0}
+  .orb-2{inset-inline-end:0}
 }
 
 /* --- Responsive --------------------------------------------------- */
