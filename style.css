@@ -13,6 +13,10 @@
   --muted: #a59886;
   --primary: #d4af37;
   --primary-strong: #b8941f;
+  /* Same brand gold, darkened for use as text or icon colour on the cream and
+     white surfaces. --primary-strong measures 2.69:1 on --surface-soft, well under
+     the 4.5:1 AA floor; this measures 4.72:1 there and 5.05:1 on white. */
+  --primary-ink: #8a6a1c;
   --primary-glow: rgba(212,175,55,.25);
   --accent: #f4d03f;
   --accent-glow: rgba(244,208,63,.2);
@@ -68,8 +72,13 @@ body::before{content:'';position:fixed;inset:0;z-index:1;pointer-events:none;opa
 
 .section-soft::before{content:'';position:absolute;top:0;inset-inline:0;height:1px;background:linear-gradient(90deg,transparent,var(--primary-glow),var(--accent-glow),transparent)}
 
-.skip-link{position:absolute;inset-inline-start:-9999px;top:1rem;background:var(--primary);color:#000;padding:.5rem 1rem;border-radius:.5rem;z-index:100}
-.skip-link:focus{inset-inline-start:1rem}
+/* Parked above the viewport rather than 9999px to the inline-start. In RTL that
+   offset lands off the RIGHT edge, which grows the scrollable area and left the
+   document 10px wider than the viewport at 320px — only masked by the body's
+   overflow-x:hidden. Moving it vertically is direction-agnostic and adds nothing
+   to the scroll width. */
+.skip-link{position:absolute;inset-inline-start:1rem;top:-100px;background:var(--primary);color:#000;padding:.5rem 1rem;border-radius:.5rem;z-index:100;transition:top var(--dur-f) var(--ease-smooth)}
+.skip-link:focus{top:1rem}
 /* No-JS fallback: reveal legal sections when targeted via hash */
 #accessibility-statement:target,#privacy-policy:target,#terms-of-use:target{display:block!important}
 
@@ -83,8 +92,8 @@ body::before{content:'';position:fixed;inset:0;z-index:1;pointer-events:none;opa
 .brand:hover .brand-mark{transform:scale(1.08) rotate(-2deg);box-shadow:0 6px 30px var(--primary-glow)}
 
 .menu{display:flex;gap:1.2rem;list-style:none;margin:0;padding:0;align-items:center}
-.menu a{color:var(--text);opacity:.85;font-weight:500;position:relative;transition:opacity var(--dur-f) var(--ease-smooth);font-size:.92rem}
-.menu a::after{content:'';position:absolute;bottom:-4px;inset-inline:0;height:2px;background:linear-gradient(90deg,var(--primary),var(--accent));border-radius:2px;transform:scaleX(0);transform-origin:right;transition:transform var(--dur-m) var(--ease-out)}
+.menu a{color:var(--text);opacity:.85;font-weight:500;position:relative;display:inline-flex;align-items:center;min-height:24px;padding-block:.45rem;transition:opacity var(--dur-f) var(--ease-smooth);font-size:.92rem}
+.menu a::after{content:'';position:absolute;bottom:.2rem;inset-inline:0;height:2px;background:linear-gradient(90deg,var(--primary),var(--accent));border-radius:2px;transform:scaleX(0);transform-origin:right;transition:transform var(--dur-m) var(--ease-out)}
 html[dir="rtl"] .menu a::after{transform-origin:left}
 .menu a:hover{opacity:1}
 .menu a:hover::after{transform:scaleX(1);transform-origin:left}
@@ -99,10 +108,10 @@ html[dir="rtl"] .menu a:hover::after{transform-origin:right}
 .hero{display:grid;gap:3rem;grid-template-columns:1.15fr .85fr;align-items:center;padding:5rem 0 4rem;position:relative;z-index:2;min-height:80vh}
 .hero-copy{position:relative}
 
-.eyebrow{color:var(--primary);font-weight:700;letter-spacing:.03em;font-size:.95rem;display:inline-flex;align-items:center;gap:.5rem}
+.eyebrow{color:var(--primary);font-weight:700;font-size:.95rem;display:inline-flex;align-items:center;gap:.5rem}
 .eyebrow::before{content:'';width:28px;height:2px;background:linear-gradient(90deg,var(--primary),transparent);border-radius:2px}
 
-h1{font-family:var(--font-display);font-size:clamp(2.2rem,5.4vw,4rem);line-height:1.04;margin:.8rem 0 1.2rem;font-weight:900;letter-spacing:-.02em;text-wrap:balance}
+h1{font-family:var(--font-display);font-size:clamp(2.2rem,5.4vw,4rem);line-height:1.04;margin:.8rem 0 1.2rem;font-weight:900;letter-spacing:-.03em;text-wrap:balance;overflow-wrap:break-word}
 .subhead{font-size:1.1rem;color:#c9c2b0;max-width:54ch;line-height:1.7}
 .hero-actions{display:flex;gap:1rem;flex-wrap:wrap;margin:2rem 0 1.5rem}
 
@@ -150,8 +159,8 @@ h1{font-family:var(--font-display);font-size:clamp(2.2rem,5.4vw,4rem);line-heigh
 .blur-load.loaded{filter:blur(0) saturate(1);opacity:1;transform:scale(1)}
 
 /* --- Section Headings --------------------------------------------- */
-h2{font-family:var(--font-display);font-size:clamp(1.8rem,3.4vw,2.8rem);margin:0 0 .8rem;font-weight:800;letter-spacing:-.015em;text-wrap:balance}
-h3{font-family:var(--font-display);text-wrap:balance}
+h2{font-family:var(--font-display);font-size:clamp(1.8rem,3.4vw,2.8rem);line-height:1.12;margin:0 0 .8rem;font-weight:800;letter-spacing:-.03em;text-wrap:balance;overflow-wrap:break-word}
+h3{font-family:var(--font-display);font-weight:700;line-height:1.2;letter-spacing:-.03em;text-wrap:balance;overflow-wrap:break-word}
 .section h2{position:relative}
 .section h2::after{content:"";display:block;width:56px;height:3px;margin-top:1rem;border-radius:3px;background:linear-gradient(90deg,var(--primary),var(--accent));box-shadow:0 0 18px var(--primary-glow)}
 .section-intro{margin:0 0 2.5rem;color:var(--muted);font-size:1.05rem}
@@ -200,11 +209,11 @@ html[dir="rtl"] .price-row:hover{transform:translateX(8px) scale(1.02)}
 .price-row:hover .price-row__amount{transform:scale(1.15);letter-spacing:.02em}
 
 .price-row--highlight{background:rgba(184,148,31,.05);border-radius:var(--radius)}
-.price-row--highlight .price-row__icon{color:var(--primary-strong);background:#f9efd0}
+.price-row--highlight .price-row__icon{color:var(--primary-ink);background:#f9efd0}
 .price-row--highlight .price-row__amount{color:#a47922;font-size:1.3rem}
 
 .price-row--recommended{border:2px solid var(--primary-strong);background:rgba(184,148,31,.08);position:relative;margin-top:1.2rem;padding-top:1.4rem;overflow:visible}
-.price-badge{position:absolute;top:-12px;inset-inline-end:16px;background:linear-gradient(135deg,var(--primary-strong),var(--accent));color:#fff;font-size:.75rem;font-weight:700;padding:.3rem .85rem;border-radius:999px;letter-spacing:.03em;box-shadow:0 4px 12px rgba(184,148,31,.3);z-index:1}
+.price-badge{position:absolute;top:-12px;inset-inline-end:16px;background:linear-gradient(135deg,var(--primary-strong),var(--accent));color:#fff;font-size:.75rem;font-weight:700;padding:.3rem .85rem;border-radius:999px;box-shadow:0 4px 12px rgba(184,148,31,.3);z-index:1}
 
 .price-row__info{flex:1;min-width:0}
 .price-row__name{font-weight:600;font-size:1rem}
@@ -290,16 +299,20 @@ input:focus-visible,.btn:focus-visible,a:focus-visible{outline:2px solid var(--p
 /* --- Footer ------------------------------------------------------- */
 .site-footer{border-top:1px solid var(--border);padding:1.4rem 0;position:relative;z-index:2}
 .footer-wrap{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;color:var(--muted);font-size:.9rem}
-.footer-links{display:flex;align-items:center;gap:.5rem}
+/* Must wrap: at 320px the un-wrapped row of links pushed the footer 10px past the
+   viewport and was the last source of horizontal overflow on the page. */
+.footer-links{display:flex;align-items:center;gap:.5rem;flex-wrap:wrap}
 .footer-sep{opacity:.4}
-.footer-wrap a{transition:color var(--dur-f) var(--ease-smooth)}
+.footer-wrap a{display:inline-flex;align-items:center;min-height:24px;transition:color var(--dur-f) var(--ease-smooth)}
 .footer-wrap a:hover{color:var(--primary)}
 
 /* --- Scroll Reveal ------------------------------------------------ */
-.reveal{opacity:0;transform:translateY(40px);transition:opacity var(--dur-s) var(--ease-out),transform var(--dur-s) var(--ease-out)}
-.reveal.visible{opacity:1;transform:translateY(0)}
+/* Hiding is gated behind .js (set inline in <head>) so that a failed or
+   disabled script leaves the page fully readable instead of blank. */
+.js .reveal{opacity:0;transform:translateY(40px);transition:opacity var(--dur-s) var(--ease-out),transform var(--dur-s) var(--ease-out)}
+.js .reveal.visible{opacity:1;transform:translateY(0)}
 
-.reveal-stagger>*{opacity:0;transform:translateY(30px);transition:opacity var(--dur-s) var(--ease-out),transform var(--dur-s) var(--ease-out)}
+.js .reveal-stagger>*{opacity:0;transform:translateY(30px);transition:opacity var(--dur-s) var(--ease-out),transform var(--dur-s) var(--ease-out)}
 .reveal-stagger.visible>:nth-child(1){transition-delay:0s}
 .reveal-stagger.visible>:nth-child(2){transition-delay:.08s}
 .reveal-stagger.visible>:nth-child(3){transition-delay:.16s}
@@ -311,7 +324,7 @@ input:focus-visible,.btn:focus-visible,a:focus-visible{outline:2px solid var(--p
 .reveal-stagger.visible>:nth-child(9){transition-delay:.64s}
 .reveal-stagger.visible>*{opacity:1;transform:translateY(0)}
 
-.hero-copy>*{opacity:0;transform:translateY(30px)}
+.js .hero-copy>*{opacity:0;transform:translateY(30px)}
 .hero-copy.animated>*{opacity:1;transform:translateY(0);transition:opacity .8s var(--ease-out),transform .8s var(--ease-out)}
 .hero-copy.animated>:nth-child(1){transition-delay:.1s}
 .hero-copy.animated>:nth-child(2){transition-delay:.2s}
@@ -319,8 +332,8 @@ input:focus-visible,.btn:focus-visible,a:focus-visible{outline:2px solid var(--p
 .hero-copy.animated>:nth-child(4){transition-delay:.5s}
 .hero-copy.animated>:nth-child(5){transition-delay:.65s}
 
-.hero-visual{opacity:0;transform:translateX(-40px) scale(.95)}
-html[dir="rtl"] .hero-visual{transform:translateX(40px) scale(.95)}
+.js .hero-visual{opacity:0;transform:translateX(-40px) scale(.95)}
+html.js[dir="rtl"] .hero-visual{transform:translateX(40px) scale(.95)}
 .hero-visual.animated{opacity:1;transform:translateX(0) scale(1);transition:opacity 1s var(--ease-out) .3s,transform 1s var(--ease-out) .3s}
 
 .particles-canvas{position:fixed;inset:0;z-index:1;pointer-events:none;opacity:.4}
@@ -339,7 +352,7 @@ html[dir="rtl"] .hero-visual{transform:translateX(40px) scale(.95)}
 .about-lead{font-size:1.1rem;color:#7a6f5e;line-height:1.75;margin:0 0 2rem}
 .about-details{display:grid;gap:1.2rem}
 .about-item{display:flex;gap:1rem;align-items:flex-start}
-.about-item__icon{width:40px;height:40px;display:flex;align-items:center;justify-content:center;border-radius:10px;color:var(--primary-strong);background:#f4ead4;flex-shrink:0}
+.about-item__icon{width:40px;height:40px;display:flex;align-items:center;justify-content:center;border-radius:10px;color:var(--primary-ink);background:#f4ead4;flex-shrink:0}
 .about-item strong{display:block;font-size:1rem;color:#1a1410;margin-bottom:.2rem}
 .about-item p{margin:0;color:#7a6f5e;font-size:.92rem;line-height:1.65}
 
@@ -349,7 +362,7 @@ html[dir="rtl"] .hero-visual{transform:translateX(40px) scale(.95)}
 .about-school-card__logo{margin:0 auto 1rem}
 .about-school-card h3{margin:0 0 .5rem;font-size:1.15rem;color:#1a1410}
 .about-school-card p{margin:0 0 .8rem;color:#7a6f5e;font-size:.88rem;line-height:1.6}
-.about-school-card__location{font-size:.82rem;color:var(--primary-strong);font-weight:600}
+.about-school-card__location{font-size:.82rem;color:var(--primary-ink);font-weight:600}
 
 /* --- Process Steps ------------------------------------------------ */
 .process-steps{display:grid;gap:1.5rem;max-width:700px;margin:0 auto;position:relative}
@@ -374,8 +387,12 @@ html[dir="rtl"] .hero-visual{transform:translateX(40px) scale(.95)}
 .graduate-card figcaption{margin-top:.85rem;color:var(--muted);font-size:.92rem;line-height:1.6;text-align:center;font-weight:500}
 
 /* --- Floating WhatsApp Button ------------------------------------- */
-.wa-float{position:fixed;bottom:2rem;inset-inline-start:2rem;z-index:56;width:48px;height:48px;display:flex;align-items:center;justify-content:center;background:rgba(10,10,10,.92);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border:1.5px solid var(--primary);color:#fff;border-radius:50%;box-shadow:0 4px 16px rgba(0,0,0,.35);cursor:pointer;text-decoration:none;opacity:0;transform:translateY(20px) scale(.9);pointer-events:none;transition:opacity .4s var(--ease-out),transform .4s var(--ease-out),border-color var(--dur-m) var(--ease-smooth),box-shadow var(--dur-m) var(--ease-smooth)}
-.wa-float.visible{opacity:1;transform:translateY(0) scale(1);pointer-events:auto}
+/* Visible by default. Only the home page reveals it on scroll, and only when the
+   script that does the revealing is actually running — otherwise a plain link to
+   WhatsApp sits at opacity:0 with pointer-events:none and can never be clicked. */
+.wa-float{position:fixed;bottom:2rem;inset-inline-start:2rem;z-index:56;width:48px;height:48px;display:flex;align-items:center;justify-content:center;background:rgba(10,10,10,.92);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border:1.5px solid var(--primary);color:#fff;border-radius:50%;box-shadow:0 4px 16px rgba(0,0,0,.35);cursor:pointer;text-decoration:none;transition:opacity .4s var(--ease-out),transform .4s var(--ease-out),border-color var(--dur-m) var(--ease-smooth),box-shadow var(--dur-m) var(--ease-smooth)}
+.js .wa-float--reveal{opacity:0;transform:translateY(20px) scale(.9);pointer-events:none}
+.js .wa-float--reveal.visible{opacity:1;transform:translateY(0) scale(1);pointer-events:auto}
 .wa-float:hover{border-color:var(--accent);box-shadow:0 6px 22px rgba(212,175,55,.25),0 0 0 4px rgba(212,175,55,.08);transform:translateY(-2px)}
 .wa-float:active{transform:translateY(0) scale(.96)}
 
@@ -415,7 +432,7 @@ html[dir="rtl"] .hero-visual{transform:translateX(40px) scale(.95)}
 .faq-item summary::-webkit-details-marker{display:none}
 .faq-item summary::after{content:'';width:20px;height:20px;flex-shrink:0;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='%23b8941f' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E") center/contain no-repeat;transition:transform var(--dur-m) var(--ease-bounce)}
 .faq-item[open] summary::after{transform:rotate(180deg)}
-.faq-item summary:hover{color:var(--primary-strong)}
+.faq-item summary:hover{color:var(--primary-ink)}
 .faq-item__body{display:grid;grid-template-rows:0fr;transition:grid-template-rows .4s var(--ease-out),opacity .4s var(--ease-smooth);opacity:0}
 .faq-item[open] .faq-item__body{grid-template-rows:1fr;opacity:1}
 .faq-item__body>p{overflow:hidden;margin:0;padding:0 1.4rem 1.2rem;color:#7a6f5e;font-size:.93rem;line-height:1.75}
@@ -439,6 +456,8 @@ html[dir="rtl"] .hero-visual{transform:translateX(40px) scale(.95)}
 .text-review{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:1.5rem;margin:0;transition:border-color var(--dur-f) var(--ease-smooth)}
 .text-review:hover{border-color:var(--primary)}
 .text-review p{font-size:.93rem;line-height:1.75;color:var(--muted);margin:0 0 .75rem;font-style:normal}
+/* This card is dark (#141414), not one of the light surfaces — --primary-ink would
+   drop it to 3.65:1. --primary-strong measures 6.40:1 here. */
 .text-review cite{font-size:.85rem;color:var(--primary-strong);font-style:normal;font-weight:600}
 
 /* --- Responsive --------------------------------------------------- */
@@ -458,6 +477,10 @@ html[dir="rtl"] .hero-visual{transform:translateX(40px) scale(.95)}
   .hero-metrics span{font-size:.75rem}
   .bg-orb{animation-duration:0s!important;opacity:.2}
   .hero-visual{order:-1;display:flex;justify-content:center;perspective:none}
+  /* The entrance slide translates the image 40px outward, which pushes it past the
+     viewport edge on narrow screens and produces horizontal scroll until the
+     animation lands. There is no room to slide here — fade in place instead. */
+  html.js .hero-visual,html.js[dir="rtl"] .hero-visual{transform:none}
   .hero-visual::before{display:none}
   .hero-visual img{max-height:300px;width:300px;object-fit:cover;border-radius:var(--radius-lg);margin:0 auto;aspect-ratio:1/1}
   h1{font-size:clamp(1.8rem,6vw,2.4rem)}
@@ -580,7 +603,7 @@ html[dir="rtl"] .a11y-option__toggle:hover{transform:translateX(3px)}
 .a11y-statement-content p{margin:0 0 1rem;line-height:1.75;font-size:.95rem}
 .a11y-statement-content ul{margin:0 0 1.5rem;padding-inline-start:1.5rem}
 .a11y-statement-content li{margin-bottom:.4rem;line-height:1.7;font-size:.93rem}
-.a11y-statement-content a{color:var(--primary-strong);text-decoration:underline}
+.a11y-statement-content a{color:var(--primary-ink);text-decoration:underline}
 
 /* Accessibility active states on body */
 body.a11y-high-contrast{filter:contrast(1.4)!important}

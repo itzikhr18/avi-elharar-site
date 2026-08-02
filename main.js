@@ -26,29 +26,64 @@ if(mb&&mm){
 var f=document.getElementById('contactForm'),n=document.getElementById('formNote');
 if(f&&n){f.addEventListener('submit',function(e){e.preventDefault();var nameEl=document.getElementById('name'),phoneEl=document.getElementById('phone'),cityEl=document.getElementById('city');var nameVal=nameEl?nameEl.value.trim():'',phoneVal=phoneEl?phoneEl.value.trim():'',cityVal=cityEl?cityEl.value.trim():'';if(!nameVal){n.textContent='אנא הזינו שם מלא.';return}if(!/^0(?:5\d|[2-4]|8|9)[\s-]?\d{3}[\s-]?\d{4}$/.test(phoneVal.replace(/\s+/g,' ').trim())){n.textContent='אנא הזינו מספר טלפון ישראלי תקין.';return}if(!cityVal){n.textContent='אנא הזינו אזור מגורים.';return}var msg='היי אבי, אשמח לקבוע שיחת התאמה.\nשם: '+nameVal+'\nטלפון: '+phoneVal+'\nאזור: '+cityVal;window.open('https://wa.me/972528449147?text='+encodeURIComponent(msg),'_blank');n.textContent='מעולה! מועבר לווטסאפ...';f.reset()})}
 
-if(R)return;
-
-/* Header Scroll */
+/* Header Scroll — a state change rather than an animation: the scrolled header is
+   more opaque and therefore more readable over content. Must run under reduced motion. */
 var h=document.querySelector('.site-header');
 if(h){var t=false;window.addEventListener('scroll',function(){if(!t){requestAnimationFrame(function(){h.classList.toggle('scrolled',window.scrollY>60);t=false});t=true}},{passive:true})}
+
+/* Back to Top + WhatsApp Float + Sticky CTA — all three start at opacity:0 with
+   pointer-events:none and are only ever revealed by this code, so they must run
+   unconditionally. Behind the motion guard they stayed invisible forever. */
+var btt=document.getElementById('backToTop');
+var waFloat=document.getElementById('waFloat');
+var stickyCta=document.getElementById('stickyCta');
+var heroSection=document.querySelector('.hero');
+var contactSection=document.getElementById('contact');
+function updateScrollUI(){var sy=window.scrollY;if(btt)btt.classList.toggle('visible',sy>500);if(waFloat)waFloat.classList.toggle('visible',sy>300);if(stickyCta){var heroBot=heroSection?heroSection.getBoundingClientRect().bottom:0;var contactTop=contactSection?contactSection.getBoundingClientRect().top:9999;var show=heroBot<-50&&contactTop>window.innerHeight;stickyCta.classList.toggle('visible',show);stickyCta.setAttribute('aria-hidden',String(!show))}}
+var scrollUITick=false;window.addEventListener('scroll',function(){if(!scrollUITick){requestAnimationFrame(function(){updateScrollUI();scrollUITick=false});scrollUITick=true}},{passive:true});
+if(btt)btt.addEventListener('click',function(){window.scrollTo({top:0,behavior:R?'auto':'smooth'})});
+updateScrollUI();
+
+/* ---- Decorative motion only, below this point. -------------------------------
+   This guard used to be a bare `if(R)return;` at the top of the file, which also
+   disabled the accessibility widget and the floating WhatsApp button for anyone
+   with prefers-reduced-motion — precisely the users who need them most. */
+if(!R){
 
 /* Hero Entrance */
 var hc=document.querySelector('.hero-copy'),hv=document.querySelector('.hero-visual');
 requestAnimationFrame(function(){setTimeout(function(){if(hc)hc.classList.add('animated');if(hv)hv.classList.add('animated')},100)});
 
-/* Scroll Reveal */
-var re=document.querySelectorAll('.reveal,.reveal-stagger');
-if(re.length&&'IntersectionObserver'in window){var ro=new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('visible');ro.unobserve(e.target)}})},{threshold:.15,rootMargin:'0px 0px -40px 0px'});re.forEach(function(el){ro.observe(el)})}
+/* Scroll Reveal — see the shared sweep below. Deliberately NOT IntersectionObserver:
+   an anchor jump lands past whole sections without ever firing a callback for them,
+   which leaves those sections stuck at opacity:0. A position check catches anything
+   at or above the trigger line, including everything already scrolled past. */
+var re=[].slice.call(document.querySelectorAll('.reveal,.reveal-stagger'));
 
 /* Counter Animation */
 function ac(el){var txt=el.textContent.trim(),m=txt.match(/^([\d,]+)/);if(!m)return;var tgt=parseInt(m[1].replace(/,/g,''),10);if(isNaN(tgt)||tgt===0)return;var sfx=txt.replace(m[1],''),dur=1800,st=performance.now();function ease(t){return t===1?1:1-Math.pow(2,-10*t)}function up(now){var p=Math.min((now-st)/dur,1);el.textContent=Math.round(ease(p)*tgt).toLocaleString()+sfx;if(p<1)requestAnimationFrame(up);else el.textContent=txt}el.textContent='0'+sfx;requestAnimationFrame(up)}
-var ms=document.querySelectorAll('.hero-metrics strong');
-if(ms.length&&'IntersectionObserver'in window){var co=new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting){ac(e.target);co.unobserve(e.target)}})},{threshold:.5});ms.forEach(function(el){co.observe(el)})}
+var ms=[].slice.call(document.querySelectorAll('.hero-metrics strong'));
 
 /* Stats Counter Animation */
 function animateStatNum(el){var tgt=parseFloat(el.dataset.target);if(isNaN(tgt)||tgt===0)return;var isFloat=String(tgt).indexOf('.')!==-1;var dur=2000,st=performance.now();function ease(t){return t===1?1:1-Math.pow(2,-10*t)}function up(now){var p=Math.min((now-st)/dur,1);var v=ease(p)*tgt;el.textContent=isFloat?v.toFixed(1):Math.round(v).toLocaleString();if(p<1)requestAnimationFrame(up)}el.textContent=isFloat?'0.0':'0';requestAnimationFrame(up)}
-var statNums=document.querySelectorAll('.stat-item__number[data-target]');
-if(statNums.length&&'IntersectionObserver'in window){var so=new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting){animateStatNum(e.target);so.unobserve(e.target)}})},{threshold:.5});statNums.forEach(function(el){so.observe(el)})}
+var statNums=[].slice.call(document.querySelectorAll('.stat-item__number[data-target]'));
+
+/* Shared position sweep for reveals and counters. Each list is spliced as it fires,
+   so an element is only ever triggered once and the lists drain to empty. */
+function sweep(){
+  var wh=window.innerHeight||document.documentElement.clientHeight;
+  var revealAt=wh*.9,countAt=wh*.75,i;
+  for(i=re.length-1;i>=0;i--){if(re[i].getBoundingClientRect().top<revealAt){re[i].classList.add('visible');re.splice(i,1)}}
+  for(i=ms.length-1;i>=0;i--){if(ms[i].getBoundingClientRect().top<countAt){ac(ms[i]);ms.splice(i,1)}}
+  for(i=statNums.length-1;i>=0;i--){if(statNums[i].getBoundingClientRect().top<countAt){animateStatNum(statNums[i]);statNums.splice(i,1)}}
+}
+var swTick=false;
+function queueSweep(){if(!swTick){swTick=true;requestAnimationFrame(function(){sweep();swTick=false})}}
+window.addEventListener('scroll',queueSweep,{passive:true});
+window.addEventListener('resize',queueSweep,{passive:true});
+window.addEventListener('hashchange',queueSweep);
+window.addEventListener('load',queueSweep);
+sweep();
 
 /* Scroll Progress Bar */
 var spBar=document.querySelector('.scroll-progress__bar');
@@ -57,16 +92,6 @@ if(spBar){var spTick=false;window.addEventListener('scroll',function(){if(!spTic
 /* Animated Process Timeline */
 var procSteps=document.getElementById('processSteps');
 if(procSteps){var pFill=procSteps.querySelector('.process-line__fill');var pItems=procSteps.querySelectorAll('.process-step');if(pFill&&pItems.length){var poTick=false;function updateTimeline(){var rect=procSteps.getBoundingClientRect();var wh=window.innerHeight;var triggerY=wh*.65;var totalH=rect.height;var progress=Math.min(Math.max((triggerY-rect.top)/totalH,0),1);pFill.style.height=(progress*100)+'%';pItems.forEach(function(s){var sr=s.getBoundingClientRect();if(sr.top<triggerY)s.classList.add('reached');else s.classList.remove('reached')})}window.addEventListener('scroll',function(){if(!poTick){requestAnimationFrame(function(){updateTimeline();poTick=false});poTick=true}},{passive:true});updateTimeline()}}
-
-/* Back to Top Button + WhatsApp Float + Sticky CTA */
-var btt=document.getElementById('backToTop');
-var waFloat=document.getElementById('waFloat');
-var stickyCta=document.getElementById('stickyCta');
-var heroSection=document.querySelector('.hero');
-var contactSection=document.getElementById('contact');
-function updateScrollUI(){var sy=window.scrollY;if(btt)btt.classList.toggle('visible',sy>500);if(waFloat)waFloat.classList.toggle('visible',sy>300);if(stickyCta){var heroBot=heroSection?heroSection.getBoundingClientRect().bottom:0;var contactTop=contactSection?contactSection.getBoundingClientRect().top:9999;var show=heroBot<-50&&contactTop>window.innerHeight;stickyCta.classList.toggle('visible',show);stickyCta.setAttribute('aria-hidden',String(!show))}}
-var scrollUITick=false;window.addEventListener('scroll',function(){if(!scrollUITick){requestAnimationFrame(function(){updateScrollUI();scrollUITick=false});scrollUITick=true}},{passive:true});
-if(btt)btt.addEventListener('click',function(){window.scrollTo({top:0,behavior:'smooth'})});
 
 /* Typewriter Effect */
 var twEl=document.getElementById('heroHeading');
@@ -103,174 +128,26 @@ if(hi){var st2=false;window.addEventListener('scroll',function(){if(!st2){reques
 /* Particles — optimized: fewer particles, pause when tab hidden */
 if(window.innerWidth>1024){var cv=document.createElement('canvas');cv.className='particles-canvas';cv.setAttribute('aria-hidden','true');document.body.appendChild(cv);var ctx=cv.getContext('2d'),ps=[],w,ht,pRunning=true;function rs(){w=cv.width=window.innerWidth;ht=cv.height=window.innerHeight}rs();window.addEventListener('resize',rs,{passive:true});var PC=Math.min(20,Math.floor(w/55));for(var i=0;i<PC;i++)ps.push({x:Math.random()*w,y:Math.random()*ht,vx:(Math.random()-.5)*.25,vy:(Math.random()-.5)*.25,s:Math.random()*1.5+.5,o:Math.random()*.35+.1});function dr(){if(!pRunning)return;ctx.clearRect(0,0,w,ht);ps.forEach(function(p){p.x+=p.vx;p.y+=p.vy;if(p.x<0)p.x=w;if(p.x>w)p.x=0;if(p.y<0)p.y=ht;if(p.y>ht)p.y=0;ctx.beginPath();ctx.arc(p.x,p.y,p.s,0,Math.PI*2);ctx.fillStyle='rgba(212,175,55,'+p.o+')';ctx.fill()});for(var i=0;i<ps.length;i++)for(var j=i+1;j<ps.length;j++){var dx=ps[i].x-ps[j].x,dy=ps[i].y-ps[j].y,dt=dx*dx+dy*dy;if(dt<22500){ctx.beginPath();ctx.moveTo(ps[i].x,ps[i].y);ctx.lineTo(ps[j].x,ps[j].y);ctx.strokeStyle='rgba(212,175,55,'+(0.06*(1-Math.sqrt(dt)/150))+')';ctx.lineWidth=.5;ctx.stroke()}}requestAnimationFrame(dr)}dr();document.addEventListener('visibilitychange',function(){pRunning=!document.hidden;if(pRunning)requestAnimationFrame(dr)})}
 
-/* Accessibility Widget */
-(function(){
-var toggle=document.getElementById('a11yToggle');
-var panel=document.getElementById('a11yPanel');
-var closeBtn=document.getElementById('a11yClose');
-var stmtLink=document.getElementById('a11yStatementLink');
-var stmtSection=document.getElementById('accessibility-statement');
-if(!toggle||!panel)return;
+} /* ---- end decorative motion block ---------------------------------------- */
 
-var fontStep=0;var maxFont=3;var minFont=-1;
-var STORAGE_KEY='a11y-settings';
+/* Accessibility widget now lives in a11y.js, which every page loads so the
+   controls and the statement link exist site-wide (IS 5568), not just here. */
 
-function loadSettings(){
-  try{var s=localStorage.getItem(STORAGE_KEY);if(s)return JSON.parse(s)}catch(e){}
-  return {}
-}
-function saveSettings(obj){
-  try{localStorage.setItem(STORAGE_KEY,JSON.stringify(obj))}catch(e){}
-}
-
-function applyClass(cls,on){
-  if(on)document.body.classList.add(cls);
-  else document.body.classList.remove(cls);
-}
-
-function applyFontSize(step){
-  fontStep=step;
-  var size=100+step*12.5;
-  document.documentElement.style.fontSize=size===100?'':size+'%';
-}
-
-function updateToggles(){
-  var settings=loadSettings();
-  panel.querySelectorAll('[data-a11y]').forEach(function(btn){
-    var key=btn.getAttribute('data-a11y');
-    if(key==='font-increase'||key==='font-decrease'||key==='font-reset'||key==='reset')return;
-    btn.classList.toggle('active',!!settings[key]);
-  });
-}
-
-function applyAll(){
-  var s=loadSettings();
-  applyFontSize(s.fontStep||0);
-  applyClass('a11y-high-contrast',!!s['high-contrast']);
-  applyClass('a11y-grayscale',!!s['grayscale']);
-  applyClass('a11y-highlight-links',!!s['highlight-links']);
-  applyClass('a11y-readable-font',!!s['readable-font']);
-  applyClass('a11y-big-cursor',!!s['big-cursor']);
-  applyClass('a11y-stop-animations',!!s['stop-animations']);
-  updateToggles();
-}
-
-function toggleSetting(key){
-  var s=loadSettings();
-  s[key]=!s[key];
-  saveSettings(s);
-  applyAll();
-}
-
-function changeFontSize(dir){
-  var s=loadSettings();
-  var step=s.fontStep||0;
-  if(dir==='increase'&&step<maxFont)step++;
-  else if(dir==='decrease'&&step>minFont)step--;
-  else if(dir==='reset')step=0;
-  s.fontStep=step;
-  saveSettings(s);
-  applyFontSize(step);
-}
-
-function resetAll(){
-  localStorage.removeItem(STORAGE_KEY);
-  document.body.className=document.body.className.replace(/\ba11y-\S+/g,'').trim();
-  document.documentElement.style.fontSize='';
-  fontStep=0;
-  updateToggles();
-}
-
-/* Toggle panel */
-toggle.addEventListener('click',function(){
-  var open=panel.classList.toggle('open');
-  toggle.setAttribute('aria-expanded',String(open));
-  panel.setAttribute('aria-hidden',String(!open));
-  if(open)panel.querySelector('button').focus();
-});
-closeBtn.addEventListener('click',function(){
-  panel.classList.remove('open');
-  toggle.setAttribute('aria-expanded','false');
-  panel.setAttribute('aria-hidden','true');
-  toggle.focus();
-});
-
-/* Close on Escape */
-document.addEventListener('keydown',function(e){
-  if(e.key==='Escape'&&panel.classList.contains('open')){
-    panel.classList.remove('open');
-    toggle.setAttribute('aria-expanded','false');
-    panel.setAttribute('aria-hidden','true');
-    toggle.focus();
-  }
-});
-
-/* Close on outside click */
-document.addEventListener('click',function(e){
-  if(panel.classList.contains('open')&&!panel.contains(e.target)&&e.target!==toggle&&!toggle.contains(e.target)){
-    panel.classList.remove('open');
-    toggle.setAttribute('aria-expanded','false');
-    panel.setAttribute('aria-hidden','true');
-  }
-});
-
-/* Button actions */
-panel.addEventListener('click',function(e){
-  var btn=e.target.closest('[data-a11y]');
-  if(!btn)return;
-  var action=btn.getAttribute('data-a11y');
-  if(action==='font-increase')changeFontSize('increase');
-  else if(action==='font-decrease')changeFontSize('decrease');
-  else if(action==='font-reset')changeFontSize('reset');
-  else if(action==='reset')resetAll();
-  else toggleSetting(action);
-});
-
-/* Accessibility statement link */
-if(stmtLink&&stmtSection){
-  stmtLink.addEventListener('click',function(e){
+/* Footer legal page links — the three legal sections ship collapsed via an inline
+   display:none and are opened on demand. A :target rule in the stylesheet does the
+   same job when this script is unavailable. */
+var legalLinks=[['footerA11yLink','accessibility-statement'],
+ ['footerPrivacyLink','privacy-policy'],
+ ['footerTermsLink','terms-of-use']];
+legalLinks.forEach(function(pair){
+  var link=document.getElementById(pair[0]),section=document.getElementById(pair[1]);
+  if(!link||!section)return;
+  link.addEventListener('click',function(e){
     e.preventDefault();
-    stmtSection.style.display='';
-    panel.classList.remove('open');
-    toggle.setAttribute('aria-expanded','false');
-    panel.setAttribute('aria-hidden','true');
-    stmtSection.scrollIntoView({behavior:'smooth'});
+    section.style.display='';
+    section.scrollIntoView({behavior:R?'auto':'smooth'});
   });
-}
-
-/* Footer legal page links */
-var footerA11yLink=document.getElementById('footerA11yLink');
-if(footerA11yLink&&stmtSection){
-  footerA11yLink.addEventListener('click',function(e){
-    e.preventDefault();
-    stmtSection.style.display='';
-    stmtSection.scrollIntoView({behavior:'smooth'});
-  });
-}
-
-var footerPrivacyLink=document.getElementById('footerPrivacyLink');
-var privacySection=document.getElementById('privacy-policy');
-if(footerPrivacyLink&&privacySection){
-  footerPrivacyLink.addEventListener('click',function(e){
-    e.preventDefault();
-    privacySection.style.display='';
-    privacySection.scrollIntoView({behavior:'smooth'});
-  });
-}
-
-var footerTermsLink=document.getElementById('footerTermsLink');
-var termsSection=document.getElementById('terms-of-use');
-if(footerTermsLink&&termsSection){
-  footerTermsLink.addEventListener('click',function(e){
-    e.preventDefault();
-    termsSection.style.display='';
-    termsSection.scrollIntoView({behavior:'smooth'});
-  });
-}
-
-/* Apply saved settings on load */
-applyAll();
-})();
+});
 
 /* Dynamic copyright year */
 var cyEl=document.getElementById('copyrightYear');

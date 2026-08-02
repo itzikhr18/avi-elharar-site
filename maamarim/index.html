@@ -30,17 +30,20 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@500;700;900&family=Heebo:wght@300;400;500;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="../style.min.css?v=20260529b" />
+  <!-- Marks the document as scripted BEFORE first paint, so rules that hide content
+       for an animation can be scoped to .js and never strand it. -->
+  <script>document.documentElement.classList.add('js')</script>
+  <link rel="stylesheet" href="../style.min.css?v=20260802" />
   <style>
     .articles-list{display:grid;gap:1.2rem;max-width:760px;margin:2rem auto 0}
     .article-card{display:block;text-decoration:none;color:inherit;border:1px solid var(--border);border-radius:var(--radius-lg);padding:1.6rem;background:rgba(255,255,255,.025);transition:border-color .25s,transform .25s,box-shadow .25s}
     .article-card:hover{border-color:var(--primary);transform:translateY(-2px);box-shadow:var(--shadow-sm)}
-    .article-card__eyebrow{color:var(--primary);font-weight:700;font-size:.82rem;letter-spacing:.04em;margin:0 0 .5rem}
+    .article-card__eyebrow{color:var(--primary);font-weight:700;font-size:.82rem;margin:0 0 .5rem}
     .article-card h2{font-size:1.45rem;margin:0 0 .6rem;text-wrap:balance}
     .article-card p{color:var(--muted);margin:0;font-size:1rem;line-height:1.6}
     .article-card__more{display:inline-block;margin-top:.9rem;color:var(--primary);font-weight:700}
     .breadcrumbs{font-size:.85rem;color:var(--muted);margin-bottom:1rem}
-    .breadcrumbs a{color:var(--muted);text-decoration:none}
+    .breadcrumbs a{color:var(--muted);text-decoration:none;display:inline-flex;align-items:center;min-height:24px;}
     .breadcrumbs a:hover{color:var(--primary)}
     .breadcrumbs span{margin:0 .35rem;opacity:.5}
   </style>
@@ -90,11 +93,14 @@
       <div class="footer-links">
         <a href="../">דף הבית</a>
         <span class="footer-sep">|</span>
-        <a href="tel:+972528449147">052-8449147</a>
+        <a href="tel:+972528449147"><bdi>052-8449147</bdi></a>
+        <span class="footer-sep">|</span>
+        <a href="../#accessibility-statement">הצהרת נגישות</a>
         <span class="footer-sep">|</span>
         <a href="https://www.facebook.com/share/1FXduxr4NL/" target="_blank" rel="noopener">פייסבוק</a>
       </div>
     </div>
   </footer>
+  <script src="../a11y.min.js?v=20260802" defer></script>
 </body>
 </html>
