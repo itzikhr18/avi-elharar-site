@@ -585,8 +585,8 @@ h3{font-size:clamp(1.2rem,1.05rem + .6vw,1.5rem);line-height:1.1;font-weight:900
    scale — the readable heading alone can't do it. */
 .ghost{position:absolute;inset-block-start:var(--ghost-top);inset-inline:0;z-index:0;
   font-family:var(--font-head);font-weight:900;font-size:var(--ghost-size);letter-spacing:-.07em;
-  line-height:.9;text-align:center;white-space:nowrap;opacity:.14;
-  background:linear-gradient(#e8dfc9,#5c5344);-webkit-background-clip:text;background-clip:text;
+  line-height:.9;text-align:center;white-space:nowrap;opacity:.34;
+  background-image:linear-gradient(#cdbf9e,#3a332a);-webkit-background-clip:text;background-clip:text;
   color:transparent;pointer-events:none;user-select:none}
 
 /* Sections carrying a ghost reserve the full glyph height above their content
@@ -639,7 +639,7 @@ h3{font-size:clamp(1.2rem,1.05rem + .6vw,1.5rem);line-height:1.1;font-weight:900
 /* ---------- Responsive tuning for the system ---------- */
 @media(max-width:780px){
   :root{--ghost-size:24vw;--ghost-top:1.5rem}
-  .ghost{opacity:.11}
+  .ghost{opacity:.26}
   .patch{padding-inline:.2em;transform:rotate(-1deg)}
 }
 
@@ -678,8 +678,9 @@ body.a11y-high-contrast .ghost{display:none!important}
    rather than a pasted card. -webkit- prefix included: without it the mask is
    ignored on Safari < 15.4 and the raw rectangle shows. */
 .stage-art img{
-  -webkit-mask-image:radial-gradient(ellipse 76% 74% at 50% 48%,#000 56%,transparent 93%);
-  mask-image:radial-gradient(ellipse 76% 74% at 50% 48%,#000 56%,transparent 93%);
+  border-radius:0;
+  -webkit-mask-image:radial-gradient(ellipse 70% 68% at 50% 47%,#000 34%,#000000b8 60%,transparent 84%);
+  mask-image:radial-gradient(ellipse 70% 68% at 50% 47%,#000 34%,#000000b8 60%,transparent 84%);
   animation:artBob 1.7s ease-in-out infinite}
 /* Suspension bob, layered under the slower float on the parent — together they
    read as a car in motion rather than an object hanging in space. */
