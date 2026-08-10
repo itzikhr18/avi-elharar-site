@@ -162,7 +162,9 @@ def main() -> int:
 
         found_types = schema_types(parsed_schema)
         required_types = {
-            "/": {"DrivingSchool", "WebSite", "FAQPage"},
+            # "DrivingSchool" is NOT a real schema.org type (schema.org/DrivingSchool → 404).
+            # Replaced with the valid pair LocalBusiness + EducationalOrganization.
+            "/": {"LocalBusiness", "EducationalOrganization", "WebSite", "FAQPage"},
             "/maamarim/5-tauyot-test-yerushalayim/": {"Article", "BreadcrumbList"},
         }.get(route, set())
         missing_types = sorted(required_types - found_types)
