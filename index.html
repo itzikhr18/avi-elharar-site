@@ -12,19 +12,13 @@
       setTimeout(function(){document.documentElement.style.scrollBehavior=''},200);
     });
   </script>
-  <!-- Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q3V66EP3E5"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-Q3V66EP3E5');
-  </script>
+  <script src="analytics.js?v=20260826a" defer></script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>מורה נהיגה בירושלים ומעלה אדומים | אבי אלחרר - טסטר לשעבר</title>
-  <meta name="description" content="אבי אלחרר — מורה נהיגה בירושלים ומעלה אדומים שישב בצד הבוחן. לימוד על רכב אוטומטי, תרגול במסלולי הטסט האמיתיים (ארנונה, תלפיות, מלחה) וליווי אישי עד הרישיון. בית הספר לנהיגה יוני, מאז 1976." />
+  <meta name="description" content="אבי אלחרר, מורה נהיגה וטסטר לשעבר בירושלים ומעלה אדומים. לימוד על רכב אוטומטי, הכנה ממוקדת לטסט וליווי אישי עד הרישיון." />
   <meta name="theme-color" content="#0a0a0a" />
+  <link rel="icon" href="/logo.svg" type="image/svg+xml" />
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
   <meta name="author" content="אבי אלחרר" />
   <meta name="geo.region" content="IL-JM" />
@@ -36,7 +30,7 @@
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="אבי אלחרר - מורה נהיגה" />
   <meta property="og:title" content="מורה נהיגה בירושלים ומעלה אדומים | אבי אלחרר - טסטר לשעבר" />
-  <meta property="og:description" content="מורה נהיגה מוסמך וטסטר לשעבר בירושלים ומעלה אדומים. שיעורי נהיגה על רכב אוטומטי, הכנה ממוקדת למסלולי הטסט וליווי אישי עד הרישיון." />
+  <meta property="og:description" content="מורה נהיגה מוסמך וטסטר לשעבר בירושלים ומעלה אדומים. שיעורי נהיגה על רכב אוטומטי, הכנה ממוקדת וליווי אישי עד הרישיון." />
   <meta property="og:url" content="https://avielharar.co.il/" />
   <meta property="og:image" content="https://avielharar.co.il/og-cover.jpg" />
   <meta property="og:image:width" content="1200" />
@@ -47,7 +41,7 @@
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="מורה נהיגה בירושלים | אבי אלחרר - טסטר לשעבר" />
-  <meta name="twitter:description" content="שיעורי נהיגה על רכב אוטומטי בירושלים ומעלה אדומים עם אבי אלחרר. הכנה ממוקדת לטסט, מסלולי תרגול אמיתיים וליווי אישי עד הרישיון." />
+  <meta name="twitter:description" content="שיעורי נהיגה על רכב אוטומטי בירושלים ומעלה אדומים עם אבי אלחרר. הכנה ממוקדת לטסט וליווי אישי עד הרישיון." />
   <meta name="twitter:image" content="https://avielharar.co.il/og-cover.jpg" />
   <meta name="twitter:image:alt" content="אבי אלחרר - מורה נהיגה וטסטר לשעבר בירושלים ומעלה אדומים, שיעורי נהיגה על רכב אוטומטי" />
   <link rel="canonical" href="https://avielharar.co.il/" />
@@ -55,10 +49,12 @@
   <link rel="alternate" hreflang="x-default" href="https://avielharar.co.il/" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800&family=Rubik:wght@700;800;900&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&family=Rubik:wght@700;900&display=swap" />
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&family=Rubik:wght@700;900&display=swap" rel="stylesheet" media="print" onload="this.media='all'" />
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&family=Rubik:wght@700;900&display=swap" rel="stylesheet" /></noscript>
   <link rel="preload" as="image" href="hero-3d-480.webp" type="image/webp" media="(max-width: 480px)" fetchpriority="high" />
   <link rel="preload" as="image" href="hero-3d-720.webp" type="image/webp" media="(min-width: 481px)" fetchpriority="high" />
-  <link rel="stylesheet" href="style.min.css?v=20260802n" />
+  <link rel="stylesheet" href="style.min.css?v=20260826a" />
   <!-- Structured Data -->
   <script type="application/ld+json">
   {
@@ -138,7 +134,7 @@
           "itemOffered": {
             "@type": "Service",
             "name": "שיעור נהיגה כפול (80 דקות)",
-            "description": "שיעור נהיגה כפול מאפשר תרגול מעמיק על מסלולי טסט מלאים"
+            "description": "שיעור נהיגה כפול מאפשר תרגול מעמיק של תרחישי נהיגה מגוונים באזורי המבחן"
           },
           "price": "400",
           "priceCurrency": "ILS"
@@ -148,7 +144,7 @@
           "itemOffered": {
             "@type": "Service",
             "name": "הכנה לטסט נהיגה",
-            "description": "טסט פנימי וסימולציה מלאה של מבחן הנהיגה המעשי באזורי הטסט בירושלים ומעלה אדומים"
+             "description": "טסט פנימי והכנה מעשית למבחן הנהיגה באזורי ירושלים ומעלה אדומים"
           }
         }
       ]
@@ -164,7 +160,7 @@
         "address": {"@type": "PostalAddress", "addressLocality": "ירושלים", "addressCountry": "IL"}
       }
     },
-    "knowsAbout": ["לימוד נהיגה", "הכנה לטסט נהיגה", "נהיגה על רכב אוטומטי", "מסלולי טסט ירושלים", "מסלולי טסט מעלה אדומים"],
+    "knowsAbout": ["לימוד נהיגה", "הכנה לטסט נהיגה", "נהיגה על רכב אוטומטי", "אזורי מבחן בירושלים", "אזורי מבחן במעלה אדומים"],
     "slogan": "פחות שיעורים מיותרים. יותר דיוק, ביטחון ותוצאה.",
     "sameAs": ["https://www.facebook.com/share/1FXduxr4NL/"]
   }
@@ -191,7 +187,7 @@
         "name": "כמה שיעורים צריך עד הטסט?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "זה משתנה מתלמיד לתלמיד. בממוצע, תלמידים שלומדים לראשונה צריכים בין 28-40 שיעורים. בשיחת ההתאמה נבנה תוכנית מדויקת לפי הרקע שלכם."
+          "text": "החוק קובע מינימום של 28 שיעורים לרישיון B. מספר השיעורים בפועל משתנה לפי קצב ההתקדמות והמוכנות של כל תלמיד."
         }
       },
       {
@@ -207,7 +203,7 @@
         "name": "באיזה אזורים מתקיימים השיעורים?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "השיעורים מתקיימים באזורי הטסט של ירושלים ומעלה אדומים — ארנונה, תלפיות, ארמון הנציב, מלחה, טלביה, הר חומה, מעלה אדומים ועוד. התרגול על המסלולים האמיתיים נותן יתרון משמעותי ביום הטסט."
+          "text": "השיעורים מתקיימים בירושלים ובמעלה אדומים — ארנונה, תלפיות, ארמון הנציב, מלחה, טלביה, הר חומה ואזורים נוספים. התרגול כולל מגוון דרכים ותרחישים אופייניים לאזורי המבחן."
         }
       },
       {
@@ -215,7 +211,7 @@
         "name": "מה כולל הטסט הפנימי?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "הטסט הפנימי הוא סימולציה מלאה של הטסט החיצוני — אותם מסלולים, אותם קריטריונים. המטרה היא לוודא שאתם מוכנים לפני שיוצאים לטסט האמיתי, ולתקן נקודות חולשה אם יש."
+          "text": "הטסט הפנימי בודק את רמת המוכנות בתנאים דומים למבחן מעשי, אך מסלול המבחן החיצוני נבחר באופן אקראי. המטרה היא לזהות ולתקן נקודות חולשה לפני הטסט."
         }
       },
       {
@@ -255,7 +251,7 @@
         "name": "איך לעבור טסט נהיגה בירושלים מהפעם הראשונה?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "ההכנה הנכונה היא המפתח. אבי מתרגל עם התלמידים על מסלולי הטסט האמיתיים בירושלים — ארנונה, תלפיות, מלחה וטלביה. כל שיעור כולל תרגול של הנקודות שהטסטרים שמים לב אליהן. בנוסף, לפני הטסט מתבצע טסט פנימי שמדמה את המבחן בדיוק."
+          "text": "אין דרך להבטיח מעבר בניסיון הראשון ומסלול הטסט נבחר באקראי. הכנה טובה כוללת תרגול מגוון בירושלים, חיזוק תצפית וקבלת החלטות, ותרגול נקודות חולשה שעלו במהלך השיעורים והטסט הפנימי."
         }
       },
       {
@@ -263,7 +259,7 @@
         "name": "מה הגיל המינימלי ללימוד נהיגה בישראל?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "לפי חוק, ניתן להתחיל לימוד נהיגה מגיל 16 ו-9 חודשים, ולגשת לטסט המעשי מגיל 17. לפני תחילת הלימוד המעשי יש לעבור שיעורי עזרה ראשונה ולקבל תעודת טופס ירוק מבית הספר לנהיגה."
+          "text": "לרישיון B ניתן להתחיל לימוד מעשי מגיל 16 וחצי, ולגשת למבחן מעשי ולקבל רישיון מגיל 16 ותשעה חודשים, בכפוף להשלמת התנאים. התהליך מתחיל בבקשה מקוונת, בדיקת ראייה, צילום וקבלת מסרון המאשר את המשך התהליך. מומלץ לבדוק את התנאים העדכניים באתר משרד התחבורה."
         }
       },
       {
@@ -271,7 +267,7 @@
         "name": "מה ההבדל בין רכב אוטומטי לידני בלימוד נהיגה?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "ברכב אוטומטי אין צורך לעבוד עם מצמד והילוכים, כך שהתלמיד מתרכז בנהיגה עצמה. רוב התלמידים מגיעים לרמה גבוהה יותר מהר יותר עם אוטומטי. הרישיון שמתקבל תקף גם לרכב ידני לאחר השלמה קצרה."
+          "text": "ברכב אוטומטי אין צורך לעבוד עם מצמד והילוכים, ולכן הלימוד מתמקד בתצפית, שליטה וקבלת החלטות. רישיון שהתקבל לאחר מבחן ברכב אוטומטי מוגבל לרכב אוטומטי; כדי להסיר את ההגבלה יש להשלים את ההליך הנדרש ולגשת למבחן מתאים."
         }
       },
       {
@@ -279,7 +275,7 @@
         "name": "כמה זמן לוקח להוציא רישיון נהיגה?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "התהליך לוקח בממוצע 3-5 חודשים, תלוי בתדירות השיעורים ובקצב ההתקדמות של התלמיד. מי שלומד 2-3 פעמים בשבוע מתקדם מהר יותר."
+          "text": "משך התהליך משתנה לפי תדירות השיעורים, קצב ההתקדמות, זמינות המבחנים והשלמת התנאים. בשיחת ההתאמה מגדירים יעדים ועוקבים אחר ההתקדמות."
         }
       },
       {
@@ -295,7 +291,7 @@
         "name": "מה קורה אם נכשלים בטסט?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "במקרה של כישלון, אבי עושה ניתוח של מה השתבש, מתרגל את הנקודות הספציפיות ומכין אתכם מחדש לטסט. רוב התלמידים עוברים בניסיון השני."
+          "text": "במקרה של כישלון, אבי מנתח יחד עם התלמיד את הדוח ואת הנקודות שדורשות שיפור, בונה תרגול ממוקד ומחליט יחד איתו מתי נכון לגשת שוב."
         }
       },
       {
@@ -303,7 +299,7 @@
         "name": "מה לקחת ליום הטסט?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "ביום הטסט צריך להביא תעודת זהות, טופס ירוק (אישור בית ספר), ותעודת עזרה ראשונה. אבי מלווה אתכם ביום הטסט ועושה שיעור חימום לפני המבחן."
+          "text": "לפי משרד התחבורה יש להגיע עם תעודת זהות, דרכון או רישיון נהיגה, אישור תשלום, ומשקפיים או עדשות מגע אם נדרשים. בית הספר והמורה מסדירים מראש את הרישום והעמדת הרכב. יש לבדוק את הרשימה העדכנית באתר משרד התחבורה לפני המבחן."
         }
       }
     ]
@@ -331,7 +327,7 @@
         </button>
         <ul class="menu" id="mobileMenu">
           <li><a href="#proof">למה דווקא אבי</a></li>
-          <li><a href="#about">על אבי</a></li>
+          <li><a href="about/">על אבי</a></li>
           <li><a href="#process">איך זה עובד</a></li>
           <li><a href="#pricing">מחירון</a></li>
           <li><a href="#areas">אזורי פעילות</a></li>
@@ -367,7 +363,7 @@
         </div>
         <p class="eyebrow">מורה נהיגה בירושלים ומעלה אדומים • טסטר לשעבר</p>
         <h1 id="heroHeading" class="typewriter-target">מורה נהיגה בירושלים ומעלה אדומים<br />אבי אלחרר - טסטר לשעבר</h1>
-        <p class="subhead">לומדים על רכב אוטומטי, מתרגלים במסלולי הטסט האמיתיים של ירושלים ומעלה אדומים — ומגיעים ליום המבחן בלי הפתעות. <strong>שיחת ההתאמה הראשונה ללא עלות ובלי התחייבות.</strong></p>
+        <p class="subhead">לומדים על רכב אוטומטי ומתרגלים מגוון תרחישים באזורי המבחן של ירושלים ומעלה אדומים — כדי להגיע ליום המבחן מוכנים ובטוחים יותר. <strong>שיחת ההתאמה הראשונה ללא עלות ובלי התחייבות.</strong></p>
         <div class="hero-actions">
           <a class="btn btn-primary" href="https://wa.me/972528449147?text=%D7%94%D7%99%D7%99%20%D7%90%D7%91%D7%99%2C%20%D7%90%D7%A9%D7%9E%D7%97%20%D7%9C%D7%A9%D7%9E%D7%95%D7%A2%20%D7%A2%D7%9C%20%D7%9C%D7%99%D7%9E%D7%95%D7%93%D7%99%20%D7%A0%D7%94%D7%99%D7%92%D7%94" target="_blank" rel="noopener">קבעו שיחת התאמה בווטסאפ</a>
           <a class="btn btn-secondary" href="#pricing">צפו במחירון</a>
@@ -513,7 +509,7 @@
                   <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="10" r="3" stroke="currentColor" stroke-width="1.5"/></svg>
                 </div>
                 <div>
-                  <strong>מכיר כל פינה בירושלים</strong>
+                  <strong>ניסיון נהיגה רחב בירושלים</strong>
                   <p>מתמחה באזורי הטסט — ארנונה, תלפיות, מלחה, טלביה והסביבה. ביום המבחן, אין הפתעות.</p>
                 </div>
               </div>
@@ -563,7 +559,7 @@
           <div class="process-step__num">3</div>
           <div class="process-step__content">
             <h3>טסט פנימי + הכנה לטסט</h3>
-            <p>סימולציה מלאה של טסט חיצוני כדי לוודא שאתם מוכנים. תיקון נקודות חלשות לפני היום הגדול.</p>
+            <p>בדיקת מוכנות מעשית בתנאים דומים למבחן, איתור נקודות חלשות ותרגול ממוקד לפני היום הגדול.</p>
           </div>
         </div>
         <div class="process-step" data-step="4">
@@ -627,9 +623,9 @@
               <svg viewBox="0 0 48 48" width="30" height="30" aria-hidden="true" focusable="false"><defs><linearGradient id="pi5" x1="12" y1="10" x2="38" y2="42" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fff" stop-opacity=".95"/><stop offset=".44" stop-color="currentColor"/><stop offset="1" stop-color="#000" stop-opacity=".55"/></linearGradient><radialGradient id="pi5f" cx="36%" cy="28%" r="78%"><stop offset="0" stop-color="#fff" stop-opacity=".34"/><stop offset="1" stop-color="#000" stop-opacity=".5"/></radialGradient></defs><ellipse cx="24" cy="43.2" rx="12.5" ry="2.6" fill="#000" opacity=".38"/><path d="M8.4 32.4v-4.2c0-1.5.8-2.7 2.1-3.3l2.7-1.2 3.3-6.4c.7-1.4 2-2.2 3.5-2.2h9.4c1.5 0 2.8.8 3.5 2.2l3.3 6.4 2.7 1.2c1.3.6 2.1 1.8 2.1 3.3v4.2z" fill="url(#pi5)"/><path d="M17.9 18.4c.3-.6.8-.9 1.4-.9h9.4c.6 0 1.1.3 1.4.9l2.7 5.3H15.2z" fill="#000" opacity=".38"/><path d="M11.6 27.4h5M31.4 27.4h5" stroke="#fff" stroke-opacity=".7" stroke-width="2.4" stroke-linecap="round"/><circle cx="15" cy="33.4" r="4.6" fill="#0d0b06"/><circle cx="15" cy="33.4" r="1.9" fill="#fff" opacity=".8"/><circle cx="33" cy="33.4" r="4.6" fill="#0d0b06"/><circle cx="33" cy="33.4" r="1.9" fill="#fff" opacity=".8"/><rect x="19.6" y="7" width="8.8" height="7" rx="2" fill="url(#pi5)"/><path d="M22.6 9.2v3.2h3" fill="none" stroke="#fff" stroke-opacity=".97" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg>
             </div>
             <div class="price-row__info">
-              <span class="price-row__name">טסט חיצוני</span>
+              <span class="price-row__name">העמדת רכב לטסט חיצוני</span>
             </div>
-            <span class="price-row__amount">₪231</span>
+            <span class="price-row__amount">עד ₪229</span>
           </div>
           <div class="price-row" style="--row-rgb:224 122 139;--row-i:5">
             <div class="price-row__icon" aria-hidden="true">
@@ -638,7 +634,7 @@
             <div class="price-row__info">
               <span class="price-row__name">אגרה למשרד התחבורה לטסט</span>
             </div>
-            <span class="price-row__amount">₪156</span>
+            <span class="price-row__amount">לפי התעריף הרשמי</span>
           </div>
         </div>
         <div class="price-cta">
@@ -653,7 +649,7 @@
       <div class="areas-header">
         <p class="marker"><span class="num">05</span> אזורי פעילות</p>
       <h2>אזורי פעילות — שיעורי נהיגה<span class="tint">בירושלים ומעלה אדומים</span></h2>
-        <p class="section-intro">מתמחה באזורי הטסט של ירושלים. מכיר כל צומת, כל סימון וכל נקודה שמכשילה. השיעורים מתקיימים באזורים שבהם מתבצע הטסט בפועל — כך שאתם מגיעים ליום המבחן עם יתרון משמעותי.</p>
+        <p class="section-intro">השיעורים מתקיימים במגוון אזורים בירושלים ובמעלה אדומים. מתרגלים תצפית, תכנון וקבלת החלטות ברחובות ובתרחישים משתנים, כדי להגיע למבחן עם יכולת עצמאית ולא עם שינון של דרך אחת.</p>
       </div>
       <div class="areas-grid reveal-stagger">
         <div class="area-chip" style="--chip-i:0">
@@ -698,7 +694,7 @@
         </div>
       </div>
 
-      <div class="route-map reveal" aria-label="מפת מסלול נהיגה בין אזורי הפעילות">
+      <div class="route-map reveal" role="img" aria-label="המחשה של אזורי התרגול בירושלים">
         <svg class="route-map__svg" viewBox="0 0 700 320" fill="none" xmlns="http://www.w3.org/2000/svg">
           <!-- Route path -->
           <path class="route-map__path" d="M80 260 C100 220, 130 180, 170 170 S240 190, 270 150 S320 80, 370 90 S420 130, 440 100 S480 50, 530 70 S580 120, 610 100 S650 60, 660 80" stroke="url(#routeGrad)" stroke-width="3" stroke-linecap="round" fill="none"/>
@@ -756,21 +752,21 @@
 
       <div class="areas-note">
         <svg class="areas-note__icon" width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="8" stroke="currentColor" stroke-width="1.5"/><path d="M10 9v4M10 7h.01" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
-        <p>התרגול מתבצע באזורי הטסט עצמם — כך שביום המבחן, המסלול כבר מוכר.</p>
+        <p>התרגול מתבצע במגוון סביבות נהיגה. מסלול המבחן נבחר באקראי, ולכן המטרה היא שהעקרונות יהיו מוכרים גם כשהדרך אינה מוכרת מראש.</p>
       </div>
 
       <div class="areas-detail reveal-stagger">
         <div class="area-detail-card">
           <h3>טסט נהיגה בארנונה ותלפיות</h3>
-          <p>אזור ארנונה-תלפיות הוא אחד ממוקדי הטסט המרכזיים בירושלים. המסלולים כוללים רחובות צרים עם חנייה דו-צדדית, כיכרות מרובות ועליות תלולות. אבי מכיר כל נקודה מכשילה — מהכניסה לכיכר דרק ועד הפנייה ברחוב בית לחם. התרגול המקדים על המסלולים האלה מעניק יתרון אמיתי ביום הטסט.</p>
+          <p>באזור ארנונה ותלפיות אפשר לתרגל רחובות צרים עם חנייה דו־צדדית, כיכרות, עליות וירידות והשתלבות בתנועה. הדגש הוא על זיהוי המצב וקבלת החלטה נכונה, גם כאשר הדרך במבחן שונה מזו שתורגלה.</p>
         </div>
         <div class="area-detail-card">
           <h3>טסט נהיגה במעלה אדומים</h3>
-          <p>מעלה אדומים היא אזור טסט פופולרי עם מסלולים ייחודיים — כבישים בין-עירוניים, ירידות ועליות, כיכרות גדולות וכניסות למגרשי חנייה. אבי מלמד על מסלולי הטסט בפועל במעלה אדומים, כולל תרגול הנסיעה בכביש 1 והכניסה לעיר. תלמידים מאזור מעלה אדומים, מישור אדומים וכפר אדומים נהנים משיעורים באזור המגורים שלהם.</p>
+          <p>במעלה אדומים אפשר לתרגל כבישים בין־עירוניים, ירידות ועליות, כיכרות גדולות וכניסות למגרשי חנייה. בהתאם לרמת התלמיד ולתוכנית הלימוד משלבים גם נסיעה בכביש 1 וכניסה לעיר. אזור האיסוף נקבע מראש לפי זמינות.</p>
         </div>
         <div class="area-detail-card">
           <h3>טסט נהיגה במלחה וטלביה</h3>
-          <p>אזור מלחה-טלביה מציע מסלולי טסט עם שילוב של רחובות שקטים ועורקים ראשיים. הנקודות שדורשות תשומת לב מיוחדת: מעבר הולכי רגל ליד הקניון, הפנייה לרחוב חובבי ציון, וכניסה לכיכרות. אבי מתרגל עם התלמידים את כל התרחישים האפשריים באזור הזה.</p>
+          <p>באזור מלחה וטלביה אפשר לתרגל מעבר בין רחובות שקטים לעורקים ראשיים, תשומת לב להולכי רגל, מיקום בנתיב וכניסה לכיכרות. אין אפשרות לתרגל כל מצב מראש, ולכן בונים שיטת עבודה עקבית שמתאימה גם לתרחיש חדש.</p>
         </div>
       </div>
     </section>
@@ -809,7 +805,7 @@
           <cite>— משפחת כהן, ירושלים</cite>
         </blockquote>
         <blockquote class="text-review">
-          <p>״למדתי נהיגה על אוטומטי עם אבי. היתרון הגדול הוא שהוא מלמד על מסלולי הטסט האמיתיים בתלפיות וארנונה. ביום הטסט ידעתי בדיוק מה לצפות בכל פנייה. ההכנה המדויקת לטסט זה לא סתם — אבי באמת מכין אותך ברמה הכי גבוהה.״</p>
+          <p>״למדתי נהיגה על אוטומטי עם אבי. היתרון הגדול הוא שתרגלנו מגוון מצבים ודרכים בתלפיות ובארנונה. ביום הטסט הרגשתי מוכן גם כשלא ידעתי מראש לאן יפנה המסלול. ההכנה המדויקת לטסט זה לא סתם — אבי באמת מכין אותך ברמה הכי גבוהה.״</p>
           <cite>— דניאל ר., ארנונה, ירושלים</cite>
         </blockquote>
       </div>
@@ -844,7 +840,7 @@
       <div class="guide-grid reveal-stagger">
         <article class="guide-card">
           <h3>שלב 1: דרישות מקדימות</h3>
-          <p>לפני שמתחילים לימוד נהיגה בישראל, צריך לעמוד במספר תנאים: <strong>גיל מינימלי 16 ותשעה חודשים</strong>, סיום קורס עזרה ראשונה מוכר, בדיקת עיניים ופתיחת תיק במשרד הרישוי. לאחר מכן מקבלים "טופס ירוק" מבית הספר לנהיגה שמאשר את תחילת הלימוד המעשי.</p>
+          <p>לרישיון B ניתן להתחיל לימוד מעשי מגיל <strong>16 וחצי</strong>, לאחר הגשת בקשה מקוונת, צילום, בדיקת ראייה וקבלת מסרון המאשר את המשך התהליך. מבחן מעשי וקבלת רישיון אפשריים מגיל 16 ותשעה חודשים, בכפוף להשלמת התנאים. <a href="https://www.gov.il/he/service/apply_for_new_driver_drivers_license" target="_blank" rel="noopener">בדקו את התנאים העדכניים במשרד התחבורה</a>.</p>
         </article>
         <article class="guide-card">
           <h3>שלב 2: בחירת מורה נהיגה</h3>
@@ -852,11 +848,11 @@
         </article>
         <article class="guide-card">
           <h3>שלב 3: תהליך הלימוד</h3>
-          <p>הלימוד המעשי כולל בממוצע <strong>28-40 שיעורים</strong> (תלוי בתלמיד). בשיעורים הראשונים לומדים את הבסיס — הגה, בלמים, גז ומראות. בהמשך מתקדמים לנסיעה עצמאית ברחובות, כיכרות, חניה ונסיעה בין-עירונית. בשלב האחרון מתרגלים על מסלולי הטסט עצמם.</p>
+          <p>החוק קובע מינימום של <strong>28 שיעורים</strong> לרישיון B, ומספר השיעורים בפועל תלוי במוכנות. מתחילים בשליטה ברכב ובתצפית, מתקדמים לנסיעה עצמאית, כיכרות, חניה ונסיעה בין־עירונית, ובשלב האחרון מתרגלים מגוון מצבים בתנאים דומים למבחן.</p>
         </article>
         <article class="guide-card">
           <h3>שלב 4: הטסט המעשי</h3>
-          <p>מבחן הנהיגה המעשי נמשך כ-20 דקות ובודק שליטה ברכב, ציות לחוקי תנועה, תצפית ובטיחות. <strong>אזורי הטסט בירושלים</strong> כוללים את ארנונה, תלפיות, מלחה, טלביה ומעלה אדומים. הכרת המסלולים מראש והתרגול עליהם מעלים משמעותית את סיכויי ההצלחה.</p>
+          <p>מבחן הנהיגה המעשי בודק שליטה ברכב, ציות לחוקי התנועה, תצפית, קבלת החלטות ובטיחות. המסלול נבחר באקראי, ולכן הכנה טובה מתמקדת ביכולת ליישם את אותם עקרונות במגוון אזורים ודרכים.</p>
         </article>
       </div>
     </section>
@@ -870,7 +866,7 @@
         <div class="faq-list reveal-stagger">
           <details class="faq-item">
             <summary>כמה שיעורים צריך עד הטסט?</summary>
-            <div class="faq-item__body"><p>זה משתנה מתלמיד לתלמיד. בממוצע, תלמידים שלומדים לראשונה צריכים בין 28-40 שיעורים. בשיחת ההתאמה נבנה תוכנית מדויקת לפי הרקע שלכם.</p></div>
+            <div class="faq-item__body"><p>החוק קובע מינימום של 28 שיעורים לרישיון B. מספר השיעורים בפועל משתנה לפי קצב ההתקדמות והמוכנות של כל תלמיד.</p></div>
           </details>
           <details class="faq-item">
             <summary>האם הלימוד על רכב אוטומטי בלבד?</summary>
@@ -878,11 +874,11 @@
           </details>
           <details class="faq-item">
             <summary>באיזה אזורים מתקיימים השיעורים?</summary>
-            <div class="faq-item__body"><p>השיעורים מתקיימים באזורי הטסט של ירושלים ומעלה אדומים — ארנונה, תלפיות, ארמון הנציב, מלחה, טלביה, הר חומה, מעלה אדומים ועוד. התרגול על המסלולים האמיתיים נותן יתרון משמעותי ביום הטסט.</p></div>
+            <div class="faq-item__body"><p>השיעורים מתקיימים באזורי ירושלים ומעלה אדומים — ארנונה, תלפיות, ארמון הנציב, מלחה, טלביה, הר חומה, מעלה אדומים ועוד. המסלול במבחן נבחר באקראי, ולכן מתרגלים מגוון דרכים ותרחישים ולא מסלול קבוע.</p></div>
           </details>
           <details class="faq-item">
             <summary>מה כולל הטסט הפנימי?</summary>
-            <div class="faq-item__body"><p>הטסט הפנימי הוא סימולציה מלאה של הטסט החיצוני — אותם מסלולים, אותם קריטריונים. המטרה היא לוודא שאתם מוכנים לפני שיוצאים לטסט האמיתי, ולתקן נקודות חולשה אם יש.</p></div>
+            <div class="faq-item__body"><p>הטסט הפנימי מדמה את דרישות הנהיגה והלחץ של הטסט החיצוני, אך אינו משחזר מסלול ידוע מראש. המטרה היא לבדוק מוכנות עצמאית ולתקן נקודות חולשה לפני המבחן.</p></div>
           </details>
           <details class="faq-item">
             <summary>איך נרשמים לשיעור ראשון?</summary>
@@ -902,19 +898,19 @@
           </details>
           <details class="faq-item">
             <summary>איך לעבור טסט נהיגה בירושלים מהפעם הראשונה?</summary>
-            <div class="faq-item__body"><p>ההכנה הנכונה היא המפתח. אבי מתרגל עם התלמידים על <strong>מסלולי הטסט האמיתיים</strong> בירושלים — ארנונה, תלפיות, מלחה וטלביה. כל שיעור כולל תרגול של הנקודות שהטסטרים שמים לב אליהן: בדיקות מראות, עצירה מלאה בסטופ, כניסה לכיכרות ועוד. בנוסף, לפני הטסט מתבצע טסט פנימי שמדמה את המבחן בדיוק.</p></div>
+            <div class="faq-item__body"><p>אין דרך להבטיח מעבר בניסיון הראשון, ומסלול הטסט נבחר באקראי. הכנה טובה כוללת תרגול מגוון באזורי ירושלים, חיזוק תצפית וקבלת החלטות, ועבודה ממוקדת על נקודות החולשה שעלו בשיעורים ובטסט הפנימי.</p></div>
           </details>
           <details class="faq-item">
             <summary>מה הגיל המינימלי ללימוד נהיגה בישראל?</summary>
-            <div class="faq-item__body"><p>לפי חוק, ניתן להתחיל לימוד נהיגה מגיל 16 ו-9 חודשים, ולגשת לטסט המעשי מגיל 17. לפני תחילת הלימוד המעשי יש לעבור שיעורי עזרה ראשונה ולקבל תעודת "טופס ירוק" מבית הספר לנהיגה.</p></div>
+            <div class="faq-item__body"><p>לרישיון B ניתן להתחיל לימוד מעשי מגיל <strong>16 וחצי</strong>, ולגשת למבחן מעשי ולקבל רישיון מגיל <strong>16 ותשעה חודשים</strong>, בכפוף להשלמת התנאים. התהליך מתחיל בבקשה מקוונת, בדיקת ראייה, צילום וקבלת מסרון. <a href="https://www.gov.il/he/service/apply_for_new_driver_drivers_license" target="_blank" rel="noopener">למידע הרשמי והעדכני</a>.</p></div>
           </details>
           <details class="faq-item">
             <summary>מה ההבדל בין רכב אוטומטי לידני בלימוד נהיגה?</summary>
-            <div class="faq-item__body"><p>ברכב אוטומטי אין צורך לעבוד עם מצמד והילוכים, כך שהתלמיד מתרכז בנהיגה עצמה — שליטה בהגה, מראות, תמרון ותצפית. רוב התלמידים מגיעים לרמה גבוהה יותר מהר יותר עם אוטומטי. הרישיון שמתקבל תקף גם לרכב ידני (לאחר השלמה קצרה).</p></div>
+            <div class="faq-item__body"><p>ברכב אוטומטי אין צורך לעבוד עם מצמד והילוכים, ולכן הלימוד מתמקד בתצפית, שליטה וקבלת החלטות. רישיון שהתקבל לאחר מבחן ברכב אוטומטי מוגבל לרכב אוטומטי; להסרת ההגבלה נדרש להשלים את ההליך הרשמי ולגשת למבחן מתאים.</p></div>
           </details>
           <details class="faq-item">
             <summary>כמה זמן לוקח להוציא רישיון נהיגה?</summary>
-            <div class="faq-item__body"><p>התהליך לוקח בממוצע 3-5 חודשים, תלוי בתדירות השיעורים ובקצב ההתקדמות של התלמיד. מי שלומד 2-3 פעמים בשבוע מתקדם מהר יותר. אבי בונה תוכנית אישית עם יעדים ברורים לכל שלב.</p></div>
+            <div class="faq-item__body"><p>משך התהליך משתנה לפי תדירות השיעורים, קצב ההתקדמות, זמינות המבחנים והשלמת התנאים. בשיחת ההתאמה מגדירים יעדים ועוקבים אחר ההתקדמות.</p></div>
           </details>
           <details class="faq-item">
             <summary>יש לי פחד מנהיגה — אפשר בכלל ללמוד נהיגה?</summary>
@@ -922,7 +918,7 @@
           </details>
           <details class="faq-item">
             <summary>מה קורה אם נכשלים בטסט?</summary>
-            <div class="faq-item__body"><p>זה קורה, ואין סיבה להתבייש — אחוזי ההצלחה הארציים בטסט הם כ-50%. במקרה של כישלון, אבי עושה ניתוח של מה השתבש, מתרגל את הנקודות הספציפיות ומכין אתכם מחדש לטסט. רוב התלמידים עוברים בניסיון השני.</p></div>
+            <div class="faq-item__body"><p>זה קורה, ואין סיבה להתבייש. אבי עובר יחד עם התלמיד על הדוח, מזהה את הנקודות שדורשות שיפור, בונה תרגול ממוקד ומחליט יחד איתו מתי נכון לגשת שוב.</p></div>
           </details>
           <details class="faq-item">
             <summary>האם אפשר לקבוע שיעורים בערב או בסוף שבוע?</summary>
@@ -930,13 +926,13 @@
           </details>
           <details class="faq-item">
             <summary>מה לקחת ליום הטסט?</summary>
-            <div class="faq-item__body"><p>ביום הטסט צריך להביא <strong>תעודת זהות</strong> (או דרכון + תעודה מזהה נוספת), <strong>טופס ירוק</strong> (אישור בית ספר), ו<strong>תעודת עזרה ראשונה</strong>. כמובן שחשוב להגיע רגועים ומנוחים. אבי מלווה אתכם ביום הטסט ועושה שיעור חימום לפני המבחן.</p></div>
+            <div class="faq-item__body"><p>לפי משרד התחבורה יש להגיע עם <strong>תעודת זהות, דרכון או רישיון נהיגה</strong>, אישור תשלום, ומשקפיים או עדשות מגע אם נדרשים. בית הספר והמורה מסדירים מראש את הרישום והעמדת הרכב. <a href="https://www.gov.il/he/service/apply_for_new_driver_drivers_license" target="_blank" rel="noopener">בדקו את הרשימה העדכנית לפני המבחן</a>.</p></div>
           </details>
         </div>
         <a class="article-teaser" href="maamarim/5-tauyot-test-yerushalayim/">
           <span class="article-teaser__flag">חשיפה מבפנים</span>
           <h3>5 הטעויות שמכשילות תלמידים בטסט בירושלים</h3>
-          <p class="article-teaser__hook">אחת מהן מפילה חלק גדול מהנכשלים באזור ארנונה — <b>וכמעט אף תלמיד לא מודע לה לפני יום הטסט.</b></p>
+            <p class="article-teaser__hook">חמש טעויות שחוזרות בתהליך ההכנה — ואיך בונים נהיגה עצמאית גם כשהמסלול נבחר באקראי.</p>
           <span class="article-teaser__foot">
             <span class="article-teaser__go">קראו את המאמר <span class="arrow" aria-hidden="true">←</span></span>
             <span class="article-teaser__by">מאת אבי אלחרר · ישב שנים בצד הבוחן</span>
@@ -945,17 +941,34 @@
       </div>
     </section>
 
+    <section class="section section--ghost grid-bed glow-bed section-dark" aria-labelledby="servicePagesTitle">
+      <span class="ghost" aria-hidden="true">שירותים</span>
+      <div class="container">
+        <p class="marker"><span class="num">10</span> מידע ממוקד</p>
+        <h2 id="servicePagesTitle">בחרו את הנושא<span class="tint">שמתאים לכם</span></h2>
+        <p class="section-intro">עמודים ממוקדים עם מחיר, אזור, תהליך ומידע מעודכן — בלי לחפש את התשובה בתוך דף ארוך.</p>
+        <nav class="topic-links" aria-label="עמודי שירות מרכזיים">
+          <a href="more-nehiga-yerushalayim/"><strong>מורה נהיגה בירושלים</strong><span>שיטת לימוד, אזורים ומחיר</span></a>
+          <a href="more-nehiga-maale-adumim/"><strong>מורה נהיגה במעלה אדומים</strong><span>תרגול עירוני ובין־עירוני</span></a>
+          <a href="limud-nehiga-automati/"><strong>לימוד נהיגה על אוטומט</strong><span>מה לומדים ומהי מגבלת הרישיון</span></a>
+          <a href="hachana-letest-yerushalayim/"><strong>הכנה לטסט בירושלים</strong><span>בדיקת מוכנות ותרגול נקודות חולשה</span></a>
+          <a href="mehiron-shiurei-nehiga/"><strong>מחיר שיעורי נהיגה</strong><span>מחירון ורכיבי התשלום</span></a>
+          <a href="maamarim/"><strong>מאמרים ומדריכים</strong><span>מידע מעודכן עם מקורות רשמיים</span></a>
+        </nav>
+      </div>
+    </section>
+
     <section class="section section--ghost grid-bed glow-bed section-dark reveal" id="contact">
       <span class="ghost" aria-hidden="true">קשר</span>
       <div class="container contact-wrap">
         <div>
-          <p class="marker"><span class="num">10</span> יצירת קשר</p>
+        <p class="marker"><span class="num">11</span> יצירת קשר</p>
       <h2 class="has-patch">מתחילים נכון <span class="patch patch--cool">כבר השבוע</span></h2>
           <p class="contact-lead">השאירו שם, טלפון ואזור מגורים — ואבי יחזור אליכם לשיחת התאמה קצרה, <strong>ללא עלות ובלי התחייבות</strong>.</p>
           <ul class="contact-bullets">
             <li>הערכת מספר השיעורים שתצטרכו</li>
             <li>תוכנית לימוד מותאמת לרקע שלכם</li>
-            <li>מסלולי הטסט שתתרגלו באזור שלכם</li>
+            <li>אזורי ותרחישי הנהיגה שתתרגלו</li>
             <li>זמן צפוי עד הטסט</li>
           </ul>
         </div>
@@ -1122,7 +1135,7 @@
   </a>
 
   <!-- Sticky CTA Bar -->
-  <div class="sticky-cta" id="stickyCta" aria-hidden="true">
+  <div class="sticky-cta" id="stickyCta" aria-hidden="true" inert>
     <div class="container sticky-cta__inner">
       <span class="sticky-cta__text">שיחת התאמה ראשונה — ללא עלות</span>
       <a class="btn btn-primary btn--sm" href="https://wa.me/972528449147?text=%D7%94%D7%99%D7%99%20%D7%90%D7%91%D7%99%2C%20%D7%90%D7%A9%D7%9E%D7%97%20%D7%9C%D7%A9%D7%9E%D7%95%D7%A2%20%D7%A2%D7%9C%20%D7%9C%D7%99%D7%9E%D7%95%D7%93%D7%99%20%D7%A0%D7%94%D7%99%D7%92%D7%94" target="_blank" rel="noopener">דברו איתי בווטסאפ</a>
@@ -1135,7 +1148,7 @@
     <button class="float-orb a11y-toggle" id="a11yToggle" aria-label="תפריט נגישות" aria-expanded="false" aria-controls="a11yPanel">
       <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="4.5" r="2.5"/><path d="M12 7v5"/><path d="M8 10l4 2 4-2"/><path d="M9 21l3-6 3 6"/></svg>
     </button>
-    <div class="a11y-panel" id="a11yPanel" role="dialog" aria-label="הגדרות נגישות" aria-hidden="true">
+    <div class="a11y-panel" id="a11yPanel" role="dialog" aria-label="הגדרות נגישות" aria-hidden="true" inert>
       <div class="a11y-panel__header">
         <h3>הגדרות נגישות</h3>
         <button class="a11y-panel__close" id="a11yClose" aria-label="סגור תפריט נגישות">&times;</button>
@@ -1184,6 +1197,6 @@
   </div>
 
 
-  <script src="main.min.js?v=20260802j" defer></script>
+  <script src="main.min.js?v=20260826a" defer></script>
 </body>
 </html>

@@ -1,19 +1,13 @@
 <!DOCTYPE html>
 <html lang="he" dir="rtl">
 <head>
-  <!-- Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q3V66EP3E5"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-Q3V66EP3E5');
-  </script>
+  <script src="../../analytics.js?v=20260826a" defer></script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>5 הטעויות שמכשילות תלמידים בטסט בירושלים | אבי אלחרר - טסטר לשעבר</title>
-  <meta name="description" content="טסטר לשעבר חושף את 5 הטעויות הנפוצות שמכשילות תלמידים בטסט נהיגה בירושלים — תרגול ברחוב אחד, חוסר תוכנית, אי-הכרת מסלולי הטסט בארנונה ותלפיות ועוד. כך נמנעים מהן." />
+  <meta name="description" content="אבי אלחרר, טסטר לשעבר, מסביר 5 טעויות שחוזרות בטסט בירושלים ואיך מתרגלים נהיגה עצמאית למסלול שנבחר באקראי." />
   <meta name="theme-color" content="#0a0a0a" />
+  <link rel="icon" href="/logo.svg" type="image/svg+xml" />
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
   <meta name="author" content="אבי אלחרר" />
   <meta name="geo.region" content="IL-JM" />
@@ -44,8 +38,11 @@
   <link rel="alternate" hreflang="x-default" href="https://avielharar.co.il/maamarim/5-tauyot-test-yerushalayim/" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800&family=Rubik:wght@700;800;900&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="../../style.min.css?v=20260802n" />
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&family=Rubik:wght@700;900&display=swap" />
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&family=Rubik:wght@700;900&display=swap" rel="stylesheet" media="print" onload="this.media='all'" />
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&family=Rubik:wght@700;900&display=swap" rel="stylesheet" /></noscript>
+  <link rel="stylesheet" href="../../style.min.css?v=20260826a" />
+  <link rel="stylesheet" href="../../content-page.css?v=20260826a" />
 
   <!-- Article-specific styles (reuse global theme tokens) -->
   <style>
@@ -89,6 +86,8 @@
     .author-box img{width:84px;height:84px;border-radius:50%;object-fit:cover;flex:none;border:1px solid var(--border)}
     .author-box h3{margin:0 0 .3rem}
     .author-box p{font-size:var(--fs-sm);color:var(--muted);margin:0;line-height:var(--lh-body)}
+    .source-note{font-size:var(--fs-sm);color:var(--muted);border-top:1px solid var(--border);padding-top:1rem;margin-top:1.5rem}
+    .source-note a{color:var(--primary)}
     @media(max-width:640px){.compare{grid-template-columns:1fr}.author-box{flex-direction:column;align-items:center;text-align:center}}
   </style>
 
@@ -101,16 +100,20 @@
     "description": "טסטר לשעבר חושף את 5 הטעויות הנפוצות שמכשילות תלמידים בטסט נהיגה בירושלים — וכיצד נמנעים מהן.",
     "image": "https://avielharar.co.il/hero.jpg",
     "inLanguage": "he",
+    "datePublished": "2026-08-02",
+    "dateModified": "2026-08-26",
     "author": {
       "@type": "Person",
+      "@id": "https://avielharar.co.il/about/#avi",
       "name": "אבי אלחרר",
       "jobTitle": "מורה נהיגה וטסטר לשעבר",
-      "url": "https://avielharar.co.il/"
+      "url": "https://avielharar.co.il/about/"
     },
     "publisher": {
-      "@type": "DrivingSchool",
+      "@type": "Organization",
       "@id": "https://avielharar.co.il/#driving-school",
-      "name": "אבי אלחרר - מורה נהיגה בירושלים ומעלה אדומים"
+      "name": "אבי אלחרר - מורה נהיגה בירושלים ומעלה אדומים",
+      "logo": {"@type":"ImageObject","url":"https://avielharar.co.il/logo.svg"}
     },
     "mainEntityOfPage": {
       "@type": "WebPage",
@@ -164,7 +167,7 @@
         <div class="article-meta">
           <span>מאת אבי אלחרר, מורה נהיגה וטסטר לשעבר</span>
           <span>•</span>
-          <span>אזורי טסט: ארנונה, תלפיות, מלחה, טלביה, מעלה אדומים</span>
+          <span>עודכן: <bdi dir="ltr">26.08.2026</bdi></span>
         </div>
       </header>
 
@@ -187,9 +190,9 @@
 
         <section class="mistake">
           <span class="mistake__num">3</span>
-          <h3>לא מכירים את מסלולי הטסט האמיתיים <em>(הקריטית ביותר)</em></h3>
-          <p>בירושלים יש מסלולי טסט קבועים: <strong>ארנונה, תלפיות, מלחה, טלביה ומעלה אדומים</strong>. לכל אחד מהם יש את הנקודות הספציפיות שלו — הכיכר ההיא בתלפיות, הפנייה הזו בארנונה, הצומת הלא-מסומן בשכונה אחרת. תלמיד שלא תרגל את הנקודות האלה ספציפית מגיע לטסט כמעט עיוור. זו הטעות שאני רואה אצל חלק גדול מהנכשלים באזור ארנונה — וכמעט אף תלמיד לא מודע לה מראש.</p>
-          <p class="mistake__cost"><strong>המחיר שמשלמים:</strong> הפתעה ביום הטסט. ועם הפתעה מגיע מתח. ועם מתח — מגיעים הכישלונות.</p>
+          <h3>מתרגלים רק אזור אחד ומצפים למסלול מוכר <em>(הקריטית ביותר)</em></h3>
+          <p>משרד התחבורה מציין שמסלול המבחן נבחר באקראי. לכן תלמיד שמתרגל רק רחוב או סיבוב אחד עלול להילחץ כשהדרך משתנה. ההכנה הנכונה היא להכיר מגוון סביבות ותרחישים בירושלים, וליישם בכל מקום את אותם עקרונות של תצפית, מהירות, מיקום וקבלת החלטות.</p>
+          <p class="mistake__cost"><strong>המחיר שמשלמים:</strong> תלות בזיכרון של מקום במקום יכולת לקרוא דרך חדשה ולנהוג בה באופן עצמאי.</p>
         </section>
 
         <section class="mistake">
@@ -216,7 +219,7 @@
             <ul>
               <li>אותו רחוב שוב ושוב</li>
               <li>"עוד שיעור ונראה"</li>
-              <li>לא מכיר את מסלולי הטסט</li>
+              <li>נשען על מסלול או רחוב מוכר</li>
               <li>לא יודע מה הבוחן בודק</li>
               <li>הורים בערפל</li>
               <li>הפתעה ביום הטסט</li>
@@ -225,8 +228,8 @@
           <div class="compare__col compare__col--good">
             <h3 class="compare__head">השיטה של אבי</h3>
             <ul>
-              <li>תרגול על כל מסלולי הטסט</li>
-              <li>תוכנית מסלול שקופה</li>
+              <li>תרגול מגוון באזורים ותרחישים שונים</li>
+              <li>תוכנית התקדמות שקופה</li>
               <li>הכנה ספציפית למה שהבוחן בודק</li>
               <li>עדכוני התקדמות להורים</li>
               <li>שיעור חימום ביום הטסט</li>
@@ -235,10 +238,12 @@
           </div>
         </div>
 
+        <p class="source-note">מקור לעובדה שמסלול המבחן נבחר באקראי ולשלבי המבחן: <a href="https://www.gov.il/he/service/apply_for_new_driver_drivers_license" target="_blank" rel="noopener">משרד התחבורה — הוצאת רישיון נהיגה</a>. המידע נבדק בתאריך 26.08.2026.</p>
+
         <div class="author-box">
           <img src="../../hero-400.jpg" alt="אבי אלחרר — מורה נהיגה וטסטר לשעבר בירושלים ומעלה אדומים" width="84" height="84" loading="lazy" />
           <div>
-            <h3>אבי אלחרר — מורה נהיגה וטסטר לשעבר</h3>
+            <h3><a href="../../about/">אבי אלחרר — מורה נהיגה וטסטר לשעבר</a></h3>
             <p>מורה נהיגה מטעם בית הספר לנהיגה יוני (מאז 1976), מלמד בירושלים ומעלה אדומים על רכב אוטומטי. בעבר טסטר — ומביא את הניסיון הזה ישירות לתוך ההכנה לטסט, עם ליווי אישי מלא עד הרישיון.</p>
           </div>
         </div>
@@ -283,5 +288,7 @@
     <svg width="28" height="28" viewBox="0 0 24 24" fill="#fff"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
     <span class="wa-float__label">דברו איתי</span>
   </a>
+  <div class="content-a11y"><button class="content-a11y__toggle" id="contentA11yToggle" aria-expanded="false" aria-controls="contentA11yPanel">א׳</button><div class="content-a11y__panel" id="contentA11yPanel" hidden inert><h2>אפשרויות נגישות</h2><div class="content-a11y__actions"><button data-content-a11y="text">הגדלת טקסט</button><button data-content-a11y="contrast">ניגודיות גבוהה</button><button data-content-a11y="close">סגירה</button></div><a href="../../#accessibility-statement">הצהרת נגישות מלאה</a></div></div>
+  <script src="../../content-page.js?v=20260826a" defer></script>
 </body>
 </html>

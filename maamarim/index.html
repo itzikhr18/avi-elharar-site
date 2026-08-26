@@ -1,19 +1,13 @@
 <!DOCTYPE html>
 <html lang="he" dir="rtl">
 <head>
-  <!-- Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q3V66EP3E5"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-Q3V66EP3E5');
-  </script>
+  <script src="../analytics.js?v=20260826a" defer></script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>מאמרים ומדריכים | אבי אלחרר - מורה נהיגה בירושלים</title>
-  <meta name="description" content="מאמרים ומדריכים על לימוד נהיגה, הכנה לטסט ומסלולי הטסט בירושלים — מאת אבי אלחרר, מורה נהיגה וטסטר לשעבר." />
+  <meta name="description" content="מדריכים מעודכנים על לימוד נהיגה, הוצאת רישיון והכנה לטסט בירושלים — עם מקורות רשמיים וניסיון מעשי של אבי אלחרר." />
   <meta name="theme-color" content="#0a0a0a" />
+  <link rel="icon" href="/logo.svg" type="image/svg+xml" />
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
   <meta name="author" content="אבי אלחרר" />
   <meta name="geo.region" content="IL-JM" />
@@ -33,8 +27,11 @@
   <link rel="alternate" hreflang="x-default" href="https://avielharar.co.il/maamarim/" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800&family=Rubik:wght@700;800;900&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="../style.min.css?v=20260802n" />
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&family=Rubik:wght@700;900&display=swap" />
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&family=Rubik:wght@700;900&display=swap" rel="stylesheet" media="print" onload="this.media='all'" />
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&family=Rubik:wght@700;900&display=swap" rel="stylesheet" /></noscript>
+  <link rel="stylesheet" href="../style.min.css?v=20260826a" />
+  <link rel="stylesheet" href="../content-page.css?v=20260826a" />
   <style>
     .articles-list{display:grid;gap:1.2rem;max-width:760px;margin:2rem auto 0}
     .article-card{display:block;text-decoration:none;color:inherit;border:1px solid var(--border);border-radius:var(--radius-lg);padding:1.6rem;background:rgba(255,255,255,.025);transition:border-color .25s,transform .25s,box-shadow .25s}
@@ -48,6 +45,27 @@
     .breadcrumbs a:hover{color:var(--primary)}
     .breadcrumbs span{margin:0 .35rem;opacity:.5}
   </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "מאמרים ומדריכים על לימוד נהיגה",
+    "url": "https://avielharar.co.il/maamarim/",
+    "inLanguage": "he-IL",
+    "mainEntity": {
+      "@type": "ItemList",
+      "itemListElement": [
+        {"@type":"ListItem","position":1,"url":"https://avielharar.co.il/maamarim/hotzaat-rishayon-2026/","name":"איך מוציאים רישיון נהיגה ב־2026"},
+        {"@type":"ListItem","position":2,"url":"https://avielharar.co.il/maamarim/ma-meviim-letest/","name":"מה מביאים לטסט נהיגה"},
+        {"@type":"ListItem","position":3,"url":"https://avielharar.co.il/maamarim/5-tauyot-test-yerushalayim/","name":"5 הטעויות שמכשילות תלמידים בטסט בירושלים"},
+        {"@type":"ListItem","position":4,"url":"https://avielharar.co.il/maamarim/ma-osim-aharei-kishalon-test/","name":"מה עושים אחרי כישלון בטסט"}
+      ]
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"דף הבית","item":"https://avielharar.co.il/"},{"@type":"ListItem","position":2,"name":"מאמרים","item":"https://avielharar.co.il/maamarim/"}]}
+  </script>
 </head>
 <body>
   <a class="skip-link" href="#main-content">דלג לתוכן הראשי</a>
@@ -77,14 +95,32 @@
       </nav>
       <p class="marker"><span class="num">01</span> ספריית התוכן</p>
       <h1>מאמרים<span class="tint">ומדריכים</span></h1>
-      <p class="section-intro">טיפים, מדריכים ותובנות על לימוד נהיגה והכנה לטסט בירושלים — מאת אבי אלחרר, מורה נהיגה וטסטר לשעבר.</p>
+      <p class="section-intro">מדריכים מעשיים על הוצאת רישיון, לימוד נהיגה והכנה לטסט בירושלים. מידע רגולטורי מסומן במקור ובתאריך עדכון, כדי שתוכלו להבדיל בין הוראה רשמית לניסיון מקצועי.</p>
 
       <div class="articles-list">
+        <a class="article-card" href="hotzaat-rishayon-2026/">
+          <p class="article-card__eyebrow">התחלת הדרך • מעודכן ל־2026</p>
+          <h2>איך מוציאים<span class="tint">רישיון נהיגה ב־2026</span></h2>
+          <p>בקשה מקוונת, צילום ובדיקת ראייה, תיאוריה, רישום בבית ספר, 28 שיעורים לפחות, טסט פנימי ומבחן מעשי — לפי משרד התחבורה.</p>
+          <span class="article-card__more">קראו את המדריך ←</span>
+        </a>
+        <a class="article-card" href="ma-meviim-letest/">
+          <p class="article-card__eyebrow">יום הטסט • Checklist</p>
+          <h2>מה מביאים<span class="tint">לטסט נהיגה?</span></h2>
+          <p>הרשימה הרשמית והקצרה: מסמך מזהה, אישור תשלום ומשקפיים או עדשות לפי הצורך — ומה בית הספר מסדיר מראש.</p>
+          <span class="article-card__more">קראו את המדריך ←</span>
+        </a>
         <a class="article-card" href="5-tauyot-test-yerushalayim/">
           <p class="article-card__eyebrow">הכנה לטסט • חשיפה מבפנים</p>
           <h2>5 הטעויות שמכשילות<span class="tint">תלמידים בטסט בירושלים</span></h2>
-          <p>טסטר לשעבר חושף את חמש הטעויות הנפוצות שמפילות תלמידים בטסט — מתרגול ברחוב אחד ועד אי-הכרת מסלולי הטסט בארנונה ותלפיות — וכיצד נמנעים מכל אחת.</p>
+          <p>טסטר לשעבר מסביר חמש טעויות שחוזרות אצל תלמידים — מהיצמדות לרחוב אחד ועד חוסר תוכנית — ואיך בונים נהיגה עצמאית למסלול שנבחר באקראי.</p>
           <span class="article-card__more">קראו את המאמר ←</span>
+        </a>
+        <a class="article-card" href="ma-osim-aharei-kishalon-test/">
+          <p class="article-card__eyebrow">אחרי הטסט • תוכנית חזרה</p>
+          <h2>נכשלתי בטסט —<span class="tint">מה עושים עכשיו?</span></h2>
+          <p>איך קוראים את הדוח, מפרידים בין טעות רגעית לדפוס, בונים תרגול ממוקד ובוחרים מועד חדש בלי הבטחות.</p>
+          <span class="article-card__more">קראו את המדריך ←</span>
         </a>
       </div>
     </section>
@@ -102,5 +138,7 @@
       </div>
     </div>
   </footer>
+  <div class="content-a11y"><button class="content-a11y__toggle" id="contentA11yToggle" aria-expanded="false" aria-controls="contentA11yPanel">א׳</button><div class="content-a11y__panel" id="contentA11yPanel" hidden inert><h2>אפשרויות נגישות</h2><div class="content-a11y__actions"><button data-content-a11y="text">הגדלת טקסט</button><button data-content-a11y="contrast">ניגודיות גבוהה</button><button data-content-a11y="close">סגירה</button></div><a href="../#accessibility-statement">הצהרת נגישות מלאה</a></div></div>
+  <script src="../content-page.js?v=20260826a" defer></script>
 </body>
 </html>

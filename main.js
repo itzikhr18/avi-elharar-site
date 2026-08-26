@@ -24,7 +24,7 @@ if(mb&&mm){
 
 /* Contact Form */
 var f=document.getElementById('contactForm'),n=document.getElementById('formNote');
-if(f&&n){f.addEventListener('submit',function(e){e.preventDefault();var nameEl=document.getElementById('name'),phoneEl=document.getElementById('phone'),cityEl=document.getElementById('city');var nameVal=nameEl?nameEl.value.trim():'',phoneVal=phoneEl?phoneEl.value.trim():'',cityVal=cityEl?cityEl.value.trim():'';if(!nameVal){n.textContent='אנא הזינו שם מלא.';return}if(!/^0(?:5\d|[2-4]|8|9)[\s-]?\d{3}[\s-]?\d{4}$/.test(phoneVal.replace(/\s+/g,' ').trim())){n.textContent='אנא הזינו מספר טלפון ישראלי תקין.';return}if(!cityVal){n.textContent='אנא הזינו אזור מגורים.';return}var msg='היי אבי, אשמח לקבוע שיחת התאמה.\nשם: '+nameVal+'\nטלפון: '+phoneVal+'\nאזור: '+cityVal;window.open('https://wa.me/972528449147?text='+encodeURIComponent(msg),'_blank');n.textContent='מעולה! מועבר לווטסאפ...';f.reset()})}
+if(f&&n){f.addEventListener('submit',function(e){e.preventDefault();var nameEl=document.getElementById('name'),phoneEl=document.getElementById('phone'),cityEl=document.getElementById('city');var nameVal=nameEl?nameEl.value.trim():'',phoneVal=phoneEl?phoneEl.value.trim():'',cityVal=cityEl?cityEl.value.trim():'';if(!nameVal){n.textContent='אנא הזינו שם מלא.';return}if(!/^0(?:5\d|[2-4]|8|9)[\s-]?\d{3}[\s-]?\d{4}$/.test(phoneVal.replace(/\s+/g,' ').trim())){n.textContent='אנא הזינו מספר טלפון ישראלי תקין.';return}if(!cityVal){n.textContent='אנא הזינו אזור מגורים.';return}var msg='היי אבי, אשמח לקבוע שיחת התאמה.\nשם: '+nameVal+'\nטלפון: '+phoneVal+'\nאזור: '+cityVal;if(window.trackLead)window.trackLead('lead_form_submit');window.open('https://wa.me/972528449147?text='+encodeURIComponent(msg),'_blank');n.textContent='מעולה! מועבר לווטסאפ...';f.reset()})}
 
 if(R)return;
 
@@ -67,7 +67,10 @@ var waFloat=document.getElementById('waFloat');
 var stickyCta=document.getElementById('stickyCta');
 var heroSection=document.querySelector('.hero');
 var contactSection=document.getElementById('contact');
-function updateScrollUI(){var sy=window.scrollY;if(waFloat)waFloat.classList.toggle('visible',sy>300);if(stickyCta){var heroBot=heroSection?heroSection.getBoundingClientRect().bottom:0;var contactTop=contactSection?contactSection.getBoundingClientRect().top:9999;var show=heroBot<-50&&contactTop>window.innerHeight;stickyCta.classList.toggle('visible',show);stickyCta.setAttribute('aria-hidden',String(!show))}}
+var heroEnd=0,contactStart=Infinity;
+function measureScrollUI(){var sy=window.scrollY;heroEnd=heroSection?heroSection.getBoundingClientRect().bottom+sy:0;contactStart=contactSection?contactSection.getBoundingClientRect().top+sy:Infinity}
+function updateScrollUI(){var sy=window.scrollY;if(waFloat)waFloat.classList.toggle('visible',sy>300);if(stickyCta){var show=sy>heroEnd+50&&sy+window.innerHeight<contactStart;stickyCta.classList.toggle('visible',show);stickyCta.setAttribute('aria-hidden',String(!show));stickyCta.toggleAttribute('inert',!show)}}
+measureScrollUI();window.addEventListener('resize',function(){measureScrollUI();updateScrollUI()},{passive:true});window.addEventListener('load',function(){measureScrollUI();updateScrollUI()},{once:true});
 var orbTimer;var docEl=document.documentElement;
 function orbsDodge(){docEl.classList.add('is-scrolling');clearTimeout(orbTimer);orbTimer=setTimeout(function(){docEl.classList.remove('is-scrolling')},700)}
 var scrollUITick=false;window.addEventListener('scroll',function(){orbsDodge();if(!scrollUITick){requestAnimationFrame(function(){updateScrollUI();scrollUITick=false});scrollUITick=true}},{passive:true});
@@ -190,12 +193,14 @@ toggle.addEventListener('click',function(){
   var open=panel.classList.toggle('open');
   toggle.setAttribute('aria-expanded',String(open));
   panel.setAttribute('aria-hidden',String(!open));
+  panel.toggleAttribute('inert',!open);
   if(open)panel.querySelector('button').focus();
 });
 closeBtn.addEventListener('click',function(){
   panel.classList.remove('open');
   toggle.setAttribute('aria-expanded','false');
   panel.setAttribute('aria-hidden','true');
+  panel.setAttribute('inert','');
   toggle.focus();
 });
 
@@ -205,6 +210,7 @@ document.addEventListener('keydown',function(e){
     panel.classList.remove('open');
     toggle.setAttribute('aria-expanded','false');
     panel.setAttribute('aria-hidden','true');
+    panel.setAttribute('inert','');
     toggle.focus();
   }
 });
@@ -215,6 +221,7 @@ document.addEventListener('click',function(e){
     panel.classList.remove('open');
     toggle.setAttribute('aria-expanded','false');
     panel.setAttribute('aria-hidden','true');
+    panel.setAttribute('inert','');
   }
 });
 
@@ -238,6 +245,7 @@ if(stmtLink&&stmtSection){
     panel.classList.remove('open');
     toggle.setAttribute('aria-expanded','false');
     panel.setAttribute('aria-hidden','true');
+    panel.setAttribute('inert','');
     stmtSection.scrollIntoView({behavior:'smooth'});
   });
 }
