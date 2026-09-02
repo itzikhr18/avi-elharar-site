@@ -52,8 +52,8 @@ body.content-large-text{font-size:112.5%}
    Rendered as a plain wrapping row instead of a dropdown; .site-header
    .menu (0,2,0) beats the .menu rule (0,1,0) in the shared sheet. */
 @media (max-width:920px){
-  .site-header .menu{position:static;display:flex;flex-direction:row;flex-wrap:wrap;inset:auto;background:none;border:0;box-shadow:none;backdrop-filter:none;padding:0;gap:.4rem .85rem;justify-content:flex-end;max-height:none;overflow:visible}
-  .site-header .menu a{padding:.12rem 0;font-size:.82rem}
+  .site-header .menu{position:static;display:flex;flex-direction:row;flex-wrap:wrap;inset:auto;background:none;border:0;box-shadow:none;backdrop-filter:none;padding:0;gap:0 .85rem;justify-content:flex-end;max-height:none;overflow:visible}
+  .site-header .menu a{padding:.34rem 0;font-size:.82rem}
   .site-header .menu-cta{padding:.25rem .65rem}
   .content-home-link{display:none}
 }

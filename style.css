@@ -407,8 +407,11 @@ input:focus-visible,.btn:focus-visible,a:focus-visible{outline:2px solid var(--p
 .footer-nav{display:grid;grid-template-columns:repeat(auto-fit,minmax(13rem,1fr));gap:1.6rem 2rem;padding-block-end:1.4rem;margin-block-end:1.2rem;border-block-end:1px solid var(--border)}
 .footer-col{min-width:0}
 .footer-col__title{color:var(--primary);font-weight:700;font-size:var(--fs-xs);letter-spacing:.04em;margin:0 0 .55rem}
-.footer-col ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:.35rem}
-.footer-col a{color:var(--muted);font-size:var(--fs-xs);transition:color var(--dur-f) var(--ease-smooth)}
+.footer-col ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:.05rem}
+/* The tap target, not the text, has to clear 24px (repo standard, WCAG 2.2
+   SC 2.5.8). At 14.4px the text box was only 16px tall, so the height comes
+   from padding and the list gap shrinks to keep the same visual rhythm. */
+.footer-col a{color:var(--muted);font-size:var(--fs-xs);display:inline-block;padding-block:.32rem;transition:color var(--dur-f) var(--ease-smooth)}
 .footer-col a:hover,.footer-col a:focus-visible{color:var(--primary)}
 
 /* --- Scroll Reveal ------------------------------------------------ */
