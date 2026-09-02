@@ -16,18 +16,27 @@
     window.gtag('config',measurementId,{transport_type:'beacon'});
   }
 
+  /* Load as soon as the browser is idle after parsing, capped at 1.2s.
+     The previous 6s delay meant every visitor who left before it elapsed
+     without touching the screen was never counted at all, which understated
+     sessions and overstated engagement. The tag itself is async and does not
+     block rendering, so waiting longer bought nothing. */
   function scheduleAnalytics(){
-    window.setTimeout(function(){
-      if('requestIdleCallback'in window){
-        window.requestIdleCallback(loadAnalytics,{timeout:3000});
-      }else{
-        loadAnalytics();
-      }
-    },6000);
+    if('requestIdleCallback'in window){
+      window.requestIdleCallback(loadAnalytics,{timeout:1200});
+    }else{
+      window.setTimeout(loadAnalytics,300);
+    }
   }
 
-  window.addEventListener('load',scheduleAnalytics,{once:true});
-  ['pointerdown','keydown','touchstart'].forEach(function(eventName){
+  if(document.readyState==='loading'){
+    document.addEventListener('DOMContentLoaded',scheduleAnalytics,{once:true});
+  }else{
+    scheduleAnalytics();
+  }
+
+  /* Any real interaction loads it immediately, ahead of the idle callback. */
+  ['pointerdown','keydown','touchstart','scroll'].forEach(function(eventName){
     window.addEventListener(eventName,loadAnalytics,{once:true,passive:true});
   });
 
