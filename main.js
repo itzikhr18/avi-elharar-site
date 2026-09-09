@@ -50,7 +50,10 @@ var ms=document.querySelectorAll('.hero-metrics strong');
 if(ms.length&&'IntersectionObserver'in window){var co=new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting){ac(e.target);co.unobserve(e.target)}})},{threshold:.5});ms.forEach(function(el){co.observe(el)})}
 
 /* Stats Counter Animation */
-function animateStatNum(el){var tgt=parseFloat(el.dataset.target);if(isNaN(tgt)||tgt===0)return;var isFloat=String(tgt).indexOf('.')!==-1;var dur=2000,st=performance.now();function ease(t){return t===1?1:1-Math.pow(2,-10*t)}function up(now){var p=Math.min((now-st)/dur,1);var v=ease(p)*tgt;el.textContent=isFloat?v.toFixed(1):Math.round(v).toLocaleString();if(p<1)requestAnimationFrame(up)}el.textContent=isFloat?'0.0':'0';requestAnimationFrame(up)}
+function animateStatNum(el){var tgt=parseFloat(el.dataset.target);if(isNaN(tgt)||tgt===0)return;/* Read the decimal from the attribute, not the parsed number: parseFloat('5.0')
+   is 5 and String(5) has no dot, so the rating rendered as '5' once the counter
+   ran, even though the static HTML says 5.0. */
+var isFloat=String(el.dataset.target).indexOf('.')!==-1;var dur=2000,st=performance.now();function ease(t){return t===1?1:1-Math.pow(2,-10*t)}function up(now){var p=Math.min((now-st)/dur,1);var v=ease(p)*tgt;el.textContent=isFloat?v.toFixed(1):Math.round(v).toLocaleString();if(p<1)requestAnimationFrame(up)}el.textContent=isFloat?'0.0':'0';requestAnimationFrame(up)}
 var statNums=document.querySelectorAll('.stat-item__number[data-target]');
 if(statNums.length&&'IntersectionObserver'in window){var so=new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting){animateStatNum(e.target);so.unobserve(e.target)}})},{threshold:.5});statNums.forEach(function(el){so.observe(el)})}
 
