@@ -243,7 +243,19 @@ h1{font-family:var(--font-display);font-size:clamp(1.8rem,5vw,3rem);line-height:
 .stat-item__label{display:block;color:var(--muted);font-size:var(--fs-xs);margin-top:.4rem;font-weight:500}
 
 /* --- Typewriter Cursor -------------------------------------------- */
-.typewriter-cursor{display:inline-block;width:4px;height:1.15em;background:var(--primary);margin-inline-start:4px;vertical-align:text-bottom;border-radius:2px;box-shadow:0 0 12px var(--primary-glow),0 0 24px rgba(212,175,55,.15);animation:tw-blink .6s ease-in-out infinite alternate}
+/* Every character of the heading is laid out from the first frame and only
+   revealed one by one, so no line ever re-breaks mid-animation. Typing into the
+   flow re-broke lines every few characters and pushed the page down a full line
+   each time — 80% of the page CLS. visibility (not display) keeps the box.
+   The caret is a separate absolutely positioned element moved with transform:
+   position:relative on a character would break background-clip:text on the h1
+   and make the whole heading invisible, and left/top would count as CLS. */
+.typewriter-target{position:relative}
+.typewriter-target>.tw-ghost{visibility:hidden}
+.typewriter-target>.tw-live{position:absolute;inset:0;pointer-events:none;background-image:inherit;-webkit-background-clip:text;background-clip:text;color:transparent}
+.typewriter-target .tw-c{visibility:hidden}
+.typewriter-target .tw-c.tw-on{visibility:visible}
+.typewriter-target .tw-caret{position:absolute;left:0;top:0;will-change:transform;width:4px;height:.86em;background:var(--primary);border-radius:2px;box-shadow:0 0 12px var(--primary-glow),0 0 24px rgba(212,175,55,.15);animation:tw-blink .6s ease-in-out infinite alternate}
 @keyframes tw-blink{0%{opacity:1;box-shadow:0 0 12px var(--primary-glow),0 0 24px rgba(212,175,55,.15)}100%{opacity:.2;box-shadow:0 0 4px var(--primary-glow)}}
 
 /* --- Image Blur Reveal -------------------------------------------- */
@@ -1201,7 +1213,7 @@ body.a11y-stop-animations *,body.a11y-stop-animations *::before,body.a11y-stop-a
   .area-chip__pin{animation:none!important}
   .scroll-progress{display:none}
   .process-line__fill{height:100%!important;transition:none!important}
-  .typewriter-cursor{display:none!important}
+  .typewriter-target .tw-caret{display:none!important}
   .chip-cascade{animation:none!important}
   .blur-load{filter:none!important;opacity:1!important}
   .card::before,.testimonial-card::before,.graduate-card::before{animation:none!important}
