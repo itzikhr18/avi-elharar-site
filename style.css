@@ -258,6 +258,12 @@ h1{font-family:var(--font-display);font-size:clamp(1.8rem,5vw,3rem);line-height:
 .typewriter-target .tw-caret{position:absolute;left:0;top:0;will-change:transform;width:4px;height:.86em;background:var(--primary);border-radius:2px;box-shadow:0 0 12px var(--primary-glow),0 0 24px rgba(212,175,55,.15);animation:tw-blink .6s ease-in-out infinite alternate}
 @keyframes tw-blink{0%{opacity:1;box-shadow:0 0 12px var(--primary-glow),0 0 24px rgba(212,175,55,.15)}100%{opacity:.2;box-shadow:0 0 4px var(--primary-glow)}}
 
+/* A quiet line, not a CTA: it speaks to past students without competing with
+   the page's real call to action. */
+.review-invite{margin-top:1.6rem;text-align:center;color:var(--muted);font-size:var(--fs-sm)}
+.review-invite a{color:var(--spark);font-weight:700;text-decoration:none;border-block-end:1px solid transparent;padding-block:.35rem;display:inline-block}
+.review-invite a:hover,.review-invite a:focus-visible{border-block-end-color:var(--spark)}
+
 /* --- Image Blur Reveal -------------------------------------------- */
 .blur-load{filter:blur(20px) saturate(.5);opacity:.5;transform:scale(1.08);transition:filter 1.2s var(--ease-out),opacity 1s var(--ease-out),transform 1.2s var(--ease-out)}
 .blur-load.loaded{filter:blur(0) saturate(1);opacity:1;transform:scale(1)}
