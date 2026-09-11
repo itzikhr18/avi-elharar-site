@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+import argparse
 import html
 import json
 from pathlib import Path
@@ -260,12 +261,44 @@ def render(page: dict) -> str:
 </head>
 <body class="content-page">
   <a class="skip-link" href="#main-content">דלג לתוכן הראשי</a>
-  <header class="site-header" id="top"><div class="container nav-wrap"><a href="/" class="brand" aria-label="עמוד הבית של אבי אלחרר"><img src="/logo.svg" alt="אבי אלחרר - מורה נהיגה" class="brand-logo" width="52" height="52" /></a><nav aria-label="ניווט ראשי"><ul class="menu"><li><a href="/about/">על אבי</a></li><li><a href="/more-nehiga-yerushalayim/">ירושלים</a></li><li><a href="/more-nehiga-maale-adumim/">מעלה אדומים</a></li><li><a href="/mehiron-shiurei-nehiga/">מחירון</a></li><li><a href="/maamarim/">מאמרים</a></li><li><a href="/#contact" class="menu-cta">שיחת התאמה</a></li></ul></nav><a class="menu-cta content-home-link" href="/">דף הבית</a></div></header>
+  <header class="site-header" id="top"><div class="container nav-wrap"><a href="/" class="brand" aria-label="עמוד הבית של אבי אלחרר"><img src="/logo.svg" alt="אבי אלחרר - מורה נהיגה" class="brand-logo" width="52" height="52" /></a><nav aria-label="ניווט ראשי"><ul class="menu"><li><a href="/about/">על אבי</a></li><li><a href="/more-nehiga-yerushalayim/">ירושלים</a></li><li><a href="/more-nehiga-maale-adumim/">מעלה אדומים</a></li><li><a href="/limud-nehiga-automati/">אוטומט</a></li><li><a href="/hachana-letest-yerushalayim/">הכנה לטסט</a></li><li><a href="/mehiron-shiurei-nehiga/">מחירון</a></li><li><a href="/maamarim/">מאמרים</a></li><li><a href="/#contact" class="menu-cta">שיחת התאמה</a></li></ul></nav><a class="menu-cta content-home-link" href="/">דף הבית</a></div></header>
   <main id="main-content">
     <header class="content-hero section container"><nav class="breadcrumbs" aria-label="פירורי לחם"><a href="/">דף הבית</a><span>›</span>{html.escape(page["h1"])}</nav><p class="eyebrow">{page["eyebrow"]}</p><h1 class="content-title">{page["h1"]}</h1><p class="content-lead">{page["lead"]}</p><div class="content-meta"><span>מאת אבי אלחרר</span><span>עודכן: <bdi dir="ltr">{updated_display}</bdi></span></div></header>
     <div class="content-shell container">{section_html}{faq_html}{source}<section class="content-cta"><h2>רוצים לבדוק התאמה?</h2><p>שלחו לאבי הודעה עם אזור המגורים והרקע שלכם וקבלו שיחת התאמה קצרה, ללא התחייבות.</p><div class="hero-actions"><a class="btn btn-primary" href="https://wa.me/972528449147?text=%D7%94%D7%99%D7%99%20%D7%90%D7%91%D7%99%2C%20%D7%90%D7%A9%D7%9E%D7%97%20%D7%9C%D7%91%D7%93%D7%95%D7%A7%20%D7%94%D7%AA%D7%90%D7%9E%D7%94" target="_blank" rel="noopener">שיחת התאמה ב־WhatsApp</a><a class="btn btn-secondary" href="tel:+972528449147">התקשרו: <bdi dir="ltr">052-844-9147</bdi></a></div></section><section class="content-section"><h2>המשך קריאה</h2><div class="related-links">{related}</div></section></div>
   </main>
-  <footer class="site-footer"><div class="container footer-wrap"><p>© כל הזכויות שמורות לאבי אלחרר | מורה נהיגה מטעם בית הספר לנהיגה יוני, ירושלים</p><div class="footer-links"><a href="/">דף הבית</a><span class="footer-sep">|</span><a href="tel:+972528449147"><bdi dir="ltr">052-8449147</bdi></a><span class="footer-sep">|</span><a href="/#accessibility-statement">הצהרת נגישות</a></div></div></footer>
+  <footer class="site-footer"><div class="container">
+      <nav class="footer-nav" aria-label="ניווט תחתון">
+        <div class="footer-col">
+          <p class="footer-col__title">שיעורים ואזורים</p>
+          <ul>
+            <li><a href="/more-nehiga-yerushalayim/">מורה נהיגה בירושלים</a></li>
+            <li><a href="/more-nehiga-maale-adumim/">מורה נהיגה במעלה אדומים</a></li>
+            <li><a href="/limud-nehiga-automati/">לימוד נהיגה על אוטומט</a></li>
+            <li><a href="/hachana-letest-yerushalayim/">הכנה לטסט בירושלים</a></li>
+            <li><a href="/mehiron-shiurei-nehiga/">מחיר שיעורי נהיגה</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <p class="footer-col__title">מידע ומדריכים</p>
+          <ul>
+            <li><a href="/about/">על אבי אלחרר</a></li>
+            <li><a href="/maamarim/">מאמרים ומדריכים</a></li>
+            <li><a href="/maamarim/5-tauyot-test-yerushalayim/">5 הטעויות שמכשילות בטסט</a></li>
+            <li><a href="/maamarim/hotzaat-rishayon-2026/">איך מוציאים רישיון נהיגה</a></li>
+            <li><a href="/maamarim/ma-meviim-letest/">מה מביאים לטסט</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <p class="footer-col__title">יצירת קשר</p>
+          <ul>
+            <li><a href="tel:+972528449147"><bdi dir="ltr">052-8449147</bdi></a></li>
+            <li><a href="https://wa.me/972528449147" target="_blank" rel="noopener">ווטסאפ</a></li>
+            <li><a href="https://www.facebook.com/share/1FXduxr4NL/" target="_blank" rel="noopener">פייסבוק</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="footer-wrap"><p>© כל הזכויות שמורות לאבי אלחרר | מורה נהיגה מטעם בית הספר לנהיגה יוני, ירושלים</p><div class="footer-links"><a href="/">דף הבית</a><span class="footer-sep">|</span><a href="tel:+972528449147"><bdi dir="ltr">052-8449147</bdi></a><span class="footer-sep">|</span><a href="/#accessibility-statement">הצהרת נגישות</a></div></div>
+    </div></footer>
   <div class="content-a11y"><button class="content-a11y__toggle" id="contentA11yToggle" aria-expanded="false" aria-controls="contentA11yPanel">א׳</button><div class="content-a11y__panel" id="contentA11yPanel" hidden inert><h2>אפשרויות נגישות</h2><div class="content-a11y__actions"><button data-content-a11y="text">הגדלת טקסט</button><button data-content-a11y="contrast">ניגודיות גבוהה</button><button data-content-a11y="close">סגירה</button></div><a href="/#accessibility-statement">הצהרת נגישות מלאה</a></div></div>
   <script src="/content-page.js?v=20260826a" defer></script>
 </body>
@@ -274,11 +307,36 @@ def render(page: dict) -> str:
 
 
 def main() -> int:
+    # ⚠️ המחולל אינו מסונכרן מלא מול הדפים החיים: ה-`title`/`description` כאן הם
+    # מלפני השכתוב של 10/09/2026, וגרסאות ה-cache של הנכסים ישנות. הרצה עם
+    # --force על דף קיים תחזיר אותו לאחור. ברירת המחדל היא לכתוב דפים חדשים בלבד.
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--force",
+        action="store_true",
+        help="דריסת דפים קיימים. מסוכן: מחזיר title/description וגרסאות נכסים לערכי המחולל.",
+    )
+    parser.add_argument("--only", metavar="ROUTE", help="לבנות מסלול יחיד בלבד.")
+    args = parser.parse_args()
+
+    written, skipped = 0, []
     for page in PAGES:
+        if args.only and page["route"] != args.only:
+            continue
         target = ROOT / page["route"].strip("/") / "index.html"
+        if target.exists() and not args.force:
+            skipped.append(page["route"])
+            continue
         target.parent.mkdir(parents=True, exist_ok=True)
         target.write_text(render(page), encoding="utf-8")
         print(target.relative_to(ROOT).as_posix())
+        written += 1
+
+    if skipped:
+        print(f"\nדולגו {len(skipped)} דפים קיימים (--force כדי לדרוס):")
+        for route in skipped:
+            print(f"  · {route}")
+    print(f"\nנכתבו {written} דפים.")
     return 0
 
 
