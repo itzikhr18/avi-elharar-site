@@ -166,6 +166,27 @@ PAGES = [
         "related": [("הכנה לטסט בירושלים", "/hachana-letest-yerushalayim/"), ("5 טעויות בטסט", "/maamarim/5-tauyot-test-yerushalayim/"), ("מה מביאים לטסט", "/maamarim/ma-meviim-letest/"), ("אודות אבי", "/about/")],
         "source": True,
     },
+    {
+        "route": "/maamarim/kama-shiurei-nehiga-tzarich/",
+        "kind": "article",
+        "title": "כמה שיעורי נהיגה צריך? מינימום, מוכנות ועלות | 2026",
+        "description": "כמה שיעורי נהיגה צריך לרישיון B? המינימום החוקי, למה הוא לא מבטיח מוכנות, איך מעריכים כמה שיעורים נשארו ואיך מחשבים עלות.",
+        "eyebrow": "תכנון שיעורים ותקציב • מדריך 2026",
+        "h1": "כמה שיעורי נהיגה צריך לפני טסט?",
+        "lead": "לרישיון B נדרשים לפחות 28 שיעורים, אבל זהו תנאי סף ולא תחזית אישית. מספר השיעורים עד לטסט תלוי בקצב הלמידה, ברצף התרגול וביכולת לנהוג באופן עצמאי ובטוח.",
+        "sections": [
+            ("המינימום: 28 שיעורים לרישיון B", "<div class=\"fact-box\"><strong>התשובה הקצרה:</strong> לפני הגשה למבחן מעשי לרכב פרטי נדרשים לפחות 28 שיעורי נהיגה. השלמת המינימום לבדה אינה מחייבת הגשה של תלמיד שעדיין אינו מוכן.</div><p>כל שיעור תקני נמשך 40 דקות. שיעור כפול נמשך 80 דקות ונספר כשני שיעורים. חשוב לוודא שהשיעורים נרשמים במערכת של בית הספר ושלא סופרים רק פגישות ביומן.</p>"),
+            ("למה אי אפשר לדעת מראש מספר מדויק", "<p>שני תלמידים שמתחילים באותו יום לא בהכרח יגיעו לטסט יחד. ניסיון קודם בכביש, תדירות השיעורים, רמת הריכוז, התמודדות עם לחץ והזמן הדרוש להפוך פעולה להרגל משפיעים על הקצב.</p><p>בירושלים מתרגלים עליות וירידות, רחובות צרים, כיכרות, הולכי רגל ומעבר בין שכונה לציר עמוס. המטרה אינה להגיע למספר מסוים אלא לבצע את הפעולות נכון גם בדרך לא מוכרת.</p>"),
+            ("איך יודעים שמתקרבים לטסט", "<p>במקום לשאול רק \"כמה שיעורים נשארו?\", כדאי לבדוק אם הנהיגה כבר יציבה:</p><ul><li>מתחילים נסיעה ומבצעים תצפיות בלי תזכורת בכל שלב.</li><li>מתאימים מהירות ומרחק לתנאי הדרך.</li><li>מקבלים החלטות עצמאיות בצמתים, בכיכרות ובהשתלבות.</li><li>מבצעים חניה ותמרונים בלי שהמורה מנהל כל פעולה.</li><li>טעות נקודתית אינה גוררת רצף טעויות או אובדן ריכוז.</li><li>היכולת נשמרת במסלולים ובשעות שונות, ולא רק ברחוב מוכר.</li></ul>"),
+            ("איך לחשב תקציב ריאלי", "<p>אצל אבי שיעור של 40 דקות עולה 200 ₪ ושיעור כפול של 80 דקות עולה 400 ₪. לכן עלות 28 שיעורי המינימום היא 5,600 ₪. זה אינו המחיר הכולל לרישיון: יש להביא בחשבון גם רישום לבית הספר, טסט פנימי, אגרות והעמדת רכב למבחן, וכן שיעורים נוספים אם נדרשים.</p><p>כדאי לחשב כמה תרחישים ולא הבטחה אחת: עלות המינימום, המינימום בתוספת שיעורי חיזוק ותקציב נפרד לאגרות. <a href=\"/mehiron-shiurei-nehiga/\">המחירון המלא</a> מפריד בין התשלומים.</p>"),
+            ("איך להפיק יותר מכל שיעור", "<ul><li>לשמור ככל האפשר על רצף קבוע בין השיעורים.</li><li>לפתוח כל שיעור עם מטרה אחת או שתיים.</li><li>בסיום, לרשום מה השתפר ומה עדיין חוזר.</li><li>לשאול מה המדד למוכנות, ולא לבקש הבטחת תאריך.</li><li>לתרגל מגוון דרכים ותרחישים במקום לשנן מסלול טסט.</li></ul><p>אם מחליפים מורה, כדאי למסור כמה שיעורים כבר בוצעו ולבקש שיעור הערכת מצב. מספר השיעורים הקודם נשמר במערכת; המורה החדש צריך להכיר את רמת הנהיגה בפועל כדי לבנות את ההמשך.</p>"),
+        ],
+        "faq": [("האם אפשר לגשת לטסט אחרי 28 שיעורים?", "אפשר רק לאחר השלמת המינימום, טסט פנימי ושאר התנאים, וכאשר רמת הנהיגה מתאימה. 28 שיעורים אינם מבטיחים מוכנות."), ("שיעור כפול נחשב לשני שיעורים?", "כן. שיעור כפול של 80 דקות שווה לשני שיעורים תקניים של 40 דקות."), ("כמה עולים 28 שיעורים אצל אבי?", "לפי מחיר של 200 ₪ לשיעור, 28 שיעורים עולים 5,600 ₪. אגרות, רישום, טסט פנימי והעמדת רכב משולמים בנפרד."), ("האם שיעורים אצל מורה קודם נספרים?", "כן, כאשר השיעורים נרשמו כנדרש במערכת בית הספר. המורה החדש עדיין יבצע הערכת מצב מקצועית.")],
+        "related": [("מחיר שיעורי נהיגה", "/mehiron-shiurei-nehiga/"), ("איך מוציאים רישיון", "/maamarim/hotzaat-rishayon-2026/"), ("לימוד נהיגה על אוטומט", "/limud-nehiga-automati/"), ("מורה נהיגה בירושלים", "/more-nehiga-yerushalayim/")],
+        "source": True,
+        "updated": "2026-09-11",
+        "updated_display": "11.09.2026",
+    },
 ]
 
 
@@ -180,7 +201,8 @@ def schema_for(page: dict) -> list[dict]:
         ],
     }
     if page["kind"] == "article":
-        main = {"@context": "https://schema.org", "@type": "Article", "headline": page["h1"], "description": page["description"], "datePublished": UPDATED, "dateModified": UPDATED, "inLanguage": "he-IL", "mainEntityOfPage": url, "image": BASE + "/og-cover.jpg", "author": {"@type": "Person", "@id": BASE + "/about/#avi", "name": "אבי אלחרר", "url": BASE + "/about/"}, "publisher": {"@type": "Organization", "@id": BASE + "/#driving-school", "name": "אבי אלחרר - מורה נהיגה", "logo": {"@type": "ImageObject", "url": BASE + "/logo.svg"}}}
+        page_updated = page.get("updated", UPDATED)
+        main = {"@context": "https://schema.org", "@type": "Article", "headline": page["h1"], "description": page["description"], "datePublished": page_updated, "dateModified": page_updated, "inLanguage": "he-IL", "mainEntityOfPage": url, "image": BASE + "/og-cover.jpg", "author": {"@type": "Person", "@id": BASE + "/about/#avi", "name": "אבי אלחרר", "url": BASE + "/about/"}, "publisher": {"@type": "Organization", "@id": BASE + "/#driving-school", "name": "אבי אלחרר - מורה נהיגה", "logo": {"@type": "ImageObject", "url": BASE + "/logo.svg"}}}
     elif page["kind"] == "about":
         main = {"@context": "https://schema.org", "@type": "AboutPage", "url": url, "name": page["h1"], "mainEntity": {"@type": "Person", "@id": BASE + "/about/#avi", "name": "אבי אלחרר", "jobTitle": "מורה נהיגה וטסטר לשעבר", "url": url, "telephone": "+972-52-844-9147", "worksFor": {"@id": BASE + "/#driving-school"}, "sameAs": ["https://www.facebook.com/share/1FXduxr4NL/"]}}
     else:
@@ -193,13 +215,14 @@ def schema_for(page: dict) -> list[dict]:
 
 def render(page: dict) -> str:
     url = BASE + page["route"]
+    updated_display = page.get("updated_display", "26.08.2026")
     section_html = "\n".join(f'<section class="content-section"><h2>{title}</h2>{body}</section>' for title, body in page["sections"])
     faq_html = ""
     if page.get("faq"):
         items = "".join(f"<details><summary>{html.escape(q)}</summary><p>{html.escape(a)}</p></details>" for q, a in page["faq"])
         faq_html = f'<section class="content-section"><h2>שאלות נפוצות</h2><div class="content-faq">{items}</div></section>'
     related = "".join(f'<a href="{href}">{html.escape(label)} ←</a>' for label, href in page["related"])
-    source = f'<p class="source-note">מקור למידע הרגולטורי: <a href="{GOV_SOURCE}" target="_blank" rel="noopener">משרד התחבורה — הוצאת רישיון נהיגה</a>. המידע נבדק בתאריך 26.08.2026; במקרה של שינוי או סתירה, המקור הרשמי הוא הקובע.</p>' if page.get("source") or page["kind"] == "service" else ""
+    source = f'<p class="source-note">מקור למידע הרגולטורי: <a href="{GOV_SOURCE}" target="_blank" rel="noopener">משרד התחבורה — הוצאת רישיון נהיגה</a>. המידע נבדק בתאריך {updated_display}; במקרה של שינוי או סתירה, המקור הרשמי הוא הקובע.</p>' if page.get("source") or page["kind"] == "service" else ""
     schemas = "\n".join(f'<script type="application/ld+json">\n{json.dumps(item, ensure_ascii=False, indent=2)}\n</script>' for item in schema_for(page))
     return f'''<!DOCTYPE html>
 <html lang="he" dir="rtl">
@@ -239,7 +262,7 @@ def render(page: dict) -> str:
   <a class="skip-link" href="#main-content">דלג לתוכן הראשי</a>
   <header class="site-header" id="top"><div class="container nav-wrap"><a href="/" class="brand" aria-label="עמוד הבית של אבי אלחרר"><img src="/logo.svg" alt="אבי אלחרר - מורה נהיגה" class="brand-logo" width="52" height="52" /></a><nav aria-label="ניווט ראשי"><ul class="menu"><li><a href="/about/">על אבי</a></li><li><a href="/more-nehiga-yerushalayim/">ירושלים</a></li><li><a href="/more-nehiga-maale-adumim/">מעלה אדומים</a></li><li><a href="/mehiron-shiurei-nehiga/">מחירון</a></li><li><a href="/maamarim/">מאמרים</a></li><li><a href="/#contact" class="menu-cta">שיחת התאמה</a></li></ul></nav><a class="menu-cta content-home-link" href="/">דף הבית</a></div></header>
   <main id="main-content">
-    <header class="content-hero section container"><nav class="breadcrumbs" aria-label="פירורי לחם"><a href="/">דף הבית</a><span>›</span>{html.escape(page["h1"])}</nav><p class="eyebrow">{page["eyebrow"]}</p><h1 class="content-title">{page["h1"]}</h1><p class="content-lead">{page["lead"]}</p><div class="content-meta"><span>מאת אבי אלחרר</span><span>עודכן: <bdi dir="ltr">26.08.2026</bdi></span></div></header>
+    <header class="content-hero section container"><nav class="breadcrumbs" aria-label="פירורי לחם"><a href="/">דף הבית</a><span>›</span>{html.escape(page["h1"])}</nav><p class="eyebrow">{page["eyebrow"]}</p><h1 class="content-title">{page["h1"]}</h1><p class="content-lead">{page["lead"]}</p><div class="content-meta"><span>מאת אבי אלחרר</span><span>עודכן: <bdi dir="ltr">{updated_display}</bdi></span></div></header>
     <div class="content-shell container">{section_html}{faq_html}{source}<section class="content-cta"><h2>רוצים לבדוק התאמה?</h2><p>שלחו לאבי הודעה עם אזור המגורים והרקע שלכם וקבלו שיחת התאמה קצרה, ללא התחייבות.</p><div class="hero-actions"><a class="btn btn-primary" href="https://wa.me/972528449147?text=%D7%94%D7%99%D7%99%20%D7%90%D7%91%D7%99%2C%20%D7%90%D7%A9%D7%9E%D7%97%20%D7%9C%D7%91%D7%93%D7%95%D7%A7%20%D7%94%D7%AA%D7%90%D7%9E%D7%94" target="_blank" rel="noopener">שיחת התאמה ב־WhatsApp</a><a class="btn btn-secondary" href="tel:+972528449147">התקשרו: <bdi dir="ltr">052-844-9147</bdi></a></div></section><section class="content-section"><h2>המשך קריאה</h2><div class="related-links">{related}</div></section></div>
   </main>
   <footer class="site-footer"><div class="container footer-wrap"><p>© כל הזכויות שמורות לאבי אלחרר | מורה נהיגה מטעם בית הספר לנהיגה יוני, ירושלים</p><div class="footer-links"><a href="/">דף הבית</a><span class="footer-sep">|</span><a href="tel:+972528449147"><bdi dir="ltr">052-8449147</bdi></a><span class="footer-sep">|</span><a href="/#accessibility-statement">הצהרת נגישות</a></div></div></footer>

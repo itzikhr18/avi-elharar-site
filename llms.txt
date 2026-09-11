@@ -31,6 +31,7 @@
 - [הכנה לטסט בירושלים](https://avielharar.co.il/hachana-letest-yerushalayim/): בדיקת מוכנות ותרגול נקודות חולשה
 - [מחיר שיעורי נהיגה](https://avielharar.co.il/mehiron-shiurei-nehiga/): מחירון ורכיבי תשלום מעודכנים
 - [מאמרים ומדריכים](https://avielharar.co.il/maamarim/): ספריית התוכן
+- [כמה שיעורי נהיגה צריך לפני טסט](https://avielharar.co.il/maamarim/kama-shiurei-nehiga-tzarich/): מינימום, מדדי מוכנות וחישוב עלות
 - [איך מוציאים רישיון נהיגה ב־2026](https://avielharar.co.il/maamarim/hotzaat-rishayon-2026/): השלבים לפי משרד התחבורה
 - [מה מביאים לטסט](https://avielharar.co.il/maamarim/ma-meviim-letest/): checklist מעודכן ליום המבחן
 - [5 הטעויות שמכשילות תלמידים בטסט בירושלים](https://avielharar.co.il/maamarim/5-tauyot-test-yerushalayim/): טעויות נפוצות והכנה לנהיגה עצמאית
