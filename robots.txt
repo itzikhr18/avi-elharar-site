@@ -1,6 +1,7 @@
 User-agent: *
 Allow: /
 Disallow: /*.md$
+Disallow: /tools/
 
 # --- Traditional search ---
 User-agent: Googlebot

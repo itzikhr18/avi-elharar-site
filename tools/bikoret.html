@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>בקשת ביקורת — כלי פרטי</title>
+<style>
+:root{--bg:#0a0a0a;--card:#161616;--line:#2a2a2a;--text:#f2f2f2;--muted:#a8a8a8;--gold:#d4af37;--green:#25d366}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:Heebo,system-ui,-apple-system,"Segoe UI",Arial,sans-serif;line-height:1.55}
+main{max-width:520px;margin:0 auto;padding:20px 16px 48px}
+h1{font-size:1.35rem;margin:0 0 4px}
+.sub{color:var(--muted);font-size:.9rem;margin:0 0 18px}
+label{display:block;font-weight:600;margin:14px 0 6px}
+input,select,textarea{width:100%;font:inherit;color:var(--text);background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px}
+textarea{min-height:170px;resize:vertical}
+.row{display:flex;gap:10px;margin-top:16px}
+button,a.btn{flex:1;font:inherit;font-weight:700;border:0;border-radius:12px;padding:15px 12px;cursor:pointer;text-align:center;text-decoration:none;display:block}
+.wa{background:var(--green);color:#052e12}
+.copy{background:var(--card);color:var(--text);border:1px solid var(--line)}
+.pace{margin-top:22px;padding:12px 14px;border:1px solid var(--line);border-radius:12px;background:var(--card);font-size:.92rem}
+.pace strong{color:var(--gold)}
+.pace.warn{border-color:#c0392b}
+.note{color:var(--muted);font-size:.85rem;margin-top:18px}
+.ok{color:var(--green);font-size:.9rem;min-height:1.2em;margin-top:8px}
+</style>
+</head>
+<body>
+<main>
+<h1>בקשת ביקורת בגוגל</h1>
+<p class="sub">ממלאים שם, בוחרים נוסח, ולוחצים "פתח בוואטסאפ". ההודעה נפתחת אצלך בוואטסאפ ואתה בוחר למי לשלוח.</p>
+
+<label for="name">שם התלמיד/ה (או ההורה)</label>
+<input id="name" type="text" placeholder="למשל: נועה" autocomplete="off">
+
+<label for="student">שם התלמיד — רק לנוסח להורה</label>
+<input id="student" type="text" placeholder="למשל: יונתן" autocomplete="off">
+
+<label for="tpl">נוסח</label>
+<select id="tpl">
+  <option value="a">א׳ — מיד אחרי שעבר/ה טסט</option>
+  <option value="b">ב׳ — קצר</option>
+  <option value="c">ג׳ — בוגר/ת מלפני זמן</option>
+  <option value="d">ד׳ — להורה ששילם ותיאם</option>
+</select>
+
+<label for="msg">ההודעה (אפשר לערוך לפני שליחה)</label>
+<textarea id="msg"></textarea>
+
+<div class="row">
+  <a class="btn wa" id="send" href="#" target="_blank" rel="noopener">פתח בוואטסאפ</a>
+  <button class="copy" id="copy" type="button">העתק</button>
+</div>
+<div class="ok" id="ok"></div>
+
+<div class="pace" id="pace"></div>
+
+<p class="note">הקצב הבטוח הוא 2–4 בקשות בשבוע, מפוזרות. אין להציע הנחה או מתנה תמורת ביקורת, ואין לבקש ממי שלא היה תלמיד. עונים לכל ביקורת תוך 24 שעות.</p>
+</main>
+<script>
+(function(){
+  var LINK='https://g.page/r/Cb72cOAisuE4EBM/review';
+  var T={
+    a:function(n){return n+', מזל טוב! 🎉\nהיה כיף ללוות אותך בדרך.\nאם יצא לך רגע — אשמח מאוד אם תכתוב/י כמה מילים בגוגל על איך היה, ומה עזר בהכנה לטסט. זה עוזר לי יותר מכל דבר אחר, ולוקח פחות מדקה:\n'+LINK+'\nנסיעה טובה ובזהירות 🚗';},
+    b:function(n){return n+', מזל טוב על הרישיון! 🎉\nאם תוכל/י לכתוב כמה מילים בגוגל על הלימוד אצלי אשמח מאוד — זה הדבר שהכי עוזר לי:\n'+LINK;},
+    c:function(n){return 'היי '+n+', מה שלומך? מקווה שהנהיגה זורמת.\nיצא לי לחשוב עליך — אם היית מרוצה מהתהליך אצלי, אשמח אם תכתוב/י כמה מילים בגוגל. זה עוזר לתלמידים חדשים להחליט:\n'+LINK+'\nתודה!';},
+    d:function(n,st){return 'היי '+n+', '+(st||'[שם התלמיד]')+' סיים/ה בהצלחה 🎉\nאם היית מרוצה מהליווי לאורך הדרך, אשמח מאוד אם תכתוב/י כמה מילים בגוגל:\n'+LINK+'\nתודה על האמון.';}
+  };
+  var $=function(id){return document.getElementById(id);};
+  var name=$('name'),student=$('student'),tpl=$('tpl'),msg=$('msg'),send=$('send'),copy=$('copy'),ok=$('ok'),pace=$('pace');
+  var KEY='bikoret_log';
+  function log(){try{return JSON.parse(localStorage.getItem(KEY)||'[]');}catch(e){return [];}}
+  function save(l){try{localStorage.setItem(KEY,JSON.stringify(l));}catch(e){}}
+  function renderPace(){
+    var now=Date.now(), l=log().filter(function(t){return now-t<7*864e5;});
+    var n=l.length;
+    pace.className='pace'+(n>=4?' warn':'');
+    pace.innerHTML='נשלחו ב-7 הימים האחרונים: <strong>'+n+'</strong> מתוך 4 מומלצות'+(n>=4?' — עדיף לחכות שהבקשות שכבר נשלחו ינחתו.':'.');
+  }
+  function build(){
+    var n=(name.value||'').trim()||'[שם]';
+    var text=T[tpl.value](n,(student.value||'').trim());
+    msg.value=text;
+    send.href='https://wa.me/?text='+encodeURIComponent(text);
+    student.parentNode && (student.style.display=tpl.value==='d'?'':'none', student.previousElementSibling.style.display=tpl.value==='d'?'':'none');
+  }
+  function syncFromEdit(){send.href='https://wa.me/?text='+encodeURIComponent(msg.value);}
+  name.addEventListener('input',build);student.addEventListener('input',build);tpl.addEventListener('change',build);
+  msg.addEventListener('input',syncFromEdit);
+  send.addEventListener('click',function(){var l=log();l.push(Date.now());save(l);renderPace();ok.textContent='נפתח בוואטסאפ. נרשם במונה.';});
+  copy.addEventListener('click',function(){
+    var done=function(){ok.textContent='הועתק.';};
+    if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(msg.value).then(done,function(){msg.select();document.execCommand('copy');done();});}
+    else{msg.select();document.execCommand('copy');done();}
+  });
+  build();renderPace();
+})();
+</script>
+</body>
+</html>
