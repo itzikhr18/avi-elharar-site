@@ -286,6 +286,7 @@ def render(page: dict) -> str:
             <li><a href="/maamarim/5-tauyot-test-yerushalayim/">5 הטעויות שמכשילות בטסט</a></li>
             <li><a href="/maamarim/hotzaat-rishayon-2026/">איך מוציאים רישיון נהיגה</a></li>
             <li><a href="/maamarim/ma-meviim-letest/">מה מביאים לטסט</a></li>
+            <li><a href="/maamarim/kama-shiurei-nehiga-tzarich/">כמה שיעורי נהיגה צריך</a></li>
           </ul>
         </div>
         <div class="footer-col">
