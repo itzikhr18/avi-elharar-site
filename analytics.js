@@ -49,10 +49,13 @@
     var link=event.target.closest('a[href]');
     if(!link)return;
     var href=link.getAttribute('href')||'';
+    /* cta_location tells the sticky bar, the quick-answer box and inline
+       buttons apart in GA4 (added 08/10/2026). */
+    var where=link.getAttribute('data-cta')||'inline';
     if(href.indexOf('wa.me/')!==-1){
-      window.trackLead('whatsapp_click',{link_url:href});
+      window.trackLead('whatsapp_click',{link_url:href,cta_location:where});
     }else if(href.indexOf('tel:')===0){
-      window.trackLead('phone_click');
+      window.trackLead('phone_click',{cta_location:where});
     }
   });
 })();

@@ -11,6 +11,30 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 BASE = "https://avielharar.co.il"
 UPDATED = "2026-08-26"
+STICKY_MSGS = {
+    "/about/": "היי אבי, הגעתי מהאתר ואשמח לשמוע על שיעורי נהיגה",
+    "/more-nehiga-yerushalayim/": "היי אבי, אשמח לשמוע על שיעורי נהיגה בירושלים",
+    "/more-nehiga-maale-adumim/": "היי אבי, אשמח לשמוע על שיעורי נהיגה במעלה אדומים",
+    "/limud-nehiga-automati/": "היי אבי, אשמח לשמוע על לימוד נהיגה על אוטומט",
+    "/hachana-letest-yerushalayim/": "היי אבי, אשמח לשמוע על הכנה לטסט בירושלים",
+    "/mehiron-shiurei-nehiga/": "היי אבי, ראיתי את המחירון ואשמח לקבוע שיחת התאמה",
+    "/maamarim/hotzaat-rishayon-2026/": "היי אבי, אני בתחילת הדרך לרישיון ואשמח לשמוע פרטים",
+    "/maamarim/ma-meviim-letest/": "היי אבי, יש לי טסט בקרוב ואשמח לשמוע על הכנה",
+    "/maamarim/ma-osim-aharei-kishalon-test/": "היי אבי, נכשלתי בטסט ואשמח לעבור על הדוח",
+    "/maamarim/kama-shiurei-nehiga-tzarich/": "היי אבי, אשמח להערכה כמה שיעורים אצטרך",
+}
+
+
+def sticky_bar(route: str) -> str:
+    """Sticky contact bar (08/10/2026) — mirrors the markup in the live pages."""
+    from urllib.parse import quote
+    msg = STICKY_MSGS.get(route, "היי אבי, הגעתי מהאתר ואשמח לשמוע על שיעורי נהיגה")
+    return ('<aside class="cta-dock" aria-label="יצירת קשר מהיר עם אבי">'
+            f'<a class="cta-dock__wa" data-cta="sticky" href="https://wa.me/972528449147?text={quote(msg)}" target="_blank" rel="noopener">שיחת התאמה בוואטסאפ</a>'
+            '<a class="cta-dock__tel" data-cta="sticky" href="tel:+972528449147">התקשרו</a>'
+            '</aside>\n  ')
+
+
 GOV_SOURCE = "https://www.gov.il/he/service/apply_for_new_driver_drivers_license"
 
 
@@ -153,8 +177,8 @@ PAGES = [
     {
         "route": "/maamarim/ma-osim-aharei-kishalon-test/",
         "kind": "article",
-        "title": "נכשלתי בטסט — מה עושים עכשיו? המדריך המלא",
-        "description": "נכשלתם בטסט? הצעד הראשון הוא לקרוא נכון את דוח הבוחן. מדריך מלא מאבי אלחרר, שישב שנים בצד הבוחן: מה הדוח באמת אומר, מה לתרגל ומתי לגשת שוב.",
+        "title": "נכשלתי בטסט? איך בודקים על מה, ומה עושים עכשיו",
+        "description": "איך בודקים על מה נכשלתם בטסט: דוח הבוחן ומערכת ברוש של משרד התחבורה. אבי אלחרר, בוחן לשעבר, מסביר מה הדוח אומר, מה לתרגל ומתי לגשת שוב.",
         "eyebrow": "אחרי הטסט • תוכנית חזרה",
         "h1": "נכשלתי בטסט — מה עושים עכשיו?",
         "lead": "כישלון במבחן נהיגה אינו אומר שאי אפשר לנהוג. הוא אומר שבאותו מבחן רמת הביצוע לא עמדה בדרישות. הצעד הבא הוא להפוך את הדוח לתוכנית עבודה קצרה ומדויקת.",
@@ -228,7 +252,7 @@ def render(page: dict) -> str:
     return f'''<!DOCTYPE html>
 <html lang="he" dir="rtl">
 <head>
-  <script src="/analytics.js?v=20260910b" defer></script>
+  <script src="/analytics.js?v=20261008a" defer></script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{html.escape(page["title"])}</title>
@@ -260,7 +284,7 @@ def render(page: dict) -> str:
   <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&family=Rubik:wght@700;900&display=swap" rel="stylesheet" media="print" onload="this.media='all'" />
   <noscript><link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&family=Rubik:wght@700;900&display=swap" rel="stylesheet" /></noscript>
   <link rel="stylesheet" href="/style.min.css?v=20260910b" />
-  <link rel="stylesheet" href="/content-page.css?v=20260910b" />
+  <link rel="stylesheet" href="/content-page.css?v=20261008a" />
   {schemas}
 </head>
 <body class="content-page">
@@ -304,7 +328,7 @@ def render(page: dict) -> str:
       </nav>
       <div class="footer-wrap"><p>© כל הזכויות שמורות לאבי אלחרר | מורה נהיגה מטעם בית הספר לנהיגה יוני, ירושלים</p><div class="footer-links"><a href="/">דף הבית</a><span class="footer-sep">|</span><a href="tel:+972528449147"><bdi dir="ltr">052-8449147</bdi></a><span class="footer-sep">|</span><a href="/#accessibility-statement">הצהרת נגישות</a></div></div>
     </div></footer>
-  <div class="content-a11y"><button class="content-a11y__toggle" id="contentA11yToggle" aria-expanded="false" aria-controls="contentA11yPanel">א׳</button><div class="content-a11y__panel" id="contentA11yPanel" hidden inert><h2>אפשרויות נגישות</h2><div class="content-a11y__actions"><button data-content-a11y="text">הגדלת טקסט</button><button data-content-a11y="contrast">ניגודיות גבוהה</button><button data-content-a11y="close">סגירה</button></div><a href="/#accessibility-statement">הצהרת נגישות מלאה</a></div></div>
+  {sticky_bar(page["route"])}<div class="content-a11y"><button class="content-a11y__toggle" id="contentA11yToggle" aria-expanded="false" aria-controls="contentA11yPanel">א׳</button><div class="content-a11y__panel" id="contentA11yPanel" hidden inert><h2>אפשרויות נגישות</h2><div class="content-a11y__actions"><button data-content-a11y="text">הגדלת טקסט</button><button data-content-a11y="contrast">ניגודיות גבוהה</button><button data-content-a11y="close">סגירה</button></div><a href="/#accessibility-statement">הצהרת נגישות מלאה</a></div></div>
   <script src="/content-page.js?v=20260910b" defer></script>
 </body>
 </html>
